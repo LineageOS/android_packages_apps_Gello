@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3f1d235d_e0e5073a",
+        "filename": "src/swe_setup.sh",
+        "patchSetId": 3
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 8461
+      },
+      "writtenOn": "2015-08-30T17:27:54Z",
+      "side": 1,
+      "message": "$GELLO_SRC",
+      "revId": "7cb93f418f6df71bc15e0bf8e3999143644b6b84",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
