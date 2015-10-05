@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9f436f4f_db2d56a9",
+        "filename": "gello_build.sh",
+        "patchSetId": 6
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 8461
+      },
+      "writtenOn": "2015-10-05T00:56:07Z",
+      "side": 1,
+      "message": "missing \"then\"",
+      "revId": "5870c69b69122ce5b1274db57dceb927d659f271",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
