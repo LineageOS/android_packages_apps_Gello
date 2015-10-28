@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f2577a7_273553db",
+        "filename": "gello_build.sh",
+        "patchSetId": 11
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 14156
+      },
+      "writtenOn": "2015-10-28T04:45:52Z",
+      "side": 1,
+      "message": "Should this just be: TOP_GELLO\u003d$(realpath .)\n\nOtherwise the path reads: cd: /home/jwagantall/repos/android_packages_apps_Gello/src/src: No such file or directory",
+      "range": {
+        "startLine": 20,
+        "startChar": 24,
+        "endLine": 20,
+        "endChar": 27
+      },
+      "revId": "931b901dadc0735c08a894d687d14c9338fa3394",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
