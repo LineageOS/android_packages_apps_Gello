@@ -22,6 +22,24 @@
       "revId": "f8c20579ac6705224e3a39f4a177d577a7a37438",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f2577a7_b88e022c",
+        "filename": "gello_build.sh",
+        "patchSetId": 12
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 8461
+      },
+      "writtenOn": "2015-10-29T01:38:19Z",
+      "side": 1,
+      "message": "We\u0027re cd\u0027ing into src/src:\n\nTOP_BUILD\u003d$TOP_GELLO/src\nSRC_DIR\u003d$TOP_BUILD/src\nso $SRC_DIR \u003d\u003d $TOP_GELLO/src/src\n\n(it also works fine for me)",
+      "parentUuid": "5f2577a7_f8b48a37",
+      "revId": "f8c20579ac6705224e3a39f4a177d577a7a37438",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
