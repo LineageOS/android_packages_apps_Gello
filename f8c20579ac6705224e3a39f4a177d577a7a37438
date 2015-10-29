@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f2577a7_f8b48a37",
+        "filename": "gello_build.sh",
+        "patchSetId": 12
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 14156
+      },
+      "writtenOn": "2015-10-29T00:40:00Z",
+      "side": 1,
+      "message": "cd $SRC_DIR/src\n\nHere, we might need to do the cd into src/src. \nAfter running the script, my tree got the envsetup.sh here:\n./src/src/build/android/envsetup.sh",
+      "range": {
+        "startLine": 91,
+        "startChar": 8,
+        "endLine": 91,
+        "endChar": 15
+      },
+      "revId": "f8c20579ac6705224e3a39f4a177d577a7a37438",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
