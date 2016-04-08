@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7faddb67_6e568a2c",
+        "filename": "res/values/do-not-translate-strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 184,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2016-04-08T17:35:21Z",
+      "side": 1,
+      "message": "eww",
+      "revId": "e469f2df16ddf88242583d10d0916c4c87cd72c4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
