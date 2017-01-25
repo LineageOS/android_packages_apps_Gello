@@ -149,10 +149,10 @@
   <string name="current_page">来自\u0020</string>
   <!-- Confirmation dialog message confirming that the user wishes to delete
             the bookmark they selected for deletion -->
-  <string name="delete_bookmark_warning">删除收藏 “<xliff:g id="bookmark">%s</xliff:g>”？</string>
+  <string name="delete_bookmark_warning">删除收藏“<xliff:g id="bookmark">%s</xliff:g>”？</string>
   <!-- Confirmation dialog message confirming that the user wishes to delete
                the folder they selected for deletion -->
-  <string name="delete_folder_warning">删除文件夹 “<xliff:g id="bookmark">%s</xliff:g>”？</string>
+  <string name="delete_folder_warning">删除文件夹“<xliff:g id="bookmark">%s</xliff:g>”？</string>
   <!-- Context menu item to open every bookmark in a folder in new tabs [CHAR LIMIT=50] -->
   <string name="open_all_in_new_window">全部在新标签页中打开</string>
   <!-- Displayed in title of chooser dialog for text sent to another app,e.g-send text via SMS or IM-->
@@ -352,14 +352,14 @@
   <string name="autofill_setup_dialog_message">此浏览器可以像这样自动填充网页表格。您想要设置您的自动填充文本吗？</string>
   <!-- Toast message displayed when the user decides to not set up autofill at this time. We want to remind them that they can configure
          it through the Browser Settings menu. [CHAR-LIMIT=NONE] -->
-  <string name="autofill_setup_dialog_negative_toast">您总是可以从 浏览器 &gt; 设置 &gt; 自动填充 里设置您的自动填充文本。</string>
+  <string name="autofill_setup_dialog_negative_toast">您随时可以在 浏览器 &gt; 设置 &gt; 自动填充 里设置您的自动填充文本。</string>
   <!-- Text on a checkbox in the "setup autofill" dialog which is shown to the user when they are prompted to set up the autofill feature.
          The checkbox allows them to specify they would like to disable the feature altogether [CHAR-LIMIT=NONE] -->
   <string name="disable_autofill">禁用自动填充</string>
   <!-- Settings screen, section title [CHAR-LIMIT=50] -->
   <string name="pref_security_title">安全</string>
   <!-- Settings screen, section title [CHAR-LIMIT=50] -->
-  <string name="pref_privacy_security_title">隐私 &amp; 安全</string>
+  <string name="pref_privacy_security_title">隐私和安全</string>
   <string name="pref_privacy_security_title_summary">浏览器安全和隐私设置</string>
   <!-- Popup dialog -->
   <string name="pref_select_items">选择要清除的项目</string>
@@ -551,7 +551,7 @@
   <!-- Message for a dialog informing the user that the SD card used for
             external storage is busy so they cannot download anything.  Informs
             the user how to enable SD card storage -->
-  <string name="download_sdcard_busy_dlg_msg" product="default">SD 卡正在忙碌。若要允许下载，请在通知栏点击“关闭 USB 存储”。</string>
+  <string name="download_sdcard_busy_dlg_msg" product="default">SD 卡被占用。若要允许下载，请在通知栏中点击“关闭 USB 存储”。</string>
   <!-- Toast for a download which cannot begin because the URL is not http or https -->
   <string name="cannot_download">只能下载“HTTP”或“HTTPS”的网址。</string>
   <!-- Message in the list of items which have received download requests
@@ -713,7 +713,7 @@
   <string name="help">帮助</string>
   <string name="feedback">反馈</string>
   <string name="swe_legal">法律信息</string>
-  <string name="swe_open_source_licenses">开源许可</string>
+  <string name="swe_open_source_licenses">开源许可证</string>
   <string name="swe_eula">最终用户许可协议</string>
   <string name="swe_privacy_policy">隐私政策</string>
   <!-- Toast message displayed when user attempts to modify a setting disabled by the administrator -->

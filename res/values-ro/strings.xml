@@ -19,325 +19,713 @@
 ]>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- The name of the application. -->
+  <string name="application_name">Browser</string>
   <!-- Displayed with a file picker to choose a file to upload -->
+  <string name="choose_upload">Alegeți fișierul de încărcat</string>
   <!-- Toast to show the user after they try to open the file picker but no apps on the
          system can provide a file [CHAR-LIMIT=NONE]-->
+  <string name="uploads_disabled">Încărcările sunt dezactivate.</string>
   <!-- Name of menu item of a new tab.  Also used in the title bar when displaying a new tab -->
   <!-- Crash tab View title -->
+  <string name="new_tab">Filă nouă</string>
+  <string name="browser_tab_crash_snap">Ups, vai!</string>
   <!-- Crash tab button text -->
   <string name="browser_tab_crash_reload">Reîncărcare</string>
   <!-- Crash tab View message -->
+  <string name="browser_tab_crash_message">S-a întâmplat ceva neaşteptat atunci când s-a afişat această pagină web. Vă rugăm să o reîncărcaţi sau să mergeți la o altă pagină.</string>
   <!-- Name of menu item of a new incognito tab.  Also used in the
          title bar when displaying a new tab [CHAR LIMIT=30] -->
+  <string name="new_incognito_tab">Modul Incognito</string>
   <!-- Name of tab containing the user's most visited websites, organized by number of visits -->
+  <string name="tab_most_visited">Cele mai vizitate</string>
   <!-- Name of tab containing the user's saved pages, organized by time created [CHAR LIMIT=20] -->
+  <string name="tab_snapshots">Salvate</string>
   <!-- Toast shown when a history item's star is clicked, converting it to a bookmark -->
+  <string name="added_to_bookmarks">Adăugat la favorite.</string>
   <!-- Toast shown when a history item's star is clicked off, removing its bookmark -->
+  <string name="removed_from_bookmarks">S-a eliminat din favorite.</string>
   <!-- Sign-in dialog -->
   <!-- This is used as the title of a dialog which is used to sign in to a secure site.
             "%s1"is replaced with the host and "%s2" with realm -->
+  <string name="sign_in_to">Conectați-vă la <xliff:g id="hostname">%s1</xliff:g> "<xliff:g id="realm">%s2</xliff:g>\"</string>
   <!-- Prompt for an input box that allows the user to enter their login name -->
   <string name="username">Nume</string>
   <!-- Prompt for an input box that allows the user to enter their password -->
+  <string name="password">Parola</string>
   <!-- The label on the "sign in" button -->
+  <string name="action">Conectați-vă</string>
   <!-- The name of the add bookmark page activity.-->
+  <string name="bookmarks_add_page">Salvați</string>
   <!-- Label for a cancel button.  It is used for multiple cancel buttons in different contexts -->
+  <string name="cancel">Revocați</string>
   <!-- Label for a confirm button.  Used in multiple contexts. -->
+  <string name="ok">OK</string>
   <!-- Message to be displayed if url character limit exceeds -->
+  <string name="max_url_character_limit_msg">Limita maximă de URL-uri a fost atinsă</string>
   <!-- Message to be displayed when google play store does not exist on the device -->
+  <string name="msg_no_google_play">Google Play Store nu este prezent pe dispozitivul dvs.</string>
   <!-- Menu item -->
+  <string name="page_info">Info</string>
   <!-- Page Info dialog strings -->
   <!-- Noun.  The url for the current page. Displayed on the Page Info
             screen. -->
   <string name="page_info_address">Adresă:</string>
   <!-- Title for an SSL error dialog  -->
+  <string name="security_warning">Avertisment de securitate</string>
   <!-- Message in an SSL Error dialog -->
+  <string name="ssl_invalid">Certificatul nu este valabil.</string>
   <!-- Message in an SSL Error dialog -->
+  <string name="ssl_unknown">Eroare de certificat necunoscută.</string>
   <!-- Toast informing the user that loading has stopped for the current page. -->
+  <string name="stopping">Oprire\u2026</string>
   <!-- Menu item to stop the current page from loading. -->
+  <string name="stop">Stop</string>
   <!-- Menu item to reload or refresh the current page. -->
+  <string name="reload">Reîmprospătare</string>
   <!-- Menu item to go back to the previous page -->
+  <string name="back">Înapoi</string>
   <!-- Menu item to go to the next page (only useful if the user has previously hit back.) -->
+  <string name="forward">Redirecţionaţi</string>
   <!-- Field label in Bookmark dialog box: refers to URL of the page to bookmark -->
+  <string name="location">Adresă</string>
   <!-- Field label in Bookmark dialog box: refers to the account to save the bookmark to -->
   <string name="account">Cont</string>
   <!-- Field label in Bookmark dialog box: refers to the folder in which to save the bookmark -->
+  <string name="containing_folder">Adăugați la</string>
   <!-- Default name for a new folder and label for a button that allows the user to create a new folder
          in the add bookmark dialog -->
+  <string name="new_folder">Dosar nou</string>
   <!-- Context menu item to edit a folder [CHAR LIMIT=50] -->
+  <string name="edit_folder">Editați dosarul</string>
   <!-- Context menu item to delete a folder [CHAR LIMIT=50] -->
+  <string name="delete_folder">Ştergeți dosarul</string>
   <!-- Label stating that the currently open folder has no subfolders
          in the add bookmark dialog [CHAR-LIMIT=none]-->
+  <string name="no_subfolders">Fără subdosare.</string>
   <!-- Menu item to save the newly created bookmark to the home screen. [CHAR-LIMIT=30]-->
+  <string name="add_to_homescreen_menu_option">Ecranul de start</string>
   <!-- Menu item to open a picker to determine which folder to save a bookmark in. [CHAR-LIMIT=30]-->
+  <string name="add_to_other_folder_menu_option">Selectaţi dosarul\u2026</string>
   <!-- Field label in Bookmark dialog box: title that the user wishes to use for the bookmark -->
+  <string name="name">Etichetă</string>
   <!-- Menu item that opens a dialog to save a bookmark for the current page [CHAR LIMIT=30] -->
   <!-- Also used as title for AddBookmarkPage -->
+  <string name="save_to_bookmarks">Salvați</string>
   <!-- Title of the dialog to bookmark a page -->
+  <string name="bookmark_this_page">Adăugaţi pagina la favorite</string>
   <!-- Option on bookmark dialog to remove the bookmark [CHAR LIMIT=30] -->
+  <string name="remove">Ştergeţi</string>
   <!-- Menu item on the bookmarks page, to edit an existing bookmark -->
+  <string name="edit_bookmark">Editați</string>
   <!-- Context menu item to create a shortcut to the bookmark on the desktop [CHAR LIMIT=50] -->
+  <string name="create_shortcut_bookmark">Adăugare comandă rapidă</string>
   <!-- Menu item to remove the currently highlighted bookmark-->
+  <string name="remove_bookmark">Ștergeți</string>
   <!-- Context menu item to remove a history item from bookmarks -->
+  <string name="remove_from_bookmarks">Ştergeţi</string>
   <!-- Menu item to remove the currently highlighted history entry from the list of previously visited sites -->
+  <string name="remove_history_item">Ştergeţi</string>
   <!-- Context menu item for setting the bookmark/history item as the homepage -->
+  <string name="set_as_homepage">Setați ca pagină de start</string>
   <!-- Toast informing the user that their action to save a bookmark has succeeded -->
+  <string name="bookmark_saved">Adăugat la favorite</string>
   <!-- Toast informing the user that their action to save a bookmark did not succeed -->
+  <string name="bookmark_not_saved">Favoritul nu a putut fi salvat.</string>
   <!-- Toast confirming that the homepage has been set -->
+  <string name="homepage_set">Pagina principală a fost setată.</string>
   <!-- Error that appears in the title of Bookmark dialog when user selects OK with empty Name field -->
+  <string name="bookmark_needs_title">Favoritul trebuie să aibă un nume.</string>
   <!-- Error that appears in the title of Bookmark dialog when user selects OK with empty Location field -->
+  <string name="bookmark_needs_url">Favoritul trebuie să aibă o locație.</string>
   <!-- Error that appears in the title of Bookmark dialog when user selects OK with invalid URL -->
+  <string name="bookmark_url_not_valid">URL-ul este nevalid.</string>
   <!-- Error that appears in the Bookmark dialog when user selects OK with a URL of a type we cannot bookmark -->
+  <string name="bookmark_cannot_save_url">Acest URL nu poate fi adăugat la favorite.</string>
   <!-- Summary text under the New Bookmark item on the Bookmarks screen.
             Tells the user that if they select this item, it will bring up a
             dialog to bookmark the page that the browser is currently viewing,
             though it is not currently being displayed, since they are viewing
             the bookmarks screen. -->
+  <string name="current_page">din\u0020</string>
   <!-- Confirmation dialog message confirming that the user wishes to delete
             the bookmark they selected for deletion -->
+  <string name="delete_bookmark_warning">Ștergeți favoritul \"<xliff:g id="bookmark">%s</xliff:g>\"?</string>
   <!-- Confirmation dialog message confirming that the user wishes to delete
                the folder they selected for deletion -->
+  <string name="delete_folder_warning">Ștergeți dosarul \"<xliff:g id="bookmark">%s</xliff:g>\"?</string>
   <!-- Context menu item to open every bookmark in a folder in new tabs [CHAR LIMIT=50] -->
+  <string name="open_all_in_new_window">Deschideți totul în file noi</string>
   <!-- Displayed in title of chooser dialog for text sent to another app,e.g-send text via SMS or IM-->
+  <string name="sendText">Alegeţi o acţiune pentru text</string>
   <!-- Menu item to close all other tabs [CHAR LIMIT=40] -->
+  <string name="close_other_tabs">Închideți celelalte file</string>
   <!-- Menu item to open the bookmarks page and name of the Tab in the combo view -->
+  <string name="bookmarks">Favorite</string>
   <!-- Secondary name for the Activity "BrowserBookmarksPage" -->
+  <string name="shortcut_bookmark">Favorit</string>
   <!-- Title for the activity asking the user to select a bookmark [CHAR LIMIT=50] -->
+  <string name="shortcut_bookmark_title">Alegeți un favorit</string>
   <!-- Menu item to display the History of previously visited pages and the name of the combo view
         Tab-->
+  <string name="history">Istoric</string>
   <!-- Menu item -->
+  <string name="share_page">Distribuiți</string>
   <!-- Menu item for saving link to homescreen -->
+  <string name="add_to_homescreen">Adăugaţi la pagina de pornire</string>
   <!-- Menu item for saving a page for offline reading. This is a view-only snapshot of the page. [CHAR LIMIT=50] -->
+  <string name="menu_save_snapshot">Salvați</string>
   <!-- Dialog message that is shown while saving a page for offline reading. [CHAR LIMIT=50] -->
+  <string name="saving_snapshot">Se salvează\u2026</string>
   <!-- Toast informing the user that saving the page for offline reading has failed. [CHAR LIMIT=50] -->
+  <string name="snapshot_failed">Nu s-a putut salva pentru lectură offline.</string>
   <!-- The number of bookmarks in a folder [CHAR LIMT=50] -->
+  <string name="contextheader_folder_bookmarkcount"><xliff:g id="bookmark_count">%d</xliff:g> favorite</string>
   <!-- No bookmarks in the folder [CHAR LIMIT=50] -->
+  <string name="contextheader_folder_empty">Dosar gol</string>
   <!-- Context Menu item open the currently selected link in the current
             window.-->
+  <string name="contextmenu_openlink">Deschideți</string>
   <!-- Context Menu item to open the currently selected link in a new
             window. -->
+  <string name="contextmenu_openlink_newwindow">Deschideți în filă nouă</string>
   <!-- Context Menu item to open the currently selected link in a new
          background window. [CHAR LIMIT=50] -->
+  <string name="contextmenu_openlink_newwindow_background">Deschideți în fundal într-o filă nouă</string>
   <!-- Context Menu item to save the webpage referred to by this link to the
             SD card (external storage) -->
+  <string name="contextmenu_savelink">Salvați link-ul</string>
   <!-- Context Menu item to send the url of the selected link to someone else,
             via Gmail or another app [CHAR LIMIT=50] -->
+  <string name="contextmenu_sharelink">Distribuiți link-ul</string>
   <!-- Context Menu item -->
+  <string name="contextmenu_copy">Copiați</string>
   <!-- Context Menu item to copy the url of the selected link to the
             clipboard -->
+  <string name="contextmenu_copylink">Copiați link-ul URL-ului</string>
   <!-- Context Menu item to save the image to external storage -->
+  <string name="contextmenu_download_image">Salvați imaginea</string>
   <!-- Context Menu item to view the image by itself in the browser -->
+  <string name="contextmenu_view_image">Vedeți imaginea</string>
   <!-- Context Menu item to set the image as the home screen wallpaper -->
+  <string name="contextmenu_set_wallpaper">Setați ca imagine de fundal</string>
   <!-- Context Menu item to open the dialer app with the selected phone number
             -->
+  <string name="contextmenu_dial_dot">Apelați\u2026</string>
   <!-- Context Menu item to add the selected phone number to the address book.
             -->
+  <string name="contextmenu_add_contact">Adăugați un contact</string>
   <!-- Context Menu item to send an email using the selected email address.-->
+  <string name="contextmenu_send_mail">Trimiteți e-mail</string>
   <!-- Context Menu item to show the currently selected address in the Maps
             application -->
+  <string name="contextmenu_map">Hartă</string>
   <!-- Title of the dialog used for selecting the application that should be
             used for sharing a link (e.g. Gmail or another app). See also
             contextmenu_sharelink above -->
+  <string name="choosertitle_sharevia">Distribuiți prin</string>
   <!-- Used as the title of dialogs in the Browser Settings confirming that
             the user wants to clear (cache, history, or cookie data) -->
+  <string name="clear">Stergeți</string>
   <!-- Part of a sentence that says "Replace <url of existing bookmark> with
             <url of new bookmark>?" -->
+  <string name="replace">Înlocuiți</string>
   <!-- Settings screen strings -->
   <!-- Menu item to open the Settings screen -->
+  <string name="menu_preferences">Setări</string>
   <!-- Settings screen, section title -->
+  <string name="pref_content_title">Setări de conținut</string>
+  <string name="pref_content_title_summary">Setări de conținut web</string>
   <!-- Settings label -->
+  <string name="pref_content_load_images">Încărcă imaginile</string>
+  <string name="pref_content_load_images_summary">Afişează imaginile pe paginile web</string>
   <!-- Settings label -->
+  <string name="pref_security_allow_popups">Pop up-uri</string>
   <!-- Settings label -->
+  <string name="pref_content_javascript">Activați JavaScript</string>
   <!-- Settings label -->
+  <string name="pref_content_open_in_background">Deschide în fundal</string>
   <!-- Settings summary [CHAR LIMIT=50]-->
+  <string name="pref_content_open_in_background_summary">Deschide filele noi în spatele filei curente</string>
   <!-- Settings label [CHAR LIMIT=50] -->
+  <string name="pref_content_homepage">Pagină de start</string>
   <!-- Settings label -->
+  <string name="pref_content_search_engine">Motor de căutare</string>
   <!-- Settings summary -->
+  <string name="pref_content_search_engine_summary">Alegeți motorul de căutare</string>
   <!-- Settings button label that to pick what to set the homepage to [CHAR LIMIT=40] -->
+  <string name="pref_set_homepage_to">Setare la</string>
+  <string-array name="pref_homepage_choices">
+    <!-- Setting choice to set the homepage to the current page [CHAR LIMIT=40] -->
+    <item>Pagina curentă</item>
+    <!-- Setting choice to set the homepage to a blank page [CHAR LIMIT=40] -->
+    <item>Pagină goală</item>
+    <!-- Setting choice to set the homepage to the default page [CHAR LIMIT=40] -->
+    <item>Pagina implicită</item>
+    <!-- Setting choice to set the homepage to the "Most Visited" homepage feature, which is a list of most visited sites [CHAR LIMIT=40] -->
+    <item>Cele mai vizitate site-uri</item>
+    <!-- Setting choice to set the homepage to a user entered URL [CHAR LIMIT=40] -->
+    <item>Altele</item>
+  </string-array>
   <!-- Settings screen & section title for "General settings". These include things like
          configuring bookmark syncing to Google servers and form auto fill settings. [CHAR-LIMIT=32] -->
+  <string name="pref_general_title">General</string>
+  <string name="pref_default_site_settings_title">Setări implicite ale site-ului</string>
+  <string name="pref_site_settings_title">Setări site</string>
+  <string name="pref_site_settings_info_panel">Informații de securitate</string>
   <!-- Settings category for autofill under general. [CHAR-LIMIT=50] -->
+  <string name="pref_general_autofill_title">Completare automată</string>
   <!-- Checkbox setting for enabling/disabling power save mode feature -->
+  <string name="pref_powersave_enabled">Modul de economisire a energiei</string>
   <!-- Settings summary for the powersave feature. -->
+  <string name="pref_powersave_enabled_summary">Reduceți utilizarea energiei de către browser</string>
   <!-- Checkbox setting for enabling/disabling night mode feature -->
+  <string name="pref_nightmode_enabled">Mod Noapte</string>
   <!-- Settings summary for the night mode feature. -->
+  <string name="pref_nightmode_enabled_summary">Inversați culori</string>
   <!-- Checkbox setting for enabling/disabling the form AutoFill feature [CHAR-LIMIT=32] -->
+  <string name="pref_autofill_enabled">Formularul de completare automată</string>
   <!-- Settings summary for the form AutoFill feature. [CHAR-LIMIT=none] -->
+  <string name="pref_autofill_enabled_summary">Completaţi formularele web cu o singură atingere</string>
+  <plurals name="pref_web_refiner_advertisements">
+    <item quantity="one">%d reclamă</item>
+    <item quantity="few">%d (de) reclame</item>
+    <item quantity="other">%d (de) reclame</item>
+  </plurals>
+  <plurals name="pref_web_refiner_trackers">
+    <item quantity="one">%d urmăritor</item>
+    <item quantity="few">%d (de) urmăritori</item>
+    <item quantity="other">%d (de) urmăritori</item>
+  </plurals>
+  <plurals name="pref_web_refiner_malware">
+    <item quantity="one">%d amenințare malware</item>
+    <item quantity="few">%d (de) amenințări malware</item>
+    <item quantity="other">%d (de) amenințări malware</item>
+  </plurals>
+  <string-array name="pref_web_refiner_message">
+    <item>"%s a fost blocat. "</item>
+    <item>"%1$s și %2$s au fost blocate. "</item>
+    <item>"%1$s, %2$s și %3$s au fost blocate. "</item>
+  </string-array>
+  <string name="pref_valid_cert">Certificat SSL valid. Comunicarea este criptată și identitatea este verificată.</string>
+  <string name="pref_invalid_cert">Site-ul are un certificat SSL nevalid.</string>
+  <string name="pref_warning_cert">Certificatul SSL al site-ului are avertismente.</string>
   <!-- Settings screen, section title [CHAR LIMIT=50] -->
+  <string name="pref_interface_title">Interfață</string>
   <!-- Label for option that when clicked opens the AutoFill settings screen. Also used as the title of that AutoFill Settings screen. [CHAR-LIMIT=32] -->
+  <string name="pref_autofill_profile_editor">Completare automată</string>
   <!-- Summary for the AutoFill Settings preference [CHAR-LIMIT=none] -->
+  <string name="pref_autofill_profile_editor_summary">Setați textul ce va fi completat automat în formularele web</string>
   <!-- Heading for the AutoFill profile editor to tell the user what AutoFill does and why they should fill out the profile. [CHAR-LIMIT=None] -->
+  <string name="autofill_profile_editor_heading">Tastaţi textul pe care doriţi să-l completaţi automat în formularele web.</string>
   <!-- String for the user's full name in the AutoFill profile editor. [CHAR-LIMIT=32] -->
+  <string name="autofill_profile_editor_name">Numele:</string>
   <!-- String for the user's e-mail address in the AutoFill profile editor. [CHAR-LIMIT=32] -->
+  <string name="autofill_profile_editor_email_address">E-mail:</string>
   <!-- String for the user's company name in the AutoFill profile editor. [CHAR-LIMIT=32] -->
+  <string name="autofill_profile_editor_company_name">Numele companiei:</string>
   <!-- String for the first line of the user's address in the AutoFill profile editor. [CHAR-LIMIT=32] -->
+  <string name="autofill_profile_editor_address_line_1">Linia 1 adresă:</string>
   <!-- String to suggest to the user the kind of data to be used for the first line of the address. CHAR-LIMIT=64] -->
+  <string name="autofill_profile_editor_address_line_1_hint">Adresa străzii, numărul, codul poștal</string>
   <!-- String for the second line of the user's address in the AutoFill profile editor. [CHAR-LIMIT=32] -->
+  <string name="autofill_profile_editor_address_line_2">Linia 2 adresă:</string>
   <!-- String to suggest to the user the kind of data to be used for the second line of the address. CHAR-LIMIT=64] -->
+  <string name="autofill_profile_editor_address_line_2_hint">Bloc, scara, etaj, apartament etc.</string>
   <!-- String for the user's city or town in the AutoFill profile editor. [CHAR-LIMIT=32] -->
+  <string name="autofill_profile_editor_city">Oraș:</string>
   <!-- String for the user's state or province or region in the AutoFill profile editor. [CHAR-LIMIT=32] -->
+  <string name="autofill_profile_editor_state">Stat/Regiune:</string>
   <!-- String for the user's zip code in the AutoFill profile editor. [CHAR-LIMIT=32] -->
+  <string name="autofill_profile_editor_zip_code">Cod poștal:</string>
   <!-- String for the user's country in the AutoFill profile editor. [CHAR-LIMIT=32] -->
+  <string name="autofill_profile_editor_country">Țara:</string>
   <!-- String for the user's phone number in the AutoFill profile editor. [CHAR-LIMIT=32] -->
+  <string name="autofill_profile_editor_phone_number">Telefon:</string>
   <!-- String to display in an error tooltip to inform the user the phone number they provided is not valid. [CHAR-LIMIT=32] -->
+  <string name="autofill_profile_editor_phone_number_invalid">Numărul de telefon este greșit.</string>
   <!-- Button text to save the AutoFill profile [CHAR-LIMIT=20] -->
+  <string name="autofill_profile_editor_save_profile">Salvați</string>
   <!-- Toast message displayed when the profile has been successfully saved [CHAR-LIMIT=none] -->
+  <string name="autofill_profile_successful_save">Completare automată a textului salvat.</string>
   <!-- Toast message displayed when the profile has been successfully deleted [CHAR-LIMIT=none] -->
+  <string name="autofill_profile_successful_delete">Completarea automată a textului a fost ștearsă.</string>
   <!-- Button text to delete all the AutoFill profile data [CHAR-LIMIT=20] -->
+  <string name="autofill_profile_editor_delete_profile">Ștergeți</string>
   <!-- Text on toast shown to the user when power save mode is enabled or disabled -->
+  <string name="powersave_dialog_on">Modul de economisire al energiei a fost activat. Browser-ul va fi repornit.</string>
+  <string name="powersave_dialog_off">Modul de economisire al energiei a fost dezactivat. Browser-ul va fi repornit.</string>
   <!-- Text on a dialog shown to the user when they are prompted to set up the autofill feature [CHAR-LIMIT=NONE] -->
+  <string name="autofill_setup_dialog_message">Browser-ul poate completa automat formulare web cum ar fi acesta. Vreți să configurați textul de auto-completare?</string>
   <!-- Toast message displayed when the user decides to not set up autofill at this time. We want to remind them that they can configure
          it through the Browser Settings menu. [CHAR-LIMIT=NONE] -->
+  <string name="autofill_setup_dialog_negative_toast">Puteți întotdeauna să configurați textul de auto-completare din Browser &gt; Setări &gt; Completare automată.</string>
   <!-- Text on a checkbox in the "setup autofill" dialog which is shown to the user when they are prompted to set up the autofill feature.
          The checkbox allows them to specify they would like to disable the feature altogether [CHAR-LIMIT=NONE] -->
+  <string name="disable_autofill">Dezactivați completarea automată</string>
   <!-- Settings screen, section title [CHAR-LIMIT=50] -->
+  <string name="pref_security_title">Securitate</string>
   <!-- Settings screen, section title [CHAR-LIMIT=50] -->
+  <string name="pref_privacy_security_title">Confidențialitate &amp; securitate</string>
+  <string name="pref_privacy_security_title_summary">Setările de securitate şi confidenţialitate ale browser-ului</string>
   <!-- Popup dialog -->
+  <string name="pref_select_items">Selectaţi elementele care să fie eliminate</string>
   <!-- Settings label -->
+  <string name="pref_privacy_clear_selected">Ștergeți elementele selectate</string>
   <!-- Settings summary -->
+  <string name="pref_privacy_clear_selected_summary">Ștergeți elementele selectate în listă</string>
   <!-- Confirmation dialog message -->
+  <string name="pref_privacy_clear_selected_dlg">Ștergeți următoarele elemente?</string>
   <!-- Settings label -->
+  <string name="pref_privacy_clear_cache">Cache</string>
   <!-- Settings summary -->
+  <string name="pref_privacy_clear_cache_summary">Ștergeți conținutul cache local și bazele de date</string>
   <!-- Settings label -->
+  <string name="pref_privacy_clear_cookies">Cookie-uri şi datele site-urilor</string>
   <!-- Settings summary -->
+  <string name="pref_privacy_clear_cookies_summary">Ştergeți toate cookie-urile și datele site-urilor</string>
   <!-- Settings summary -->
+  <string name="pref_privacy_clear_history_summary">Goliţi istoricul de navigare al browser-ului</string>
   <!-- Confirmation dialog message -->
+  <string name="pref_privacy_clear_history_dlg">Ștergeţi istoricul de navigare al browser-ului?</string>
   <!-- Settings label -->
+  <string name="pref_privacy_clear_form_data">Date formular</string>
   <!-- Settings summary -->
+  <string name="pref_privacy_clear_form_data_summary">Ştergeți toate datele de formular salvate</string>
   <!-- Settings label -->
+  <string name="pref_privacy_clear_passwords">Parole</string>
   <!-- Settings summary -->
+  <string name="pref_privacy_clear_passwords_summary">Ștergeți toate parolele salvate</string>
   <!-- Settings label -->
+  <string name="pref_privacy_enable_geolocation">Locație</string>
   <!-- Settings label -->
+  <string name="pref_privacy_clear_geolocation_access">Acces la locaţie</string>
   <!-- Settings summary -->
+  <string name="pref_privacy_clear_geolocation_access_summary">Ștergeți accesul la locație pentru toate site-urile</string>
   <!-- Settings label -->
+  <string name="pref_security_remember_passwords">Memorează parolele</string>
   <!-- Settings label -->
+  <string name="pref_security_save_form_data">Memorare date de formular</string>
   <!-- Settings Label -->
+  <string name="pref_do_not_track">Cereți \'Nu Urmări\'</string>
   <!-- Settings label -->
+  <string name="pref_security_accept_cookies">Acceptă cookie-uri</string>
+  <string name="pref_security_allow_mic">Microfon</string>
+  <string name="pref_security_allow_camera">Cameră</string>
+  <string name="pref_security_web_refiner">Reclame</string>
+  <string name="pref_security_accept_third_party_cookies">Cookie-uri terţă parte</string>
+  <string name="pref_security_ask_before_using">Întrebaţi înainte de a utiliza</string>
+  <string name="pref_security_allowed">Permis</string>
+  <string name="pref_security_not_allowed">Nu este permis</string>
+  <string name="pref_security_remember">Reţine</string>
+  <string name="pref_security_on">Activat</string>
+  <string name="pref_security_off">Dezactivat</string>
+  <string name="pref_website_title">Website</string>
+  <string name="pref_security_add">Adăugați</string>
+  <string name="pref_security_origin_name">Origine site</string>
+  <string name="pref_security_access_is_allowed">accesul este permis</string>
   <!-- Settings text size options - displays sample font size in settings -->
+  <string name="pref_sample_font_size">Trageţi de glisor pentru a ajusta dimensiunea fontului pentru a seta dimensiunea dorită de lectură confortabilă.</string>
   <!-- Label for minimum font size [CHAR LIMIT=30] -->
+  <string name="pref_min_font_size">Mărime minimă a fontului</string>
   <!-- Label for the current minimum font size value [CHAR LIMIT=6] -->
+  <string name="pref_min_font_size_value"><xliff:g id="font_size">%d</xliff:g>pt</string>
   <!-- Label for text scaling (percent) [CHAR LIMIT=30] -->
+  <string name="pref_text_zoom">Scalare text</string>
   <!-- Label for whether or not to force-enable user scalablity (aka, zoom) [CHAR LIMIT=30] -->
+  <string name="pref_force_userscalable">Forțați activarea zoom-ului</string>
   <!-- Summary for whether or not to force-enable user scalablity (aka, zoom) [CHAR LIMIT=30] -->
+  <string name="pref_force_userscalable_summary">Suprascrie cererea unui site pentru a controla comportamentul la zoom</string>
   <!-- Inverted screen category under accessibility settings [CHAR LIMIT=50] -->
+  <string name="pref_inverted_category">Redare ecran inversat</string>
   <!-- Title for the inverted screen feature. This causes the screen to render with inverted colors (black becomes white and vice versa) [CHAR LIMIT=40] -->
+  <string name="pref_inverted">Redare inversată</string>
   <!-- Summary for the inverted screen feature. [CHAR LIMIT=120] -->
+  <string name="pref_inverted_summary">Negrul devine alb şi invers</string>
   <!-- Title for the inverted screen contrast. Change the contrast value from 1.0 to 3.0. [CHAR LIMIT=30] -->
+  <string name="pref_inverted_contrast">Contrast</string>
   <!-- Settings screen, section title [CHAR LIMIT=50] -->
+  <string name="pref_extras_title">Avansat</string>
   <!-- Settings label -->
+  <string name="pref_extras_website_settings">Setări per site</string>
   <!-- Settings summary -->
+  <string name="pref_extras_website_settings_summary">Setări avansate pentru site-uri individuale</string>
   <!-- Settings label -->
+  <string name="pref_extras_reset_default">Resetați la implicit</string>
+  <string name="pref_extras_reset">Resetați</string>
   <!-- Settings summary -->
+  <string name="pref_extras_reset_default_summary">Restaurați setările implicite</string>
   <!-- Confirmation dialog message -->
+  <string name="pref_extras_reset_default_dlg">Resetați setările la valorile implicite?</string>
   <!-- Title for a group of settings -->
+  <string name="pref_development_title">Depanare</string>
   <!-- Settings screen, setting option name -->
+  <string name="pref_default_text_encoding">Codarea textului</string>
+  <string name="pref_edge_swipe_title">Navigare din margine</string>
+  <string name="pref_edge_swipe_option_msg">Glisarea din margine va:</string>
+  <string name="pref_temporal_edge_swipe">Naviga în întregul istoric</string>
+  <string name="pref_spatial_edge_swipe">Schimba fila</string>
+  <string name="pref_disable_edge_swipe">Nu va face nimic</string>
+  <string name="pref_edge_swipe_option_close">Alegeți mai târziu</string>
+  <string name="pref_temporal_edge_swipe_enabled_toast">Glisați din margine pentru a naviga</string>
+  <string name="pref_spatial_edge_swipe_enabled_toast">Glisați din margine pentru a schimba fila</string>
+  <string name="pref_edge_swipe_disabled_toast">Glisarea din margine este dezactivată</string>
+  <string name="pref_edge_swipe_unknown">Alegeți comportamentul</string>
+  <string name="pref_edge_swipe_setup_desc">
+        Glisați din margine pentru a naviga în istoric.\nAceastă caracteristică s-ar putea să intre în conflict cu site-urile web care utilizează acțiuni bazate pe margine</string>
+  <string name="pref_edge_enable">Activați</string>
+  <string name="pref_edge_disable">Dezactivați</string>
   <!-- Colored statusbar -->
+  <string name="pref_coloredsb_title">Bară de stare colorată</string>
+  <string name="pref_coloredsb_summary">Bara de stare își va schimba culoarea în funcție de pagina vizitată</string>
   <!-- Title for accessibility settings [CHAR LIMIT=25] -->
+  <string name="pref_accessibility_title">Accesibilitate</string>
+  <string name="pref_accessibility_title_summary">Dimensiunea textului şi zoom</string>
   <!-- LookLock -->
+  <string name="pref_looklock_title">LookLock</string>
+  <string name="pref_looklock_summary">Preveniți alte aplicații de la a citi conținutul webview din această aplicație</string>
   <!-- Font size settings category under accessibility settings [CHAR LIMIT=50] -->
+  <string name="pref_font_size_category">Dimensiune text</string>
   <!-- Title for the fullscreen lab feature [CHAR LIMIT=40] -->
+  <string name="pref_lab_fullscreen">Imersiv</string>
   <!-- Summary for the fullscreen lab feature [CHAR LIMIT=120] -->
+  <string name="pref_lab_fullscreen_summary">Puneți browser-ul în fullscreen</string>
   <!-- Title for search preloading [CHAR LIMIT=40] -->
+  <string name="pref_data_preload_title">Preîncărcare rezultate de căutare</string>
   <!-- Search preloading options [CHAR LIMIT=20] -->
   <!-- Link prefetching options [CHAR LIMIT=20] -->
+  <string-array name="pref_temporal_choices">
+    <item>Niciodată</item>
+    <item>Numai prin Wi-Fi</item>
+    <item>Întotdeauna</item>
+  </string-array>
   <!-- Summary for search preloading [CHAR LIMIT=80] -->
+  <string name="pref_data_preload_summary">Permiteți browser-ului să preîncarce rezultatele căutării în fundal</string>
   <!-- Title for link prefetching [CHAR LIMIT=40] -->
+  <string name="pref_link_prefetch_title">Preîncărcare pagină web</string>
   <!-- Summary for link prefetching [CHAR LIMIT=80] -->
+  <string name="pref_link_prefetch_summary">Permiteți browser-ului să preîncarce paginile web legate în fundal</string>
   <!-- Dialog box message -->
+  <string name="browserFrameFormResubmitMessage">Pagina pe care încercați să o vedeți conține date ce au fost deja trimise (\"POSTDATA\"). Dacă retrimiteți aceste date, orice acțiune de care formularul din pagină s-a îngrijit (precum cea de căutare sau de achiziționare online) va fi repetată.</string>
   <!-- Menu item -->
+  <string name="clear_history">Ștergeți istoricul</string>
   <!-- Appears on History screen if no history is found -->
+  <string name="empty_history">Niciun istoric al căutărilor.</string>
   <!-- Displayed at the top of the bookmarks page.  When clicked, it bookmarks the page the browser is currently showing -->
+  <string name="add_new_bookmark">Adăugați la favorite</string>
   <!-- Verb placed in front of a screenshot of a web page that, when clicked,
             will add that page to bookmarks -->
+  <string name="add_bookmark_short">Adăugați</string>
   <!-- This string is for the browser "Go To" UI. -->
   <!-- This is the hint text shown in the Go To widget, before text is entered. -->
+  <string name="search_hint">Căutaţi sau introduceţi URL-ul</string>
   <!-- This string is for the browser "Go To" UI. -->
   <!-- This is the button label in the "Go To" UI. -->
+  <string name="search_button_text">Mergeţi</string>
   <!-- The string used to describe the browser as a searchable item within system search settings. -->
+  <string name="search_settings_description">Favorite şi istoricul web</string>
   <!-- Label for a button to allow a particular popup window to open -->
+  <string name="allow">Permiteți</string>
   <!-- Label for a button to disallow a particular popup from opening -->
+  <string name="block">Blocați</string>
   <!-- Title for a dialog informing the user that they cannot open any more
             windows because the limit has been reached. -->
+  <string name="too_many_windows_dialog_title">Limita filelor a fost atinsă</string>
   <!-- Message in a dialog telling the user that they cannot open any more
             windows because the limit has been reached. -->
+  <string name="too_many_windows_dialog_message">Nu se poate deschide o filă nouă până nu închideți una.</string>
   <!-- Title for a dialog informing the user that they cannot open a subwindow
             because only one can be open at a time. -->
+  <string name="too_many_subwindows_dialog_title">Pop-up-ul este deja deschis</string>
   <!-- Message for a dialog informing the user that they cannot open a
             subwindow because only one can be open at a time. -->
+  <string name="too_many_subwindows_dialog_message">Doar un pop-up poate fi deschis odată.</string>
   <!-- Download History UI strings -->
   <!-- Dialog title [CHAR LIMIT=25] -->
   <!-- Dialog title -->
+  <string name="download_no_sdcard_dlg_title" product="default">Niciun card SD</string>
   <!-- Dialog message [CHAR LIMIT=NONE] -->
   <!-- Dialog message -->
+  <string name="download_no_sdcard_dlg_msg" product="default">Un card SD este necesar pentru a descărca <xliff:g id="filename">%s</xliff:g>.</string>
   <!-- Title for a dialog informing the user that the SD card used for
             external storage is busy so they cannot download anything [CHAR LIMIT=25] -->
   <!-- Title for a dialog informing the user that the SD card used for
             external storage is busy so they cannot download anything -->
+  <string name="download_sdcard_busy_dlg_title" product="default">Card SD indisponibil</string>
   <!-- Message for a dialog informing the user that the SD card used for
             external storage is busy so they cannot download anything.  Informs
             the user how to enable SD card storage [CHAR LIMIT=NONE] -->
   <!-- Message for a dialog informing the user that the SD card used for
             external storage is busy so they cannot download anything.  Informs
             the user how to enable SD card storage -->
+  <string name="download_sdcard_busy_dlg_msg" product="default">Cardul SD este ocupat. Pentru a permite descărcările, atingeţi \'Opriți stocarea USB\' în notificare.</string>
   <!-- Toast for a download which cannot begin because the URL is not http or https -->
+  <string name="cannot_download">Puteţi descărca doar URL-uri \"http\" sau \"https\".</string>
   <!-- Message in the list of items which have received download requests
             telling their status.  This message states that the download has not
             yet begun -->
+  <string name="download_pending">Pornire descărcare\u2026</string>
   <!-- The description of the suggestion that lets the user search the web for the query currently
          in the text field. -->
+  <string name="search_the_web">Căutaţi pe web</string>
   <!-- HTML5 dialogs -->
   <!-- Used as a status bar notification when the browser is running out of space trying to allocate or increase the database quota for an HTML5 databae or application cache. -->
+  <string name="webstorage_outofspace_notification_title">Stocarea browser-ului este plină</string>
+  <string name="webstorage_outofspace_notification_text">Atingeţi pentru a elibera spaţiu.</string>
   <!-- Used in the Browser Settings -->
+  <string name="webstorage_clear_data_title">Stocare</string>
+  <string name="webstorage_private_data_title">Date private</string>
   <!-- Confirmation dialog when the user ask to clear all data for an origin -->
+  <string name="webstorage_clear_data_dialog_message">Ştergeți toate datele stocate de acest site?</string>
   <!-- String shown in a progress view while a video is loading, before it starts playing -->
+  <string name="loading_video">Se încarcă videoclipul\u2026</string>
+  <string name="website_settings_add_origin">Site nou</string>
   <!-- Label for the menu item in the website settings activity used to clear data stored by all websites -->
+  <string name="website_settings_clear_all">Ștergeți tot</string>
+  <string name="website_settings_clear_all_dialog_message">Ștergeți toate datele site-urilor și permisiunile la locație?</string>
   <!-- Text in the progress dialog when we are setting an image as the home screen wallpaper. -->
+  <string name="progress_dialog_setting_wallpaper">Se setează imaginea de fundal\u2026</string>
   <!-- The string that is displayed when there are no bookmarks to display.
          This is centered in the middle of the screen [CHAR LIMIT=NONE] -->
+  <string name="empty_bookmarks_folder">Nu există favorite.</string>
   <!-- The folder name for the special "Other Bookmarks" folder created by Chrome [CHAR LIMIT=24] -->
+  <string name="other_bookmarks">Alte favorite</string>
   <!-- Description for a dialog asking the user what they want to do with their bookmarks when adding a sync account [CHAR-LIMIT=none] -->
+  <string name="import_bookmarks_dialog_description">Favoritele de pe acest dispozitiv nu sunt încă asociate cu un cont Google. Salvați aceste marcaje prin adăugarea lor la un cont. Ștergeți aceste marcaje dacă nu doriți să le sincronizați.</string>
   <!-- Button allowing users to remove all of their existing bookmarks when setting up syncing with their bookmarks stored in Google Chrome [CHAR-LIMIT=64] -->
+  <string name="import_bookmarks_dialog_remove">Stergeți favoritele</string>
   <!-- Url Selection Action Mode -->
   <!-- Menu item to share URL selection [CHAR LIMIT=30] -->
+  <string name="menu_share_url">Distribuiți</string>
   <!-- Toast to inform the user that the maximum number of tabs has been
          reached. [CHAR LIMIT=50] -->
+  <string name="max_tabs_warning">Nu mai sunt file disponibile</string>
   <!-- Font size preview label in settings [CHAR LIMIT=30] -->
+  <string name="preview">Previzualizare</string>
   <!-- Name for the user's unsynced, local bookmarks [CHAR LIMIT=50] -->
+  <string name="local_bookmarks">Favoritele mele</string>
   <!-- allows the user to find on webpage [CHAR LIMIT=None] -->
+  <string name="find_on_page">Găsiţi</string>
   <!-- Popup menu checkbox that allows the user to request the desktop version of a webpage [CHAR LIMIT=50] -->
+  <string name="ua_switcher_desktop">Site-ul desktop</string>
   <!-- Popup menu checkbox that loads the reader mode version of the current webpage -->
+  <string name="enable_reader_mode">Mod cititor</string>
   <!-- Preload permission label [CHAR LIMIT=40] -->
+  <string name="permission_preload_label">Preîncărcare rezultate</string>
   <!-- Empty text for the "saved pages" tab that is shown when no saved pages exist. [CHAR LIMIT=None] -->
+  <string name="empty_snapshots_folder">Nicio pagină salvată.</string>
   <!-- Menu option to delete the currently selected saved page [CHAR LIMIT=50] -->
+  <string name="remove_snapshot">Ștergeți pagina salvată</string>
   <!-- Popup menu option to load the live version of a saved page [CHAR LIMIT=20] -->
+  <string name="snapshot_go_live">Fiți live</string>
   <!--  Accessibility content descriptions -->
   <!-- Content description for back button [CHAR LIMIT=NONE] -->
+  <string name="accessibility_button_back">Înapoi</string>
   <!-- Content description for forward button [CHAR LIMIT=NONE] -->
+  <string name="accessibility_button_forward">Înainte</string>
   <!-- Content description for refresh button [CHAR LIMIT=NONE] -->
+  <string name="accessibility_button_refresh">Reîmprospătare pagină</string>
   <!-- Content description for stop button [CHAR LIMIT=NONE] -->
+  <string name="accessibility_button_stop">Opriți încărcarea paginii</string>
   <!-- Content description for add bookmark button [CHAR LIMIT=NONE] -->
+  <string name="accessibility_button_addbookmark">Adăugați la favorite</string>
   <!-- Content description for search button [CHAR LIMIT=NONE] -->
+  <string name="accessibility_button_search">Căutați</string>
   <!-- Content description for voice search button [CHAR LIMIT=NONE] -->
+  <string name="accessibility_button_voice">Începeți căutarea vocală</string>
   <!-- Content description for close tab button [CHAR LIMIT=NONE] -->
+  <string name="accessibility_button_closetab">Închideți fila</string>
   <!-- Content description for new tab button [CHAR LIMIT=NONE] -->
+  <string name="accessibility_button_newtab">Deschideți o filă nouă</string>
   <!-- Content description for new incognito tab button [CHAR LIMIT=NONE] -->
+  <string name="accessibility_button_newincognitotab">Deschideți o filă nouă incognito</string>
   <!-- Content description for clear button [CHAR LIMIT=NONE] -->
+  <string name="accessibility_button_clear">Ștergeți introducerea</string>
   <!-- Content description for tab switcher button [CHAR LIMIT=NONE] -->
+  <string name="accessibility_button_navscreen">Manager pagină</string>
   <!-- Content description for incognito state [CHAR LIMIT=NONE] -->
+  <string name="accessibility_state_incognito">Pagină incognito</string>
   <!-- Content description for frozen state [CHAR LIMIT=NONE] -->
+  <string name="accessibility_state_frozen">Pagină salvată</string>
   <!-- Content description for tab switcher transition [CHAR LIMIT=NONE] -->
+  <string name="accessibility_transition_navscreen">Gestionare filă</string>
   <!-- Content description for navigating up in the bookmark folder hierarchy [CHAR LIMIT=NONE] -->
+  <string name="accessibility_button_bookmarks_folder_up">Sus</string>
   <!--Add for Navigation Feature -->
+  <string name="my_navigation_delete_label">Ştergeți site-ul</string>
+  <string name="my_navigation_edit_label">Editați site-ul</string>
+  <string name="my_navigation_add_label">Adăugați un site</string>
+  <string name="my_navigation_add">Adăugați</string>
+  <string name="my_navigation_delete_msg">Ştergeți site-ul web?</string>
+  <string name="my_navigation_name">Titlu</string>
+  <string name="my_navigation_address">Adresă</string>
+  <string name="website_needs_title">Site-ul trebuie să aibă un titlu</string>
+  <string name="website_needs_url">Site-ul trebuie să aibă un URL</string>
+  <string name="my_navigation_cannot_save_url">URL nevalid</string>
+  <string name="my_navigation_duplicate_url">URL-ul există deja</string>
+  <string name="my_navigation_page_title">Acasă</string>
   <!-- Add for Carrier Feature.Content description for AV save/play prompt dialog -->
+  <string name="http_video_msg">Vă rugăm să selectaţi ce se va întâmpla cu fişierul media</string>
+  <string name="video_save">Salvați</string>
+  <string name="video_play">Redați</string>
   <!-- Add for Carrier Feature.Content description for exit menu item -->
+  <string name="exit">Ieșiți</string>
   <!-- Add for Carrier Feature.Content description for about menu item -->
+  <string name="about">Despre</string>
+  <string name="download_estore_app">Estore nu este prezent pe dispozitivul dvs.</string>
+  <string name="estore_url_warning">Nu s-a reușit lansarea Estore, URL-ul este prea lung.</string>
   <!-- Add for Unsupport Uploading Drm Files Feature -->
+  <string name="drm_file_unsupported">Încărcarea fişierelor DRM nu este suportată.</string>
   <!-- Add for exit prompt Feature -->
+  <string name="exit_browser_title">Ieșire din browser</string>
+  <string name="exit_browser_msg">Vă rugăm să selectaţi cum să ieşiți din browser</string>
+  <string name="exit_minimize">Minimizați</string>
+  <string name="exit_quit">Ieșiți</string>
+  <string name="browser_max_input_title">S-a atins limita numărului maxim de caractere</string>
+  <string name="browser_max_input">Ceea ce ați introdus a atins limita maximă de <xliff:g id="MAXLIMIT">%s</xliff:g> (de) caractere</string>
+  <string name="duplicated_folder_warning">Folder-ul există deja</string>
+  <string name="overwrite_bookmark_msg">Numele sau adresa favoritului există deja. Suprascrieți?</string>
   <!-- Add for download save path setting Feature -->
+  <string name="invalid_path">Cale invalidă</string>
+  <string name="path_wrong">Cale greșită</string>
+  <string name="pref_download_title">Setările căii descărcărilor</string>
+  <string name="pref_download_path_setting_screen_title">Cale a descărcărilor personalizată</string>
+  <string name="download_timeneeded">Timp</string>
+  <string name="download_filesize">Mărime</string>
+  <string name="download_filepath_label">Cale</string>
+  <string name="download_edit_filename_label">Nume</string>
+  <string name="download_no_enough_memory">Memorie insuficientă pentru descărcare</string>
+  <string name="download_settings_title">Setări descărcare</string>
+  <string name="filename_empty_title">Numele fișierului de descărcat este gol</string>
+  <string name="filename_empty_msg">Numele fișierului de descărcat nu poate fi gol. Vă rugăm introduceți un nume valid.</string>
+  <string name="unknow_length">Necunoscută</string>
+  <string name="download_file_exist_msg">Fișierul există deja. Vă rugăm să introduceți un nume nou.</string>
+  <string name="download_file_exist">Fişierul există deja</string>
+  <string name="time_min">min</string>
+  <string name="download_path_unavailable_dlg_title">Directorul de descărcări este indisponibil</string>
+  <string name="download_path_unavailable_dlg_msg">Vă rugăm să modificați directorul de descărcare</string>
+  <string name="activity_not_found">Nicio activitate găsită pentru a gestiona această intenție: <xliff:g id="NOACTIVITY">%s</xliff:g></string>
+  <string name="download_name_hint">Nume fișier</string>
+  <string name="download_size_hint">Mărime</string>
+  <string name="download_eta_hint">ETA</string>
   <!-- Toast message displayed when the full screen received message -->
+  <string name="received_message_full_screen">Primiţi un mesaj de la: <xliff:g id="FROM">%s</xliff:g>.</string>
   <!-- Snapdragon Browser Additions -->
+  <string name="ssl_certificate">Certificat de securitate</string>
+  <string name="ssl_certificate_is_valid">Certificatul este valid.</string>
+  <string name="version">Versiune</string>
+  <string name="build_date">Dată de compilare</string>
+  <string name="build_hash">Hash compilare</string>
+  <string name="user_agent">Agent utilizator</string>
+  <string name="help">Ajutor</string>
+  <string name="feedback">Feedback</string>
+  <string name="swe_legal">Informații de ordin juridic</string>
+  <string name="swe_open_source_licenses">Licențe sursă deschisă</string>
+  <string name="swe_eula">Acord de licență pentru utilizatorul final</string>
+  <string name="swe_privacy_policy">Politica de confidențialitate</string>
   <!-- Toast message displayed when user attempts to modify a setting disabled by the administrator -->
+  <string name="mdm_managed_alert">Gestionat de administratorul dvs.</string>
   <!-- My Navigation - Favorites + History + Saved -->
+  <string name="mystuffs">Navigarea mea</string>
   <!-- Place holder for SWE engine strings added to
          'chrome/android/java/strings/android_chrome_strings.grd'. Follow
          chromium android grd naming convention. Follow exact mapping rules from
@@ -345,4 +733,8 @@
          prefix being stripped. For more info check out chromium's
          UI-localization page. -->
   <!-- Geolocation infobar promt-->
+  <string name="geolocation_permissions_prompt_remember">Amintește-ți preferinţa</string>
+  <string name="geolocation_permissions_prompt_share_never">Blocați pentru totdeauna</string>
+  <string name="geolocation_permissions_prompt_share_for_limited_time">Permiteți pentru 24 de ore</string>
+  <string name="geolocation_permissions_prompt_share_forever">Permiteți pentru totdeauna</string>
 </resources>
