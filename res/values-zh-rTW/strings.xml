@@ -175,7 +175,7 @@
   <!-- Menu item for saving a page for offline reading. This is a view-only snapshot of the page. [CHAR LIMIT=50] -->
   <string name="menu_save_snapshot">儲存</string>
   <!-- Dialog message that is shown while saving a page for offline reading. [CHAR LIMIT=50] -->
-  <string name="saving_snapshot">儲存中…</string>
+  <string name="saving_snapshot">儲存中\u2026</string>
   <!-- Toast informing the user that saving the page for offline reading has failed. [CHAR LIMIT=50] -->
   <string name="snapshot_failed">無法儲存網頁即可供離線閱讀。</string>
   <!-- The number of bookmarks in a folder [CHAR LIMT=50] -->
@@ -728,6 +728,6 @@
   <!-- Geolocation infobar promt-->
   <string name="geolocation_permissions_prompt_remember">記住偏好設定</string>
   <string name="geolocation_permissions_prompt_share_never">一律拒絕</string>
-  <string name="geolocation_permissions_prompt_share_for_limited_time">24小時內允許</string>
+  <string name="geolocation_permissions_prompt_share_for_limited_time">24 小時內允許</string>
   <string name="geolocation_permissions_prompt_share_forever">一律允許</string>
 </resources>
