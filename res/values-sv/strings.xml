@@ -214,6 +214,7 @@
   <!-- Menu item to open the Settings screen -->
   <string name="menu_preferences">Inställningar</string>
   <!-- Settings screen, section title -->
+  <string name="pref_content_title">Innehållsinställningar</string>
   <!-- Settings label -->
   <!-- Settings label -->
   <!-- Settings label -->
@@ -255,6 +256,7 @@
     <item>"Blockerade %1$s, %2$s och %3$s. "</item>
   </string-array>
   <!-- Settings screen, section title [CHAR LIMIT=50] -->
+  <string name="pref_interface_title">Gränssnitt</string>
   <!-- Label for option that when clicked opens the AutoFill settings screen. Also used as the title of that AutoFill Settings screen. [CHAR-LIMIT=32] -->
   <!-- Summary for the AutoFill Settings preference [CHAR-LIMIT=none] -->
   <!-- Heading for the AutoFill profile editor to tell the user what AutoFill does and why they should fill out the profile. [CHAR-LIMIT=None] -->
@@ -305,6 +307,7 @@
   <!-- Settings summary -->
   <!-- Confirmation dialog message -->
   <!-- Settings label -->
+  <string name="pref_privacy_clear_cache">Cache</string>
   <!-- Settings summary -->
   <!-- Settings label -->
   <!-- Settings summary -->
@@ -313,7 +316,9 @@
   <!-- Settings label -->
   <!-- Settings summary -->
   <!-- Settings label -->
+  <string name="pref_privacy_clear_passwords">Lösenord</string>
   <!-- Settings summary -->
+  <string name="pref_privacy_clear_passwords_summary">Rensa alla sparade lösenord</string>
   <!-- Settings label -->
   <!-- Settings label -->
   <!-- Settings summary -->

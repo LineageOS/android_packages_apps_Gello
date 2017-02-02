@@ -728,6 +728,6 @@
   <!-- Geolocation infobar promt-->
   <string name="geolocation_permissions_prompt_remember">記住偏好設定</string>
   <string name="geolocation_permissions_prompt_share_never">一律拒絕</string>
-  <string name="geolocation_permissions_prompt_share_for_limited_time">24小時內允許</string>
+  <string name="geolocation_permissions_prompt_share_for_limited_time">24 小時內允許</string>
   <string name="geolocation_permissions_prompt_share_forever">一律允許</string>
 </resources>
