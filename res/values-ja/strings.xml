@@ -556,7 +556,7 @@
   <!-- Message in the list of items which have received download requests
             telling their status.  This message states that the download has not
             yet begun -->
-  <string name="download_pending">ダウンロードを開始しています\u2026</string>
+  <string name="download_pending">ダウンロードを開始しています...</string>
   <!-- The description of the suggestion that lets the user search the web for the query currently
          in the text field. -->
   <string name="search_the_web">ウェブを検索する</string>
@@ -570,13 +570,13 @@
   <!-- Confirmation dialog when the user ask to clear all data for an origin -->
   <string name="webstorage_clear_data_dialog_message">このウェブサイトによって保存されたデータをすべて削除しますか？</string>
   <!-- String shown in a progress view while a video is loading, before it starts playing -->
-  <string name="loading_video">動画を読み込んでいます\u2026</string>
+  <string name="loading_video">動画を読み込んでいます...</string>
   <string name="website_settings_add_origin">新しいサイト</string>
   <!-- Label for the menu item in the website settings activity used to clear data stored by all websites -->
   <string name="website_settings_clear_all">すべて消去</string>
   <string name="website_settings_clear_all_dialog_message">すべてのウェブサイトのデータと現在地情報の権限を削除しますか？</string>
   <!-- Text in the progress dialog when we are setting an image as the home screen wallpaper. -->
-  <string name="progress_dialog_setting_wallpaper">壁紙を設定しています\u2026</string>
+  <string name="progress_dialog_setting_wallpaper">壁紙を設定しています...</string>
   <!-- The string that is displayed when there are no bookmarks to display.
          This is centered in the middle of the screen [CHAR LIMIT=NONE] -->
   <string name="empty_bookmarks_folder">ブックマークはありません。</string>
