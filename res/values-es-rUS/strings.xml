@@ -364,7 +364,7 @@
   <string name="pref_security_title">Seguridad</string>
   <!-- Settings screen, section title [CHAR-LIMIT=50] -->
   <string name="pref_privacy_security_title">Privacidad y seguridad</string>
-  <string name="pref_privacy_security_title_summary">Configuración de seguridad y privacidad del navegador</string>
+  <string name="pref_privacy_security_title_summary">Ajustes de seguridad y privacidad del navegador</string>
   <!-- Popup dialog -->
   <string name="pref_select_items">Selecciona los elementos que deseas borrar</string>
   <!-- Settings label -->
@@ -444,14 +444,14 @@
   <!-- Settings screen, section title [CHAR LIMIT=50] -->
   <string name="pref_extras_title">Avanzado</string>
   <!-- Settings label -->
-  <string name="pref_extras_website_settings">Configuración del sitio web</string>
+  <string name="pref_extras_website_settings">Ajustes del sitio web</string>
   <!-- Settings summary -->
   <string name="pref_extras_website_settings_summary">Configuración avanzada para sitios web individuales</string>
   <!-- Settings label -->
   <string name="pref_extras_reset_default">Restablecer valores predeterminados</string>
   <string name="pref_extras_reset">Restablecer</string>
   <!-- Settings summary -->
-  <string name="pref_extras_reset_default_summary">Restablecer la configuración a los valores predeterminados</string>
+  <string name="pref_extras_reset_default_summary">Restablecer los ajustes predeterminados</string>
   <!-- Confirmation dialog message -->
   <string name="pref_extras_reset_default_dlg">¿Deseas volver a los valores predeterminados?</string>
   <!-- Title for a group of settings -->
@@ -685,14 +685,14 @@ Deslizar desde el borde para explorar el historial.\nEsta característica puede 
   <!-- Add for download save path setting Feature -->
   <string name="invalid_path">Ruta no válida</string>
   <string name="path_wrong">Ruta errónea</string>
-  <string name="pref_download_title">Descargar configuración de ruta</string>
+  <string name="pref_download_title">Descargar ajustes de ruta</string>
   <string name="pref_download_path_setting_screen_title">Personalizar ruta de descarga</string>
   <string name="download_timeneeded">Hora</string>
   <string name="download_filesize">Tamaño</string>
   <string name="download_filepath_label">Ruta</string>
   <string name="download_edit_filename_label">Nombre</string>
   <string name="download_no_enough_memory">No hay suficiente memoria para la descarga</string>
-  <string name="download_settings_title">Configuración de descargas</string>
+  <string name="download_settings_title">Ajustes de las descargas</string>
   <string name="filename_empty_title">El nombre del archivo de descarga está vacío</string>
   <string name="filename_empty_msg">El nombre del archivo de descarga no puede estar vacío. Ingresa un nombre de archivo válido.</string>
   <string name="unknow_length">Desconocido</string>
