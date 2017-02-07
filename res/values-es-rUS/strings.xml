@@ -422,9 +422,9 @@
   <string name="pref_security_origin_name">Origen del sitio</string>
   <string name="pref_security_access_is_allowed">acceso permitido</string>
   <!-- Settings text size options - displays sample font size in settings -->
-  <string name="pref_sample_font_size">Arrastra el control deslizante para ajustar el tamaño de la fuente y establecer el tamaño de lectura deseado.</string>
+  <string name="pref_sample_font_size">Arrastra el control deslizante para ajustar el tamaño del texto y establecer el tamaño de lectura deseado.</string>
   <!-- Label for minimum font size [CHAR LIMIT=30] -->
-  <string name="pref_min_font_size">Tamaño mínimo de fuente</string>
+  <string name="pref_min_font_size">Tamaño mínimo del texto</string>
   <!-- Label for the current minimum font size value [CHAR LIMIT=6] -->
   <string name="pref_min_font_size_value"><xliff:g id="font_size">%d</xliff:g>ptos.</string>
   <!-- Label for text scaling (percent) [CHAR LIMIT=30] -->
