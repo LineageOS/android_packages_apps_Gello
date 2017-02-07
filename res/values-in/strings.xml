@@ -28,7 +28,7 @@
   <!-- Name of menu item of a new tab.  Also used in the title bar when displaying a new tab -->
   <!-- Crash tab View title -->
   <string name="new_tab">Tab baru</string>
-  <string name="browser_tab_crash_snap">Waduh!</string>
+  <string name="browser_tab_crash_snap">Ups!</string>
   <!-- Crash tab button text -->
   <string name="browser_tab_crash_reload">Muat ulang</string>
   <!-- Crash tab View message -->
