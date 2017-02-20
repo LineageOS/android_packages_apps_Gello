@@ -555,7 +555,7 @@ Deslizar desde el borde para explorar el historial.\nEsta característica puede 
   <!-- Message for a dialog informing the user that the SD card used for
             external storage is busy so they cannot download anything.  Informs
             the user how to enable SD card storage -->
-  <string name="download_sdcard_busy_dlg_msg" product="default">La tarjeta SD está ocupada. Para permitir descargas, toca \"Desactivar almacenamiento USB\" en la notificación.</string>
+  <string name="download_sdcard_busy_dlg_msg" product="default">La tarjeta SD está ocupada. Para permitir descargas, pulsa \"Desactivar almacenamiento USB\" en la notificación.</string>
   <!-- Toast for a download which cannot begin because the URL is not http or https -->
   <string name="cannot_download">Solo se pueden descargar URL del tipo \"http\" o \"https\".</string>
   <!-- Message in the list of items which have received download requests
@@ -568,7 +568,7 @@ Deslizar desde el borde para explorar el historial.\nEsta característica puede 
   <!-- HTML5 dialogs -->
   <!-- Used as a status bar notification when the browser is running out of space trying to allocate or increase the database quota for an HTML5 databae or application cache. -->
   <string name="webstorage_outofspace_notification_title">Almacenamiento del explorador lleno</string>
-  <string name="webstorage_outofspace_notification_text">Toca para liberar espacio.</string>
+  <string name="webstorage_outofspace_notification_text">Pulsa para liberar espacio.</string>
   <!-- Used in the Browser Settings -->
   <string name="webstorage_clear_data_title">Almacenamiento</string>
   <string name="webstorage_private_data_title">Datos privados</string>

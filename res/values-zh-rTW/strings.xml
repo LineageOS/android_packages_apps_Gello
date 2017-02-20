@@ -228,7 +228,7 @@
   <string name="clear">清除</string>
   <!-- Part of a sentence that says "Replace <url of existing bookmark> with
             <url of new bookmark>?" -->
-  <string name="replace">取代</string>
+  <string name="replace">替換</string>
   <!-- Settings screen strings -->
   <!-- Menu item to open the Settings screen -->
   <string name="menu_preferences">設定</string>
