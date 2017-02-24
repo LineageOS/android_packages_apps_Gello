@@ -365,7 +365,7 @@
   <!-- Settings screen, section title [CHAR-LIMIT=50] -->
   <string name="pref_security_title">Безпека</string>
   <!-- Settings screen, section title [CHAR-LIMIT=50] -->
-  <string name="pref_privacy_security_title">Конфіденційність &amp; безпека</string>
+  <string name="pref_privacy_security_title">Конфіденційність та безпека</string>
   <string name="pref_privacy_security_title_summary">Налаштування безпеки та конфіденційності браузера</string>
   <!-- Popup dialog -->
   <string name="pref_select_items">Виберіть елементи для очищення</string>
@@ -471,7 +471,7 @@
   <string name="pref_edge_swipe_disabled_toast">Свайп від краю екрану вимкнений</string>
   <string name="pref_edge_swipe_unknown">Виберіть дію</string>
   <string name="pref_edge_swipe_setup_desc">
-Свайп від краю екрану для навігації в історії відвідувань.\nЦеможе призвести до конфліктів з веб-сайтами, які використовують дії біля краю екрану</string>
+Свайп від краю екрану для навігації в історії відвідувань.\nЦе може призвести до конфліктів з веб-сайтами, які використовують дії біля краю екрану</string>
   <string name="pref_edge_enable">Увімкнути</string>
   <string name="pref_edge_disable">Вимкнути</string>
   <!-- Colored statusbar -->

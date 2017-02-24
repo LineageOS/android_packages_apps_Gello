@@ -429,14 +429,18 @@
   <!-- Message in the list of items which have received download requests
             telling their status.  This message states that the download has not
             yet begun -->
+  <string name="download_pending">Startar hämtning\u2026</string>
   <!-- The description of the suggestion that lets the user search the web for the query currently
          in the text field. -->
   <!-- HTML5 dialogs -->
   <!-- Used as a status bar notification when the browser is running out of space trying to allocate or increase the database quota for an HTML5 databae or application cache. -->
   <!-- Used in the Browser Settings -->
+  <string name="webstorage_clear_data_title">Lagring</string>
   <!-- Confirmation dialog when the user ask to clear all data for an origin -->
   <!-- String shown in a progress view while a video is loading, before it starts playing -->
+  <string name="website_settings_add_origin">Nya sida</string>
   <!-- Label for the menu item in the website settings activity used to clear data stored by all websites -->
+  <string name="website_settings_clear_all">Rensa allt</string>
   <!-- Text in the progress dialog when we are setting an image as the home screen wallpaper. -->
   <!-- The string that is displayed when there are no bookmarks to display.
          This is centered in the middle of the screen [CHAR LIMIT=NONE] -->
@@ -495,6 +499,7 @@
   <string name="my_navigation_add_label">Lägg till hemsida</string>
   <string name="my_navigation_add">Lägg till</string>
   <string name="my_navigation_name">Titel</string>
+  <string name="my_navigation_address">Adress</string>
   <string name="my_navigation_cannot_save_url">Ogiltig URL</string>
   <string name="my_navigation_page_title">Hem</string>
   <!-- Add for Carrier Feature.Content description for AV save/play prompt dialog -->
@@ -525,6 +530,8 @@
   <string name="version">Version</string>
   <string name="build_date">Byggdatum</string>
   <string name="help">Hjälp</string>
+  <string name="feedback">Feedback</string>
+  <string name="swe_legal">Juridisk information</string>
   <string name="swe_open_source_licenses">Licenser för öppen källkod</string>
   <string name="swe_eula">Licensavtal för slutanvändare</string>
   <!-- Toast message displayed when user attempts to modify a setting disabled by the administrator -->

@@ -19,22 +19,34 @@
 ]>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- The name of the application. -->
+  <string name="application_name">Browser</string>
   <!-- Displayed with a file picker to choose a file to upload -->
+  <string name="choose_upload">Choose file to upload</string>
   <!-- Toast to show the user after they try to open the file picker but no apps on the
          system can provide a file [CHAR-LIMIT=NONE]-->
+  <string name="uploads_disabled">Uploads are disabled.</string>
   <!-- Name of menu item of a new tab.  Also used in the title bar when displaying a new tab -->
   <!-- Crash tab View title -->
+  <string name="new_tab">New tab</string>
+  <string name="browser_tab_crash_snap">Oops, Snap!</string>
   <!-- Crash tab button text -->
+  <string name="browser_tab_crash_reload">Reload</string>
   <!-- Crash tab View message -->
+  <string name="browser_tab_crash_message">Something unexpected happened when displaying this webpage. Please reload or go to another page.</string>
   <!-- Name of menu item of a new incognito tab.  Also used in the
          title bar when displaying a new tab [CHAR LIMIT=30] -->
+  <string name="new_incognito_tab">Incognito mode</string>
   <!-- Name of tab containing the user's most visited websites, organized by number of visits -->
+  <string name="tab_most_visited">Most visited</string>
   <!-- Name of tab containing the user's saved pages, organized by time created [CHAR LIMIT=20] -->
   <!-- Toast shown when a history item's star is clicked, converting it to a bookmark -->
+  <string name="added_to_bookmarks">Added to favourites.</string>
   <!-- Toast shown when a history item's star is clicked off, removing its bookmark -->
+  <string name="removed_from_bookmarks">Removed from favourites.</string>
   <!-- Sign-in dialog -->
   <!-- This is used as the title of a dialog which is used to sign in to a secure site.
             "%s1"is replaced with the host and "%s2" with realm -->
+  <string name="sign_in_to">Sign in to <xliff:g id="hostname">%s1</xliff:g> "<xliff:g id="realm">%s2</xliff:g>\"</string>
   <!-- Prompt for an input box that allows the user to enter their login name -->
   <!-- Prompt for an input box that allows the user to enter their password -->
   <!-- The label on the "sign in" button -->
@@ -70,6 +82,7 @@
   <!-- Menu item that opens a dialog to save a bookmark for the current page [CHAR LIMIT=30] -->
   <!-- Also used as title for AddBookmarkPage -->
   <!-- Title of the dialog to bookmark a page -->
+  <string name="bookmark_this_page">Add this page to favourites</string>
   <!-- Option on bookmark dialog to remove the bookmark [CHAR LIMIT=30] -->
   <!-- Menu item on the bookmarks page, to edit an existing bookmark -->
   <!-- Context menu item to create a shortcut to the bookmark on the desktop [CHAR LIMIT=50] -->
@@ -78,12 +91,17 @@
   <!-- Menu item to remove the currently highlighted history entry from the list of previously visited sites -->
   <!-- Context menu item for setting the bookmark/history item as the homepage -->
   <!-- Toast informing the user that their action to save a bookmark has succeeded -->
+  <string name="bookmark_saved">Added to favourites</string>
   <!-- Toast informing the user that their action to save a bookmark did not succeed -->
+  <string name="bookmark_not_saved">Couldn\'t save favourite.</string>
   <!-- Toast confirming that the homepage has been set -->
   <!-- Error that appears in the title of Bookmark dialog when user selects OK with empty Name field -->
+  <string name="bookmark_needs_title">Favourite must have a name.</string>
   <!-- Error that appears in the title of Bookmark dialog when user selects OK with empty Location field -->
+  <string name="bookmark_needs_url">Favourite must have a location.</string>
   <!-- Error that appears in the title of Bookmark dialog when user selects OK with invalid URL -->
   <!-- Error that appears in the Bookmark dialog when user selects OK with a URL of a type we cannot bookmark -->
+  <string name="bookmark_cannot_save_url">This URL can\'t be added to favourites.</string>
   <!-- Summary text under the New Bookmark item on the Bookmarks screen.
             Tells the user that if they select this item, it will bring up a
             dialog to bookmark the page that the browser is currently viewing,
@@ -91,14 +109,18 @@
             the bookmarks screen. -->
   <!-- Confirmation dialog message confirming that the user wishes to delete
             the bookmark they selected for deletion -->
+  <string name="delete_bookmark_warning">Delete favourite \"<xliff:g id="bookmark">%s</xliff:g>\"?</string>
   <!-- Confirmation dialog message confirming that the user wishes to delete
                the folder they selected for deletion -->
   <!-- Context menu item to open every bookmark in a folder in new tabs [CHAR LIMIT=50] -->
   <!-- Displayed in title of chooser dialog for text sent to another app,e.g-send text via SMS or IM-->
   <!-- Menu item to close all other tabs [CHAR LIMIT=40] -->
   <!-- Menu item to open the bookmarks page and name of the Tab in the combo view -->
+  <string name="bookmarks">Favourites</string>
   <!-- Secondary name for the Activity "BrowserBookmarksPage" -->
+  <string name="shortcut_bookmark">Favourites</string>
   <!-- Title for the activity asking the user to select a bookmark [CHAR LIMIT=50] -->
+  <string name="shortcut_bookmark_title">Choose a favourite</string>
   <!-- Menu item to display the History of previously visited pages and the name of the combo view
         Tab-->
   <!-- Menu item -->
@@ -107,6 +129,7 @@
   <!-- Dialog message that is shown while saving a page for offline reading. [CHAR LIMIT=50] -->
   <!-- Toast informing the user that saving the page for offline reading has failed. [CHAR LIMIT=50] -->
   <!-- The number of bookmarks in a folder [CHAR LIMT=50] -->
+  <string name="contextheader_folder_bookmarkcount"><xliff:g id="bookmark_count">%d</xliff:g> favourites</string>
   <!-- No bookmarks in the folder [CHAR LIMIT=50] -->
   <!-- Context Menu item open the currently selected link in the current
             window.-->
@@ -157,6 +180,7 @@
   <!-- Settings summary for the powersave feature. -->
   <!-- Checkbox setting for enabling/disabling night mode feature -->
   <!-- Settings summary for the night mode feature. -->
+  <string name="pref_nightmode_enabled_summary">Invert colours</string>
   <!-- Checkbox setting for enabling/disabling the form AutoFill feature [CHAR-LIMIT=32] -->
   <!-- Settings summary for the form AutoFill feature. [CHAR-LIMIT=none] -->
   <!-- Settings screen, section title [CHAR LIMIT=50] -->
@@ -210,11 +234,15 @@
   <!-- Settings Label -->
   <!-- Settings label -->
   <!-- Settings text size options - displays sample font size in settings -->
+  <string name="pref_sample_font_size">Drag the slider to adjust the font size to set the desired comfortable reading size.</string>
   <!-- Label for minimum font size [CHAR LIMIT=30] -->
+  <string name="pref_min_font_size">Minimum font size</string>
   <!-- Label for the current minimum font size value [CHAR LIMIT=6] -->
+  <string name="pref_min_font_size_value"><xliff:g id="font_size">%d</xliff:g>pt</string>
   <!-- Label for text scaling (percent) [CHAR LIMIT=30] -->
   <!-- Label for whether or not to force-enable user scalablity (aka, zoom) [CHAR LIMIT=30] -->
   <!-- Summary for whether or not to force-enable user scalablity (aka, zoom) [CHAR LIMIT=30] -->
+  <string name="pref_force_userscalable_summary">Override a website\'s request to control zoom behaviour</string>
   <!-- Inverted screen category under accessibility settings [CHAR LIMIT=50] -->
   <!-- Title for the inverted screen feature. This causes the screen to render with inverted colors (black becomes white and vice versa) [CHAR LIMIT=40] -->
   <!-- Summary for the inverted screen feature. [CHAR LIMIT=120] -->
@@ -227,10 +255,14 @@
   <!-- Confirmation dialog message -->
   <!-- Title for a group of settings -->
   <!-- Settings screen, setting option name -->
+  <string name="pref_edge_swipe_unknown">Choose behaviour</string>
   <!-- Colored statusbar -->
+  <string name="pref_coloredsb_title">Coloured status bar</string>
+  <string name="pref_coloredsb_summary">Status bar will change colour based on the visited page</string>
   <!-- Title for accessibility settings [CHAR LIMIT=25] -->
   <!-- LookLock -->
   <!-- Font size settings category under accessibility settings [CHAR LIMIT=50] -->
+  <string name="pref_font_size_category">Text size</string>
   <!-- Title for the fullscreen lab feature [CHAR LIMIT=40] -->
   <!-- Summary for the fullscreen lab feature [CHAR LIMIT=120] -->
   <!-- Title for search preloading [CHAR LIMIT=40] -->
@@ -243,6 +275,7 @@
   <!-- Menu item -->
   <!-- Appears on History screen if no history is found -->
   <!-- Displayed at the top of the bookmarks page.  When clicked, it bookmarks the page the browser is currently showing -->
+  <string name="add_new_bookmark">Add favourite</string>
   <!-- Verb placed in front of a screenshot of a web page that, when clicked,
             will add that page to bookmarks -->
   <!-- This string is for the browser "Go To" UI. -->
@@ -250,6 +283,7 @@
   <!-- This string is for the browser "Go To" UI. -->
   <!-- This is the button label in the "Go To" UI. -->
   <!-- The string used to describe the browser as a searchable item within system search settings. -->
+  <string name="search_settings_description">Favourites and web history</string>
   <!-- Label for a button to allow a particular popup window to open -->
   <!-- Label for a button to disallow a particular popup from opening -->
   <!-- Title for a dialog informing the user that they cannot open any more
@@ -290,15 +324,20 @@
   <!-- Text in the progress dialog when we are setting an image as the home screen wallpaper. -->
   <!-- The string that is displayed when there are no bookmarks to display.
          This is centered in the middle of the screen [CHAR LIMIT=NONE] -->
+  <string name="empty_bookmarks_folder">No favourites.</string>
   <!-- The folder name for the special "Other Bookmarks" folder created by Chrome [CHAR LIMIT=24] -->
+  <string name="other_bookmarks">Other favourites</string>
   <!-- Description for a dialog asking the user what they want to do with their bookmarks when adding a sync account [CHAR-LIMIT=none] -->
+  <string name="import_bookmarks_dialog_description">Favourites on this device are not yet associated with a Google account. Save these bookmarks by adding them to an account. Delete these bookmarks if you don\'t want to sync them.</string>
   <!-- Button allowing users to remove all of their existing bookmarks when setting up syncing with their bookmarks stored in Google Chrome [CHAR-LIMIT=64] -->
+  <string name="import_bookmarks_dialog_remove">Delete favourites</string>
   <!-- Url Selection Action Mode -->
   <!-- Menu item to share URL selection [CHAR LIMIT=30] -->
   <!-- Toast to inform the user that the maximum number of tabs has been
          reached. [CHAR LIMIT=50] -->
   <!-- Font size preview label in settings [CHAR LIMIT=30] -->
   <!-- Name for the user's unsynced, local bookmarks [CHAR LIMIT=50] -->
+  <string name="local_bookmarks">My favourites</string>
   <!-- allows the user to find on webpage [CHAR LIMIT=None] -->
   <!-- Popup menu checkbox that allows the user to request the desktop version of a webpage [CHAR LIMIT=50] -->
   <!-- Popup menu checkbox that loads the reader mode version of the current webpage -->
@@ -312,6 +351,7 @@
   <!-- Content description for refresh button [CHAR LIMIT=NONE] -->
   <!-- Content description for stop button [CHAR LIMIT=NONE] -->
   <!-- Content description for add bookmark button [CHAR LIMIT=NONE] -->
+  <string name="accessibility_button_addbookmark">Add to favourites</string>
   <!-- Content description for search button [CHAR LIMIT=NONE] -->
   <!-- Content description for voice search button [CHAR LIMIT=NONE] -->
   <!-- Content description for close tab button [CHAR LIMIT=NONE] -->
@@ -329,11 +369,16 @@
   <!-- Add for Carrier Feature.Content description for about menu item -->
   <!-- Add for Unsupport Uploading Drm Files Feature -->
   <!-- Add for exit prompt Feature -->
+  <string name="exit_minimize">Minimise</string>
+  <string name="overwrite_bookmark_msg">Favourite\'s name or address already exists. Overwrite it?</string>
   <!-- Add for download save path setting Feature -->
+  <string name="download_filesize">Size</string>
+  <string name="download_size_hint">Size</string>
   <!-- Toast message displayed when the full screen received message -->
   <!-- Snapdragon Browser Additions -->
   <!-- Toast message displayed when user attempts to modify a setting disabled by the administrator -->
   <!-- My Navigation - Favorites + History + Saved -->
+  <string name="mystuffs">My navigation</string>
   <!-- Place holder for SWE engine strings added to
          'chrome/android/java/strings/android_chrome_strings.grd'. Follow
          chromium android grd naming convention. Follow exact mapping rules from
