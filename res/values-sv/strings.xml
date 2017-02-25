@@ -99,6 +99,7 @@
   <string name="delete_folder">Ta bort mapp</string>
   <!-- Label stating that the currently open folder has no subfolders
          in the add bookmark dialog [CHAR-LIMIT=none]-->
+  <string name="no_subfolders">Inga undermappar.</string>
   <!-- Menu item to save the newly created bookmark to the home screen. [CHAR-LIMIT=30]-->
   <string name="add_to_homescreen_menu_option">Hemskärm</string>
   <!-- Menu item to open a picker to determine which folder to save a bookmark in. [CHAR-LIMIT=30]-->
@@ -129,6 +130,7 @@
   <!-- Error that appears in the title of Bookmark dialog when user selects OK with empty Name field -->
   <!-- Error that appears in the title of Bookmark dialog when user selects OK with empty Location field -->
   <!-- Error that appears in the title of Bookmark dialog when user selects OK with invalid URL -->
+  <string name="bookmark_url_not_valid">Denna URL är ogiltigt.</string>
   <!-- Error that appears in the Bookmark dialog when user selects OK with a URL of a type we cannot bookmark -->
   <!-- Summary text under the New Bookmark item on the Bookmarks screen.
             Tells the user that if they select this item, it will bring up a
@@ -156,12 +158,15 @@
         Tab-->
   <string name="history">Historik</string>
   <!-- Menu item -->
+  <string name="share_page">Dela</string>
   <!-- Menu item for saving link to homescreen -->
   <!-- Menu item for saving a page for offline reading. This is a view-only snapshot of the page. [CHAR LIMIT=50] -->
+  <string name="menu_save_snapshot">Spara</string>
   <!-- Dialog message that is shown while saving a page for offline reading. [CHAR LIMIT=50] -->
   <string name="saving_snapshot">Sparar\u2026</string>
   <!-- Toast informing the user that saving the page for offline reading has failed. [CHAR LIMIT=50] -->
   <!-- The number of bookmarks in a folder [CHAR LIMT=50] -->
+  <string name="contextheader_folder_bookmarkcount"><xliff:g id="bookmark_count">%d</xliff:g> favoriter</string>
   <!-- No bookmarks in the folder [CHAR LIMIT=50] -->
   <string name="contextheader_folder_empty">Tom mapp</string>
   <!-- Context Menu item open the currently selected link in the current
@@ -222,6 +227,7 @@
   <!-- Settings label -->
   <!-- Settings summary [CHAR LIMIT=50]-->
   <!-- Settings label [CHAR LIMIT=50] -->
+  <string name="pref_content_homepage">Hemsida</string>
   <!-- Settings label -->
   <!-- Settings summary -->
   <!-- Settings button label that to pick what to set the homepage to [CHAR LIMIT=40] -->
@@ -248,6 +254,7 @@
   <!-- Checkbox setting for enabling/disabling night mode feature -->
   <string name="pref_nightmode_enabled">Nattläge</string>
   <!-- Settings summary for the night mode feature. -->
+  <string name="pref_nightmode_enabled_summary">Invertera färger</string>
   <!-- Checkbox setting for enabling/disabling the form AutoFill feature [CHAR-LIMIT=32] -->
   <!-- Settings summary for the form AutoFill feature. [CHAR-LIMIT=none] -->
   <string-array name="pref_web_refiner_message">
@@ -320,6 +327,7 @@
   <!-- Settings summary -->
   <string name="pref_privacy_clear_passwords_summary">Rensa alla sparade lösenord</string>
   <!-- Settings label -->
+  <string name="pref_privacy_enable_geolocation">Plats</string>
   <!-- Settings label -->
   <!-- Settings summary -->
   <!-- Settings label -->
