@@ -19,13 +19,19 @@
 ]>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- The name of the application. -->
+  <string name="application_name">Restolador</string>
   <!-- Displayed with a file picker to choose a file to upload -->
   <!-- Toast to show the user after they try to open the file picker but no apps on the
          system can provide a file [CHAR-LIMIT=NONE]-->
+  <string name="uploads_disabled">Les xubes tán deshabilitaes.</string>
   <!-- Name of menu item of a new tab.  Also used in the title bar when displaying a new tab -->
   <!-- Crash tab View title -->
+  <string name="new_tab">Llingüeta nueva</string>
+  <string name="browser_tab_crash_snap">¡Ai, coima!</string>
   <!-- Crash tab button text -->
+  <string name="browser_tab_crash_reload">Recargar</string>
   <!-- Crash tab View message -->
+  <string name="browser_tab_crash_message">Asocedió daqué inesperao al amosar esta páxina web. Recarga o vete a otra páxina, por favor.</string>
   <!-- Name of menu item of a new incognito tab.  Also used in the
          title bar when displaying a new tab [CHAR LIMIT=30] -->
   <!-- Name of tab containing the user's most visited websites, organized by number of visits -->
@@ -212,6 +218,7 @@
   <!-- Settings text size options - displays sample font size in settings -->
   <!-- Label for minimum font size [CHAR LIMIT=30] -->
   <!-- Label for the current minimum font size value [CHAR LIMIT=6] -->
+  <string name="pref_min_font_size_value"><xliff:g id="font_size">%d</xliff:g>pt</string>
   <!-- Label for text scaling (percent) [CHAR LIMIT=30] -->
   <!-- Label for whether or not to force-enable user scalablity (aka, zoom) [CHAR LIMIT=30] -->
   <!-- Summary for whether or not to force-enable user scalablity (aka, zoom) [CHAR LIMIT=30] -->
@@ -231,6 +238,7 @@
   <!-- Title for accessibility settings [CHAR LIMIT=25] -->
   <!-- LookLock -->
   <!-- Font size settings category under accessibility settings [CHAR LIMIT=50] -->
+  <string name="pref_font_size_category">Tamañu de testu</string>
   <!-- Title for the fullscreen lab feature [CHAR LIMIT=40] -->
   <!-- Summary for the fullscreen lab feature [CHAR LIMIT=120] -->
   <!-- Title for search preloading [CHAR LIMIT=40] -->
@@ -283,6 +291,7 @@
          in the text field. -->
   <!-- HTML5 dialogs -->
   <!-- Used as a status bar notification when the browser is running out of space trying to allocate or increase the database quota for an HTML5 databae or application cache. -->
+  <string name="webstorage_outofspace_notification_text">Calca pa lliberar espaciu.</string>
   <!-- Used in the Browser Settings -->
   <!-- Confirmation dialog when the user ask to clear all data for an origin -->
   <!-- String shown in a progress view while a video is loading, before it starts playing -->
@@ -330,8 +339,10 @@
   <!-- Add for Unsupport Uploading Drm Files Feature -->
   <!-- Add for exit prompt Feature -->
   <!-- Add for download save path setting Feature -->
+  <string name="download_size_hint">Tamañu</string>
   <!-- Toast message displayed when the full screen received message -->
   <!-- Snapdragon Browser Additions -->
+  <string name="swe_legal">Información llegal</string>
   <!-- Toast message displayed when user attempts to modify a setting disabled by the administrator -->
   <!-- My Navigation - Favorites + History + Saved -->
   <!-- Place holder for SWE engine strings added to
@@ -341,4 +352,5 @@
          prefix being stripped. For more info check out chromium's
          UI-localization page. -->
   <!-- Geolocation infobar promt-->
+  <string name="geolocation_permissions_prompt_share_for_limited_time">Permitir 24 hores</string>
 </resources>

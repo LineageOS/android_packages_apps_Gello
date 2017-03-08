@@ -39,6 +39,7 @@
   <!-- Name of tab containing the user's most visited websites, organized by number of visits -->
   <string name="tab_most_visited">Most visited</string>
   <!-- Name of tab containing the user's saved pages, organized by time created [CHAR LIMIT=20] -->
+  <string name="tab_snapshots">Saved</string>
   <!-- Toast shown when a history item's star is clicked, converting it to a bookmark -->
   <string name="added_to_bookmarks">Added to favourites.</string>
   <!-- Toast shown when a history item's star is clicked off, removing its bookmark -->
@@ -48,26 +49,43 @@
             "%s1"is replaced with the host and "%s2" with realm -->
   <string name="sign_in_to">Sign in to <xliff:g id="hostname">%s1</xliff:g> "<xliff:g id="realm">%s2</xliff:g>\"</string>
   <!-- Prompt for an input box that allows the user to enter their login name -->
+  <string name="username">Name</string>
   <!-- Prompt for an input box that allows the user to enter their password -->
+  <string name="password">Password</string>
   <!-- The label on the "sign in" button -->
+  <string name="action">Sign in</string>
   <!-- The name of the add bookmark page activity.-->
+  <string name="bookmarks_add_page">Save</string>
   <!-- Label for a cancel button.  It is used for multiple cancel buttons in different contexts -->
+  <string name="cancel">Cancel</string>
   <!-- Label for a confirm button.  Used in multiple contexts. -->
+  <string name="ok">OK</string>
   <!-- Message to be displayed if url character limit exceeds -->
+  <string name="max_url_character_limit_msg">Max URL limit reached</string>
   <!-- Message to be displayed when google play store does not exist on the device -->
+  <string name="msg_no_google_play">Google Play Store is not present on your device.</string>
   <!-- Menu item -->
+  <string name="page_info">Info</string>
   <!-- Page Info dialog strings -->
   <!-- Noun.  The url for the current page. Displayed on the Page Info
             screen. -->
+  <string name="page_info_address">Address:</string>
   <!-- Title for an SSL error dialog  -->
+  <string name="security_warning">Security warning</string>
   <!-- Message in an SSL Error dialog -->
+  <string name="ssl_invalid">This certificate is invalid.</string>
   <!-- Message in an SSL Error dialog -->
+  <string name="ssl_unknown">Unknown certificate error.</string>
   <!-- Toast informing the user that loading has stopped for the current page. -->
+  <string name="stopping">Stopping\u2026</string>
   <!-- Menu item to stop the current page from loading. -->
+  <string name="stop">Stop</string>
   <!-- Menu item to reload or refresh the current page. -->
+  <string name="reload">Refresh</string>
   <!-- Menu item to go back to the previous page -->
   <!-- Menu item to go to the next page (only useful if the user has previously hit back.) -->
   <!-- Field label in Bookmark dialog box: refers to URL of the page to bookmark -->
+  <string name="location">Address</string>
   <!-- Field label in Bookmark dialog box: refers to the account to save the bookmark to -->
   <!-- Field label in Bookmark dialog box: refers to the folder in which to save the bookmark -->
   <!-- Default name for a new folder and label for a button that allows the user to create a new folder
@@ -76,9 +94,13 @@
   <!-- Context menu item to delete a folder [CHAR LIMIT=50] -->
   <!-- Label stating that the currently open folder has no subfolders
          in the add bookmark dialog [CHAR-LIMIT=none]-->
+  <string name="no_subfolders">No subfolders.</string>
   <!-- Menu item to save the newly created bookmark to the home screen. [CHAR-LIMIT=30]-->
+  <string name="add_to_homescreen_menu_option">Home screen</string>
   <!-- Menu item to open a picker to determine which folder to save a bookmark in. [CHAR-LIMIT=30]-->
+  <string name="add_to_other_folder_menu_option">Select folder\u2026</string>
   <!-- Field label in Bookmark dialog box: title that the user wishes to use for the bookmark -->
+  <string name="name">Label</string>
   <!-- Menu item that opens a dialog to save a bookmark for the current page [CHAR LIMIT=30] -->
   <!-- Also used as title for AddBookmarkPage -->
   <!-- Title of the dialog to bookmark a page -->
