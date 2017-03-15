@@ -169,7 +169,7 @@
         Tab-->
   <string name="history">История</string>
   <!-- Menu item -->
-  <string name="share_page">Поделиться</string>
+  <string name="share_page">Отправить</string>
   <!-- Menu item for saving link to homescreen -->
   <string name="add_to_homescreen">Добавить на главный экран</string>
   <!-- Menu item for saving a page for offline reading. This is a view-only snapshot of the page. [CHAR LIMIT=50] -->
