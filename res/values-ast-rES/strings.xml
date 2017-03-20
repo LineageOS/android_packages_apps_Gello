@@ -35,9 +35,11 @@
   <!-- Name of menu item of a new incognito tab.  Also used in the
          title bar when displaying a new tab [CHAR LIMIT=30] -->
   <!-- Name of tab containing the user's most visited websites, organized by number of visits -->
+  <string name="tab_most_visited">Lo más visitao</string>
   <!-- Name of tab containing the user's saved pages, organized by time created [CHAR LIMIT=20] -->
   <!-- Toast shown when a history item's star is clicked, converting it to a bookmark -->
   <!-- Toast shown when a history item's star is clicked off, removing its bookmark -->
+  <string name="removed_from_bookmarks">Desanicióse de favoritos.</string>
   <!-- Sign-in dialog -->
   <!-- This is used as the title of a dialog which is used to sign in to a secure site.
             "%s1"is replaced with the host and "%s2" with realm -->
@@ -56,16 +58,25 @@
   <!-- Message to be displayed if url character limit exceeds -->
   <!-- Message to be displayed when google play store does not exist on the device -->
   <!-- Menu item -->
+  <string name="page_info">Información</string>
   <!-- Page Info dialog strings -->
   <!-- Noun.  The url for the current page. Displayed on the Page Info
             screen. -->
+  <string name="page_info_address">Direición:</string>
   <!-- Title for an SSL error dialog  -->
+  <string name="security_warning">Alvertencia de seguranza</string>
   <!-- Message in an SSL Error dialog -->
+  <string name="ssl_invalid">Esti certificáu nun ye válidu.</string>
   <!-- Message in an SSL Error dialog -->
+  <string name="ssl_unknown">Fallu desconocíu de certificáu.</string>
   <!-- Toast informing the user that loading has stopped for the current page. -->
+  <string name="stopping">Parando\u2026</string>
   <!-- Menu item to stop the current page from loading. -->
+  <string name="stop">Parar</string>
   <!-- Menu item to reload or refresh the current page. -->
+  <string name="reload">Refrescar</string>
   <!-- Menu item to go back to the previous page -->
+  <string name="back">Atrás</string>
   <!-- Menu item to go to the next page (only useful if the user has previously hit back.) -->
   <string name="forward">Alantre</string>
   <!-- Field label in Bookmark dialog box: refers to URL of the page to bookmark -->
@@ -90,14 +101,22 @@
   <!-- Field label in Bookmark dialog box: title that the user wishes to use for the bookmark -->
   <!-- Menu item that opens a dialog to save a bookmark for the current page [CHAR LIMIT=30] -->
   <!-- Also used as title for AddBookmarkPage -->
+  <string name="save_to_bookmarks">Guardar</string>
   <!-- Title of the dialog to bookmark a page -->
   <!-- Option on bookmark dialog to remove the bookmark [CHAR LIMIT=30] -->
+  <string name="remove">Desaniciar</string>
   <!-- Menu item on the bookmarks page, to edit an existing bookmark -->
+  <string name="edit_bookmark">Editar</string>
   <!-- Context menu item to create a shortcut to the bookmark on the desktop [CHAR LIMIT=50] -->
+  <string name="create_shortcut_bookmark">Amestar atayu</string>
   <!-- Menu item to remove the currently highlighted bookmark-->
+  <string name="remove_bookmark">Desaniciar</string>
   <!-- Context menu item to remove a history item from bookmarks -->
+  <string name="remove_from_bookmarks">Desaniciar</string>
   <!-- Menu item to remove the currently highlighted history entry from the list of previously visited sites -->
+  <string name="remove_history_item">Desaniciar</string>
   <!-- Context menu item for setting the bookmark/history item as the homepage -->
+  <string name="set_as_homepage">Afitar como páxina d\'aniciu</string>
   <!-- Toast informing the user that their action to save a bookmark has succeeded -->
   <!-- Toast informing the user that their action to save a bookmark did not succeed -->
   <!-- Toast confirming that the homepage has been set -->
@@ -113,20 +132,28 @@
             the bookmarks screen. -->
   <!-- Confirmation dialog message confirming that the user wishes to delete
             the bookmark they selected for deletion -->
+  <string name="delete_bookmark_warning">¿Desaniciar favoritu «<xliff:g id="bookmark">%s</xliff:g>»?</string>
   <!-- Confirmation dialog message confirming that the user wishes to delete
                the folder they selected for deletion -->
+  <string name="delete_folder_warning">¿Desaniciar la carpeta «<xliff:g id="bookmark">%s</xliff:g>»?</string>
   <!-- Context menu item to open every bookmark in a folder in new tabs [CHAR LIMIT=50] -->
   <!-- Displayed in title of chooser dialog for text sent to another app,e.g-send text via SMS or IM-->
   <!-- Menu item to close all other tabs [CHAR LIMIT=40] -->
   <!-- Menu item to open the bookmarks page and name of the Tab in the combo view -->
+  <string name="bookmarks">Favoritos</string>
   <!-- Secondary name for the Activity "BrowserBookmarksPage" -->
+  <string name="shortcut_bookmark">Favoritu</string>
   <!-- Title for the activity asking the user to select a bookmark [CHAR LIMIT=50] -->
   <!-- Menu item to display the History of previously visited pages and the name of the combo view
         Tab-->
+  <string name="history">Historial</string>
   <!-- Menu item -->
+  <string name="share_page">Compartir</string>
   <!-- Menu item for saving link to homescreen -->
   <!-- Menu item for saving a page for offline reading. This is a view-only snapshot of the page. [CHAR LIMIT=50] -->
+  <string name="menu_save_snapshot">Guardar</string>
   <!-- Dialog message that is shown while saving a page for offline reading. [CHAR LIMIT=50] -->
+  <string name="saving_snapshot">Guardando\u2026</string>
   <!-- Toast informing the user that saving the page for offline reading has failed. [CHAR LIMIT=50] -->
   <!-- The number of bookmarks in a folder [CHAR LIMT=50] -->
   <!-- No bookmarks in the folder [CHAR LIMIT=50] -->
@@ -206,18 +233,22 @@
   <!-- Checkbox setting for enabling/disabling the form AutoFill feature [CHAR-LIMIT=32] -->
   <!-- Settings summary for the form AutoFill feature. [CHAR-LIMIT=none] -->
   <!-- Settings screen, section title [CHAR LIMIT=50] -->
+  <string name="pref_interface_title">Interfaz</string>
   <!-- Label for option that when clicked opens the AutoFill settings screen. Also used as the title of that AutoFill Settings screen. [CHAR-LIMIT=32] -->
   <!-- Summary for the AutoFill Settings preference [CHAR-LIMIT=none] -->
   <!-- Heading for the AutoFill profile editor to tell the user what AutoFill does and why they should fill out the profile. [CHAR-LIMIT=None] -->
   <!-- String for the user's full name in the AutoFill profile editor. [CHAR-LIMIT=32] -->
+  <string name="autofill_profile_editor_name">Nome completu:</string>
   <!-- String for the user's e-mail address in the AutoFill profile editor. [CHAR-LIMIT=32] -->
   <!-- String for the user's company name in the AutoFill profile editor. [CHAR-LIMIT=32] -->
+  <string name="autofill_profile_editor_company_name">Nome de compaña:</string>
   <!-- String for the first line of the user's address in the AutoFill profile editor. [CHAR-LIMIT=32] -->
   <!-- String to suggest to the user the kind of data to be used for the first line of the address. CHAR-LIMIT=64] -->
   <!-- String for the second line of the user's address in the AutoFill profile editor. [CHAR-LIMIT=32] -->
   <!-- String to suggest to the user the kind of data to be used for the second line of the address. CHAR-LIMIT=64] -->
   <!-- String for the user's city or town in the AutoFill profile editor. [CHAR-LIMIT=32] -->
   <!-- String for the user's state or province or region in the AutoFill profile editor. [CHAR-LIMIT=32] -->
+  <string name="autofill_profile_editor_state">Estáu/provincia/rexón:</string>
   <!-- String for the user's zip code in the AutoFill profile editor. [CHAR-LIMIT=32] -->
   <string name="autofill_profile_editor_zip_code">Códigu postal:</string>
   <!-- String for the user's country in the AutoFill profile editor. [CHAR-LIMIT=32] -->
@@ -225,10 +256,13 @@
   <!-- String for the user's phone number in the AutoFill profile editor. [CHAR-LIMIT=32] -->
   <string name="autofill_profile_editor_phone_number">Teléfonu:</string>
   <!-- String to display in an error tooltip to inform the user the phone number they provided is not valid. [CHAR-LIMIT=32] -->
+  <string name="autofill_profile_editor_phone_number_invalid">Númberu telefónicu non válidu.</string>
   <!-- Button text to save the AutoFill profile [CHAR-LIMIT=20] -->
+  <string name="autofill_profile_editor_save_profile">Guardar</string>
   <!-- Toast message displayed when the profile has been successfully saved [CHAR-LIMIT=none] -->
   <!-- Toast message displayed when the profile has been successfully deleted [CHAR-LIMIT=none] -->
   <!-- Button text to delete all the AutoFill profile data [CHAR-LIMIT=20] -->
+  <string name="autofill_profile_editor_delete_profile">Desaniciar</string>
   <!-- Text on toast shown to the user when power save mode is enabled or disabled -->
   <!-- Text on a dialog shown to the user when they are prompted to set up the autofill feature [CHAR-LIMIT=NONE] -->
   <!-- Toast message displayed when the user decides to not set up autofill at this time. We want to remind them that they can configure
@@ -242,6 +276,7 @@
   <!-- Settings summary -->
   <!-- Confirmation dialog message -->
   <!-- Settings label -->
+  <string name="pref_privacy_clear_cache">Caché</string>
   <!-- Settings summary -->
   <!-- Settings label -->
   <!-- Settings summary -->
@@ -418,12 +453,18 @@
   <!-- Add for download save path setting Feature -->
   <string name="invalid_path">Camín non válidu</string>
   <string name="path_wrong">Camín incorreutu</string>
+  <string name="pref_download_title">Axustes del camín de descarga</string>
+  <string name="pref_download_path_setting_screen_title">Camín de descarga personalizáu</string>
   <string name="download_filesize">Tamañu</string>
   <string name="download_filepath_label">Camín</string>
+  <string name="download_edit_filename_label">Nome</string>
+  <string name="download_name_hint">Nome de ficheru</string>
   <string name="download_size_hint">Tamañu</string>
   <!-- Toast message displayed when the full screen received message -->
   <!-- Snapdragon Browser Additions -->
+  <string name="help">Ayuda</string>
   <string name="swe_legal">Información llegal</string>
+  <string name="swe_privacy_policy">Política de privacidá</string>
   <!-- Toast message displayed when user attempts to modify a setting disabled by the administrator -->
   <!-- My Navigation - Favorites + History + Saved -->
   <!-- Place holder for SWE engine strings added to
@@ -434,5 +475,7 @@
          UI-localization page. -->
   <!-- Geolocation infobar promt-->
   <string name="geolocation_permissions_prompt_remember">Recordar preferencia</string>
+  <string name="geolocation_permissions_prompt_share_never">Ñegar dafechu</string>
   <string name="geolocation_permissions_prompt_share_for_limited_time">Permitir 24 hores</string>
+  <string name="geolocation_permissions_prompt_share_forever">Permitir dafechu</string>
 </resources>

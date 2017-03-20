@@ -261,7 +261,7 @@
     <!-- Setting choice to set the homepage to a blank page [CHAR LIMIT=40] -->
     <item>Página en blanco</item>
     <!-- Setting choice to set the homepage to the default page [CHAR LIMIT=40] -->
-    <item>Página predeterminada</item>
+    <item>Página predefinida</item>
     <!-- Setting choice to set the homepage to the "Most Visited" homepage feature, which is a list of most visited sites [CHAR LIMIT=40] -->
     <item>Sitios más visitados</item>
     <!-- Setting choice to set the homepage to a user entered URL [CHAR LIMIT=40] -->
@@ -304,7 +304,7 @@
     <item>"Se ha bloqueado a %1$s y %2$s. "</item>
     <item>"Se ha bloqueado a %1$s, %2$s y %3$s. "</item>
   </string-array>
-  <string name="pref_valid_cert">Certificado SSL válido. La comunicación está encriptada y la identidad verificada.</string>
+  <string name="pref_valid_cert">Certificado SSL válido. La comunicación está cifrada y la identidad verificada.</string>
   <string name="pref_invalid_cert">El sitio tiene un certificado SSL no válido.</string>
   <string name="pref_warning_cert">El certificado SSL delsitio tiene advertencias.</string>
   <!-- Settings screen, section title [CHAR LIMIT=50] -->
