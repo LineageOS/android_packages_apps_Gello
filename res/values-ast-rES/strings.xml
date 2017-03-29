@@ -21,6 +21,7 @@
   <!-- The name of the application. -->
   <string name="application_name">Restolador</string>
   <!-- Displayed with a file picker to choose a file to upload -->
+  <string name="choose_upload">Escoyer ficheru pa xubir</string>
   <!-- Toast to show the user after they try to open the file picker but no apps on the
          system can provide a file [CHAR-LIMIT=NONE]-->
   <string name="uploads_disabled">Les xubes tán deshabilitaes.</string>
@@ -34,15 +35,19 @@
   <string name="browser_tab_crash_message">Asocedió daqué inesperao al amosar esta páxina web. Recarga o vete a otra páxina, por favor.</string>
   <!-- Name of menu item of a new incognito tab.  Also used in the
          title bar when displaying a new tab [CHAR LIMIT=30] -->
+  <string name="new_incognito_tab">Mou d\'incógnito</string>
   <!-- Name of tab containing the user's most visited websites, organized by number of visits -->
   <string name="tab_most_visited">Lo más visitao</string>
   <!-- Name of tab containing the user's saved pages, organized by time created [CHAR LIMIT=20] -->
+  <string name="tab_snapshots">Guardaes</string>
   <!-- Toast shown when a history item's star is clicked, converting it to a bookmark -->
+  <string name="added_to_bookmarks">Amestóse a favoritos.</string>
   <!-- Toast shown when a history item's star is clicked off, removing its bookmark -->
   <string name="removed_from_bookmarks">Desanicióse de favoritos.</string>
   <!-- Sign-in dialog -->
   <!-- This is used as the title of a dialog which is used to sign in to a secure site.
             "%s1"is replaced with the host and "%s2" with realm -->
+  <string name="sign_in_to">Aniciar sesión en <xliff:g id="hostname">%s1</xliff:g> «<xliff:g id="realm">%s2</xliff:g>»</string>
   <!-- Prompt for an input box that allows the user to enter their login name -->
   <string name="username">Nome</string>
   <!-- Prompt for an input box that allows the user to enter their password -->
@@ -56,6 +61,7 @@
   <!-- Label for a confirm button.  Used in multiple contexts. -->
   <string name="ok">Aceutar</string>
   <!-- Message to be displayed if url character limit exceeds -->
+  <string name="max_url_character_limit_msg">Algamóse la llende máxima d\'URL</string>
   <!-- Message to be displayed when google play store does not exist on the device -->
   <!-- Menu item -->
   <string name="page_info">Información</string>

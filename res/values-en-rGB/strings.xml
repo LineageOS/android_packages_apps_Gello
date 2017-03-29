@@ -110,6 +110,7 @@
   <string name="name">Label</string>
   <!-- Menu item that opens a dialog to save a bookmark for the current page [CHAR LIMIT=30] -->
   <!-- Also used as title for AddBookmarkPage -->
+  <string name="save_to_bookmarks">Save</string>
   <!-- Title of the dialog to bookmark a page -->
   <string name="bookmark_this_page">Add this page to favourites</string>
   <!-- Option on bookmark dialog to remove the bookmark [CHAR LIMIT=30] -->
@@ -117,15 +118,21 @@
   <!-- Menu item on the bookmarks page, to edit an existing bookmark -->
   <string name="edit_bookmark">Edit</string>
   <!-- Context menu item to create a shortcut to the bookmark on the desktop [CHAR LIMIT=50] -->
+  <string name="create_shortcut_bookmark">Add shortcut</string>
   <!-- Menu item to remove the currently highlighted bookmark-->
+  <string name="remove_bookmark">Delete</string>
   <!-- Context menu item to remove a history item from bookmarks -->
+  <string name="remove_from_bookmarks">Remove</string>
   <!-- Menu item to remove the currently highlighted history entry from the list of previously visited sites -->
+  <string name="remove_history_item">Remove</string>
   <!-- Context menu item for setting the bookmark/history item as the homepage -->
+  <string name="set_as_homepage">Set as homepage</string>
   <!-- Toast informing the user that their action to save a bookmark has succeeded -->
   <string name="bookmark_saved">Added to favourites</string>
   <!-- Toast informing the user that their action to save a bookmark did not succeed -->
   <string name="bookmark_not_saved">Couldn\'t save favourite.</string>
   <!-- Toast confirming that the homepage has been set -->
+  <string name="homepage_set">Homepage set.</string>
   <!-- Error that appears in the title of Bookmark dialog when user selects OK with empty Name field -->
   <string name="bookmark_needs_title">Favourite must have a name.</string>
   <!-- Error that appears in the title of Bookmark dialog when user selects OK with empty Location field -->
