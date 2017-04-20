@@ -222,7 +222,7 @@
   <!-- Title of the dialog used for selecting the application that should be
             used for sharing a link (e.g. Gmail or another app). See also
             contextmenu_sharelink above -->
-  <string name="choosertitle_sharevia">공유에 사용할 애플리케이션:</string>
+  <string name="choosertitle_sharevia">공유에 사용할 앱:</string>
   <!-- Used as the title of dialogs in the Browser Settings confirming that
             the user wants to clear (cache, history, or cookie data) -->
   <string name="clear">지우기</string>
@@ -526,6 +526,7 @@
   <string name="too_many_windows_dialog_title">탭 한도 도달</string>
   <!-- Message in a dialog telling the user that they cannot open any more
             windows because the limit has been reached. -->
+  <string name="too_many_windows_dialog_message">탭 하나를 닫기 전까지는 새 탭을 열 수 없습니다.</string>
   <!-- Title for a dialog informing the user that they cannot open a subwindow
             because only one can be open at a time. -->
   <string name="too_many_subwindows_dialog_title">팝업이 이미 열려 있음</string>

@@ -710,7 +710,7 @@ Llisca des de la vora per navegar a través de l\'historial.\nAquesta caracterí
   <string name="ssl_certificate">Certificat de seguretat</string>
   <string name="ssl_certificate_is_valid">Aquest certificat és vàlid.</string>
   <string name="version">Versió</string>
-  <string name="build_date">Data d\'elaboració</string>
+  <string name="build_date">Data de compilació</string>
   <string name="build_hash">Hash de compilació</string>
   <string name="user_agent">Agent d\'usuari</string>
   <string name="help">Ajuda</string>

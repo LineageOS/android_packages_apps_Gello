@@ -277,6 +277,7 @@
          The checkbox allows them to specify they would like to disable the feature altogether [CHAR-LIMIT=NONE] -->
   <!-- Settings screen, section title [CHAR-LIMIT=50] -->
   <!-- Settings screen, section title [CHAR-LIMIT=50] -->
+  <string name="pref_privacy_security_title">Privacidá y seguranza</string>
   <!-- Popup dialog -->
   <!-- Settings label -->
   <!-- Settings summary -->
@@ -293,6 +294,7 @@
   <!-- Settings label -->
   <!-- Settings summary -->
   <!-- Settings label -->
+  <string name="pref_privacy_enable_geolocation">Allugamientu</string>
   <!-- Settings label -->
   <!-- Settings summary -->
   <!-- Settings label -->
@@ -328,6 +330,7 @@
   <string name="pref_edge_enable">Habilitar</string>
   <!-- Colored statusbar -->
   <!-- Title for accessibility settings [CHAR LIMIT=25] -->
+  <string name="pref_accessibility_title">Accesibilidá</string>
   <!-- LookLock -->
   <!-- Font size settings category under accessibility settings [CHAR LIMIT=50] -->
   <string name="pref_font_size_category">Tamañu de testu</string>
@@ -443,6 +446,7 @@
   <!-- Content description for frozen state [CHAR LIMIT=NONE] -->
   <string name="accessibility_state_frozen">Páxina guardada</string>
   <!-- Content description for tab switcher transition [CHAR LIMIT=NONE] -->
+  <string name="accessibility_transition_navscreen">Xestión de llingüetes</string>
   <!-- Content description for navigating up in the bookmark folder hierarchy [CHAR LIMIT=NONE] -->
   <!--Add for Navigation Feature -->
   <string name="my_navigation_edit_label">Editar sitiu web</string>
