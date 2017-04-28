@@ -310,7 +310,7 @@ Laden Sie sie erneut, oder gehen Sie zu einer anderen Seite.</string>
   <!-- Settings screen, section title [CHAR LIMIT=50] -->
   <string name="pref_interface_title">Oberfläche</string>
   <!-- Label for option that when clicked opens the AutoFill settings screen. Also used as the title of that AutoFill Settings screen. [CHAR-LIMIT=32] -->
-  <string name="pref_autofill_profile_editor">AutoAusfüllen</string>
+  <string name="pref_autofill_profile_editor">Automatisch ausfüllen</string>
   <!-- Summary for the AutoFill Settings preference [CHAR-LIMIT=none] -->
   <string name="pref_autofill_profile_editor_summary">AutoAusfüllen-Text für Webformulare festlegen</string>
   <!-- Heading for the AutoFill profile editor to tell the user what AutoFill does and why they should fill out the profile. [CHAR-LIMIT=None] -->

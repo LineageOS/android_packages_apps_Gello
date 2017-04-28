@@ -551,7 +551,7 @@
   <!-- Message for a dialog informing the user that the SD card used for
             external storage is busy so they cannot download anything.  Informs
             the user how to enable SD card storage -->
-  <string name="download_sdcard_busy_dlg_msg" product="default">SD 卡被占用。若要允许下载，请在通知栏中点击“关闭 USB 存储”。</string>
+  <string name="download_sdcard_busy_dlg_msg" product="default">SD 卡正在忙碌。若要允许下载，请在通知栏点击“关闭 USB 存储”。</string>
   <!-- Toast for a download which cannot begin because the URL is not http or https -->
   <string name="cannot_download">只能下载“HTTP”或“HTTPS”的网址。</string>
   <!-- Message in the list of items which have received download requests

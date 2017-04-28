@@ -542,7 +542,7 @@ Llisca des de la vora per navegar a través de l\'historial.\nAquesta caracterí
   <string name="download_no_sdcard_dlg_title" product="default">No hi ha targeta SD</string>
   <!-- Dialog message [CHAR LIMIT=NONE] -->
   <!-- Dialog message -->
-  <string name="download_no_sdcard_dlg_msg" product="default">Es necessita una targeta SD per poder descarregar <xliff:g id="filename">%s </xliff:g>.</string>
+  <string name="download_no_sdcard_dlg_msg" product="default">Cal una targeta SD per poder baixar<xliff:g id="filename">%s </xliff:g>.</string>
   <!-- Title for a dialog informing the user that the SD card used for
             external storage is busy so they cannot download anything [CHAR LIMIT=25] -->
   <!-- Title for a dialog informing the user that the SD card used for
@@ -556,7 +556,7 @@ Llisca des de la vora per navegar a través de l\'historial.\nAquesta caracterí
             the user how to enable SD card storage -->
   <string name="download_sdcard_busy_dlg_msg" product="default">La targeta SD està ocupada. Per permetre les baixades, pica \'Apaga l\'emmagatzematge USB\' a la notificació.</string>
   <!-- Toast for a download which cannot begin because the URL is not http or https -->
-  <string name="cannot_download">Només es pot descarregar des d\'adreces \"http\" o \"https\".</string>
+  <string name="cannot_download">Només es pot baixar des d\'adreces \"http\" o \"https\".</string>
   <!-- Message in the list of items which have received download requests
             telling their status.  This message states that the download has not
             yet begun -->
@@ -684,22 +684,22 @@ Llisca des de la vora per navegar a través de l\'historial.\nAquesta caracterí
   <!-- Add for download save path setting Feature -->
   <string name="invalid_path">La ruta és invàlida</string>
   <string name="path_wrong">La ruta és incorrecta</string>
-  <string name="pref_download_title">Configuració de la ruta de descàrrega</string>
+  <string name="pref_download_title">Configuració de la ruta de baixada</string>
   <string name="pref_download_path_setting_screen_title">Ruta personalitzada de la baixada</string>
   <string name="download_timeneeded">Hora</string>
   <string name="download_filesize">Mida</string>
   <string name="download_filepath_label">Ruta</string>
   <string name="download_edit_filename_label">Nom</string>
-  <string name="download_no_enough_memory">No hi ha prou memòria per descarregar</string>
-  <string name="download_settings_title">Configuració de baixades</string>
+  <string name="download_no_enough_memory">No hi ha prou memòria per baixar</string>
+  <string name="download_settings_title">Configuració de les baixades</string>
   <string name="filename_empty_title">El nom del fitxer de la baixada està buit</string>
   <string name="filename_empty_msg">El nom del fitxer de la baixada no pot estar buit. Si us plau introdueix un nom de fitxer vàlid.</string>
   <string name="unknow_length">Desconegut</string>
   <string name="download_file_exist_msg">El fitxer ja existeix. Si us plau introdueix un altre nom de fitxer.</string>
   <string name="download_file_exist">El fitxer ja existeix</string>
   <string name="time_min">min</string>
-  <string name="download_path_unavailable_dlg_title">El directori de descàrrega no està disponible</string>
-  <string name="download_path_unavailable_dlg_msg">Si us plau modifca el directori de descàrrega</string>
+  <string name="download_path_unavailable_dlg_title">El directori de baixada no està disponible</string>
+  <string name="download_path_unavailable_dlg_msg">Modifica el directori de baixada</string>
   <string name="activity_not_found">No s\'ha trobat cap activitat per gestionar aquesta tasca: <xliff:g id="NOACTIVITY">%s</xliff:g></string>
   <string name="download_name_hint">Nom del fitxer</string>
   <string name="download_size_hint">Mida</string>
@@ -710,7 +710,7 @@ Llisca des de la vora per navegar a través de l\'historial.\nAquesta caracterí
   <string name="ssl_certificate">Certificat de seguretat</string>
   <string name="ssl_certificate_is_valid">Aquest certificat és vàlid.</string>
   <string name="version">Versió</string>
-  <string name="build_date">Data d\'elaboració</string>
+  <string name="build_date">Data de compilació</string>
   <string name="build_hash">Hash de compilació</string>
   <string name="user_agent">Agent d\'usuari</string>
   <string name="help">Ajuda</string>

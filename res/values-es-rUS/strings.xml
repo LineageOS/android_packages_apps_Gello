@@ -44,7 +44,7 @@
   <!-- Toast shown when a history item's star is clicked, converting it to a bookmark -->
   <string name="added_to_bookmarks">Añadido a favoritos.</string>
   <!-- Toast shown when a history item's star is clicked off, removing its bookmark -->
-  <string name="removed_from_bookmarks">Eliminado de favoritos.</string>
+  <string name="removed_from_bookmarks">Quitado de favoritos.</string>
   <!-- Sign-in dialog -->
   <!-- This is used as the title of a dialog which is used to sign in to a secure site.
             "%s1"is replaced with the host and "%s2" with realm -->
@@ -64,7 +64,7 @@
   <!-- Message to be displayed if url character limit exceeds -->
   <string name="max_url_character_limit_msg">Límite máximo de URL alcanzado</string>
   <!-- Message to be displayed when google play store does not exist on the device -->
-  <string name="msg_no_google_play">Google Play Store no está en su dispositivo.</string>
+  <string name="msg_no_google_play">Google Play Store no está instalado en el dispositivo.</string>
   <!-- Menu item -->
   <string name="page_info">Información</string>
   <!-- Page Info dialog strings -->
@@ -99,7 +99,7 @@
   <!-- Context menu item to edit a folder [CHAR LIMIT=50] -->
   <string name="edit_folder">Editar carpeta</string>
   <!-- Context menu item to delete a folder [CHAR LIMIT=50] -->
-  <string name="delete_folder">Eliminar carpeta</string>
+  <string name="delete_folder">Borrar carpeta</string>
   <!-- Label stating that the currently open folder has no subfolders
          in the add bookmark dialog [CHAR-LIMIT=none]-->
   <string name="no_subfolders">Sin subcarpetas.</string>
@@ -115,7 +115,7 @@
   <!-- Title of the dialog to bookmark a page -->
   <string name="bookmark_this_page">Añadir esta página a favoritos</string>
   <!-- Option on bookmark dialog to remove the bookmark [CHAR LIMIT=30] -->
-  <string name="remove">Eliminar</string>
+  <string name="remove">Quitar</string>
   <!-- Menu item on the bookmarks page, to edit an existing bookmark -->
   <string name="edit_bookmark">Editar</string>
   <!-- Context menu item to create a shortcut to the bookmark on the desktop [CHAR LIMIT=50] -->
@@ -123,9 +123,9 @@
   <!-- Menu item to remove the currently highlighted bookmark-->
   <string name="remove_bookmark">Borrar</string>
   <!-- Context menu item to remove a history item from bookmarks -->
-  <string name="remove_from_bookmarks">Eliminar de marcadores</string>
+  <string name="remove_from_bookmarks">Quitar</string>
   <!-- Menu item to remove the currently highlighted history entry from the list of previously visited sites -->
-  <string name="remove_history_item">Eliminar del historial</string>
+  <string name="remove_history_item">Quitar</string>
   <!-- Context menu item for setting the bookmark/history item as the homepage -->
   <string name="set_as_homepage">Establecer como página de inicio</string>
   <!-- Toast informing the user that their action to save a bookmark has succeeded -->
@@ -150,10 +150,10 @@
   <string name="current_page">de\u0020</string>
   <!-- Confirmation dialog message confirming that the user wishes to delete
             the bookmark they selected for deletion -->
-  <string name="delete_bookmark_warning">¿Eliminar el favorito \"<xliff:g id="bookmark">%s</xliff:g>\"?</string>
+  <string name="delete_bookmark_warning">¿Borrar el favorito \"<xliff:g id="bookmark">%s</xliff:g>\"?</string>
   <!-- Confirmation dialog message confirming that the user wishes to delete
                the folder they selected for deletion -->
-  <string name="delete_folder_warning">¿Eliminar la carpeta \"<xliff:g id="bookmark">%s</xliff:g>\"?</string>
+  <string name="delete_folder_warning">¿Borrar la carpeta \"<xliff:g id="bookmark">%s</xliff:g>\"?</string>
   <!-- Context menu item to open every bookmark in a folder in new tabs [CHAR LIMIT=50] -->
   <string name="open_all_in_new_window">Abrir todo en pestañas nuevas</string>
   <!-- Displayed in title of chooser dialog for text sent to another app,e.g-send text via SMS or IM-->
@@ -226,7 +226,7 @@
   <string name="choosertitle_sharevia">Compartir mediante</string>
   <!-- Used as the title of dialogs in the Browser Settings confirming that
             the user wants to clear (cache, history, or cookie data) -->
-  <string name="clear">Eliminar</string>
+  <string name="clear">Limpiar</string>
   <!-- Part of a sentence that says "Replace <url of existing bookmark> with
             <url of new bookmark>?" -->
   <string name="replace">Sustituir</string>
@@ -261,7 +261,7 @@
     <!-- Setting choice to set the homepage to a blank page [CHAR LIMIT=40] -->
     <item>Página en blanco</item>
     <!-- Setting choice to set the homepage to the default page [CHAR LIMIT=40] -->
-    <item>Página predeterminada</item>
+    <item>Página predefinida</item>
     <!-- Setting choice to set the homepage to the "Most Visited" homepage feature, which is a list of most visited sites [CHAR LIMIT=40] -->
     <item>Sitios más visitados</item>
     <!-- Setting choice to set the homepage to a user entered URL [CHAR LIMIT=40] -->
@@ -270,7 +270,7 @@
   <!-- Settings screen & section title for "General settings". These include things like
          configuring bookmark syncing to Google servers and form auto fill settings. [CHAR-LIMIT=32] -->
   <string name="pref_general_title">General</string>
-  <string name="pref_default_site_settings_title">Ajustes predeterminados</string>
+  <string name="pref_default_site_settings_title">Ajustes predefinidos</string>
   <string name="pref_site_settings_title">Ajustes del sitio</string>
   <string name="pref_site_settings_info_panel">Información de seguridad</string>
   <!-- Settings category for autofill under general. [CHAR-LIMIT=50] -->
@@ -286,7 +286,7 @@
   <!-- Checkbox setting for enabling/disabling the form AutoFill feature [CHAR-LIMIT=32] -->
   <string name="pref_autofill_enabled">Autorrellenar formulario</string>
   <!-- Settings summary for the form AutoFill feature. [CHAR-LIMIT=none] -->
-  <string name="pref_autofill_enabled_summary">Completar formularios web con un solo toque</string>
+  <string name="pref_autofill_enabled_summary">Completar formularios web con una simple pulsación</string>
   <plurals name="pref_web_refiner_advertisements">
     <item quantity="one">anuncio %d</item>
     <item quantity="other">anuncios %d</item>
@@ -304,7 +304,7 @@
     <item>"Se ha bloqueado a %1$s y %2$s. "</item>
     <item>"Se ha bloqueado a %1$s, %2$s y %3$s. "</item>
   </string-array>
-  <string name="pref_valid_cert">Certificado SSL válido. La comunicación está encriptada y la identidad verificada.</string>
+  <string name="pref_valid_cert">Certificado SSL válido. La comunicación está cifrada y la identidad verificada.</string>
   <string name="pref_invalid_cert">El sitio tiene un certificado SSL no válido.</string>
   <string name="pref_warning_cert">El certificado SSL delsitio tiene advertencias.</string>
   <!-- Settings screen, section title [CHAR LIMIT=50] -->
@@ -432,7 +432,7 @@
   <!-- Label for whether or not to force-enable user scalablity (aka, zoom) [CHAR LIMIT=30] -->
   <string name="pref_force_userscalable">Forzar activación de zoom</string>
   <!-- Summary for whether or not to force-enable user scalablity (aka, zoom) [CHAR LIMIT=30] -->
-  <string name="pref_force_userscalable_summary">Anular solicitud para controlar el zoom</string>
+  <string name="pref_force_userscalable_summary">Evitar que un sitio web pueda cambiar el zoom</string>
   <!-- Inverted screen category under accessibility settings [CHAR LIMIT=50] -->
   <string name="pref_inverted_category">Representación de pantalla invertida</string>
   <!-- Title for the inverted screen feature. This causes the screen to render with inverted colors (black becomes white and vice versa) [CHAR LIMIT=40] -->
@@ -446,14 +446,14 @@
   <!-- Settings label -->
   <string name="pref_extras_website_settings">Ajustes del sitio web</string>
   <!-- Settings summary -->
-  <string name="pref_extras_website_settings_summary">Configuración avanzada para sitios web individuales</string>
+  <string name="pref_extras_website_settings_summary">Ajustes avanzados de sitios web individuales</string>
   <!-- Settings label -->
-  <string name="pref_extras_reset_default">Restablecer valores predeterminados</string>
+  <string name="pref_extras_reset_default">Restablecer valores predefinidos</string>
   <string name="pref_extras_reset">Restablecer</string>
   <!-- Settings summary -->
-  <string name="pref_extras_reset_default_summary">Restablecer los ajustes predeterminados</string>
+  <string name="pref_extras_reset_default_summary">Restablecer los ajustes predefinidos</string>
   <!-- Confirmation dialog message -->
-  <string name="pref_extras_reset_default_dlg">¿Deseas volver a los valores predeterminados?</string>
+  <string name="pref_extras_reset_default_dlg">¿Deseas volver a los valores predefinidos?</string>
   <!-- Title for a group of settings -->
   <string name="pref_development_title">Depurar</string>
   <!-- Settings screen, setting option name -->
@@ -469,7 +469,7 @@
   <string name="pref_edge_swipe_disabled_toast">Deslizar desde el borde desactivado</string>
   <string name="pref_edge_swipe_unknown">Seleccionar comportamiento</string>
   <string name="pref_edge_swipe_setup_desc">
-Deslizar desde el borde para explorar el historial.\nEsta característica puede entrar en conflicto con los sitios web que usan acciones desde el borde</string>
+Desliza desde el borde para explorar el historial.\nEsta característica puede entrar en conflicto con los sitios web que usan acciones desde el borde</string>
   <string name="pref_edge_enable">Activar</string>
   <string name="pref_edge_disable">Desactivar</string>
   <!-- Colored statusbar -->
@@ -564,7 +564,7 @@ Deslizar desde el borde para explorar el historial.\nEsta característica puede 
   <string name="download_pending">Iniciando descarga\u2026</string>
   <!-- The description of the suggestion that lets the user search the web for the query currently
          in the text field. -->
-  <string name="search_the_web">Buscar en internet</string>
+  <string name="search_the_web">Buscar en Internet</string>
   <!-- HTML5 dialogs -->
   <!-- Used as a status bar notification when the browser is running out of space trying to allocate or increase the database quota for an HTML5 databae or application cache. -->
   <string name="webstorage_outofspace_notification_title">Almacenamiento del explorador lleno</string>
@@ -573,13 +573,13 @@ Deslizar desde el borde para explorar el historial.\nEsta característica puede 
   <string name="webstorage_clear_data_title">Almacenamiento</string>
   <string name="webstorage_private_data_title">Datos privados</string>
   <!-- Confirmation dialog when the user ask to clear all data for an origin -->
-  <string name="webstorage_clear_data_dialog_message">¿Eliminar todos los datos almacenados por este sitio web?</string>
+  <string name="webstorage_clear_data_dialog_message">¿Borrar todos los datos almacenados por este sitio web?</string>
   <!-- String shown in a progress view while a video is loading, before it starts playing -->
   <string name="loading_video">Cargando video\u2026</string>
   <string name="website_settings_add_origin">Nuevo sitio</string>
   <!-- Label for the menu item in the website settings activity used to clear data stored by all websites -->
   <string name="website_settings_clear_all">Borrar todo</string>
-  <string name="website_settings_clear_all_dialog_message">¿Eliminar todos los datos de sitios web y los permisos de ubicación?</string>
+  <string name="website_settings_clear_all_dialog_message">¿Borrar todos los datos de sitios web y los permisos de ubicación?</string>
   <!-- Text in the progress dialog when we are setting an image as the home screen wallpaper. -->
   <string name="progress_dialog_setting_wallpaper">Configurando el fondo de pantalla\u2026</string>
   <!-- The string that is displayed when there are no bookmarks to display.
@@ -590,7 +590,7 @@ Deslizar desde el borde para explorar el historial.\nEsta característica puede 
   <!-- Description for a dialog asking the user what they want to do with their bookmarks when adding a sync account [CHAR-LIMIT=none] -->
   <string name="import_bookmarks_dialog_description">Los favoritos en este dispositivo aún no están asociados con una cuenta de Google. Guarda los favoritos añadiéndolos a una cuenta. O borra estos favoritos si no quieres sincronizarlos.</string>
   <!-- Button allowing users to remove all of their existing bookmarks when setting up syncing with their bookmarks stored in Google Chrome [CHAR-LIMIT=64] -->
-  <string name="import_bookmarks_dialog_remove">Eliminar favoritos</string>
+  <string name="import_bookmarks_dialog_remove">Borrar favoritos</string>
   <!-- Url Selection Action Mode -->
   <!-- Menu item to share URL selection [CHAR LIMIT=30] -->
   <string name="menu_share_url">Compartir</string>
@@ -612,7 +612,7 @@ Deslizar desde el borde para explorar el historial.\nEsta característica puede 
   <!-- Empty text for the "saved pages" tab that is shown when no saved pages exist. [CHAR LIMIT=None] -->
   <string name="empty_snapshots_folder">No hay páginas guardadas.</string>
   <!-- Menu option to delete the currently selected saved page [CHAR LIMIT=50] -->
-  <string name="remove_snapshot">Eliminar página guardada</string>
+  <string name="remove_snapshot">Borrar página guardada</string>
   <!-- Popup menu option to load the live version of a saved page [CHAR LIMIT=20] -->
   <string name="snapshot_go_live">Transmitir en directo</string>
   <!--  Accessibility content descriptions -->
@@ -639,21 +639,21 @@ Deslizar desde el borde para explorar el historial.\nEsta característica puede 
   <!-- Content description for clear button [CHAR LIMIT=NONE] -->
   <string name="accessibility_button_clear">Borrar entrada</string>
   <!-- Content description for tab switcher button [CHAR LIMIT=NONE] -->
-  <string name="accessibility_button_navscreen">Administrador de página</string>
+  <string name="accessibility_button_navscreen">Gestor de página</string>
   <!-- Content description for incognito state [CHAR LIMIT=NONE] -->
   <string name="accessibility_state_incognito">Página de incógnito</string>
   <!-- Content description for frozen state [CHAR LIMIT=NONE] -->
   <string name="accessibility_state_frozen">Página guardada</string>
   <!-- Content description for tab switcher transition [CHAR LIMIT=NONE] -->
-  <string name="accessibility_transition_navscreen">Administración de pestañas</string>
+  <string name="accessibility_transition_navscreen">Gestión de pestañas</string>
   <!-- Content description for navigating up in the bookmark folder hierarchy [CHAR LIMIT=NONE] -->
   <string name="accessibility_button_bookmarks_folder_up">Anterior</string>
   <!--Add for Navigation Feature -->
-  <string name="my_navigation_delete_label">Eliminar sitio</string>
-  <string name="my_navigation_edit_label">Editar sitio</string>
-  <string name="my_navigation_add_label">Añadir sitio</string>
+  <string name="my_navigation_delete_label">Borrar sitio web</string>
+  <string name="my_navigation_edit_label">Editar sitio web</string>
+  <string name="my_navigation_add_label">Añadir sitio web</string>
   <string name="my_navigation_add">Añadir</string>
-  <string name="my_navigation_delete_msg">¿Eliminar sitio?</string>
+  <string name="my_navigation_delete_msg">¿Borrar sitio web?</string>
   <string name="my_navigation_name">Título</string>
   <string name="my_navigation_address">Dirección</string>
   <string name="website_needs_title">El sitio web debe tener un título</string>
@@ -721,7 +721,7 @@ Deslizar desde el borde para explorar el historial.\nEsta característica puede 
   <string name="swe_eula">Contrato de licencia del usuario final</string>
   <string name="swe_privacy_policy">Política de privacidad</string>
   <!-- Toast message displayed when user attempts to modify a setting disabled by the administrator -->
-  <string name="mdm_managed_alert">Gestionado por tu administrador</string>
+  <string name="mdm_managed_alert">Gestionado por el administrador</string>
   <!-- My Navigation - Favorites + History + Saved -->
   <string name="mystuffs">Mi exploración</string>
   <!-- Place holder for SWE engine strings added to
@@ -732,7 +732,7 @@ Deslizar desde el borde para explorar el historial.\nEsta característica puede 
          UI-localization page. -->
   <!-- Geolocation infobar promt-->
   <string name="geolocation_permissions_prompt_remember">Recordar preferencia</string>
-  <string name="geolocation_permissions_prompt_share_never">Denegar para siempre</string>
+  <string name="geolocation_permissions_prompt_share_never">Denegar siempre</string>
   <string name="geolocation_permissions_prompt_share_for_limited_time">Permitir durante 24 horas</string>
-  <string name="geolocation_permissions_prompt_share_forever">Permitir para siempre</string>
+  <string name="geolocation_permissions_prompt_share_forever">Permitir siempre</string>
 </resources>
