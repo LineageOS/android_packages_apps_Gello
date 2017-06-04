@@ -63,6 +63,7 @@
   <!-- Message to be displayed if url character limit exceeds -->
   <string name="max_url_character_limit_msg">Algamóse la llende máxima d\'URL</string>
   <!-- Message to be displayed when google play store does not exist on the device -->
+  <string name="msg_no_google_play">Google Play Store nun ta presente nel to preséu.</string>
   <!-- Menu item -->
   <string name="page_info">Información</string>
   <!-- Page Info dialog strings -->

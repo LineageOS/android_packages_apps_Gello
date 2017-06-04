@@ -43,7 +43,7 @@
   <!-- Toast shown when a history item's star is clicked, converting it to a bookmark -->
   <string name="added_to_bookmarks">Lagt til i bokmerker.</string>
   <!-- Toast shown when a history item's star is clicked off, removing its bookmark -->
-  <string name="removed_from_bookmarks">Fjernet fra bokmerker.</string>
+  <string name="removed_from_bookmarks">Fjernet fra favoritter.</string>
   <!-- Sign-in dialog -->
   <!-- This is used as the title of a dialog which is used to sign in to a secure site.
             "%s1"is replaced with the host and "%s2" with realm -->
@@ -105,7 +105,7 @@
   <!-- Menu item to save the newly created bookmark to the home screen. [CHAR-LIMIT=30]-->
   <string name="add_to_homescreen_menu_option">Startside</string>
   <!-- Menu item to open a picker to determine which folder to save a bookmark in. [CHAR-LIMIT=30]-->
-  <string name="add_to_other_folder_menu_option">Annen mappe</string>
+  <string name="add_to_other_folder_menu_option">Velg mappe\u2026</string>
   <!-- Field label in Bookmark dialog box: title that the user wishes to use for the bookmark -->
   <string name="name">Etikett</string>
   <!-- Menu item that opens a dialog to save a bookmark for the current page [CHAR LIMIT=30] -->
@@ -181,7 +181,7 @@
   <!-- The number of bookmarks in a folder [CHAR LIMT=50] -->
   <string name="contextheader_folder_bookmarkcount"><xliff:g id="BOOKMARK_COUNT">%d</xliff:g> bokmerker</string>
   <!-- No bookmarks in the folder [CHAR LIMIT=50] -->
-  <string name="contextheader_folder_empty">Tøm mappe</string>
+  <string name="contextheader_folder_empty">Tom mappe</string>
   <!-- Context Menu item open the currently selected link in the current
             window.-->
   <string name="contextmenu_openlink">Åpne</string>

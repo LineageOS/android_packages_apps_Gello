@@ -294,6 +294,11 @@
     <item quantity="few">%d reklamy</item>
     <item quantity="other">%d reklam</item>
   </plurals>
+  <plurals name="pref_web_refiner_malware">
+    <item quantity="one">%d zagrożenie złośliwym oprogramowaniem</item>
+    <item quantity="few">%d zagrożenia złośliwym oprogramowaniem</item>
+    <item quantity="other">%d zagrożeń złośliwym oprogramowaniem</item>
+  </plurals>
   <string-array name="pref_web_refiner_message">
     <item>"Zablokowane %s. "</item>
     <item>"Zablokowano %1$s i %2$s. "</item>
@@ -317,9 +322,11 @@
   <!-- String for the user's company name in the AutoFill profile editor. [CHAR-LIMIT=32] -->
   <string name="autofill_profile_editor_company_name">Nazwa firmy:</string>
   <!-- String for the first line of the user's address in the AutoFill profile editor. [CHAR-LIMIT=32] -->
+  <string name="autofill_profile_editor_address_line_1">Adres:</string>
   <!-- String to suggest to the user the kind of data to be used for the first line of the address. CHAR-LIMIT=64] -->
   <string name="autofill_profile_editor_address_line_1_hint">Adres, skrzynka pocztowa, adres korespondencyjny</string>
   <!-- String for the second line of the user's address in the AutoFill profile editor. [CHAR-LIMIT=32] -->
+  <string name="autofill_profile_editor_address_line_2">Adres cd.:</string>
   <!-- String to suggest to the user the kind of data to be used for the second line of the address. CHAR-LIMIT=64] -->
   <string name="autofill_profile_editor_address_line_2_hint">Numer mieszkania, klatka, numer budynku, piętro i inne.</string>
   <!-- String for the user's city or town in the AutoFill profile editor. [CHAR-LIMIT=32] -->
@@ -349,6 +356,7 @@
   <string name="autofill_setup_dialog_message">Przeglądarka może automatycznie wypełnianie takie jak ten formularze na stronach internetowych. Czy chcesz ustawić automatyczne wypełniania tekstu?</string>
   <!-- Toast message displayed when the user decides to not set up autofill at this time. We want to remind them that they can configure
          it through the Browser Settings menu. [CHAR-LIMIT=NONE] -->
+  <string name="autofill_setup_dialog_negative_toast">Zawsze możesz włączyć autouzupełnianie tekstu w ustawieniach przeglądarki (Ustawienia &gt; Autouzupełnianie).</string>
   <!-- Text on a checkbox in the "setup autofill" dialog which is shown to the user when they are prompted to set up the autofill feature.
          The checkbox allows them to specify they would like to disable the feature altogether [CHAR-LIMIT=NONE] -->
   <string name="disable_autofill">Wyłącz autouzupełnianie</string>
@@ -370,11 +378,13 @@
   <!-- Settings summary -->
   <string name="pref_privacy_clear_cache_summary">Wyczyść zawartość lokalnej pamięci podręcznej i baz danych</string>
   <!-- Settings label -->
+  <string name="pref_privacy_clear_cookies">Ciasteczka i dane strony</string>
   <!-- Settings summary -->
   <string name="pref_privacy_clear_cookies_summary">Wyczyść wszystkie pliki cookie przeglądarki</string>
   <!-- Settings summary -->
   <string name="pref_privacy_clear_history_summary">Wyczyść historię przeglądania</string>
   <!-- Confirmation dialog message -->
+  <string name="pref_privacy_clear_history_dlg">Wyczyścić historię przeglądania?</string>
   <!-- Settings label -->
   <string name="pref_privacy_clear_form_data">Wyczyść dane formularzy</string>
   <!-- Settings summary -->
@@ -394,6 +404,7 @@
   <!-- Settings label -->
   <string name="pref_security_save_form_data">Pamiętaj wpisane dane</string>
   <!-- Settings Label -->
+  <string name="pref_do_not_track">Wysyłaj żądanie \"Nie śledź\"</string>
   <!-- Settings label -->
   <string name="pref_security_accept_cookies">Akceptuj pliki cookie</string>
   <string name="pref_security_allow_mic">Mikrofon</string>
@@ -442,6 +453,7 @@
   <!-- Settings summary -->
   <string name="pref_extras_reset_default_summary">Przywróć domyślne</string>
   <!-- Confirmation dialog message -->
+  <string name="pref_extras_reset_default_dlg">Przywrócić domyślne ustawienia?</string>
   <!-- Title for a group of settings -->
   <string name="pref_development_title">Debugowanie</string>
   <!-- Settings screen, setting option name -->
@@ -451,6 +463,7 @@
   <string name="pref_temporal_edge_swipe">Nawiguj przez historię</string>
   <string name="pref_spatial_edge_swipe">Zmień kartę</string>
   <string name="pref_disable_edge_swipe">Nic nie rób</string>
+  <string name="pref_edge_swipe_option_close">Wybierz później</string>
   <string name="pref_temporal_edge_swipe_enabled_toast">Przeciągnij od krawędzi, aby nawigować</string>
   <string name="pref_spatial_edge_swipe_enabled_toast">Przeciągnij od krawędzi, aby zmienić karty</string>
   <string name="pref_edge_swipe_disabled_toast">Gesty nawigacji wyłączone</string>
@@ -464,12 +477,16 @@
   <string name="pref_coloredsb_summary">Pasek stanu dostosuje kolor w oparciu o odwiedzoną stronę</string>
   <!-- Title for accessibility settings [CHAR LIMIT=25] -->
   <string name="pref_accessibility_title">Ułatwienia dostępu</string>
+  <string name="pref_accessibility_title_summary">Rozmiar tekstu i powiększenie</string>
   <!-- LookLock -->
+  <string name="pref_looklock_title">LookLock</string>
+  <string name="pref_looklock_summary">Uniemożliwiaj innym aplikacjom odczyt zawartości webview z tej aplikacji</string>
   <!-- Font size settings category under accessibility settings [CHAR LIMIT=50] -->
   <string name="pref_font_size_category">Rozmiar tekstu</string>
   <!-- Title for the fullscreen lab feature [CHAR LIMIT=40] -->
   <string name="pref_lab_fullscreen">Pełny ekran</string>
   <!-- Summary for the fullscreen lab feature [CHAR LIMIT=120] -->
+  <string name="pref_lab_fullscreen_summary">Uruchom przeglądarkę w trybie pełnoekranowym</string>
   <!-- Title for search preloading [CHAR LIMIT=40] -->
   <string name="pref_data_preload_title">Wstępne wczytywanie wyników</string>
   <!-- Search preloading options [CHAR LIMIT=20] -->
@@ -484,7 +501,9 @@
   <!-- Title for link prefetching [CHAR LIMIT=40] -->
   <string name="pref_link_prefetch_title">Wstępne wczytywanie stron</string>
   <!-- Summary for link prefetching [CHAR LIMIT=80] -->
+  <string name="pref_link_prefetch_summary">Zezwól przeglądarce na wcześniejsze ładowanie podlinkowanych stron w tle</string>
   <!-- Dialog box message -->
+  <string name="browserFrameFormResubmitMessage">Strona, którą próbujesz wyświetlić zawiera dane, które już zostały przesłane (\"POSTDATA\"). Jeżeli ponownie prześlesz dane, wszystkie akcje, które wywołał formularz na tej stronie (np. wyszukiwanie lub zakupy online), zostaną powtórzone.</string>
   <!-- Menu item -->
   <string name="clear_history">Wyczyść historię</string>
   <!-- Appears on History screen if no history is found -->
@@ -501,6 +520,7 @@
   <!-- This is the button label in the "Go To" UI. -->
   <string name="search_button_text">Przejdź</string>
   <!-- The string used to describe the browser as a searchable item within system search settings. -->
+  <string name="search_settings_description">Ulubione i historia przeglądania</string>
   <!-- Label for a button to allow a particular popup window to open -->
   <string name="allow">Zezwól</string>
   <!-- Label for a button to disallow a particular popup from opening -->
@@ -513,11 +533,14 @@
   <string name="too_many_windows_dialog_message">Nie można otworzyć nowej karty, dopóki nie zamkniesz jednej.</string>
   <!-- Title for a dialog informing the user that they cannot open a subwindow
             because only one can be open at a time. -->
+  <string name="too_many_subwindows_dialog_title">Wyskakujące okienko jest już otwarte</string>
   <!-- Message for a dialog informing the user that they cannot open a
             subwindow because only one can be open at a time. -->
+  <string name="too_many_subwindows_dialog_message">Tylko jedno wyskakujące okienko może być otwarte w tym samym momencie.</string>
   <!-- Download History UI strings -->
   <!-- Dialog title [CHAR LIMIT=25] -->
   <!-- Dialog title -->
+  <string name="download_no_sdcard_dlg_title" product="default">Brak karty SD</string>
   <!-- Dialog message [CHAR LIMIT=NONE] -->
   <!-- Dialog message -->
   <string name="download_no_sdcard_dlg_msg" product="default">Do pobrania pliku <xliff:g id="FILENAME">%s</xliff:g> potrzebna jest karta SD.</string>
@@ -525,13 +548,16 @@
             external storage is busy so they cannot download anything [CHAR LIMIT=25] -->
   <!-- Title for a dialog informing the user that the SD card used for
             external storage is busy so they cannot download anything -->
+  <string name="download_sdcard_busy_dlg_title" product="default">Karta SD jest niedostępna</string>
   <!-- Message for a dialog informing the user that the SD card used for
             external storage is busy so they cannot download anything.  Informs
             the user how to enable SD card storage [CHAR LIMIT=NONE] -->
   <!-- Message for a dialog informing the user that the SD card used for
             external storage is busy so they cannot download anything.  Informs
             the user how to enable SD card storage -->
+  <string name="download_sdcard_busy_dlg_msg" product="default">Karta SD jest zajęta. Aby umożliwić pobieranie, kliknij \"Wyłącz pamięć USB\" w powiadomieniach.</string>
   <!-- Toast for a download which cannot begin because the URL is not http or https -->
+  <string name="cannot_download">Pobierać można jedynie z adresów \"http\" lub \"https\".</string>
   <!-- Message in the list of items which have received download requests
             telling their status.  This message states that the download has not
             yet begun -->
@@ -542,15 +568,18 @@
   <!-- HTML5 dialogs -->
   <!-- Used as a status bar notification when the browser is running out of space trying to allocate or increase the database quota for an HTML5 databae or application cache. -->
   <string name="webstorage_outofspace_notification_title">Pamięć przeglądarki jest pełna</string>
+  <string name="webstorage_outofspace_notification_text">Dotknij, aby zwolnić miejsce.</string>
   <!-- Used in the Browser Settings -->
   <string name="webstorage_clear_data_title">Wyczyść zapisane dane</string>
   <string name="webstorage_private_data_title">Prywatne dane</string>
   <!-- Confirmation dialog when the user ask to clear all data for an origin -->
+  <string name="webstorage_clear_data_dialog_message">Usunąć wszystkie dane przechowywane przez tę stronę?</string>
   <!-- String shown in a progress view while a video is loading, before it starts playing -->
   <string name="loading_video">Wczytywanie filmu\u2026</string>
   <string name="website_settings_add_origin">Nowa strona</string>
   <!-- Label for the menu item in the website settings activity used to clear data stored by all websites -->
   <string name="website_settings_clear_all">Wyczyść wszystko</string>
+  <string name="website_settings_clear_all_dialog_message">Usunąć wszystkie dane strony i uprawnienia lokalizacji?</string>
   <!-- Text in the progress dialog when we are setting an image as the home screen wallpaper. -->
   <string name="progress_dialog_setting_wallpaper">Ustawianie tapety\u2026</string>
   <!-- The string that is displayed when there are no bookmarks to display.
@@ -559,6 +588,7 @@
   <!-- The folder name for the special "Other Bookmarks" folder created by Chrome [CHAR LIMIT=24] -->
   <string name="other_bookmarks">Inne zakładki</string>
   <!-- Description for a dialog asking the user what they want to do with their bookmarks when adding a sync account [CHAR-LIMIT=none] -->
+  <string name="import_bookmarks_dialog_description">Ulubione na tym urządzeniu nie są jeszcze połączone z kontem Google. Zapisz te zakładki przez dodanie ich do konta. Usuń je, jeśli nie chcesz, aby zostały zsynchronizowane.</string>
   <!-- Button allowing users to remove all of their existing bookmarks when setting up syncing with their bookmarks stored in Google Chrome [CHAR-LIMIT=64] -->
   <string name="import_bookmarks_dialog_remove">Usuń zakładki</string>
   <!-- Url Selection Action Mode -->
@@ -566,19 +596,30 @@
   <string name="menu_share_url">Udostępnij</string>
   <!-- Toast to inform the user that the maximum number of tabs has been
          reached. [CHAR LIMIT=50] -->
+  <string name="max_tabs_warning">Nie ma więcej dostępnych kart</string>
   <!-- Font size preview label in settings [CHAR LIMIT=30] -->
   <string name="preview">Podgląd</string>
   <!-- Name for the user's unsynced, local bookmarks [CHAR LIMIT=50] -->
+  <string name="local_bookmarks">Moje ulubione</string>
   <!-- allows the user to find on webpage [CHAR LIMIT=None] -->
+  <string name="find_on_page">Znajdź</string>
   <!-- Popup menu checkbox that allows the user to request the desktop version of a webpage [CHAR LIMIT=50] -->
+  <string name="ua_switcher_desktop">Strona w wersji na komputer</string>
   <!-- Popup menu checkbox that loads the reader mode version of the current webpage -->
+  <string name="enable_reader_mode">Tryb czytnika</string>
   <!-- Preload permission label [CHAR LIMIT=40] -->
+  <string name="permission_preload_label">Wstępnie ładuj wyniki</string>
   <!-- Empty text for the "saved pages" tab that is shown when no saved pages exist. [CHAR LIMIT=None] -->
+  <string name="empty_snapshots_folder">Brak zapisanych stron.</string>
   <!-- Menu option to delete the currently selected saved page [CHAR LIMIT=50] -->
+  <string name="remove_snapshot">Usuń zapisaną stronę</string>
   <!-- Popup menu option to load the live version of a saved page [CHAR LIMIT=20] -->
+  <string name="snapshot_go_live">Przejdź do wersji na żywo</string>
   <!--  Accessibility content descriptions -->
   <!-- Content description for back button [CHAR LIMIT=NONE] -->
+  <string name="accessibility_button_back">Przejdź wstecz</string>
   <!-- Content description for forward button [CHAR LIMIT=NONE] -->
+  <string name="accessibility_button_forward">Przejdź dalej</string>
   <!-- Content description for refresh button [CHAR LIMIT=NONE] -->
   <string name="accessibility_button_refresh">Odśwież stronę</string>
   <!-- Content description for stop button [CHAR LIMIT=NONE] -->
@@ -594,15 +635,21 @@
   <!-- Content description for new tab button [CHAR LIMIT=NONE] -->
   <string name="accessibility_button_newtab">Otwórz nową kartę</string>
   <!-- Content description for new incognito tab button [CHAR LIMIT=NONE] -->
+  <string name="accessibility_button_newincognitotab">Nowa karta incognito</string>
   <!-- Content description for clear button [CHAR LIMIT=NONE] -->
+  <string name="accessibility_button_clear">Wyczyść wprowadzone dane</string>
   <!-- Content description for tab switcher button [CHAR LIMIT=NONE] -->
   <string name="accessibility_button_navscreen">Menedżer stron</string>
   <!-- Content description for incognito state [CHAR LIMIT=NONE] -->
+  <string name="accessibility_state_incognito">Strona incognito</string>
   <!-- Content description for frozen state [CHAR LIMIT=NONE] -->
+  <string name="accessibility_state_frozen">Zapisana strona</string>
   <!-- Content description for tab switcher transition [CHAR LIMIT=NONE] -->
   <string name="accessibility_transition_navscreen">Zarządzanie kartami</string>
   <!-- Content description for navigating up in the bookmark folder hierarchy [CHAR LIMIT=NONE] -->
+  <string name="accessibility_button_bookmarks_folder_up">W górę</string>
   <!--Add for Navigation Feature -->
+  <string name="my_navigation_delete_label">Usuń stronę</string>
   <string name="my_navigation_edit_label">Edytuj stronę</string>
   <string name="my_navigation_add_label">Dodaj stronę</string>
   <string name="my_navigation_add">Dodaj</string>
@@ -615,13 +662,17 @@
   <string name="my_navigation_duplicate_url">Adres URL już istnieje</string>
   <string name="my_navigation_page_title">Strona główna</string>
   <!-- Add for Carrier Feature.Content description for AV save/play prompt dialog -->
+  <string name="http_video_msg">Wybierz sposób obsługi plików multimedialnych</string>
   <string name="video_save">Zapisz</string>
   <string name="video_play">Odtwórz</string>
   <!-- Add for Carrier Feature.Content description for exit menu item -->
   <string name="exit">Zamknij</string>
   <!-- Add for Carrier Feature.Content description for about menu item -->
   <string name="about">Informacje</string>
+  <string name="download_estore_app">Brak sklepu internetowego na urządzeniu.</string>
+  <string name="estore_url_warning">Nie można uruchomić sklepu internetowego, adres jest zbyt długi.</string>
   <!-- Add for Unsupport Uploading Drm Files Feature -->
+  <string name="drm_file_unsupported">Przesyłanie plików DRM nie jest wspierane.</string>
   <!-- Add for exit prompt Feature -->
   <string name="exit_browser_title">Zamknij przeglądarkę</string>
   <string name="exit_browser_msg">Wybierz sposób zamknięcia przeglądarki</string>
@@ -636,20 +687,26 @@
   <string name="path_wrong">Nieprawidłowa ścieżka</string>
   <string name="pref_download_title">Ustawienia ścieżki pobierania</string>
   <string name="pref_download_path_setting_screen_title">Niestandardowa ścieżka pobierania</string>
+  <string name="download_timeneeded">Czas</string>
   <string name="download_filesize">Rozmiar</string>
   <string name="download_filepath_label">Ścieżka</string>
   <string name="download_edit_filename_label">Nazwa</string>
   <string name="download_no_enough_memory">Za mało pamięci, aby pobrać</string>
   <string name="download_settings_title">Ustawienia pobierania</string>
+  <string name="filename_empty_title">Nazwa pobieranego pliku jest pusta</string>
+  <string name="filename_empty_msg">Nazwa pobieranego pliku nie może być pusta. Wprowadź prawidłową nazwę pliku.</string>
   <string name="unknow_length">Nieznany</string>
+  <string name="download_file_exist_msg">Plik już istnieje. Wprowadź inną nazwę pliku.</string>
   <string name="download_file_exist">Plik już istnieje</string>
   <string name="time_min">min</string>
   <string name="download_path_unavailable_dlg_title">Folder pobierania jest niedostępny</string>
   <string name="download_path_unavailable_dlg_msg">Zmień folder pobierania</string>
+  <string name="activity_not_found">Nie znaleziono aktywności do obsługi tej intencji: <xliff:g id="NOACTIVITY">%s</xliff:g></string>
   <string name="download_name_hint">Nazwa pliku</string>
   <string name="download_size_hint">Rozmiar</string>
   <string name="download_eta_hint">ETA</string>
   <!-- Toast message displayed when the full screen received message -->
+  <string name="received_message_full_screen">Wiadomość od: <xliff:g id="FROM">%s</xliff:g>.</string>
   <!-- Snapdragon Browser Additions -->
   <string name="ssl_certificate">Certyfikat zabezpieczeń</string>
   <string name="ssl_certificate_is_valid">Certyfikat jest ważny.</string>
@@ -661,10 +718,12 @@
   <string name="feedback">Informacje zwrotne</string>
   <string name="swe_legal">Informacje prawne</string>
   <string name="swe_open_source_licenses">Licencje Open Source</string>
+  <string name="swe_eula">Licencja EULA</string>
   <string name="swe_privacy_policy">Polityka prywatności</string>
   <!-- Toast message displayed when user attempts to modify a setting disabled by the administrator -->
   <string name="mdm_managed_alert">Zarządzane przez twojego administratora</string>
   <!-- My Navigation - Favorites + History + Saved -->
+  <string name="mystuffs">Moja historia przeglądania</string>
   <!-- Place holder for SWE engine strings added to
          'chrome/android/java/strings/android_chrome_strings.grd'. Follow
          chromium android grd naming convention. Follow exact mapping rules from

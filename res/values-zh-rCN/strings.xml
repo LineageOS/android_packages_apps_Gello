@@ -167,7 +167,7 @@
   <string name="shortcut_bookmark_title">选择一个收藏</string>
   <!-- Menu item to display the History of previously visited pages and the name of the combo view
         Tab-->
-  <string name="history">历史</string>
+  <string name="history">历史记录</string>
   <!-- Menu item -->
   <string name="share_page">分享</string>
   <!-- Menu item for saving link to homescreen -->
