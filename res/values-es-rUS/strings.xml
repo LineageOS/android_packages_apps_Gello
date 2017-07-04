@@ -366,7 +366,7 @@
   <string name="pref_privacy_security_title">Privacidad y seguridad</string>
   <string name="pref_privacy_security_title_summary">Ajustes de seguridad y privacidad del navegador</string>
   <!-- Popup dialog -->
-  <string name="pref_select_items">Selecciona los elementos que deseas borrar</string>
+  <string name="pref_select_items">Selecciona los elementos a borrar</string>
   <!-- Settings label -->
   <string name="pref_privacy_clear_selected">Borrar los elementos seleccionados</string>
   <!-- Settings summary -->
@@ -453,7 +453,7 @@
   <!-- Settings summary -->
   <string name="pref_extras_reset_default_summary">Restablecer los ajustes predefinidos</string>
   <!-- Confirmation dialog message -->
-  <string name="pref_extras_reset_default_dlg">¿Deseas volver a los valores predefinidos?</string>
+  <string name="pref_extras_reset_default_dlg">¿Restablecer valores predefinidos?</string>
   <!-- Title for a group of settings -->
   <string name="pref_development_title">Depurar</string>
   <!-- Settings screen, setting option name -->
