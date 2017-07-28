@@ -270,7 +270,7 @@
   <!-- Settings screen & section title for "General settings". These include things like
          configuring bookmark syncing to Google servers and form auto fill settings. [CHAR-LIMIT=32] -->
   <string name="pref_general_title">General</string>
-  <string name="pref_default_site_settings_title">Ajustes predefinidos</string>
+  <string name="pref_default_site_settings_title">Ajustes predefinidos del sitio</string>
   <string name="pref_site_settings_title">Ajustes del sitio</string>
   <string name="pref_site_settings_info_panel">Información de seguridad</string>
   <!-- Settings category for autofill under general. [CHAR-LIMIT=50] -->
@@ -356,7 +356,7 @@
   <string name="autofill_setup_dialog_message">El explorador puede autorrellenar formularios web como el siguiente. ¿Quieres configurar la función de autorrellenar?</string>
   <!-- Toast message displayed when the user decides to not set up autofill at this time. We want to remind them that they can configure
          it through the Browser Settings menu. [CHAR-LIMIT=NONE] -->
-  <string name="autofill_setup_dialog_negative_toast">Siempre puedes configurar la opción de autorrellenar desde el explorador &gt; ajustes &gt; autorrellenar.</string>
+  <string name="autofill_setup_dialog_negative_toast">Siempre puedes configurar la opción de autorrellenar desde «Explorador &gt; Ajustes &gt; Autorrellenar».</string>
   <!-- Text on a checkbox in the "setup autofill" dialog which is shown to the user when they are prompted to set up the autofill feature.
          The checkbox allows them to specify they would like to disable the feature altogether [CHAR-LIMIT=NONE] -->
   <string name="disable_autofill">Desactivar autorrellenar</string>
@@ -493,7 +493,7 @@ Desliza desde el borde para explorar el historial.\nEsta característica puede e
   <!-- Link prefetching options [CHAR LIMIT=20] -->
   <string-array name="pref_temporal_choices">
     <item>Nunca</item>
-    <item>Solo por Wi-Fi</item>
+    <item>Sólo por Wi-Fi</item>
     <item>Siempre</item>
   </string-array>
   <!-- Summary for search preloading [CHAR LIMIT=80] -->
@@ -536,7 +536,7 @@ Desliza desde el borde para explorar el historial.\nEsta característica puede e
   <string name="too_many_subwindows_dialog_title">Ventana emergente ya abierta</string>
   <!-- Message for a dialog informing the user that they cannot open a
             subwindow because only one can be open at a time. -->
-  <string name="too_many_subwindows_dialog_message">Solo se puede abrir una ventana emergente a la vez.</string>
+  <string name="too_many_subwindows_dialog_message">Sólo se puede abrir una ventana emergente a la vez.</string>
   <!-- Download History UI strings -->
   <!-- Dialog title [CHAR LIMIT=25] -->
   <!-- Dialog title -->
@@ -557,7 +557,7 @@ Desliza desde el borde para explorar el historial.\nEsta característica puede e
             the user how to enable SD card storage -->
   <string name="download_sdcard_busy_dlg_msg" product="default">La tarjeta SD está ocupada. Para permitir descargas, pulsa \"Desactivar almacenamiento USB\" en la notificación.</string>
   <!-- Toast for a download which cannot begin because the URL is not http or https -->
-  <string name="cannot_download">Solo se pueden descargar URL del tipo \"http\" o \"https\".</string>
+  <string name="cannot_download">Sólo se pueden descargar URL del tipo \"http\" o \"https\".</string>
   <!-- Message in the list of items which have received download requests
             telling their status.  This message states that the download has not
             yet begun -->
