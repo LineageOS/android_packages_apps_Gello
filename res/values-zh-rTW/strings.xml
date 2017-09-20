@@ -428,7 +428,7 @@
   <!-- Label for whether or not to force-enable user scalablity (aka, zoom) [CHAR LIMIT=30] -->
   <string name="pref_force_userscalable">強制啟用縮放功能</string>
   <!-- Summary for whether or not to force-enable user scalablity (aka, zoom) [CHAR LIMIT=30] -->
-  <string name="pref_force_userscalable_summary">覆蓋網站的控制縮放行為請求</string>
+  <string name="pref_force_userscalable_summary">覆寫網站的控制縮放行為要求</string>
   <!-- Inverted screen category under accessibility settings [CHAR LIMIT=50] -->
   <string name="pref_inverted_category">螢幕色彩反轉</string>
   <!-- Title for the inverted screen feature. This causes the screen to render with inverted colors (black becomes white and vice versa) [CHAR LIMIT=40] -->

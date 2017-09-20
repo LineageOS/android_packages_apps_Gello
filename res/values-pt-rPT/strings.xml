@@ -448,11 +448,11 @@
   <string name="pref_extras_website_settings_summary">Definições avançadas para Web sites individuais</string>
   <!-- Settings label -->
   <string name="pref_extras_reset_default">Repor as predefinições</string>
-  <string name="pref_extras_reset">Redefinir</string>
+  <string name="pref_extras_reset">Repor</string>
   <!-- Settings summary -->
-  <string name="pref_extras_reset_default_summary">Restaurar as definições padrão</string>
+  <string name="pref_extras_reset_default_summary">Repor as definições padrão</string>
   <!-- Confirmation dialog message -->
-  <string name="pref_extras_reset_default_dlg">Reverter as definições para os valores padrão?</string>
+  <string name="pref_extras_reset_default_dlg">Repor as definições para os valores padrão?</string>
   <!-- Title for a group of settings -->
   <string name="pref_development_title">Depuração</string>
   <!-- Settings screen, setting option name -->
@@ -698,8 +698,8 @@
   <string name="download_file_exist_msg">O ficheiro já existe. Por favor, insira um novo nome para o ficheiro.</string>
   <string name="download_file_exist">O ficheiro já existe</string>
   <string name="time_min">min</string>
-  <string name="download_path_unavailable_dlg_title">O diretório para as transferências não está disponível</string>
-  <string name="download_path_unavailable_dlg_msg">Por favor, altere o diretório para as transferências</string>
+  <string name="download_path_unavailable_dlg_title">A pasta para as transferências não está disponível</string>
+  <string name="download_path_unavailable_dlg_msg">Por favor, altere a pasta para as transferências</string>
   <string name="activity_not_found">Nenhuma atividade encontrada para lidar com esta intenção: <xliff:g id="NOACTIVITY">%s</xliff:g></string>
   <string name="download_name_hint">Nome do ficheiro</string>
   <string name="download_size_hint">Tamanho</string>
@@ -712,7 +712,7 @@
   <string name="version">Versão</string>
   <string name="build_date">Data de compilação</string>
   <string name="build_hash">Hash de compilação</string>
-  <string name="user_agent">Agente de utilizador</string>
+  <string name="user_agent">Modo de navegação</string>
   <string name="help">Ajuda</string>
   <string name="feedback">Opinião</string>
   <string name="swe_legal">Informações legais</string>

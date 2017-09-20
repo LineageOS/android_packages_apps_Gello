@@ -50,7 +50,7 @@
   <!-- Sign-in dialog -->
   <!-- This is used as the title of a dialog which is used to sign in to a secure site.
             "%s1"is replaced with the host and "%s2" with realm -->
-  <string name="sign_in_to">Iniciar sesión en <xliff:g id="hostname">%s1</xliff:g> "<xliff:g id="realm">%s2</xliff:g>\"</string>
+  <string name="sign_in_to">Iniciar sesión en <xliff:g id="hostname">%s1</xliff:g> «<xliff:g id="realm">%s2</xliff:g>»</string>
   <!-- Prompt for an input box that allows the user to enter their login name -->
   <string name="username">Nombre</string>
   <!-- Prompt for an input box that allows the user to enter their password -->
@@ -76,7 +76,7 @@
   <!-- Title for an SSL error dialog  -->
   <string name="security_warning">Advertencia de seguridad</string>
   <!-- Message in an SSL Error dialog -->
-  <string name="ssl_invalid">Este certificado no es válido.</string>
+  <string name="ssl_invalid">Este certificado es inválido.</string>
   <!-- Message in an SSL Error dialog -->
   <string name="ssl_unknown">Error de certificado desconocido</string>
   <!-- Toast informing the user that loading has stopped for the current page. -->
@@ -141,7 +141,7 @@
   <!-- Error that appears in the title of Bookmark dialog when user selects OK with empty Location field -->
   <string name="bookmark_needs_url">El favorito debe tener una ubicación.</string>
   <!-- Error that appears in the title of Bookmark dialog when user selects OK with invalid URL -->
-  <string name="bookmark_url_not_valid">URL no válida</string>
+  <string name="bookmark_url_not_valid">URL inválida.</string>
   <!-- Error that appears in the Bookmark dialog when user selects OK with a URL of a type we cannot bookmark -->
   <string name="bookmark_cannot_save_url">Esta URL no se puede añadir a favoritos.</string>
   <!-- Summary text under the New Bookmark item on the Bookmarks screen.
@@ -152,10 +152,10 @@
   <string name="current_page">de\u0020</string>
   <!-- Confirmation dialog message confirming that the user wishes to delete
             the bookmark they selected for deletion -->
-  <string name="delete_bookmark_warning">¿Eliminar favorito \"<xliff:g id="bookmark">%s</xliff:g>\"?</string>
+  <string name="delete_bookmark_warning">¿Eliminar favorito «<xliff:g id="bookmark">%s</xliff:g>»?</string>
   <!-- Confirmation dialog message confirming that the user wishes to delete
                the folder they selected for deletion -->
-  <string name="delete_folder_warning">¿Eliminar carpeta \"<xliff:g id="bookmark">%s</xliff:g>\"?</string>
+  <string name="delete_folder_warning">¿Eliminar carpeta «<xliff:g id="bookmark">%s</xliff:g>»?</string>
   <!-- Context menu item to open every bookmark in a folder in new tabs [CHAR LIMIT=50] -->
   <string name="open_all_in_new_window">Abrir todo en pestañas nuevas</string>
   <!-- Displayed in title of chooser dialog for text sent to another app,e.g-send text via SMS or IM-->
@@ -307,7 +307,7 @@
     <item>"Se ha bloqueado a %1$s, %2$s y %3$s. "</item>
   </string-array>
   <string name="pref_valid_cert">Certificado SSL válido. La comunicación está encriptada y la identidad verificada.</string>
-  <string name="pref_invalid_cert">El sitio tiene un certificado SSL no válido.</string>
+  <string name="pref_invalid_cert">El sitio tiene un certificado SSL inválido.</string>
   <string name="pref_warning_cert">El certificado SSL de sitio tiene advertencias.</string>
   <!-- Settings screen, section title [CHAR LIMIT=50] -->
   <string name="pref_interface_title">Interfaz</string>
@@ -342,7 +342,7 @@
   <!-- String for the user's phone number in the AutoFill profile editor. [CHAR-LIMIT=32] -->
   <string name="autofill_profile_editor_phone_number">Teléfono:</string>
   <!-- String to display in an error tooltip to inform the user the phone number they provided is not valid. [CHAR-LIMIT=32] -->
-  <string name="autofill_profile_editor_phone_number_invalid">Número de teléfono no válido</string>
+  <string name="autofill_profile_editor_phone_number_invalid">Número de teléfono inválido.</string>
   <!-- Button text to save the AutoFill profile [CHAR-LIMIT=20] -->
   <string name="autofill_profile_editor_save_profile">Guardar</string>
   <!-- Toast message displayed when the profile has been successfully saved [CHAR-LIMIT=none] -->
@@ -504,7 +504,7 @@
   <!-- Summary for link prefetching [CHAR LIMIT=80] -->
   <string name="pref_link_prefetch_summary">Permitir que el navegador cargue páginas web vinculadas en segundo plano</string>
   <!-- Dialog box message -->
-  <string name="browserFrameFormResubmitMessage">La página que intentas ver contiene datos que ya se han enviado (\"POSTDATA\"). Si vuelves a enviarlos, se repetirá cualquier acción que haya hecho el formulario en la página (por ejemplo, búsquedas o compras en línea).</string>
+  <string name="browserFrameFormResubmitMessage">La página que intentas ver contiene datos que ya se han enviado («POSTDATA»). Si vuelves a enviarlos, se repetirá cualquier acción que haya hecho el formulario en la página (por ejemplo, búsquedas o compras en línea).</string>
   <!-- Menu item -->
   <string name="clear_history">Borrar historial</string>
   <!-- Appears on History screen if no history is found -->
@@ -556,9 +556,9 @@
   <!-- Message for a dialog informing the user that the SD card used for
             external storage is busy so they cannot download anything.  Informs
             the user how to enable SD card storage -->
-  <string name="download_sdcard_busy_dlg_msg" product="default">La tarjeta SD está ocupada. Para permitir las descargas, pulsa \'Desactivar almacenamiento USB\' en la notificación.</string>
+  <string name="download_sdcard_busy_dlg_msg" product="default">La tarjeta SD está ocupada. Para permitir las descargas, pulsa «Desactivar almacenamiento USB» en la notificación.</string>
   <!-- Toast for a download which cannot begin because the URL is not http or https -->
-  <string name="cannot_download">Solo se pueden descargar URL del tipo \"http\" o \"https\".</string>
+  <string name="cannot_download">Solo se pueden descargar URL del tipo «http» o «https».</string>
   <!-- Message in the list of items which have received download requests
             telling their status.  This message states that the download has not
             yet begun -->
@@ -659,7 +659,7 @@
   <string name="my_navigation_address">Dirección</string>
   <string name="website_needs_title">El sitio web debe tener un título</string>
   <string name="website_needs_url">El sitio web debe tener una URL</string>
-  <string name="my_navigation_cannot_save_url">URL no válida</string>
+  <string name="my_navigation_cannot_save_url">URL inválida</string>
   <string name="my_navigation_duplicate_url">La URL ya existe</string>
   <string name="my_navigation_page_title">Inicio</string>
   <!-- Add for Carrier Feature.Content description for AV save/play prompt dialog -->
@@ -684,7 +684,7 @@
   <string name="duplicated_folder_warning">Esta carpeta ya existe</string>
   <string name="overwrite_bookmark_msg">El nombre o la dirección de este favorito ya existe. ¿Sobrescribir?</string>
   <!-- Add for download save path setting Feature -->
-  <string name="invalid_path">Ruta no válida</string>
+  <string name="invalid_path">Ruta inválida</string>
   <string name="path_wrong">Ruta incorrecta</string>
   <string name="pref_download_title">Descargar configuración de ruta</string>
   <string name="pref_download_path_setting_screen_title">Personalizar ruta de descarga</string>

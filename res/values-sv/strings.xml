@@ -221,15 +221,20 @@
   <!-- Settings screen, section title -->
   <string name="pref_content_title">Innehållsinställningar</string>
   <!-- Settings label -->
+  <string name="pref_content_load_images_summary">Visa bilder på webbsidor</string>
   <!-- Settings label -->
   <!-- Settings label -->
   <string name="pref_content_javascript">Aktivera JavaScript</string>
   <!-- Settings label -->
+  <string name="pref_content_open_in_background">Öppna i bakgrunden</string>
   <!-- Settings summary [CHAR LIMIT=50]-->
+  <string name="pref_content_open_in_background_summary">Öppna nya flikar bakom den aktuella fliken</string>
   <!-- Settings label [CHAR LIMIT=50] -->
   <string name="pref_content_homepage">Hemsida</string>
   <!-- Settings label -->
+  <string name="pref_content_search_engine">Sökmotor</string>
   <!-- Settings summary -->
+  <string name="pref_content_search_engine_summary">Välj en sökmotor</string>
   <!-- Settings button label that to pick what to set the homepage to [CHAR LIMIT=40] -->
   <string-array name="pref_homepage_choices">
     <!-- Setting choice to set the homepage to the current page [CHAR LIMIT=40] -->
@@ -246,6 +251,8 @@
   <!-- Settings screen & section title for "General settings". These include things like
          configuring bookmark syncing to Google servers and form auto fill settings. [CHAR-LIMIT=32] -->
   <string name="pref_general_title">Generella</string>
+  <string name="pref_site_settings_title">Webbplatsinställningar</string>
+  <string name="pref_site_settings_info_panel">Säkerhetsinformation</string>
   <!-- Settings category for autofill under general. [CHAR-LIMIT=50] -->
   <string name="pref_general_autofill_title">Fyll i automatiskt</string>
   <!-- Checkbox setting for enabling/disabling power save mode feature -->
@@ -256,7 +263,12 @@
   <!-- Settings summary for the night mode feature. -->
   <string name="pref_nightmode_enabled_summary">Invertera färger</string>
   <!-- Checkbox setting for enabling/disabling the form AutoFill feature [CHAR-LIMIT=32] -->
+  <string name="pref_autofill_enabled">Automatisk ifyllning</string>
   <!-- Settings summary for the form AutoFill feature. [CHAR-LIMIT=none] -->
+  <plurals name="pref_web_refiner_advertisements">
+    <item quantity="one">%d annons</item>
+    <item quantity="other">%d annonser</item>
+  </plurals>
   <string-array name="pref_web_refiner_message">
     <item>"Blockerade %s. "</item>
     <item>"Blockerade %1$s och %2$s. "</item>
@@ -345,6 +357,7 @@
   <string name="pref_security_off">Av</string>
   <string name="pref_website_title">Hemsida</string>
   <string name="pref_security_add">Lägg till</string>
+  <string name="pref_security_access_is_allowed">åtkomst är nekad</string>
   <!-- Settings text size options - displays sample font size in settings -->
   <!-- Label for minimum font size [CHAR LIMIT=30] -->
   <!-- Label for the current minimum font size value [CHAR LIMIT=6] -->
@@ -360,6 +373,7 @@
   <!-- Settings label -->
   <!-- Settings summary -->
   <!-- Settings label -->
+  <string name="pref_extras_reset_default">Återställ till standard</string>
   <string name="pref_extras_reset">Återställ</string>
   <!-- Settings summary -->
   <!-- Confirmation dialog message -->
@@ -427,6 +441,7 @@
             external storage is busy so they cannot download anything [CHAR LIMIT=25] -->
   <!-- Title for a dialog informing the user that the SD card used for
             external storage is busy so they cannot download anything -->
+  <string name="download_sdcard_busy_dlg_title" product="default">SD-kort ej tillgängligt</string>
   <!-- Message for a dialog informing the user that the SD card used for
             external storage is busy so they cannot download anything.  Informs
             the user how to enable SD card storage [CHAR LIMIT=NONE] -->
@@ -494,21 +509,26 @@
   <!-- Content description for new tab button [CHAR LIMIT=NONE] -->
   <string name="accessibility_button_newtab">Öppna ny flik</string>
   <!-- Content description for new incognito tab button [CHAR LIMIT=NONE] -->
+  <string name="accessibility_button_newincognitotab">Öppna en ny inkognito-flik</string>
   <!-- Content description for clear button [CHAR LIMIT=NONE] -->
   <!-- Content description for tab switcher button [CHAR LIMIT=NONE] -->
   <!-- Content description for incognito state [CHAR LIMIT=NONE] -->
+  <string name="accessibility_state_incognito">Inkognitoflik</string>
   <!-- Content description for frozen state [CHAR LIMIT=NONE] -->
   <string name="accessibility_state_frozen">Sparad sida</string>
   <!-- Content description for tab switcher transition [CHAR LIMIT=NONE] -->
   <!-- Content description for navigating up in the bookmark folder hierarchy [CHAR LIMIT=NONE] -->
+  <string name="accessibility_button_bookmarks_folder_up">Upp</string>
   <!--Add for Navigation Feature -->
   <string name="my_navigation_delete_label">Ta bort hemsida</string>
   <string name="my_navigation_edit_label">Redigera hemsida</string>
   <string name="my_navigation_add_label">Lägg till hemsida</string>
   <string name="my_navigation_add">Lägg till</string>
+  <string name="my_navigation_delete_msg">Radera webbsida?</string>
   <string name="my_navigation_name">Titel</string>
   <string name="my_navigation_address">Adress</string>
   <string name="my_navigation_cannot_save_url">Ogiltig URL</string>
+  <string name="my_navigation_duplicate_url">URL finns redan</string>
   <string name="my_navigation_page_title">Hem</string>
   <!-- Add for Carrier Feature.Content description for AV save/play prompt dialog -->
   <string name="video_save">Spara</string>
@@ -519,6 +539,7 @@
   <string name="about">Om</string>
   <!-- Add for Unsupport Uploading Drm Files Feature -->
   <!-- Add for exit prompt Feature -->
+  <string name="exit_browser_title">Avsluta Webbläsaren</string>
   <string name="exit_minimize">Minimera</string>
   <string name="exit_quit">Avsluta</string>
   <string name="duplicated_folder_warning">Mappen finns redan</string>
@@ -533,15 +554,18 @@
   <string name="time_min">min</string>
   <string name="download_name_hint">Filnamn</string>
   <string name="download_size_hint">Storlek</string>
+  <string name="download_eta_hint">Beräknad sluttid</string>
   <!-- Toast message displayed when the full screen received message -->
   <!-- Snapdragon Browser Additions -->
   <string name="version">Version</string>
   <string name="build_date">Byggdatum</string>
+  <string name="build_hash">Byggnationens hashsumma</string>
   <string name="help">Hjälp</string>
   <string name="feedback">Feedback</string>
   <string name="swe_legal">Juridisk information</string>
   <string name="swe_open_source_licenses">Licenser för öppen källkod</string>
   <string name="swe_eula">Licensavtal för slutanvändare</string>
+  <string name="swe_privacy_policy">Sekretesspolicy</string>
   <!-- Toast message displayed when user attempts to modify a setting disabled by the administrator -->
   <!-- My Navigation - Favorites + History + Saved -->
   <!-- Place holder for SWE engine strings added to
@@ -551,5 +575,7 @@
          prefix being stripped. For more info check out chromium's
          UI-localization page. -->
   <!-- Geolocation infobar promt-->
+  <string name="geolocation_permissions_prompt_share_never">Neka för alltid</string>
+  <string name="geolocation_permissions_prompt_share_for_limited_time">Tillåt för 24 timmar</string>
   <string name="geolocation_permissions_prompt_share_forever">Tillåt alltid</string>
 </resources>
