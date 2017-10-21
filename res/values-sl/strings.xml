@@ -498,7 +498,7 @@
   <!-- Link prefetching options [CHAR LIMIT=20] -->
   <string-array name="pref_temporal_choices">
     <item>Nikoli</item>
-    <item>Samo na omr. Wi-Fi</item>
+    <item>Samo prek povezave Wi-Fi</item>
     <item>Vedno</item>
   </string-array>
   <!-- Summary for search preloading [CHAR LIMIT=80] -->

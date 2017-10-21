@@ -277,7 +277,7 @@
   <!-- Checkbox setting for enabling/disabling power save mode feature -->
   <string name="pref_powersave_enabled">省電模式</string>
   <!-- Settings summary for the powersave feature. -->
-  <string name="pref_powersave_enabled_summary">減少瀏覽器的電源使用情況</string>
+  <string name="pref_powersave_enabled_summary">減少瀏覽器的電量使用情況</string>
   <!-- Checkbox setting for enabling/disabling night mode feature -->
   <string name="pref_nightmode_enabled">夜間模式</string>
   <!-- Settings summary for the night mode feature. -->
