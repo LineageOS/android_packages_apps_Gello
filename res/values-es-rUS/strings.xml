@@ -280,7 +280,7 @@
   <!-- Settings summary for the powersave feature. -->
   <string name="pref_powersave_enabled_summary">Reducir uso de energía del navegador</string>
   <!-- Checkbox setting for enabling/disabling night mode feature -->
-  <string name="pref_nightmode_enabled">Modo nocturno</string>
+  <string name="pref_nightmode_enabled">Modo noche</string>
   <!-- Settings summary for the night mode feature. -->
   <string name="pref_nightmode_enabled_summary">Invertir colores</string>
   <!-- Checkbox setting for enabling/disabling the form AutoFill feature [CHAR-LIMIT=32] -->

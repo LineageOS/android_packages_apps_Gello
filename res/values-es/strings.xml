@@ -306,7 +306,7 @@
     <item>"Se ha bloqueado a %1$s y %2$s. "</item>
     <item>"Se ha bloqueado a %1$s, %2$s y %3$s. "</item>
   </string-array>
-  <string name="pref_valid_cert">Certificado SSL válido. La comunicación está encriptada y la identidad verificada.</string>
+  <string name="pref_valid_cert">Certificado SSL válido. La comunicación está cifrada y la identidad verificada.</string>
   <string name="pref_invalid_cert">El sitio tiene un certificado SSL inválido.</string>
   <string name="pref_warning_cert">El certificado SSL de sitio tiene advertencias.</string>
   <!-- Settings screen, section title [CHAR LIMIT=50] -->
