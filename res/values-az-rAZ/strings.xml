@@ -14,331 +14,392 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<!DOCTYPE resources [
-<!ENTITY about SYSTEM "about.xml">
-]>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- The name of the application. -->
-  <!-- Displayed with a file picker to choose a file to upload -->
-  <!-- Toast to show the user after they try to open the file picker but no apps on the
-         system can provide a file [CHAR-LIMIT=NONE]-->
-  <!-- Name of menu item of a new tab.  Also used in the title bar when displaying a new tab -->
-  <!-- Crash tab View title -->
-  <!-- Crash tab button text -->
-  <!-- Crash tab View message -->
-  <!-- Name of menu item of a new incognito tab.  Also used in the
-         title bar when displaying a new tab [CHAR LIMIT=30] -->
-  <!-- Name of tab containing the user's most visited websites, organized by number of visits -->
-  <!-- Name of tab containing the user's saved pages, organized by time created [CHAR LIMIT=20] -->
-  <!-- Toast shown when a history item's star is clicked, converting it to a bookmark -->
-  <!-- Toast shown when a history item's star is clicked off, removing its bookmark -->
-  <!-- Sign-in dialog -->
-  <!-- This is used as the title of a dialog which is used to sign in to a secure site.
-            "%s1"is replaced with the host and "%s2" with realm -->
-  <!-- Prompt for an input box that allows the user to enter their login name -->
-  <!-- Prompt for an input box that allows the user to enter their password -->
-  <!-- The label on the "sign in" button -->
-  <!-- The name of the add bookmark page activity.-->
-  <!-- Label for a cancel button.  It is used for multiple cancel buttons in different contexts -->
-  <!-- Label for a confirm button.  Used in multiple contexts. -->
-  <!-- Message to be displayed if url character limit exceeds -->
-  <!-- Message to be displayed when google play store does not exist on the device -->
-  <!-- Menu item -->
-  <!-- Page Info dialog strings -->
-  <!-- Noun.  The url for the current page. Displayed on the Page Info
-            screen. -->
-  <!-- Title for an SSL error dialog  -->
-  <!-- Message in an SSL Error dialog -->
-  <!-- Message in an SSL Error dialog -->
-  <!-- Toast informing the user that loading has stopped for the current page. -->
-  <!-- Menu item to stop the current page from loading. -->
-  <!-- Menu item to reload or refresh the current page. -->
-  <!-- Menu item to go back to the previous page -->
-  <!-- Menu item to go to the next page (only useful if the user has previously hit back.) -->
-  <!-- Field label in Bookmark dialog box: refers to URL of the page to bookmark -->
-  <!-- Field label in Bookmark dialog box: refers to the account to save the bookmark to -->
-  <!-- Field label in Bookmark dialog box: refers to the folder in which to save the bookmark -->
-  <!-- Default name for a new folder and label for a button that allows the user to create a new folder
-         in the add bookmark dialog -->
-  <!-- Context menu item to edit a folder [CHAR LIMIT=50] -->
-  <!-- Context menu item to delete a folder [CHAR LIMIT=50] -->
-  <!-- Label stating that the currently open folder has no subfolders
-         in the add bookmark dialog [CHAR-LIMIT=none]-->
-  <!-- Menu item to save the newly created bookmark to the home screen. [CHAR-LIMIT=30]-->
-  <!-- Menu item to open a picker to determine which folder to save a bookmark in. [CHAR-LIMIT=30]-->
-  <!-- Field label in Bookmark dialog box: title that the user wishes to use for the bookmark -->
-  <!-- Menu item that opens a dialog to save a bookmark for the current page [CHAR LIMIT=30] -->
-  <!-- Also used as title for AddBookmarkPage -->
-  <!-- Title of the dialog to bookmark a page -->
-  <!-- Option on bookmark dialog to remove the bookmark [CHAR LIMIT=30] -->
-  <!-- Menu item on the bookmarks page, to edit an existing bookmark -->
-  <!-- Context menu item to create a shortcut to the bookmark on the desktop [CHAR LIMIT=50] -->
-  <!-- Menu item to remove the currently highlighted bookmark-->
-  <!-- Context menu item to remove a history item from bookmarks -->
-  <!-- Menu item to remove the currently highlighted history entry from the list of previously visited sites -->
-  <!-- Context menu item for setting the bookmark/history item as the homepage -->
-  <!-- Toast informing the user that their action to save a bookmark has succeeded -->
-  <!-- Toast informing the user that their action to save a bookmark did not succeed -->
-  <!-- Toast confirming that the homepage has been set -->
-  <!-- Error that appears in the title of Bookmark dialog when user selects OK with empty Name field -->
-  <!-- Error that appears in the title of Bookmark dialog when user selects OK with empty Location field -->
-  <!-- Error that appears in the title of Bookmark dialog when user selects OK with invalid URL -->
-  <!-- Error that appears in the Bookmark dialog when user selects OK with a URL of a type we cannot bookmark -->
-  <!-- Summary text under the New Bookmark item on the Bookmarks screen.
-            Tells the user that if they select this item, it will bring up a
-            dialog to bookmark the page that the browser is currently viewing,
-            though it is not currently being displayed, since they are viewing
-            the bookmarks screen. -->
-  <!-- Confirmation dialog message confirming that the user wishes to delete
-            the bookmark they selected for deletion -->
-  <!-- Confirmation dialog message confirming that the user wishes to delete
-               the folder they selected for deletion -->
-  <!-- Context menu item to open every bookmark in a folder in new tabs [CHAR LIMIT=50] -->
-  <!-- Displayed in title of chooser dialog for text sent to another app,e.g-send text via SMS or IM-->
-  <!-- Menu item to close all other tabs [CHAR LIMIT=40] -->
-  <!-- Menu item to open the bookmarks page and name of the Tab in the combo view -->
-  <!-- Secondary name for the Activity "BrowserBookmarksPage" -->
-  <!-- Title for the activity asking the user to select a bookmark [CHAR LIMIT=50] -->
-  <!-- Menu item to display the History of previously visited pages and the name of the combo view
-        Tab-->
-  <!-- Menu item -->
-  <!-- Menu item for saving link to homescreen -->
-  <!-- Menu item for saving a page for offline reading. This is a view-only snapshot of the page. [CHAR LIMIT=50] -->
-  <!-- Dialog message that is shown while saving a page for offline reading. [CHAR LIMIT=50] -->
-  <!-- Toast informing the user that saving the page for offline reading has failed. [CHAR LIMIT=50] -->
-  <!-- The number of bookmarks in a folder [CHAR LIMT=50] -->
-  <!-- No bookmarks in the folder [CHAR LIMIT=50] -->
-  <!-- Context Menu item open the currently selected link in the current
-            window.-->
-  <!-- Context Menu item to open the currently selected link in a new
-            window. -->
-  <!-- Context Menu item to open the currently selected link in a new
-         background window. [CHAR LIMIT=50] -->
-  <!-- Context Menu item to save the webpage referred to by this link to the
-            SD card (external storage) -->
-  <!-- Context Menu item to send the url of the selected link to someone else,
-            via Gmail or another app [CHAR LIMIT=50] -->
-  <!-- Context Menu item -->
-  <!-- Context Menu item to copy the url of the selected link to the
-            clipboard -->
-  <!-- Context Menu item to save the image to external storage -->
-  <!-- Context Menu item to view the image by itself in the browser -->
-  <!-- Context Menu item to set the image as the home screen wallpaper -->
-  <!-- Context Menu item to open the dialer app with the selected phone number
-            -->
-  <!-- Context Menu item to add the selected phone number to the address book.
-            -->
-  <!-- Context Menu item to send an email using the selected email address.-->
-  <!-- Context Menu item to show the currently selected address in the Maps
-            application -->
-  <!-- Title of the dialog used for selecting the application that should be
-            used for sharing a link (e.g. Gmail or another app). See also
-            contextmenu_sharelink above -->
-  <!-- Used as the title of dialogs in the Browser Settings confirming that
-            the user wants to clear (cache, history, or cookie data) -->
-  <!-- Part of a sentence that says "Replace <url of existing bookmark> with
-            <url of new bookmark>?" -->
-  <!-- Settings screen strings -->
-  <!-- Menu item to open the Settings screen -->
-  <!-- Settings screen, section title -->
-  <!-- Settings label -->
-  <!-- Settings label -->
-  <!-- Settings label -->
-  <!-- Settings label -->
-  <!-- Settings summary [CHAR LIMIT=50]-->
-  <!-- Settings label [CHAR LIMIT=50] -->
-  <!-- Settings label -->
-  <!-- Settings summary -->
-  <!-- Settings button label that to pick what to set the homepage to [CHAR LIMIT=40] -->
-  <!-- Settings screen & section title for "General settings". These include things like
-         configuring bookmark syncing to Google servers and form auto fill settings. [CHAR-LIMIT=32] -->
-  <!-- Settings category for autofill under general. [CHAR-LIMIT=50] -->
-  <!-- Checkbox setting for enabling/disabling power save mode feature -->
-  <!-- Settings summary for the powersave feature. -->
-  <!-- Checkbox setting for enabling/disabling night mode feature -->
-  <!-- Settings summary for the night mode feature. -->
-  <!-- Checkbox setting for enabling/disabling the form AutoFill feature [CHAR-LIMIT=32] -->
-  <!-- Settings summary for the form AutoFill feature. [CHAR-LIMIT=none] -->
-  <!-- Settings screen, section title [CHAR LIMIT=50] -->
-  <!-- Label for option that when clicked opens the AutoFill settings screen. Also used as the title of that AutoFill Settings screen. [CHAR-LIMIT=32] -->
-  <!-- Summary for the AutoFill Settings preference [CHAR-LIMIT=none] -->
-  <!-- Heading for the AutoFill profile editor to tell the user what AutoFill does and why they should fill out the profile. [CHAR-LIMIT=None] -->
-  <!-- String for the user's full name in the AutoFill profile editor. [CHAR-LIMIT=32] -->
-  <!-- String for the user's e-mail address in the AutoFill profile editor. [CHAR-LIMIT=32] -->
-  <!-- String for the user's company name in the AutoFill profile editor. [CHAR-LIMIT=32] -->
-  <!-- String for the first line of the user's address in the AutoFill profile editor. [CHAR-LIMIT=32] -->
-  <!-- String to suggest to the user the kind of data to be used for the first line of the address. CHAR-LIMIT=64] -->
-  <!-- String for the second line of the user's address in the AutoFill profile editor. [CHAR-LIMIT=32] -->
-  <!-- String to suggest to the user the kind of data to be used for the second line of the address. CHAR-LIMIT=64] -->
-  <!-- String for the user's city or town in the AutoFill profile editor. [CHAR-LIMIT=32] -->
-  <!-- String for the user's state or province or region in the AutoFill profile editor. [CHAR-LIMIT=32] -->
-  <!-- String for the user's zip code in the AutoFill profile editor. [CHAR-LIMIT=32] -->
-  <!-- String for the user's country in the AutoFill profile editor. [CHAR-LIMIT=32] -->
-  <!-- String for the user's phone number in the AutoFill profile editor. [CHAR-LIMIT=32] -->
-  <!-- String to display in an error tooltip to inform the user the phone number they provided is not valid. [CHAR-LIMIT=32] -->
-  <!-- Button text to save the AutoFill profile [CHAR-LIMIT=20] -->
-  <!-- Toast message displayed when the profile has been successfully saved [CHAR-LIMIT=none] -->
-  <!-- Toast message displayed when the profile has been successfully deleted [CHAR-LIMIT=none] -->
-  <!-- Button text to delete all the AutoFill profile data [CHAR-LIMIT=20] -->
-  <!-- Text on toast shown to the user when power save mode is enabled or disabled -->
-  <!-- Text on a dialog shown to the user when they are prompted to set up the autofill feature [CHAR-LIMIT=NONE] -->
-  <!-- Toast message displayed when the user decides to not set up autofill at this time. We want to remind them that they can configure
-         it through the Browser Settings menu. [CHAR-LIMIT=NONE] -->
-  <!-- Text on a checkbox in the "setup autofill" dialog which is shown to the user when they are prompted to set up the autofill feature.
-         The checkbox allows them to specify they would like to disable the feature altogether [CHAR-LIMIT=NONE] -->
-  <!-- Settings screen, section title [CHAR-LIMIT=50] -->
-  <!-- Settings screen, section title [CHAR-LIMIT=50] -->
-  <!-- Popup dialog -->
-  <!-- Settings label -->
-  <!-- Settings summary -->
-  <!-- Confirmation dialog message -->
-  <!-- Settings label -->
-  <!-- Settings summary -->
-  <!-- Settings label -->
-  <!-- Settings summary -->
-  <!-- Settings summary -->
-  <!-- Confirmation dialog message -->
-  <!-- Settings label -->
-  <!-- Settings summary -->
-  <!-- Settings label -->
-  <!-- Settings summary -->
-  <!-- Settings label -->
-  <!-- Settings label -->
-  <!-- Settings summary -->
-  <!-- Settings label -->
-  <!-- Settings label -->
-  <!-- Settings Label -->
-  <!-- Settings label -->
-  <!-- Settings text size options - displays sample font size in settings -->
-  <!-- Label for minimum font size [CHAR LIMIT=30] -->
-  <!-- Label for the current minimum font size value [CHAR LIMIT=6] -->
-  <!-- Label for text scaling (percent) [CHAR LIMIT=30] -->
-  <!-- Label for whether or not to force-enable user scalablity (aka, zoom) [CHAR LIMIT=30] -->
-  <!-- Summary for whether or not to force-enable user scalablity (aka, zoom) [CHAR LIMIT=30] -->
-  <!-- Inverted screen category under accessibility settings [CHAR LIMIT=50] -->
-  <!-- Title for the inverted screen feature. This causes the screen to render with inverted colors (black becomes white and vice versa) [CHAR LIMIT=40] -->
-  <!-- Summary for the inverted screen feature. [CHAR LIMIT=120] -->
-  <!-- Title for the inverted screen contrast. Change the contrast value from 1.0 to 3.0. [CHAR LIMIT=30] -->
-  <!-- Settings screen, section title [CHAR LIMIT=50] -->
-  <!-- Settings label -->
-  <!-- Settings summary -->
-  <!-- Settings label -->
-  <!-- Settings summary -->
-  <!-- Confirmation dialog message -->
-  <!-- Title for a group of settings -->
-  <!-- Settings screen, setting option name -->
-  <!-- Colored statusbar -->
-  <!-- Title for accessibility settings [CHAR LIMIT=25] -->
-  <!-- LookLock -->
-  <!-- Font size settings category under accessibility settings [CHAR LIMIT=50] -->
-  <!-- Title for the fullscreen lab feature [CHAR LIMIT=40] -->
-  <!-- Summary for the fullscreen lab feature [CHAR LIMIT=120] -->
-  <!-- Title for search preloading [CHAR LIMIT=40] -->
-  <!-- Search preloading options [CHAR LIMIT=20] -->
-  <!-- Link prefetching options [CHAR LIMIT=20] -->
-  <!-- Summary for search preloading [CHAR LIMIT=80] -->
-  <!-- Title for link prefetching [CHAR LIMIT=40] -->
-  <!-- Summary for link prefetching [CHAR LIMIT=80] -->
-  <!-- Dialog box message -->
-  <!-- Menu item -->
-  <!-- Appears on History screen if no history is found -->
-  <!-- Displayed at the top of the bookmarks page.  When clicked, it bookmarks the page the browser is currently showing -->
-  <!-- Verb placed in front of a screenshot of a web page that, when clicked,
-            will add that page to bookmarks -->
-  <!-- This string is for the browser "Go To" UI. -->
-  <!-- This is the hint text shown in the Go To widget, before text is entered. -->
-  <!-- This string is for the browser "Go To" UI. -->
-  <!-- This is the button label in the "Go To" UI. -->
-  <!-- The string used to describe the browser as a searchable item within system search settings. -->
-  <!-- Label for a button to allow a particular popup window to open -->
-  <!-- Label for a button to disallow a particular popup from opening -->
-  <!-- Title for a dialog informing the user that they cannot open any more
-            windows because the limit has been reached. -->
-  <!-- Message in a dialog telling the user that they cannot open any more
-            windows because the limit has been reached. -->
-  <!-- Title for a dialog informing the user that they cannot open a subwindow
-            because only one can be open at a time. -->
-  <!-- Message for a dialog informing the user that they cannot open a
-            subwindow because only one can be open at a time. -->
-  <!-- Download History UI strings -->
-  <!-- Dialog title [CHAR LIMIT=25] -->
-  <!-- Dialog title -->
-  <!-- Dialog message [CHAR LIMIT=NONE] -->
-  <!-- Dialog message -->
-  <!-- Title for a dialog informing the user that the SD card used for
-            external storage is busy so they cannot download anything [CHAR LIMIT=25] -->
-  <!-- Title for a dialog informing the user that the SD card used for
-            external storage is busy so they cannot download anything -->
-  <!-- Message for a dialog informing the user that the SD card used for
-            external storage is busy so they cannot download anything.  Informs
-            the user how to enable SD card storage [CHAR LIMIT=NONE] -->
-  <!-- Message for a dialog informing the user that the SD card used for
-            external storage is busy so they cannot download anything.  Informs
-            the user how to enable SD card storage -->
-  <!-- Toast for a download which cannot begin because the URL is not http or https -->
-  <!-- Message in the list of items which have received download requests
-            telling their status.  This message states that the download has not
-            yet begun -->
-  <!-- The description of the suggestion that lets the user search the web for the query currently
-         in the text field. -->
-  <!-- HTML5 dialogs -->
-  <!-- Used as a status bar notification when the browser is running out of space trying to allocate or increase the database quota for an HTML5 databae or application cache. -->
-  <!-- Used in the Browser Settings -->
-  <!-- Confirmation dialog when the user ask to clear all data for an origin -->
-  <!-- String shown in a progress view while a video is loading, before it starts playing -->
-  <!-- Label for the menu item in the website settings activity used to clear data stored by all websites -->
-  <!-- Text in the progress dialog when we are setting an image as the home screen wallpaper. -->
-  <!-- The string that is displayed when there are no bookmarks to display.
-         This is centered in the middle of the screen [CHAR LIMIT=NONE] -->
-  <!-- The folder name for the special "Other Bookmarks" folder created by Chrome [CHAR LIMIT=24] -->
-  <!-- Description for a dialog asking the user what they want to do with their bookmarks when adding a sync account [CHAR-LIMIT=none] -->
-  <!-- Button allowing users to remove all of their existing bookmarks when setting up syncing with their bookmarks stored in Google Chrome [CHAR-LIMIT=64] -->
-  <!-- Url Selection Action Mode -->
-  <!-- Menu item to share URL selection [CHAR LIMIT=30] -->
-  <!-- Toast to inform the user that the maximum number of tabs has been
-         reached. [CHAR LIMIT=50] -->
-  <!-- Font size preview label in settings [CHAR LIMIT=30] -->
-  <!-- Name for the user's unsynced, local bookmarks [CHAR LIMIT=50] -->
-  <!-- allows the user to find on webpage [CHAR LIMIT=None] -->
-  <!-- Popup menu checkbox that allows the user to request the desktop version of a webpage [CHAR LIMIT=50] -->
-  <!-- Popup menu checkbox that loads the reader mode version of the current webpage -->
-  <!-- Preload permission label [CHAR LIMIT=40] -->
-  <!-- Empty text for the "saved pages" tab that is shown when no saved pages exist. [CHAR LIMIT=None] -->
-  <!-- Menu option to delete the currently selected saved page [CHAR LIMIT=50] -->
-  <!-- Popup menu option to load the live version of a saved page [CHAR LIMIT=20] -->
-  <!--  Accessibility content descriptions -->
-  <!-- Content description for back button [CHAR LIMIT=NONE] -->
-  <!-- Content description for forward button [CHAR LIMIT=NONE] -->
-  <!-- Content description for refresh button [CHAR LIMIT=NONE] -->
-  <!-- Content description for stop button [CHAR LIMIT=NONE] -->
-  <!-- Content description for add bookmark button [CHAR LIMIT=NONE] -->
-  <!-- Content description for search button [CHAR LIMIT=NONE] -->
-  <!-- Content description for voice search button [CHAR LIMIT=NONE] -->
-  <!-- Content description for close tab button [CHAR LIMIT=NONE] -->
-  <!-- Content description for new tab button [CHAR LIMIT=NONE] -->
-  <!-- Content description for new incognito tab button [CHAR LIMIT=NONE] -->
-  <!-- Content description for clear button [CHAR LIMIT=NONE] -->
-  <!-- Content description for tab switcher button [CHAR LIMIT=NONE] -->
-  <!-- Content description for incognito state [CHAR LIMIT=NONE] -->
-  <!-- Content description for frozen state [CHAR LIMIT=NONE] -->
-  <!-- Content description for tab switcher transition [CHAR LIMIT=NONE] -->
-  <!-- Content description for navigating up in the bookmark folder hierarchy [CHAR LIMIT=NONE] -->
-  <!--Add for Navigation Feature -->
-  <!-- Add for Carrier Feature.Content description for AV save/play prompt dialog -->
-  <!-- Add for Carrier Feature.Content description for exit menu item -->
-  <!-- Add for Carrier Feature.Content description for about menu item -->
-  <!-- Add for Unsupport Uploading Drm Files Feature -->
-  <!-- Add for exit prompt Feature -->
-  <!-- Add for download save path setting Feature -->
-  <!-- Toast message displayed when the full screen received message -->
-  <!-- Snapdragon Browser Additions -->
-  <!-- Toast message displayed when user attempts to modify a setting disabled by the administrator -->
-  <!-- My Navigation - Favorites + History + Saved -->
-  <!-- Place holder for SWE engine strings added to
-         'chrome/android/java/strings/android_chrome_strings.grd'. Follow
-         chromium android grd naming convention. Follow exact mapping rules from
-         grd to xml. All grd strings maps to xml name in lowercase with 'IDS_'
-         prefix being stripped. For more info check out chromium's
-         UI-localization page. -->
-  <!-- Geolocation infobar promt-->
+    <string name="application_name">Səyyah</string>
+    <string name="choose_upload">Yükləmək üçü fayl seçin</string>
+    <string name="uploads_disabled">Yükləmələr sıradan çıxarıldı.</string>
+    <string name="new_tab">Yeni vərəq</string>
+    <string name="browser_tab_crash_snap">Xəta!</string>
+    <string name="browser_tab_crash_reload">Yenidən yüklə</string>
+    <string name="browser_tab_crash_message">İnternet səhifəsini göstərərkən gözlənilməz nəsə baş verdi. Zəhmət olmasa səhifəni yeniləyin və ya başqa səhifəyə keçin.</string>
+    <string name="new_incognito_tab">Gizli rejim</string>
+    <string name="tab_most_visited">Ən çox ziyarət edilənlər</string>
+    <string name="tab_snapshots">Saxlanıldı</string>
+    <string name="added_to_bookmarks">Sevimlilərə əlavə edildi.</string>
+    <string name="removed_from_bookmarks">Sevimlilərdən silindi.</string>
+    <string name="sign_in_to"><xliff:g id="hostname">%s1</xliff:g> "<xliff:g id="realm">%s2</xliff:g>\" giriş et</string>
+    <string name="username">Ad</string>
+    <string name="password">Şifrə</string>
+    <string name="action">Giriş et</string>
+    <string name="bookmarks_add_page">Saxla</string>
+    <string name="cancel">İmtina</string>
+    <string name="ok">Oldu</string>
+    <string name="max_url_character_limit_msg">Maksimum URL limitinə çatdı</string>
+    <string name="msg_no_google_play">Google Play Store cihazınızda mövcud deyil.</string>
+    <string name="page_info">Məlumat</string>
+    <string name="page_info_address">Ünvan:</string>
+    <string name="security_warning">Təhlükəsizlik xəbərdarlığı</string>
+    <string name="ssl_invalid">Bu sertifikat etibarsızdır.</string>
+    <string name="ssl_unknown">Bilinməyən sertifikat xətası.</string>
+    <string name="stopping">Dayandırılır\u2026</string>
+    <string name="stop">Dayandır</string>
+    <string name="reload">Təzələ</string>
+    <string name="back">Geri</string>
+    <string name="forward">Yönləndir</string>
+    <string name="location">Ünvan</string>
+    <string name="account">Hesab</string>
+    <string name="containing_folder">Bu qovluğa əlavə et</string>
+    <string name="new_folder">Yeni qovluq</string>
+    <string name="edit_folder">Qovluğa düzəliş et</string>
+    <string name="delete_folder">Qovluğu sil</string>
+    <string name="no_subfolders">Alt qovluq yoxdur.</string>
+    <string name="add_to_homescreen_menu_option">Əsas ekran</string>
+    <string name="add_to_other_folder_menu_option">Qovluq seç\u2026</string>
+    <string name="name">Etiket</string>
+    <string name="save_to_bookmarks">Saxla</string>
+    <string name="bookmark_this_page">Bu səhifəni sevimlilərə əlavə et</string>
+    <string name="remove">Çıxart</string>
+    <string name="edit_bookmark">Düzəliş et</string>
+    <string name="create_shortcut_bookmark">Qısayol əlavə et</string>
+    <string name="remove_bookmark">Sil</string>
+    <string name="remove_from_bookmarks">Çıxart</string>
+    <string name="remove_history_item">Çıxart</string>
+    <string name="set_as_homepage">Əsas səhifə olaraq tənzimlə</string>
+    <string name="bookmark_saved">Sevimlilərə əlavə edildi</string>
+    <string name="bookmark_not_saved">Sevimlilərə əlavə edilə bilmədi.</string>
+    <string name="homepage_set">Əsas səhifə tənzimləndi.</string>
+    <string name="bookmark_needs_title">Sevimlinin bir adı olmalıdır.</string>
+    <string name="bookmark_needs_url">Sevimlinin bir yeri olmalıdır.</string>
+    <string name="bookmark_url_not_valid">Bu URL etibarlı deyil.</string>
+    <string name="bookmark_cannot_save_url">Bu URL sevimlilərə əlavə edilə bilmir.</string>
+    <string name="current_page">mənbə:\u0020</string>
+    <string name="delete_bookmark_warning">\"<xliff:g id="bookmark">%s</xliff:g>\" sevimlisi silinsin?</string>
+    <string name="delete_folder_warning">\"<xliff:g id="bookmark">%s</xliff:g>\" qovluğu silinsin?</string>
+    <string name="open_all_in_new_window">Hamısını yeni vərəqdə aç</string>
+    <string name="sendText">Mətn üçün bir hərəkət seçin</string>
+    <string name="close_other_tabs">Digər vərəqləri bağla</string>
+    <string name="bookmarks">Sevimlilər</string>
+    <string name="shortcut_bookmark">Sevimli</string>
+    <string name="shortcut_bookmark_title">Bir sevimli seç</string>
+    <string name="history">Tarixçə</string>
+    <string name="share_page">Paylaş</string>
+    <string name="add_to_homescreen">Əsas ekrana əlavə et</string>
+    <string name="menu_save_snapshot">Saxla</string>
+    <string name="saving_snapshot">Saxlanılır\u2026</string>
+    <string name="snapshot_failed">Xətdən kənar oxuma üçün saxlanıla bilmədi.</string>
+    <string name="contextheader_folder_bookmarkcount"><xliff:g id="bookmark_count">%d</xliff:g> sevimli</string>
+    <string name="contextheader_folder_empty">Boş qovluq</string>
+    <string name="contextmenu_openlink">Aç</string>
+    <string name="contextmenu_openlink_newwindow">Yeni vərəqdə aç</string>
+    <string name="contextmenu_openlink_newwindow_background">Yeni arxaplan vərəqində aç</string>
+    <string name="contextmenu_savelink">Bağlantını saxla</string>
+    <string name="contextmenu_sharelink">Bağlantını paylaş</string>
+    <string name="contextmenu_copy">Kopyala</string>
+    <string name="contextmenu_copylink">URL bağlantısını kopyala</string>
+    <string name="contextmenu_download_image">Təsviri saxla</string>
+    <string name="contextmenu_view_image">Təsvirə bax</string>
+    <string name="contextmenu_set_wallpaper">Divar kağızı kimi tənzimlə</string>
+    <string name="contextmenu_dial_dot">Yığ\u2026</string>
+    <string name="contextmenu_add_contact">Şəxs əlavə et</string>
+    <string name="contextmenu_send_mail">E-poçt göndər</string>
+    <string name="contextmenu_map">Xəritə</string>
+    <string name="choosertitle_sharevia">Paylaş</string>
+    <string name="clear">Təmizlə</string>
+    <string name="replace">Dəyişdir</string>
+    <string name="menu_preferences">Tənzimləmələr</string>
+    <string name="pref_content_title">Məzmun tənzimləmələri</string>
+    <string name="pref_content_title_summary">Veb məzmun tənzimləmələri</string>
+    <string name="pref_content_load_images">Təsvirləri yüklə</string>
+    <string name="pref_content_load_images_summary">Veb səhifələrdəki təsvirləri göstər</string>
+    <string name="pref_security_allow_popups">Açılan pəncərələr</string>
+    <string name="pref_content_javascript">JavaScript-i fəallaşdır</string>
+    <string name="pref_content_open_in_background">Arxaplanda aç</string>
+    <string name="pref_content_open_in_background_summary">Yeni vərəqləri hazırki vərəqin arxasında aç</string>
+    <string name="pref_content_homepage">Əsas səhifə</string>
+    <string name="pref_content_search_engine">Axtarış motoru</string>
+    <string name="pref_content_search_engine_summary">Axtarış motoru seç</string>
+    <string name="pref_set_homepage_to">Bunu seç:</string>
+    <string-array name="pref_homepage_choices">
+        <item>Hazırki səhifə</item>
+        <item>Boş səhifə</item>
+        <item>İlkin səhifə</item>
+        <item>Ən çox ziyarət edilən saytlar</item>
+        <item>Digər</item>
+    </string-array>
+    <string name="pref_general_title">Ümumi</string>
+    <string name="pref_default_site_settings_title">İlkin sayt tənzimləmələri</string>
+    <string name="pref_site_settings_title">Sayt tənzimləmələri</string>
+    <string name="pref_site_settings_info_panel">Təhlükəsizlik məlumatı</string>
+    <string name="pref_general_autofill_title">Avtomatik doldur</string>
+    <string name="pref_powersave_enabled">Enerjiyə qənaət rejimi</string>
+    <string name="pref_powersave_enabled_summary">Səyyahın enerji istifadəsini azalt</string>
+    <string name="pref_nightmode_enabled">Gecə rejimi</string>
+    <string name="pref_nightmode_enabled_summary">Rəngləri tərsinə çevir</string>
+    <string name="pref_autofill_enabled">Formları avtomatik doldur</string>
+    <string name="pref_autofill_enabled_summary">Veb formlarını bir toxunuşla doldurun</string>
+    <plurals name="pref_web_refiner_advertisements">
+        <item quantity="one">%d reklam</item>
+        <item quantity="other">%d reklam</item>
+    </plurals>
+    <plurals name="pref_web_refiner_trackers">
+        <item quantity="one">%d izləyici</item>
+        <item quantity="other">%d izləyici</item>
+    </plurals>
+    <plurals name="pref_web_refiner_malware">
+        <item quantity="one">%d zərərli proqram təhlükəsi</item>
+        <item quantity="other">%d zərərli proqram təhlükəsi</item>
+    </plurals>
+    <string-array name="pref_web_refiner_message">
+        <item>"%s əngəlləndi. "</item>
+        <item>"%1$s və %2$s əngəlləndi. "</item>
+        <item>"%1$s, %2$s və %3$s əngəlləndi. "</item>
+    </string-array>
+    <string name="pref_valid_cert">Etibarlı SSL sertifikatı. Əlaqə şifrələnib və kimlik təsdiqlənib.</string>
+    <string name="pref_invalid_cert">Sayt etibarsız SSL sertifikatına sahibdir.</string>
+    <string name="pref_warning_cert">Saytın SSL sertifikatının xəbərdarlıqları var.</string>
+    <string name="pref_interface_title">İnterfeys</string>
+    <string name="pref_autofill_profile_editor">Avtomatik doldur</string>
+    <string name="pref_autofill_profile_editor_summary">Veb formlarına avtomatik daxil ediləcək mətni tənzimləyin</string>
+    <string name="autofill_profile_editor_heading">Veb formlara avtomatik olaraq daxil edilməsini istədiyiniz mətni yazın.</string>
+    <string name="autofill_profile_editor_name">Tam ad:</string>
+    <string name="autofill_profile_editor_email_address">E-poçt:</string>
+    <string name="autofill_profile_editor_company_name">Şirkət adı:</string>
+    <string name="autofill_profile_editor_address_line_1">Ünvan sətri 1:</string>
+    <string name="autofill_profile_editor_address_line_1_hint">Küçə ünvanı, poçt qutusu, alıcı</string>
+    <string name="autofill_profile_editor_address_line_2">Ünvan sətri 2:</string>
+    <string name="autofill_profile_editor_address_line_2_hint">Bina, blok, mərtəbə, mənzil, və s.</string>
+    <string name="autofill_profile_editor_city">Şəhər/rayon:</string>
+    <string name="autofill_profile_editor_state">Ştat/Əyalət/Region:</string>
+    <string name="autofill_profile_editor_zip_code">Poçt indeksi:</string>
+    <string name="autofill_profile_editor_country">Ölkə:</string>
+    <string name="autofill_profile_editor_phone_number">Telefon:</string>
+    <string name="autofill_profile_editor_phone_number_invalid">Etibarsız telefon nömrəsi.</string>
+    <string name="autofill_profile_editor_save_profile">Saxla</string>
+    <string name="autofill_profile_successful_save">Avtomatik doldurma mətni saxlanıldı.</string>
+    <string name="autofill_profile_successful_delete">Avtomatik doldurma mətni silindi.</string>
+    <string name="autofill_profile_editor_delete_profile">Sil</string>
+    <string name="powersave_dialog_on">Enerjiyə qənaət rejimi fəallaşdırıldı. Səyyah yenidən başladılacaq.</string>
+    <string name="powersave_dialog_off">Enerjiyə qənaət rejimi sıradan çıxarıldı. Səyyah yenidən başladılacaq.</string>
+    <string name="autofill_setup_dialog_message">Səyyah bunun kimi veb formlarını avtomatik doldura bilər. Avtomatik doldurma mətninizi tənzimləmək istəyərdiniz?</string>
+    <string name="autofill_setup_dialog_negative_toast">Avtomatik doldurma mətninizi istədiyiniz vaxt Brauzer &gt; Tənzimləmələr &gt; Avtomatik doldur bölməsindən tənzimləyə bilərsiniz.</string>
+    <string name="disable_autofill">Avto-doldurmanı sıradan çıxart</string>
+    <string name="pref_security_title">Təhlükəsizlik</string>
+    <string name="pref_privacy_security_title">Gizlilik &amp; təhlükəsizlik</string>
+    <string name="pref_privacy_security_title_summary">Səyyah təhlükəsizliyi və gizlilik tənzimləmələri</string>
+    <string name="pref_select_items">Silinməli elementləri seç</string>
+    <string name="pref_privacy_clear_selected">Seçilmiş elementləri sil</string>
+    <string name="pref_privacy_clear_selected_summary">Siyahıda seçilmiş elementləri sil</string>
+    <string name="pref_privacy_clear_selected_dlg">Bu elementlər silinsin?</string>
+    <string name="pref_privacy_clear_cache">Keşi təmizlə</string>
+    <string name="pref_privacy_clear_cache_summary">Yerli keşlənmiş məzmun və verilənlər bazalarını təmizlə</string>
+    <string name="pref_privacy_clear_cookies">Çərəzlər və sayt verilənləri</string>
+    <string name="pref_privacy_clear_cookies_summary">Bütün səyyah çərəzlərini və sayt verilənlərini təmizlə</string>
+    <string name="pref_privacy_clear_history_summary">Səyyah tarixçəsini təmizlə</string>
+    <string name="pref_privacy_clear_history_dlg">Səyyah tarixçəsi təmizlənsin?</string>
+    <string name="pref_privacy_clear_form_data">Form verilənləri</string>
+    <string name="pref_privacy_clear_form_data_summary">Bütün saxlanılmış form verilənlərini sil</string>
+    <string name="pref_privacy_clear_passwords">Şifrələr</string>
+    <string name="pref_privacy_clear_passwords_summary">Bütün saxlanılmış şifrələri sil</string>
+    <string name="pref_privacy_enable_geolocation">Yer</string>
+    <string name="pref_privacy_clear_geolocation_access">Yerə müraciət</string>
+    <string name="pref_privacy_clear_geolocation_access_summary">Bütün veb saytlar üçün yer müraciətini təmizlə</string>
+    <string name="pref_security_remember_passwords">Şifrələri xatırla</string>
+    <string name="pref_security_save_form_data">Form verilənlərini xatırla</string>
+    <string name="pref_do_not_track">\'İzləmə\' Sorğusu</string>
+    <string name="pref_security_accept_cookies">Çərəzləri qəbul et</string>
+    <string name="pref_security_allow_mic">Mikrofon</string>
+    <string name="pref_security_allow_camera">Kamera</string>
+    <string name="pref_security_web_refiner">Reklamlar</string>
+    <string name="pref_security_accept_third_party_cookies">Üçüncü tərəf çərəzlər</string>
+    <string name="pref_security_ask_before_using">İstifadədən əvvəl soruş</string>
+    <string name="pref_security_allowed">İcazə verildi</string>
+    <string name="pref_security_not_allowed">İcazə verilmədi</string>
+    <string name="pref_security_remember">Xatırla</string>
+    <string name="pref_security_on">Açıq</string>
+    <string name="pref_security_off">Bağlı</string>
+    <string name="pref_website_title">Veb sayt</string>
+    <string name="pref_security_add">Əlavə et</string>
+    <string name="pref_security_origin_name">Orijinal sayt</string>
+    <string name="pref_security_access_is_allowed">müraciətə icazə verildi</string>
+    <string name="pref_sample_font_size">İstədiyiniz rahat oxuma ölçüsünü qurmaq üzrə şrift ölçüsünü tənzimləmək üçün sürüşdürücünü çəkin.</string>
+    <string name="pref_min_font_size">Minimum yazı növü ölçüsü</string>
+    <string name="pref_min_font_size_value"><xliff:g id="font_size">%d</xliff:g>pt</string>
+    <string name="pref_text_zoom">Mətnin böyüdülməsi</string>
+    <string name="pref_force_userscalable">Yaxınlaşdırmanı fəal etməyə məcbur et</string>
+    <string name="pref_force_userscalable_summary">Veb saytın yaxınlaşdırmanı yoxlama sorğusunu ləğv et</string>
+    <string name="pref_inverted_category">Tərs rənglərlə ekranın göstərilməsi</string>
+    <string name="pref_inverted">Tərs rənglərlə göstərilmə</string>
+    <string name="pref_inverted_summary">Qaralar ağ, ağlarda qara olar</string>
+    <string name="pref_inverted_contrast">Ziddiyyət</string>
+    <string name="pref_extras_title">Qabaqcıl</string>
+    <string name="pref_extras_website_settings">Veb sayt tənzimləmələri</string>
+    <string name="pref_extras_website_settings_summary">Hər veb sayt üçün qabaqcıl tənzimləmələr</string>
+    <string name="pref_extras_reset_default">İlkin vəziyyətinə qaytar</string>
+    <string name="pref_extras_reset">Sıfırla</string>
+    <string name="pref_extras_reset_default_summary">İlkin tənzimləmələrə qaytar</string>
+    <string name="pref_extras_reset_default_dlg">Tənzimləmələr ilkin dəyərlərə qaytarılsın?</string>
+    <string name="pref_development_title">Sazlama</string>
+    <string name="pref_default_text_encoding">Mətn kodlama</string>
+    <string name="pref_edge_swipe_title">Kənar naviqasiya</string>
+    <string name="pref_edge_swipe_option_msg">Kənardan sürüşdürəndə bu olacaq:</string>
+    <string name="pref_temporal_edge_swipe">Tarixçədə hərəkət</string>
+    <string name="pref_spatial_edge_swipe">Vərəqi dəyişdir</string>
+    <string name="pref_disable_edge_swipe">Heç nə etmə</string>
+    <string name="pref_edge_swipe_option_close">Daha sonra seç</string>
+    <string name="pref_temporal_edge_swipe_enabled_toast">Hərəkət üçün kənardan sürüşdür</string>
+    <string name="pref_spatial_edge_swipe_enabled_toast">Vərəqləri dəyişdirmək üçün küncdən sürüşdür</string>
+    <string name="pref_edge_swipe_disabled_toast">Kənardan sürüşdürmə sıradan çıxarıldı</string>
+    <string name="pref_edge_swipe_unknown">Hərəkəti seçin</string>
+    <string name="pref_edge_swipe_setup_desc">       Tarixçədə hərəkət etmək üçün kənardan sürüşdür.\nBu özəllik kənar hissədən yararlanan veb saytlar üçün problem yarada bilər</string>
+    <string name="pref_edge_enable">Fəallaşdır</string>
+    <string name="pref_edge_disable">Sıradan çıxart</string>
+    <string name="pref_coloredsb_title">Rəngli vəziyyət sətri</string>
+    <string name="pref_coloredsb_summary">Vəziyyət sətrinin rəngi ziyarət edilən səhifəyə əsasən dəyişəcək</string>
+    <string name="pref_accessibility_title">Əlçatımlılıq</string>
+    <string name="pref_accessibility_title_summary">Mətn ölçüsü və yaxınlaşdırma</string>
+    <string name="pref_looklock_title">LookLock</string>
+    <string name="pref_looklock_summary">Digər tətbiqlərin, bu tətbiqin veb görünüş məzmununu oxumasının qarşısını al</string>
+    <string name="pref_font_size_category">Mətn ölçüsü</string>
+    <string name="pref_lab_fullscreen">Tam ekran</string>
+    <string name="pref_lab_fullscreen_summary">Səyyahı tam ekran et</string>
+    <string name="pref_data_preload_title">Axtarış nəticəsinin önyükləməsi edilir</string>
+    <string-array name="pref_temporal_choices">
+        <item>Heç vaxt</item>
+        <item>Yalnız Wi-Fi ilə</item>
+        <item>Həmişə</item>
+    </string-array>
+    <string name="pref_data_preload_summary">Səyyahın axtarış nəticəsinin önyükləməsini arxaplanda etməsinə icazə ver</string>
+    <string name="pref_link_prefetch_title">Veb səhifəsinin önyükləməsi</string>
+    <string name="pref_link_prefetch_summary">Səyyahın əlaqələndirilmiş veb səhifələri arxaplanda önyükləməsinə icazə ver</string>
+    <string name="browserFrameFormResubmitMessage">Baxmağa cəhd etdiyiniz səhifə artıq göndərilmiş verilənlər (\"POSTDATA\") ehtiva edir. Verilənləri təkrar göndərsəniz, səhifədə edilmiş bütün əməliyyatlar (axtarış və ya onlayn satın alma kimi) təkrarlanacaq.</string>
+    <string name="clear_history">Tarixçəni təmizlə</string>
+    <string name="empty_history">Səyyah tarixçəsi yoxdur.</string>
+    <string name="add_new_bookmark">Sevimli əlavə et</string>
+    <string name="add_bookmark_short">Əlavə et</string>
+    <string name="search_hint">Axtarın və ya url-ni yazın</string>
+    <string name="search_button_text">Get</string>
+    <string name="search_settings_description">Sevimlilər və veb tarixçəsi</string>
+    <string name="allow">İcazə ver</string>
+    <string name="block">Əngəllə</string>
+    <string name="too_many_windows_dialog_title">Vərəq limitinə çatdınız</string>
+    <string name="too_many_windows_dialog_message">Birini bağlayana kimi yenisini aça bilməzsiniz.</string>
+    <string name="too_many_subwindows_dialog_title">Açılan pəncərə artıq açıqdır</string>
+    <string name="too_many_subwindows_dialog_message">Eyni vaxtda yalnız bir açılan pəncərə ola bilər.</string>
+    <string name="download_no_sdcard_dlg_title" product="default">SD kart yoxdur</string>
+    <string name="download_no_sdcard_dlg_msg" product="default"><xliff:g id="filename">%s</xliff:g> faylını endirmək üçün SD kart lazımdır.</string>
+    <string name="download_sdcard_busy_dlg_title" product="default">SD kart əlçatmazdır</string>
+    <string name="download_sdcard_busy_dlg_msg" product="default">SD kart məşğuldur. Endirmə əməliyyatına icazə vermək üçün bildiriş sahəsində \'USB anbarı söndür\'ə toxunun.</string>
+    <string name="cannot_download">Yalnız \"http\" və ya \"https\" URL-ləri endirilə bilər.</string>
+    <string name="download_pending">Endirmə başladılır\u2026</string>
+    <string name="search_the_web">İnternetdə axtar</string>
+    <string name="webstorage_outofspace_notification_title">Səyyahın anbar sahəsi dolub</string>
+    <string name="webstorage_outofspace_notification_text">Yer açmaq üçün toxun.</string>
+    <string name="webstorage_clear_data_title">Anbar</string>
+    <string name="webstorage_private_data_title">Gizli verilənlər</string>
+    <string name="webstorage_clear_data_dialog_message">Bu veb sayt tərəfindən saxlanılan bütün verilənlər silinsin?</string>
+    <string name="loading_video">Video yüklənir\u2026</string>
+    <string name="website_settings_add_origin">Yeni sayt</string>
+    <string name="website_settings_clear_all">Hamısını təmizlə</string>
+    <string name="website_settings_clear_all_dialog_message">Bütün veb sayt verilənləri və yer icazələri silinsin?</string>
+    <string name="progress_dialog_setting_wallpaper">Divar kağızları tənzimlənir\u2026</string>
+    <string name="empty_bookmarks_folder">Sevimlilər yoxdur.</string>
+    <string name="other_bookmarks">Digər sevimlilər</string>
+    <string name="import_bookmarks_dialog_description">Bu cihazdakı sevimlilər hələ ki, Google hesabı ilə əlaqələndirilməyib. Onları hesaba əlavə edərək saxlayın. Eyniləşdirmək istəmədiyiniz əlfəcinləri silin.</string>
+    <string name="import_bookmarks_dialog_remove">Sevimliləri sil</string>
+    <string name="menu_share_url">Paylaş</string>
+    <string name="max_tabs_warning">İstifadə olunacaq başqa vərəq yoxdur</string>
+    <string name="preview">Önbaxış</string>
+    <string name="local_bookmarks">Sevimlilərim</string>
+    <string name="find_on_page">Tap</string>
+    <string name="ua_switcher_desktop">İş masası yeri</string>
+    <string name="enable_reader_mode">Oxuma rejimi</string>
+    <string name="permission_preload_label">Nəticələri önyüklə</string>
+    <string name="empty_snapshots_folder">Yadda saxlanmış səhifə yoxdur.</string>
+    <string name="remove_snapshot">Yadda saxlanmış səhifəni sil</string>
+    <string name="snapshot_go_live">Canlı versiyaya keç</string>
+    <string name="accessibility_button_back">Geriyə qayıt</string>
+    <string name="accessibility_button_forward">İrəli get</string>
+    <string name="accessibility_button_refresh">Səhifəni yenilə</string>
+    <string name="accessibility_button_stop">Səhifənin yüklənməsini dayandır</string>
+    <string name="accessibility_button_addbookmark">Favoritlərə əlavə et</string>
+    <string name="accessibility_button_search">Axtar</string>
+    <string name="accessibility_button_voice">Səslə axtarışı başlat</string>
+    <string name="accessibility_button_closetab">Vərəqi bağla</string>
+    <string name="accessibility_button_newtab">Yeni vərəq aç</string>
+    <string name="accessibility_button_newincognitotab">Yeni gizli vərəq aç</string>
+    <string name="accessibility_button_clear">Girişləri təmizlə</string>
+    <string name="accessibility_button_navscreen">Səhifə idarəedicisi</string>
+    <string name="accessibility_state_incognito">Gizli səhifə</string>
+    <string name="accessibility_state_frozen">Saxlanılmış səhifə</string>
+    <string name="accessibility_transition_navscreen">Vərəq idarəsi</string>
+    <string name="accessibility_button_bookmarks_folder_up">Əvvəlki qovluq</string>
+    <string name="my_navigation_delete_label">Veb saytı sil</string>
+    <string name="my_navigation_edit_label">Veb sayta düzəliş et</string>
+    <string name="my_navigation_add_label">İnternet səhifəsi əlavə et</string>
+    <string name="my_navigation_add">Əlavə et</string>
+    <string name="my_navigation_delete_msg">İnternet səhifəsi silinsin?</string>
+    <string name="my_navigation_name">Başlıq</string>
+    <string name="my_navigation_address">Ünvan</string>
+    <string name="website_needs_title">İnternet səhifəsinin başlığı olmalıdır</string>
+    <string name="website_needs_url">İnternet səhifəsinin URL-i olmalıdır</string>
+    <string name="my_navigation_cannot_save_url">Yanlış URL</string>
+    <string name="my_navigation_duplicate_url">URL artıq mövcuddur</string>
+    <string name="my_navigation_page_title">Əsas səhifə</string>
+    <string name="http_video_msg">Zəhmət olmasa media faylının necə idarə ediləcəyini seçin</string>
+    <string name="video_save">Saxla</string>
+    <string name="video_play">Oynat</string>
+    <string name="exit">Çıxış</string>
+    <string name="about">Haqqında</string>
+    <string name="download_estore_app">Estore cihazınızda mövcud deyil.</string>
+    <string name="estore_url_warning">Estore başladılmadı, URL çox uzundur.</string>
+    <string name="drm_file_unsupported">DRM fayllarının qarşıya yükləmək dəstəklənmir.</string>
+    <string name="exit_browser_title">Səyyahdan çıx</string>
+    <string name="exit_browser_msg">Zəhmət olmasa səyyahın necə çıxacağınızı seçin</string>
+    <string name="exit_minimize">Kiçilt</string>
+    <string name="exit_quit">Çıx</string>
+    <string name="browser_max_input_title">Maksimum simvol sayı limitinə çatdı</string>
+    <string name="browser_max_input">Daxil etdiyiniz <xliff:g id="MAXLIMIT">%s</xliff:g> simvol olan maksimum limitə çatdı</string>
+    <string name="duplicated_folder_warning">Qovluq artıq mövcuddur</string>
+    <string name="overwrite_bookmark_msg">Sevimlinin adı və ya ünvanı artıq mövcuddur. Üzərinə yazılsın?</string>
+    <string name="invalid_path">Etibarsız yol</string>
+    <string name="path_wrong">Yanlış yol</string>
+    <string name="pref_download_title">Yol tənzimləmələrini endir</string>
+    <string name="pref_download_path_setting_screen_title">Özəl endirmə yolu</string>
+    <string name="download_timeneeded">Vaxt</string>
+    <string name="download_filesize">Ölçü</string>
+    <string name="download_filepath_label">Yol</string>
+    <string name="download_edit_filename_label">Ad</string>
+    <string name="download_no_enough_memory">Endirmə əməliyyatı üçün yaddaş kifayət qədər deyil</string>
+    <string name="download_settings_title">Endirmə tənzimləmələri</string>
+    <string name="filename_empty_title">Endirmə fayl adı boşdur</string>
+    <string name="filename_empty_msg">Endirmə faylının adı boş ola bilməz. Zəhmət olmasa etibarlı bir fayl adı daxil edin.</string>
+    <string name="unknow_length">Bilinmir</string>
+    <string name="download_file_exist_msg">Fayl artıq mövcuddur. Zəhmət olmasa yeni bir fayl adı daxil edin.</string>
+    <string name="download_file_exist">Fayl artıq mövcuddur</string>
+    <string name="time_min">dəq</string>
+    <string name="download_path_unavailable_dlg_title">Endirmə kataloqu əlçatmazdır</string>
+    <string name="download_path_unavailable_dlg_msg">Endirmə kataloqunu dəyişdirin</string>
+    <string name="activity_not_found">Bu məqsədi idarə edəcək fəaliyyət tapılmadı: <xliff:g id="NOACTIVITY">%s</xliff:g></string>
+    <string name="download_name_hint">Fayl adı</string>
+    <string name="download_size_hint">Həcmi</string>
+    <string name="download_eta_hint">ETA</string>
+    <string name="received_message_full_screen"><xliff:g id="FROM">%s</xliff:g> bir mesaj göndərdi.</string>
+    <string name="ssl_certificate">Təhlükəsizlik sertifikatı</string>
+    <string name="ssl_certificate_is_valid">Bu sertifikat etibarlıdır.</string>
+    <string name="version">Versiya</string>
+    <string name="build_date">Quruluş tarixi</string>
+    <string name="build_hash">Quruluş hash-i</string>
+    <string name="user_agent">İstifadәçi agenti</string>
+    <string name="help">Yardım</string>
+    <string name="feedback">Geri bildiriş</string>
+    <string name="swe_legal">Qanuni məlumat</string>
+    <string name="swe_open_source_licenses">Açıq mənbə lisenziyaları</string>
+    <string name="swe_eula">Son istifadəçi lisenziya razılaşması</string>
+    <string name="swe_privacy_policy">Gizlilik siyasəti</string>
+    <string name="mdm_managed_alert">İnzibatçınız tərəfindən idarə edilir</string>
+    <string name="mystuffs">Naviqasiyam</string>
+    <string name="geolocation_permissions_prompt_remember">Tərcih ediləni xatırla</string>
+    <string name="geolocation_permissions_prompt_share_never">Ömürlük rədd et</string>
+    <string name="geolocation_permissions_prompt_share_for_limited_time">24 saatlıq icazə ver</string>
+    <string name="geolocation_permissions_prompt_share_forever">Ömürlük icazə ver</string>
 </resources>

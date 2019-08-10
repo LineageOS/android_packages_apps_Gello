@@ -14,331 +14,404 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<!DOCTYPE resources [
-<!ENTITY about SYSTEM "about.xml">
-]>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- The name of the application. -->
-  <!-- Displayed with a file picker to choose a file to upload -->
-  <!-- Toast to show the user after they try to open the file picker but no apps on the
-         system can provide a file [CHAR-LIMIT=NONE]-->
-  <!-- Name of menu item of a new tab.  Also used in the title bar when displaying a new tab -->
-  <!-- Crash tab View title -->
-  <!-- Crash tab button text -->
-  <!-- Crash tab View message -->
-  <!-- Name of menu item of a new incognito tab.  Also used in the
-         title bar when displaying a new tab [CHAR LIMIT=30] -->
-  <!-- Name of tab containing the user's most visited websites, organized by number of visits -->
-  <!-- Name of tab containing the user's saved pages, organized by time created [CHAR LIMIT=20] -->
-  <!-- Toast shown when a history item's star is clicked, converting it to a bookmark -->
-  <!-- Toast shown when a history item's star is clicked off, removing its bookmark -->
-  <!-- Sign-in dialog -->
-  <!-- This is used as the title of a dialog which is used to sign in to a secure site.
-            "%s1"is replaced with the host and "%s2" with realm -->
-  <!-- Prompt for an input box that allows the user to enter their login name -->
-  <!-- Prompt for an input box that allows the user to enter their password -->
-  <!-- The label on the "sign in" button -->
-  <!-- The name of the add bookmark page activity.-->
-  <!-- Label for a cancel button.  It is used for multiple cancel buttons in different contexts -->
-  <!-- Label for a confirm button.  Used in multiple contexts. -->
-  <!-- Message to be displayed if url character limit exceeds -->
-  <!-- Message to be displayed when google play store does not exist on the device -->
-  <!-- Menu item -->
-  <!-- Page Info dialog strings -->
-  <!-- Noun.  The url for the current page. Displayed on the Page Info
-            screen. -->
-  <!-- Title for an SSL error dialog  -->
-  <!-- Message in an SSL Error dialog -->
-  <!-- Message in an SSL Error dialog -->
-  <!-- Toast informing the user that loading has stopped for the current page. -->
-  <!-- Menu item to stop the current page from loading. -->
-  <!-- Menu item to reload or refresh the current page. -->
-  <!-- Menu item to go back to the previous page -->
-  <!-- Menu item to go to the next page (only useful if the user has previously hit back.) -->
-  <!-- Field label in Bookmark dialog box: refers to URL of the page to bookmark -->
-  <!-- Field label in Bookmark dialog box: refers to the account to save the bookmark to -->
-  <!-- Field label in Bookmark dialog box: refers to the folder in which to save the bookmark -->
-  <!-- Default name for a new folder and label for a button that allows the user to create a new folder
-         in the add bookmark dialog -->
-  <!-- Context menu item to edit a folder [CHAR LIMIT=50] -->
-  <!-- Context menu item to delete a folder [CHAR LIMIT=50] -->
-  <!-- Label stating that the currently open folder has no subfolders
-         in the add bookmark dialog [CHAR-LIMIT=none]-->
-  <!-- Menu item to save the newly created bookmark to the home screen. [CHAR-LIMIT=30]-->
-  <!-- Menu item to open a picker to determine which folder to save a bookmark in. [CHAR-LIMIT=30]-->
-  <!-- Field label in Bookmark dialog box: title that the user wishes to use for the bookmark -->
-  <!-- Menu item that opens a dialog to save a bookmark for the current page [CHAR LIMIT=30] -->
-  <!-- Also used as title for AddBookmarkPage -->
-  <!-- Title of the dialog to bookmark a page -->
-  <!-- Option on bookmark dialog to remove the bookmark [CHAR LIMIT=30] -->
-  <!-- Menu item on the bookmarks page, to edit an existing bookmark -->
-  <!-- Context menu item to create a shortcut to the bookmark on the desktop [CHAR LIMIT=50] -->
-  <!-- Menu item to remove the currently highlighted bookmark-->
-  <!-- Context menu item to remove a history item from bookmarks -->
-  <!-- Menu item to remove the currently highlighted history entry from the list of previously visited sites -->
-  <!-- Context menu item for setting the bookmark/history item as the homepage -->
-  <!-- Toast informing the user that their action to save a bookmark has succeeded -->
-  <!-- Toast informing the user that their action to save a bookmark did not succeed -->
-  <!-- Toast confirming that the homepage has been set -->
-  <!-- Error that appears in the title of Bookmark dialog when user selects OK with empty Name field -->
-  <!-- Error that appears in the title of Bookmark dialog when user selects OK with empty Location field -->
-  <!-- Error that appears in the title of Bookmark dialog when user selects OK with invalid URL -->
-  <!-- Error that appears in the Bookmark dialog when user selects OK with a URL of a type we cannot bookmark -->
-  <!-- Summary text under the New Bookmark item on the Bookmarks screen.
-            Tells the user that if they select this item, it will bring up a
-            dialog to bookmark the page that the browser is currently viewing,
-            though it is not currently being displayed, since they are viewing
-            the bookmarks screen. -->
-  <!-- Confirmation dialog message confirming that the user wishes to delete
-            the bookmark they selected for deletion -->
-  <!-- Confirmation dialog message confirming that the user wishes to delete
-               the folder they selected for deletion -->
-  <!-- Context menu item to open every bookmark in a folder in new tabs [CHAR LIMIT=50] -->
-  <!-- Displayed in title of chooser dialog for text sent to another app,e.g-send text via SMS or IM-->
-  <!-- Menu item to close all other tabs [CHAR LIMIT=40] -->
-  <!-- Menu item to open the bookmarks page and name of the Tab in the combo view -->
-  <!-- Secondary name for the Activity "BrowserBookmarksPage" -->
-  <!-- Title for the activity asking the user to select a bookmark [CHAR LIMIT=50] -->
-  <!-- Menu item to display the History of previously visited pages and the name of the combo view
-        Tab-->
-  <!-- Menu item -->
-  <!-- Menu item for saving link to homescreen -->
-  <!-- Menu item for saving a page for offline reading. This is a view-only snapshot of the page. [CHAR LIMIT=50] -->
-  <!-- Dialog message that is shown while saving a page for offline reading. [CHAR LIMIT=50] -->
-  <!-- Toast informing the user that saving the page for offline reading has failed. [CHAR LIMIT=50] -->
-  <!-- The number of bookmarks in a folder [CHAR LIMT=50] -->
-  <!-- No bookmarks in the folder [CHAR LIMIT=50] -->
-  <!-- Context Menu item open the currently selected link in the current
-            window.-->
-  <!-- Context Menu item to open the currently selected link in a new
-            window. -->
-  <!-- Context Menu item to open the currently selected link in a new
-         background window. [CHAR LIMIT=50] -->
-  <!-- Context Menu item to save the webpage referred to by this link to the
-            SD card (external storage) -->
-  <!-- Context Menu item to send the url of the selected link to someone else,
-            via Gmail or another app [CHAR LIMIT=50] -->
-  <!-- Context Menu item -->
-  <!-- Context Menu item to copy the url of the selected link to the
-            clipboard -->
-  <!-- Context Menu item to save the image to external storage -->
-  <!-- Context Menu item to view the image by itself in the browser -->
-  <!-- Context Menu item to set the image as the home screen wallpaper -->
-  <!-- Context Menu item to open the dialer app with the selected phone number
-            -->
-  <!-- Context Menu item to add the selected phone number to the address book.
-            -->
-  <!-- Context Menu item to send an email using the selected email address.-->
-  <!-- Context Menu item to show the currently selected address in the Maps
-            application -->
-  <!-- Title of the dialog used for selecting the application that should be
-            used for sharing a link (e.g. Gmail or another app). See also
-            contextmenu_sharelink above -->
-  <!-- Used as the title of dialogs in the Browser Settings confirming that
-            the user wants to clear (cache, history, or cookie data) -->
-  <!-- Part of a sentence that says "Replace <url of existing bookmark> with
-            <url of new bookmark>?" -->
-  <!-- Settings screen strings -->
-  <!-- Menu item to open the Settings screen -->
-  <!-- Settings screen, section title -->
-  <!-- Settings label -->
-  <!-- Settings label -->
-  <!-- Settings label -->
-  <!-- Settings label -->
-  <!-- Settings summary [CHAR LIMIT=50]-->
-  <!-- Settings label [CHAR LIMIT=50] -->
-  <!-- Settings label -->
-  <!-- Settings summary -->
-  <!-- Settings button label that to pick what to set the homepage to [CHAR LIMIT=40] -->
-  <!-- Settings screen & section title for "General settings". These include things like
-         configuring bookmark syncing to Google servers and form auto fill settings. [CHAR-LIMIT=32] -->
-  <!-- Settings category for autofill under general. [CHAR-LIMIT=50] -->
-  <!-- Checkbox setting for enabling/disabling power save mode feature -->
-  <!-- Settings summary for the powersave feature. -->
-  <!-- Checkbox setting for enabling/disabling night mode feature -->
-  <!-- Settings summary for the night mode feature. -->
-  <!-- Checkbox setting for enabling/disabling the form AutoFill feature [CHAR-LIMIT=32] -->
-  <!-- Settings summary for the form AutoFill feature. [CHAR-LIMIT=none] -->
-  <!-- Settings screen, section title [CHAR LIMIT=50] -->
-  <!-- Label for option that when clicked opens the AutoFill settings screen. Also used as the title of that AutoFill Settings screen. [CHAR-LIMIT=32] -->
-  <!-- Summary for the AutoFill Settings preference [CHAR-LIMIT=none] -->
-  <!-- Heading for the AutoFill profile editor to tell the user what AutoFill does and why they should fill out the profile. [CHAR-LIMIT=None] -->
-  <!-- String for the user's full name in the AutoFill profile editor. [CHAR-LIMIT=32] -->
-  <!-- String for the user's e-mail address in the AutoFill profile editor. [CHAR-LIMIT=32] -->
-  <!-- String for the user's company name in the AutoFill profile editor. [CHAR-LIMIT=32] -->
-  <!-- String for the first line of the user's address in the AutoFill profile editor. [CHAR-LIMIT=32] -->
-  <!-- String to suggest to the user the kind of data to be used for the first line of the address. CHAR-LIMIT=64] -->
-  <!-- String for the second line of the user's address in the AutoFill profile editor. [CHAR-LIMIT=32] -->
-  <!-- String to suggest to the user the kind of data to be used for the second line of the address. CHAR-LIMIT=64] -->
-  <!-- String for the user's city or town in the AutoFill profile editor. [CHAR-LIMIT=32] -->
-  <!-- String for the user's state or province or region in the AutoFill profile editor. [CHAR-LIMIT=32] -->
-  <!-- String for the user's zip code in the AutoFill profile editor. [CHAR-LIMIT=32] -->
-  <!-- String for the user's country in the AutoFill profile editor. [CHAR-LIMIT=32] -->
-  <!-- String for the user's phone number in the AutoFill profile editor. [CHAR-LIMIT=32] -->
-  <!-- String to display in an error tooltip to inform the user the phone number they provided is not valid. [CHAR-LIMIT=32] -->
-  <!-- Button text to save the AutoFill profile [CHAR-LIMIT=20] -->
-  <!-- Toast message displayed when the profile has been successfully saved [CHAR-LIMIT=none] -->
-  <!-- Toast message displayed when the profile has been successfully deleted [CHAR-LIMIT=none] -->
-  <!-- Button text to delete all the AutoFill profile data [CHAR-LIMIT=20] -->
-  <!-- Text on toast shown to the user when power save mode is enabled or disabled -->
-  <!-- Text on a dialog shown to the user when they are prompted to set up the autofill feature [CHAR-LIMIT=NONE] -->
-  <!-- Toast message displayed when the user decides to not set up autofill at this time. We want to remind them that they can configure
-         it through the Browser Settings menu. [CHAR-LIMIT=NONE] -->
-  <!-- Text on a checkbox in the "setup autofill" dialog which is shown to the user when they are prompted to set up the autofill feature.
-         The checkbox allows them to specify they would like to disable the feature altogether [CHAR-LIMIT=NONE] -->
-  <!-- Settings screen, section title [CHAR-LIMIT=50] -->
-  <!-- Settings screen, section title [CHAR-LIMIT=50] -->
-  <!-- Popup dialog -->
-  <!-- Settings label -->
-  <!-- Settings summary -->
-  <!-- Confirmation dialog message -->
-  <!-- Settings label -->
-  <!-- Settings summary -->
-  <!-- Settings label -->
-  <!-- Settings summary -->
-  <!-- Settings summary -->
-  <!-- Confirmation dialog message -->
-  <!-- Settings label -->
-  <!-- Settings summary -->
-  <!-- Settings label -->
-  <!-- Settings summary -->
-  <!-- Settings label -->
-  <!-- Settings label -->
-  <!-- Settings summary -->
-  <!-- Settings label -->
-  <!-- Settings label -->
-  <!-- Settings Label -->
-  <!-- Settings label -->
-  <!-- Settings text size options - displays sample font size in settings -->
-  <!-- Label for minimum font size [CHAR LIMIT=30] -->
-  <!-- Label for the current minimum font size value [CHAR LIMIT=6] -->
-  <!-- Label for text scaling (percent) [CHAR LIMIT=30] -->
-  <!-- Label for whether or not to force-enable user scalablity (aka, zoom) [CHAR LIMIT=30] -->
-  <!-- Summary for whether or not to force-enable user scalablity (aka, zoom) [CHAR LIMIT=30] -->
-  <!-- Inverted screen category under accessibility settings [CHAR LIMIT=50] -->
-  <!-- Title for the inverted screen feature. This causes the screen to render with inverted colors (black becomes white and vice versa) [CHAR LIMIT=40] -->
-  <!-- Summary for the inverted screen feature. [CHAR LIMIT=120] -->
-  <!-- Title for the inverted screen contrast. Change the contrast value from 1.0 to 3.0. [CHAR LIMIT=30] -->
-  <!-- Settings screen, section title [CHAR LIMIT=50] -->
-  <!-- Settings label -->
-  <!-- Settings summary -->
-  <!-- Settings label -->
-  <!-- Settings summary -->
-  <!-- Confirmation dialog message -->
-  <!-- Title for a group of settings -->
-  <!-- Settings screen, setting option name -->
-  <!-- Colored statusbar -->
-  <!-- Title for accessibility settings [CHAR LIMIT=25] -->
-  <!-- LookLock -->
-  <!-- Font size settings category under accessibility settings [CHAR LIMIT=50] -->
-  <!-- Title for the fullscreen lab feature [CHAR LIMIT=40] -->
-  <!-- Summary for the fullscreen lab feature [CHAR LIMIT=120] -->
-  <!-- Title for search preloading [CHAR LIMIT=40] -->
-  <!-- Search preloading options [CHAR LIMIT=20] -->
-  <!-- Link prefetching options [CHAR LIMIT=20] -->
-  <!-- Summary for search preloading [CHAR LIMIT=80] -->
-  <!-- Title for link prefetching [CHAR LIMIT=40] -->
-  <!-- Summary for link prefetching [CHAR LIMIT=80] -->
-  <!-- Dialog box message -->
-  <!-- Menu item -->
-  <!-- Appears on History screen if no history is found -->
-  <!-- Displayed at the top of the bookmarks page.  When clicked, it bookmarks the page the browser is currently showing -->
-  <!-- Verb placed in front of a screenshot of a web page that, when clicked,
-            will add that page to bookmarks -->
-  <!-- This string is for the browser "Go To" UI. -->
-  <!-- This is the hint text shown in the Go To widget, before text is entered. -->
-  <!-- This string is for the browser "Go To" UI. -->
-  <!-- This is the button label in the "Go To" UI. -->
-  <!-- The string used to describe the browser as a searchable item within system search settings. -->
-  <!-- Label for a button to allow a particular popup window to open -->
-  <!-- Label for a button to disallow a particular popup from opening -->
-  <!-- Title for a dialog informing the user that they cannot open any more
-            windows because the limit has been reached. -->
-  <!-- Message in a dialog telling the user that they cannot open any more
-            windows because the limit has been reached. -->
-  <!-- Title for a dialog informing the user that they cannot open a subwindow
-            because only one can be open at a time. -->
-  <!-- Message for a dialog informing the user that they cannot open a
-            subwindow because only one can be open at a time. -->
-  <!-- Download History UI strings -->
-  <!-- Dialog title [CHAR LIMIT=25] -->
-  <!-- Dialog title -->
-  <!-- Dialog message [CHAR LIMIT=NONE] -->
-  <!-- Dialog message -->
-  <!-- Title for a dialog informing the user that the SD card used for
-            external storage is busy so they cannot download anything [CHAR LIMIT=25] -->
-  <!-- Title for a dialog informing the user that the SD card used for
-            external storage is busy so they cannot download anything -->
-  <!-- Message for a dialog informing the user that the SD card used for
-            external storage is busy so they cannot download anything.  Informs
-            the user how to enable SD card storage [CHAR LIMIT=NONE] -->
-  <!-- Message for a dialog informing the user that the SD card used for
-            external storage is busy so they cannot download anything.  Informs
-            the user how to enable SD card storage -->
-  <!-- Toast for a download which cannot begin because the URL is not http or https -->
-  <!-- Message in the list of items which have received download requests
-            telling their status.  This message states that the download has not
-            yet begun -->
-  <!-- The description of the suggestion that lets the user search the web for the query currently
-         in the text field. -->
-  <!-- HTML5 dialogs -->
-  <!-- Used as a status bar notification when the browser is running out of space trying to allocate or increase the database quota for an HTML5 databae or application cache. -->
-  <!-- Used in the Browser Settings -->
-  <!-- Confirmation dialog when the user ask to clear all data for an origin -->
-  <!-- String shown in a progress view while a video is loading, before it starts playing -->
-  <!-- Label for the menu item in the website settings activity used to clear data stored by all websites -->
-  <!-- Text in the progress dialog when we are setting an image as the home screen wallpaper. -->
-  <!-- The string that is displayed when there are no bookmarks to display.
-         This is centered in the middle of the screen [CHAR LIMIT=NONE] -->
-  <!-- The folder name for the special "Other Bookmarks" folder created by Chrome [CHAR LIMIT=24] -->
-  <!-- Description for a dialog asking the user what they want to do with their bookmarks when adding a sync account [CHAR-LIMIT=none] -->
-  <!-- Button allowing users to remove all of their existing bookmarks when setting up syncing with their bookmarks stored in Google Chrome [CHAR-LIMIT=64] -->
-  <!-- Url Selection Action Mode -->
-  <!-- Menu item to share URL selection [CHAR LIMIT=30] -->
-  <!-- Toast to inform the user that the maximum number of tabs has been
-         reached. [CHAR LIMIT=50] -->
-  <!-- Font size preview label in settings [CHAR LIMIT=30] -->
-  <!-- Name for the user's unsynced, local bookmarks [CHAR LIMIT=50] -->
-  <!-- allows the user to find on webpage [CHAR LIMIT=None] -->
-  <!-- Popup menu checkbox that allows the user to request the desktop version of a webpage [CHAR LIMIT=50] -->
-  <!-- Popup menu checkbox that loads the reader mode version of the current webpage -->
-  <!-- Preload permission label [CHAR LIMIT=40] -->
-  <!-- Empty text for the "saved pages" tab that is shown when no saved pages exist. [CHAR LIMIT=None] -->
-  <!-- Menu option to delete the currently selected saved page [CHAR LIMIT=50] -->
-  <!-- Popup menu option to load the live version of a saved page [CHAR LIMIT=20] -->
-  <!--  Accessibility content descriptions -->
-  <!-- Content description for back button [CHAR LIMIT=NONE] -->
-  <!-- Content description for forward button [CHAR LIMIT=NONE] -->
-  <!-- Content description for refresh button [CHAR LIMIT=NONE] -->
-  <!-- Content description for stop button [CHAR LIMIT=NONE] -->
-  <!-- Content description for add bookmark button [CHAR LIMIT=NONE] -->
-  <!-- Content description for search button [CHAR LIMIT=NONE] -->
-  <!-- Content description for voice search button [CHAR LIMIT=NONE] -->
-  <!-- Content description for close tab button [CHAR LIMIT=NONE] -->
-  <!-- Content description for new tab button [CHAR LIMIT=NONE] -->
-  <!-- Content description for new incognito tab button [CHAR LIMIT=NONE] -->
-  <!-- Content description for clear button [CHAR LIMIT=NONE] -->
-  <!-- Content description for tab switcher button [CHAR LIMIT=NONE] -->
-  <!-- Content description for incognito state [CHAR LIMIT=NONE] -->
-  <!-- Content description for frozen state [CHAR LIMIT=NONE] -->
-  <!-- Content description for tab switcher transition [CHAR LIMIT=NONE] -->
-  <!-- Content description for navigating up in the bookmark folder hierarchy [CHAR LIMIT=NONE] -->
-  <!--Add for Navigation Feature -->
-  <!-- Add for Carrier Feature.Content description for AV save/play prompt dialog -->
-  <!-- Add for Carrier Feature.Content description for exit menu item -->
-  <!-- Add for Carrier Feature.Content description for about menu item -->
-  <!-- Add for Unsupport Uploading Drm Files Feature -->
-  <!-- Add for exit prompt Feature -->
-  <!-- Add for download save path setting Feature -->
-  <!-- Toast message displayed when the full screen received message -->
-  <!-- Snapdragon Browser Additions -->
-  <!-- Toast message displayed when user attempts to modify a setting disabled by the administrator -->
-  <!-- My Navigation - Favorites + History + Saved -->
-  <!-- Place holder for SWE engine strings added to
-         'chrome/android/java/strings/android_chrome_strings.grd'. Follow
-         chromium android grd naming convention. Follow exact mapping rules from
-         grd to xml. All grd strings maps to xml name in lowercase with 'IDS_'
-         prefix being stripped. For more info check out chromium's
-         UI-localization page. -->
-  <!-- Geolocation infobar promt-->
+    <string name="application_name">Porwr</string>
+    <string name="choose_upload">Dewisa ffeil i\'w uwchlwytho</string>
+    <string name="uploads_disabled">Analluogwyd uwchlwytho.</string>
+    <string name="new_tab">Tab newydd</string>
+    <string name="browser_tab_crash_snap">Wps, Snap!</string>
+    <string name="browser_tab_crash_reload">Ail-lwytho</string>
+    <string name="browser_tab_crash_message">Digwyddodd rhywbeth annisgwyl wrth ddangos y dudalen hon. Ail-lwytha neu fynd i dudalen arall.</string>
+    <string name="new_incognito_tab">Modd cyfrinachol</string>
+    <string name="tab_most_visited">Ymwelwyd â nhw amlaf</string>
+    <string name="tab_snapshots">Wedi eu cadw</string>
+    <string name="added_to_bookmarks">Ychwanegwyd i ffefrynnau.</string>
+    <string name="removed_from_bookmarks">Tynnwyd o\'r ffefrynnau.</string>
+    <string name="sign_in_to">Mewngofnodi i <xliff:g id="hostname">%s1</xliff:g> "<xliff:g id="realm">%s2</xliff:g>\"</string>
+    <string name="username">Enw</string>
+    <string name="password">Cyfrinair</string>
+    <string name="action">Mewngofnodi</string>
+    <string name="bookmarks_add_page">Cadw</string>
+    <string name="cancel">Diddymu</string>
+    <string name="ok">Iawn</string>
+    <string name="max_url_character_limit_msg">Wedi cyrraedd terfyn nifer o URLau</string>
+    <string name="msg_no_google_play">Dyw Play Store Google ddim yn bresennol ar dy ddyfais.</string>
+    <string name="page_info">Gwybodaeth</string>
+    <string name="page_info_address">Cyfeiriad:</string>
+    <string name="security_warning">Rhybudd diogelwch</string>
+    <string name="ssl_invalid">Mae\'r dystysgrif hon yn annilys.</string>
+    <string name="ssl_unknown">Gwall tystysgrif anhysbys.</string>
+    <string name="stopping">Yn stopio\u2026</string>
+    <string name="stop">Stopio</string>
+    <string name="reload">Ail-lwytho</string>
+    <string name="back">Nôl</string>
+    <string name="forward">Ymlaen</string>
+    <string name="location">Cyfeiriad</string>
+    <string name="account">Cyfrif</string>
+    <string name="containing_folder">Ychwanegu i</string>
+    <string name="new_folder">Ffolder newydd</string>
+    <string name="edit_folder">Golygu\'r ffolder</string>
+    <string name="delete_folder">Dileu\'r ffolder</string>
+    <string name="no_subfolders">Dim isffolderi.</string>
+    <string name="add_to_homescreen_menu_option">Sgrin gartref</string>
+    <string name="add_to_other_folder_menu_option">Dewis ffolder\u2026</string>
+    <string name="name">Label</string>
+    <string name="save_to_bookmarks">Cadw</string>
+    <string name="bookmark_this_page">Ychwanegu\'r dudalen hon i\'r ffefrynnau</string>
+    <string name="remove">Tynnu</string>
+    <string name="edit_bookmark">Golygu</string>
+    <string name="create_shortcut_bookmark">Ychwanegu llwybr byr</string>
+    <string name="remove_bookmark">Dileu</string>
+    <string name="remove_from_bookmarks">Tynnu</string>
+    <string name="remove_history_item">Tynnu</string>
+    <string name="set_as_homepage">Gosod fel tudalen gartref</string>
+    <string name="bookmark_saved">Ychwanegwyd i ffefrynnau</string>
+    <string name="bookmark_not_saved">Methwyd â chadw\'r ffefryn.</string>
+    <string name="homepage_set">Gosodwyd y dudalen gartref.</string>
+    <string name="bookmark_needs_title">Rhaid bod gan ffefryn enw.</string>
+    <string name="bookmark_needs_url">Rhaid bod gan ffefryn leoliad.</string>
+    <string name="bookmark_url_not_valid">Nid yw\'r URL yn ddilys.</string>
+    <string name="bookmark_cannot_save_url">Ni ellir ychwanegu\'r URL hwn i\'r ffefrynnau.</string>
+    <string name="current_page">oddi wrth:\u0020</string>
+    <string name="delete_bookmark_warning">Dileu\'r ffefryn \"<xliff:g id="bookmark">%s</xliff:g>\"?</string>
+    <string name="delete_folder_warning">Dileu\'r ffolder \"<xliff:g id="bookmark">%s</xliff:g>\"?</string>
+    <string name="open_all_in_new_window">Agor y cwbl mewn tabiau newydd</string>
+    <string name="sendText">Dewis gweithred ar gyfer testun</string>
+    <string name="close_other_tabs">Cau tabiau eraill</string>
+    <string name="bookmarks">Ffefrynnau</string>
+    <string name="shortcut_bookmark">Ffefryn</string>
+    <string name="shortcut_bookmark_title">Dewis ffefryn</string>
+    <string name="history">Hanes</string>
+    <string name="share_page">Rhannu</string>
+    <string name="add_to_homescreen">Ychwanegu i Gartref</string>
+    <string name="menu_save_snapshot">Cadw</string>
+    <string name="saving_snapshot">Yn cadw\u2026</string>
+    <string name="snapshot_failed">Methwyd â chadw er mwyn darllen all-lein.</string>
+    <string name="contextheader_folder_bookmarkcount"><xliff:g id="bookmark_count">%d</xliff:g> ffefryn</string>
+    <string name="contextheader_folder_empty">Ffolder gwag</string>
+    <string name="contextmenu_openlink">Agor</string>
+    <string name="contextmenu_openlink_newwindow">Agor mewn tab newydd</string>
+    <string name="contextmenu_openlink_newwindow_background">Agor mewn tab cefndir</string>
+    <string name="contextmenu_savelink">Cadw\'r ddolen</string>
+    <string name="contextmenu_sharelink">Rhannu dolen</string>
+    <string name="contextmenu_copy">Copïo</string>
+    <string name="contextmenu_copylink">Copïo URL dolen</string>
+    <string name="contextmenu_download_image">Cadw\'r ddelwedd</string>
+    <string name="contextmenu_view_image">Edrych ar y ddelwedd</string>
+    <string name="contextmenu_set_wallpaper">Gosod fel papur wal</string>
+    <string name="contextmenu_dial_dot">Deialu\u2026</string>
+    <string name="contextmenu_add_contact">Ychwanegu cyswllt</string>
+    <string name="contextmenu_send_mail">Anfon ebost</string>
+    <string name="contextmenu_map">Map</string>
+    <string name="choosertitle_sharevia">Rhannu drwy</string>
+    <string name="clear">Clirio</string>
+    <string name="replace">Disodli</string>
+    <string name="menu_preferences">Gosodiadau</string>
+    <string name="pref_content_title">Gosodiadau cynnwys</string>
+    <string name="pref_content_title_summary">Gosodiadau cynnwys ar-lein</string>
+    <string name="pref_content_load_images">Llwytho delweddau</string>
+    <string name="pref_content_load_images_summary">Dangos delweddau ar wefannau</string>
+    <string name="pref_security_allow_popups">Hysbysiadau naid</string>
+    <string name="pref_content_javascript">Galluogi JavaScript</string>
+    <string name="pref_content_open_in_background">Agor yn y cefndir</string>
+    <string name="pref_content_open_in_background_summary">Agor tabiau newydd tu ôl i\'r tab cyfredol</string>
+    <string name="pref_content_homepage">Tudalen cartref</string>
+    <string name="pref_content_search_engine">Peiriant chwilio</string>
+    <string name="pref_content_search_engine_summary">Dewisa wasanaeth chwilio</string>
+    <string name="pref_set_homepage_to">Gosod i</string>
+    <string-array name="pref_homepage_choices">
+        <item>Y dudalen gyfredol</item>
+        <item>Tudalen gwag</item>
+        <item>Tudalen rhagosodedig</item>
+        <item>Gwefannau ymwelir â nhw amlach</item>
+        <item>Arall</item>
+    </string-array>
+    <string name="pref_general_title">Cyffredinol</string>
+    <string name="pref_default_site_settings_title">Gosodiadau gwefan rhagosodedig</string>
+    <string name="pref_site_settings_title">Gosodiadau gwefan</string>
+    <string name="pref_site_settings_info_panel">Gwybodaeth diogelwch</string>
+    <string name="pref_general_autofill_title">Awto-lenwi</string>
+    <string name="pref_powersave_enabled">Modd arbed pŵer</string>
+    <string name="pref_powersave_enabled_summary">Lleihau defnydd pŵer y porwr</string>
+    <string name="pref_nightmode_enabled">Modd nos</string>
+    <string name="pref_nightmode_enabled_summary">Gwrthdroi lliwiau</string>
+    <string name="pref_autofill_enabled">Awto-lenwi ffurflenni</string>
+    <string name="pref_autofill_enabled_summary">Llenwi ffurflenni ar-lein gydag un cyffyrddiad</string>
+    <plurals name="pref_web_refiner_advertisements">
+        <item quantity="zero">%d hysbysebion</item>
+        <item quantity="one">%d hysbyseb</item>
+        <item quantity="two">%d hysbyseb</item>
+        <item quantity="few">%d hysbyseb</item>
+        <item quantity="many">%d hysbyseb</item>
+        <item quantity="other">%d hysbyseb</item>
+    </plurals>
+    <plurals name="pref_web_refiner_trackers">
+        <item quantity="zero">%d tracwyr</item>
+        <item quantity="one">%d traciwr</item>
+        <item quantity="two">%d draciwr</item>
+        <item quantity="few">%d thraciwr</item>
+        <item quantity="many">%d thraciwr</item>
+        <item quantity="other">%d traciwr</item>
+    </plurals>
+    <plurals name="pref_web_refiner_malware">
+        <item quantity="zero">%d bygythiadau drwgwedd</item>
+        <item quantity="one">%d bygythiad drwgwedd</item>
+        <item quantity="two">%d fygythiad drwgwedd</item>
+        <item quantity="few">%d bygythiad drwgwedd</item>
+        <item quantity="many">%d bygythiad drwgwedd</item>
+        <item quantity="other">%d bygythiad drwgwedd</item>
+    </plurals>
+    <string-array name="pref_web_refiner_message">
+        <item>"Rhwystrwyd %s. "</item>
+        <item>"Rhwystrwyd %1$s a %2$s. "</item>
+        <item>"Rhwystrwyd %1$s, %2$s a %3$s. "</item>
+    </string-array>
+    <string name="pref_valid_cert">Tystysgrif SSL dilys. Mae cyfathrebu wedi\'i hamgryptio a hunaniaeth wedi\'i dilysu.</string>
+    <string name="pref_invalid_cert">Mae gan y wefan dystysgrif SSL annilys.</string>
+    <string name="pref_warning_cert">Mae gan dystysgrif SSL y wefan rhybuddion.</string>
+    <string name="pref_interface_title">Rhyngwyneb</string>
+    <string name="pref_autofill_profile_editor">Awto-lenwi</string>
+    <string name="pref_autofill_profile_editor_summary">Gosod testun i\'w ddefnyddio i lenwi ffurflenni ar-lein yn awtomatig</string>
+    <string name="autofill_profile_editor_heading">Gosoda\'r testun i\'w ddefnyddio i lenwi ffurflenni ar-lein yn awtomatig.</string>
+    <string name="autofill_profile_editor_name">Enw llawn:</string>
+    <string name="autofill_profile_editor_email_address">Ebost:</string>
+    <string name="autofill_profile_editor_company_name">Enw cwmni:</string>
+    <string name="autofill_profile_editor_address_line_1">Cyfeiriad - llinell 1:</string>
+    <string name="autofill_profile_editor_address_line_1_hint">Cyfeiriad stryd, blwch post, d/o</string>
+    <string name="autofill_profile_editor_address_line_2">Cyfeiriad - llinell 2:</string>
+    <string name="autofill_profile_editor_address_line_2_hint">Fflat, ystafell, uned, adeilad, llawr, ayyb.</string>
+    <string name="autofill_profile_editor_city">Dinas/Tref:</string>
+    <string name="autofill_profile_editor_state">Sir/Rhanbarth/Talaith:</string>
+    <string name="autofill_profile_editor_zip_code">Cod post:</string>
+    <string name="autofill_profile_editor_country">Gwlad:</string>
+    <string name="autofill_profile_editor_phone_number">Ffôn:</string>
+    <string name="autofill_profile_editor_phone_number_invalid">Rhif ffôn annilys.</string>
+    <string name="autofill_profile_editor_save_profile">Cadw</string>
+    <string name="autofill_profile_successful_save">Cadwyd y tesun awto-lenwi.</string>
+    <string name="autofill_profile_successful_delete">Dileuwyd y testun awto-lenwi.</string>
+    <string name="autofill_profile_editor_delete_profile">Dileu</string>
+    <string name="powersave_dialog_on">Galluogwyd modd arbed pŵer. Caiff y porwr ei ail-ddechrau.</string>
+    <string name="powersave_dialog_off">Analluogwyd modd arbed pŵer. Caiff y porwr ei ail-ddechrau.</string>
+    <string name="autofill_setup_dialog_message">Gall y porwr cwblhau ffurflenni ar-lein fel hyn yn awtomatig. Wyt ti am osod dy destun awto-lenwi?</string>
+    <string name="autofill_setup_dialog_negative_toast">Gellir gosod dy destun awto-lenwi unrhyw bryd yn y sgrin Porwr &gt; Gosodiadau &gt; Awto-lenwi.</string>
+    <string name="disable_autofill">Analluogi awto-lenwi</string>
+    <string name="pref_security_title">Diogelwch</string>
+    <string name="pref_privacy_security_title">Preifatrwydd a diogelwch</string>
+    <string name="pref_privacy_security_title_summary">Gosodiadau diogelwch a phreifatrwydd y porwr</string>
+    <string name="pref_select_items">Dewisa eitemau i\'w clirio</string>
+    <string name="pref_privacy_clear_selected">Clirio\'r eitemau a ddewiswyd</string>
+    <string name="pref_privacy_clear_selected_summary">Clirio\'r eitemau a ddewiswyd yn y rhestr</string>
+    <string name="pref_privacy_clear_selected_dlg">Clirio\'r eitemau canlynol?</string>
+    <string name="pref_privacy_clear_cache">Cuddstôr</string>
+    <string name="pref_privacy_clear_cache_summary">Clirio cynnwys cuddstôr a chronfeydd data lleol</string>
+    <string name="pref_privacy_clear_cookies">Cwcis a data gwefannau</string>
+    <string name="pref_privacy_clear_cookies_summary">Clirio holl gwcis a data gwefannau\'r porwr</string>
+    <string name="pref_privacy_clear_history_summary">Clirio hanes pori\'r porwr?</string>
+    <string name="pref_privacy_clear_history_dlg">Clirio hanes pori\'r porwr?</string>
+    <string name="pref_privacy_clear_form_data">Data ffurflen</string>
+    <string name="pref_privacy_clear_form_data_summary">Clirio\'r holl ddata ffurflenni wedi\'i gadw</string>
+    <string name="pref_privacy_clear_passwords">Cyfrineiriau</string>
+    <string name="pref_privacy_clear_passwords_summary">Clirio pob cyfrinair a gadwyd</string>
+    <string name="pref_privacy_enable_geolocation">Lleoliad</string>
+    <string name="pref_privacy_clear_geolocation_access">Mynediad at leoliad</string>
+    <string name="pref_privacy_clear_geolocation_access_summary">Clirio mynediad pob gwefan at dy leoliad</string>
+    <string name="pref_security_remember_passwords">Cofio cyfrineiriau</string>
+    <string name="pref_security_save_form_data">Cofio data a roddwyd mewn ffurflenni</string>
+    <string name="pref_do_not_track">Gofyn \'Peidio Â Thracio\'</string>
+    <string name="pref_security_accept_cookies">Derbyn cwcis</string>
+    <string name="pref_security_allow_mic">Meicroffon</string>
+    <string name="pref_security_allow_camera">Camera</string>
+    <string name="pref_security_web_refiner">Hysbysebion</string>
+    <string name="pref_security_accept_third_party_cookies">Cwcis trydydd parti</string>
+    <string name="pref_security_ask_before_using">Gofyn cyn defnyddio</string>
+    <string name="pref_security_allowed">Caniateir</string>
+    <string name="pref_security_not_allowed">Ni chaniateir</string>
+    <string name="pref_security_remember">Cofio</string>
+    <string name="pref_security_on">Ymlaen</string>
+    <string name="pref_security_off">I ffwrdd</string>
+    <string name="pref_website_title">Gwefan</string>
+    <string name="pref_security_add">Ychwanegu</string>
+    <string name="pref_security_origin_name">Tarddiad gwefan</string>
+    <string name="pref_security_access_is_allowed">caniateir mynediad</string>
+    <string name="pref_sample_font_size">Llusga\'r llithrid i addasu maint y ffont i\'r maint mwyaf cyfforddus i\'w ddarllen.</string>
+    <string name="pref_min_font_size">Maint ffont lleiaf</string>
+    <string name="pref_min_font_size_value"><xliff:g id="font_size">%d</xliff:g>pt</string>
+    <string name="pref_text_zoom">Graddio testun</string>
+    <string name="pref_force_userscalable">Gorfodi galluogi chwyddo</string>
+    <string name="pref_force_userscalable_summary">Diystyru cais gwefan i reoli chwyddo\'r cynnwys</string>
+    <string name="pref_inverted_category">Rendro sgrin wedi\'i wrthdroi</string>
+    <string name="pref_inverted">Gwrthdroi rendro</string>
+    <string name="pref_inverted_summary">Mae du yn troi\'n wyn, a\'r gwrthwyneb</string>
+    <string name="pref_inverted_contrast">Cyferbyniaeth</string>
+    <string name="pref_extras_title">Uwch</string>
+    <string name="pref_extras_website_settings">Gosodiadau fesul gwefan</string>
+    <string name="pref_extras_website_settings_summary">Gosodiadau uwch ar gyfer gwefannau unigol</string>
+    <string name="pref_extras_reset_default">Ailosod i\'r rhagosodiad</string>
+    <string name="pref_extras_reset">Ailosod</string>
+    <string name="pref_extras_reset_default_summary">Adfer rhagosodiadau</string>
+    <string name="pref_extras_reset_default_dlg">Troi gosodiadau nôl i\'r rhagosodedig?</string>
+    <string name="pref_development_title">Dadfygio</string>
+    <string name="pref_default_text_encoding">Amgodiad testun</string>
+    <string name="pref_edge_swipe_title">Llywio ymyl</string>
+    <string name="pref_edge_swipe_option_msg">Bydd llusgo o\'r ymyl yn:</string>
+    <string name="pref_temporal_edge_swipe">Llywio ar draws hanes</string>
+    <string name="pref_spatial_edge_swipe">Newid tab</string>
+    <string name="pref_disable_edge_swipe">Gwneud dim</string>
+    <string name="pref_edge_swipe_option_close">Dewis yn hwyrach</string>
+    <string name="pref_temporal_edge_swipe_enabled_toast">Llusgo o ymyl i lywio</string>
+    <string name="pref_spatial_edge_swipe_enabled_toast">Llusgo o ymyl i newid tabiau</string>
+    <string name="pref_edge_swipe_disabled_toast">Analluogwyd llusgo o\'r ymyl</string>
+    <string name="pref_edge_swipe_unknown">Dewis ymddygiad</string>
+    <string name="pref_edge_swipe_setup_desc">        Llithro oddi wrth yr ymyl i lywio ar draws hanes.\nghall y nodwedd hon gwrthdaro gyda gwefannau sy\'n defnyddio gweithrediadau ymyl</string>
+    <string name="pref_edge_enable">Galluogi</string>
+    <string name="pref_edge_disable">Analluogi</string>
+    <string name="pref_coloredsb_title">Bar statws wedi\'i lliwio</string>
+    <string name="pref_coloredsb_summary">Bydd y bar statws yn newid lliw yn ôl y dudalen a ymwelir â hi</string>
+    <string name="pref_accessibility_title">Hygyrchedd</string>
+    <string name="pref_accessibility_title_summary">Maint testun a chwyddo</string>
+    <string name="pref_looklock_title">LookLock</string>
+    <string name="pref_looklock_summary">Rhwystro apiau eraill rhag darllen cynnwys golwg-we o\'r ap hwn</string>
+    <string name="pref_font_size_category">Maint testun</string>
+    <string name="pref_lab_fullscreen">Trochi</string>
+    <string name="pref_lab_fullscreen_summary">Gwneud y porwr i lenwi\'r sgrin</string>
+    <string name="pref_data_preload_title">Yn blaenlwytho\'r canlyniad chwilio</string>
+    <string-array name="pref_temporal_choices">
+        <item>Byth</item>
+        <item>Dim ond ar Wi-Fi</item>
+        <item>O hyd</item>
+    </string-array>
+    <string name="pref_data_preload_summary">Caniatáu i\'r porwr raglwytho canlyniadau chwilio yn y cefndir</string>
+    <string name="pref_link_prefetch_title">Yn blaenlwytho\'r dudalen gwefan</string>
+    <string name="pref_link_prefetch_summary">Caniatáu i\'r porwr raglwytho tudalennau wedi\'u cysylltu yn y cefndir</string>
+    <string name="browserFrameFormResubmitMessage">Mae\'r dudalen rwyt yn ceisio edrych arni yn cynnwys data sydd eisoes wedi ei gyflwyno (\"POSTDATA\"). Os wyt yn ail-anfon y data, gall hyn ailadrodd y weithred ar y dudalen, e. e. prynu neu chwilio am rywbeth.</string>
+    <string name="clear_history">Clirio’r hanes</string>
+    <string name="empty_history">Dim hanes pori.</string>
+    <string name="add_new_bookmark">Ychwanegu ffefryn</string>
+    <string name="add_bookmark_short">Ychwanegu</string>
+    <string name="search_hint">Chwilia neu roi URL</string>
+    <string name="search_button_text">Mynd</string>
+    <string name="search_settings_description">Ffefrynnau a hanes pori</string>
+    <string name="allow">Caniatáu</string>
+    <string name="block">Rhwystro</string>
+    <string name="too_many_windows_dialog_title">Wedi cyrraedd terfyn nifer o dabiau</string>
+    <string name="too_many_windows_dialog_message">Rhaid cau tab er mwyn medru agor un arall.</string>
+    <string name="too_many_subwindows_dialog_title">Ffenestr naid eisoes ar agor</string>
+    <string name="too_many_subwindows_dialog_message">Dim ond un ffenestr naid gall fod ar agor ar unrhyw bryd.</string>
+    <string name="download_no_sdcard_dlg_title" product="default">Dim cerdyn SD</string>
+    <string name="download_no_sdcard_dlg_msg" product="default">Rhaid cael cerdyn SD er mwyn lawrlwytho <xliff:g id="filename">%s</xliff:g>.</string>
+    <string name="download_sdcard_busy_dlg_title" product="default">Cerdyn SD ddim ar gael</string>
+    <string name="download_sdcard_busy_dlg_msg" product="default">Mae\'r cerdyn SD yn brysur. I alluogi lawrlwytho, tapia \'Troi Storfa USB i Ffwrdd\' yn yr hysbysiad.</string>
+    <string name="cannot_download">Gellir ond lawrlwytho URLau \"http\" neu \"https\".</string>
+    <string name="download_pending">Yn dechrau lawrlwytho\u2026</string>
+    <string name="search_the_web">Chwilio\'r we</string>
+    <string name="webstorage_outofspace_notification_title">Storfa\'r porwr yn llawn</string>
+    <string name="webstorage_outofspace_notification_text">Tapia i ryddhau lle.</string>
+    <string name="webstorage_clear_data_title">Storfa</string>
+    <string name="webstorage_private_data_title">Data preifat</string>
+    <string name="webstorage_clear_data_dialog_message">Dileu\'r holl ddata wedi\'i gadw gan y wefan hon?</string>
+    <string name="loading_video">Yn llwytho fideo\u2026</string>
+    <string name="website_settings_add_origin">Gwefan newydd</string>
+    <string name="website_settings_clear_all">Clirio\'r cwbl</string>
+    <string name="website_settings_clear_all_dialog_message">Dileu caniatâd pob gwefan i ddata a lleoliad?</string>
+    <string name="progress_dialog_setting_wallpaper">Yn gosod fel papur wal\u2026</string>
+    <string name="empty_bookmarks_folder">Dim ffefrynnau.</string>
+    <string name="other_bookmarks">Ffefrynnau eraill</string>
+    <string name="import_bookmarks_dialog_description">Dyw\'r ffefrynnau ar y ddyfais hon ddim eto yn gysylltiedig â chyfrif Google. Cadwa\'r nodau tudalennau hyn gan eu hychwanegu i gyfrif. Gellir dileu\'r nodau tudalen os nad wyt am eu cysoni.</string>
+    <string name="import_bookmarks_dialog_remove">Dileu ffefrynnau</string>
+    <string name="menu_share_url">Rhannu</string>
+    <string name="max_tabs_warning">Dim rhagor o dabiau ar gael</string>
+    <string name="preview">Rhagolwg</string>
+    <string name="local_bookmarks">Fy ffefrynnau</string>
+    <string name="find_on_page">Canfod</string>
+    <string name="ua_switcher_desktop">Gwefan bwrdd gwaith</string>
+    <string name="enable_reader_mode">Modd darllen</string>
+    <string name="permission_preload_label">Rhaglwytho canlyniadau</string>
+    <string name="empty_snapshots_folder">Dim tudalennau wedi\'u cadw.</string>
+    <string name="remove_snapshot">Dileu\'r dudalen wedi\'i chadw</string>
+    <string name="snapshot_go_live">Mynd yn fyw</string>
+    <string name="accessibility_button_back">Mynd nôl</string>
+    <string name="accessibility_button_forward">Mynd ymlaen</string>
+    <string name="accessibility_button_refresh">Ail-lwytho\'r dudalen</string>
+    <string name="accessibility_button_stop">Atal llwytho\'r dudalen</string>
+    <string name="accessibility_button_addbookmark">Ychwanegu i ffefrynnau</string>
+    <string name="accessibility_button_search">Chwilio</string>
+    <string name="accessibility_button_voice">Dechrau chwiliad llais</string>
+    <string name="accessibility_button_closetab">Cau tab</string>
+    <string name="accessibility_button_newtab">Agor tab newydd</string>
+    <string name="accessibility_button_newincognitotab">Agor tab cyfrinachol newydd</string>
+    <string name="accessibility_button_clear">Clirio mewnbwn</string>
+    <string name="accessibility_button_navscreen">Rheolwr tudalennau</string>
+    <string name="accessibility_state_incognito">Tudalen yn gudd</string>
+    <string name="accessibility_state_frozen">Tudalen wedi\'i chadw</string>
+    <string name="accessibility_transition_navscreen">Rheolaeth tabiau</string>
+    <string name="accessibility_button_bookmarks_folder_up">I fyny</string>
+    <string name="my_navigation_delete_label">Dileu gwefan</string>
+    <string name="my_navigation_edit_label">Golygu gwefan</string>
+    <string name="my_navigation_add_label">Ychwanegu gwefan</string>
+    <string name="my_navigation_add">Ychwanegu</string>
+    <string name="my_navigation_delete_msg">Dileu\'r wefan?</string>
+    <string name="my_navigation_name">Teitl</string>
+    <string name="my_navigation_address">Cyfeiriad</string>
+    <string name="website_needs_title">Rhaid i\'r wefan cael teitl</string>
+    <string name="website_needs_url">Rhaid i\'r wefan cael URL</string>
+    <string name="my_navigation_cannot_save_url">URL Annilys</string>
+    <string name="my_navigation_duplicate_url">URL eisoes yn bodoli</string>
+    <string name="my_navigation_page_title">Cartref</string>
+    <string name="http_video_msg">Dewisa sut i ymdrin â\'r ffeil cyfryngau hon</string>
+    <string name="video_save">Cadw</string>
+    <string name="video_play">Chwarae</string>
+    <string name="exit">Gadael</string>
+    <string name="about">Ynghylch</string>
+    <string name="download_estore_app">Dyw Estore ddim yn bresennol ar dy ddyfais.</string>
+    <string name="estore_url_warning">Methwyd â lansio Estore; URL yn rhy hir.</string>
+    <string name="drm_file_unsupported">Ni chefnogir uwchlwytho ffeiliau DRM.</string>
+    <string name="exit_browser_title">Gadael y porwr</string>
+    <string name="exit_browser_msg">Dewisa ddull i adael y porwr</string>
+    <string name="exit_minimize">Lleihau</string>
+    <string name="exit_quit">Gadael</string>
+    <string name="browser_max_input_title">Wedi cyrraedd terfyn nifer o nodau</string>
+    <string name="browser_max_input">Mae dy fewnbwn wedi cyrraedd y terfyn o <xliff:g id="MAXLIMIT">%s</xliff:g> nod</string>
+    <string name="duplicated_folder_warning">Ffolder eisoes yn bodoli</string>
+    <string name="overwrite_bookmark_msg">Mae new neu gyfeiriad y ffefryn eisoes yn bodoli. Cadw hwn yn ei le?</string>
+    <string name="invalid_path">Llwybr annilys</string>
+    <string name="path_wrong">Llwybr anghywir</string>
+    <string name="pref_download_title">Lawrlwytho gosodiadau\'r llwybr</string>
+    <string name="pref_download_path_setting_screen_title">Llwybr lawrlwytho addasedig</string>
+    <string name="download_timeneeded">Amser</string>
+    <string name="download_filesize">Maint</string>
+    <string name="download_filepath_label">Llwybr</string>
+    <string name="download_edit_filename_label">Enw</string>
+    <string name="download_no_enough_memory">Dim digon o gof i\'w lawrlwytho</string>
+    <string name="download_settings_title">Gosodiadau lawrlwytho</string>
+    <string name="filename_empty_title">Does dim enw gan y ffeil i\'w lawrlwytho</string>
+    <string name="filename_empty_msg">Rhaid bod enw gan y ffeil i\'w lawrlwytho. Rho enw ffeil dilys.</string>
+    <string name="unknow_length">Anhysybys</string>
+    <string name="download_file_exist_msg">Mae\'r ffeil eisoes yn bodoli. Rho enw newydd i\'r ffeil.</string>
+    <string name="download_file_exist">Ffeil eisoes yn bodoli</string>
+    <string name="time_min">mun</string>
+    <string name="download_path_unavailable_dlg_title">Dyw\'r cyfeiriadur llwythi ddim ar gael</string>
+    <string name="download_path_unavailable_dlg_msg">Addasa gyfeiriadur neu ffolder eitemau wedi\'u lawrlwytho</string>
+    <string name="activity_not_found">Ni chanfuwyd gweithred i ymdrin â\'r bwriad hwn:<xliff:g id="NOACTIVITY">%s</xliff:g></string>
+    <string name="download_name_hint">Enw\'r ffeil</string>
+    <string name="download_size_hint">Maint</string>
+    <string name="download_eta_hint">Amser disgwyliedig</string>
+    <string name="received_message_full_screen">Derbyn neges oddi wrth: <xliff:g id="FROM">%s</xliff:g>.</string>
+    <string name="ssl_certificate">Tystysgrif diogelwch</string>
+    <string name="ssl_certificate_is_valid">Mae\'r dystysgrif hon yn ddilys.</string>
+    <string name="version">Fersiwn</string>
+    <string name="build_date">Dyddiad adeiledd</string>
+    <string name="build_hash">Hash adeiledd</string>
+    <string name="user_agent">Asiant defnyddiwr</string>
+    <string name="help">Cymorth</string>
+    <string name="feedback">Adborth</string>
+    <string name="swe_legal">Gwybodaeth gyfreithiol</string>
+    <string name="swe_open_source_licenses">Trwyddedau cod agored</string>
+    <string name="swe_eula">Cytundeb trwyddedau defnyddwyr</string>
+    <string name="swe_privacy_policy">Polisi preifatrwydd</string>
+    <string name="mdm_managed_alert">Rheolir gan dy weinyddwr</string>
+    <string name="mystuffs">Fy llywio</string>
+    <string name="geolocation_permissions_prompt_remember">Cofio\'r dewis</string>
+    <string name="geolocation_permissions_prompt_share_never">Gwrthod am byth</string>
+    <string name="geolocation_permissions_prompt_share_for_limited_time">Caniatáu am 24 awr</string>
+    <string name="geolocation_permissions_prompt_share_forever">Caniatáu am byth</string>
 </resources>

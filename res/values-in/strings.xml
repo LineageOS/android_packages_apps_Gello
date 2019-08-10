@@ -14,721 +14,389 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<!DOCTYPE resources [
-<!ENTITY about SYSTEM "about.xml">
-]>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- The name of the application. -->
-  <string name="application_name">Browser</string>
-  <!-- Displayed with a file picker to choose a file to upload -->
-  <string name="choose_upload">Pilih berkas untuk diunggah</string>
-  <!-- Toast to show the user after they try to open the file picker but no apps on the
-         system can provide a file [CHAR-LIMIT=NONE]-->
-  <string name="uploads_disabled">Unggahan dinonaktifkan.</string>
-  <!-- Name of menu item of a new tab.  Also used in the title bar when displaying a new tab -->
-  <!-- Crash tab View title -->
-  <string name="new_tab">Tab baru</string>
-  <string name="browser_tab_crash_snap">Waduh!</string>
-  <!-- Crash tab button text -->
-  <string name="browser_tab_crash_reload">Muat ulang</string>
-  <!-- Crash tab View message -->
-  <string name="browser_tab_crash_message">Hal yang tak terduga terjadi ketika menampilkan laman web ini. Muat ulang atau buka laman lain.</string>
-  <!-- Name of menu item of a new incognito tab.  Also used in the
-         title bar when displaying a new tab [CHAR LIMIT=30] -->
-  <string name="new_incognito_tab">Mode penyamaran</string>
-  <!-- Name of tab containing the user's most visited websites, organized by number of visits -->
-  <string name="tab_most_visited">Paling sering dikunjungi</string>
-  <!-- Name of tab containing the user's saved pages, organized by time created [CHAR LIMIT=20] -->
-  <string name="tab_snapshots">Disimpan</string>
-  <!-- Toast shown when a history item's star is clicked, converting it to a bookmark -->
-  <string name="added_to_bookmarks">Ditambahkan ke favorit.</string>
-  <!-- Toast shown when a history item's star is clicked off, removing its bookmark -->
-  <string name="removed_from_bookmarks">Dihapus dari favorit.</string>
-  <!-- Sign-in dialog -->
-  <!-- This is used as the title of a dialog which is used to sign in to a secure site.
-            "%s1"is replaced with the host and "%s2" with realm -->
-  <string name="sign_in_to">Masuk ke <xliff:g id="hostname">%s1</xliff:g> "<xliff:g id="realm">%s2</xliff:g>\"</string>
-  <!-- Prompt for an input box that allows the user to enter their login name -->
-  <string name="username">Nama</string>
-  <!-- Prompt for an input box that allows the user to enter their password -->
-  <string name="password">Kata Sandi</string>
-  <!-- The label on the "sign in" button -->
-  <string name="action">Masuk</string>
-  <!-- The name of the add bookmark page activity.-->
-  <string name="bookmarks_add_page">Simpan</string>
-  <!-- Label for a cancel button.  It is used for multiple cancel buttons in different contexts -->
-  <string name="cancel">Batalkan</string>
-  <!-- Label for a confirm button.  Used in multiple contexts. -->
-  <string name="ok">OK</string>
-  <!-- Message to be displayed if url character limit exceeds -->
-  <string name="max_url_character_limit_msg">Batas maks. URL tercapai</string>
-  <!-- Message to be displayed when google play store does not exist on the device -->
-  <string name="msg_no_google_play">Maaf, aplikasi Google Play Store tidak ada di perangkat.</string>
-  <!-- Menu item -->
-  <string name="page_info">Info</string>
-  <!-- Page Info dialog strings -->
-  <!-- Noun.  The url for the current page. Displayed on the Page Info
-            screen. -->
-  <string name="page_info_address">Alamat:</string>
-  <!-- Title for an SSL error dialog  -->
-  <string name="security_warning">Peringatan keamanan</string>
-  <!-- Message in an SSL Error dialog -->
-  <string name="ssl_invalid">Sertifikat ini tidak valid.</string>
-  <!-- Message in an SSL Error dialog -->
-  <string name="ssl_unknown">Kesalahan Sertifikat tidak diketahui.</string>
-  <!-- Toast informing the user that loading has stopped for the current page. -->
-  <string name="stopping">Menghentikan\u2026</string>
-  <!-- Menu item to stop the current page from loading. -->
-  <string name="stop">Hentikan</string>
-  <!-- Menu item to reload or refresh the current page. -->
-  <string name="reload">Segarkan</string>
-  <!-- Menu item to go back to the previous page -->
-  <string name="back">Kembali</string>
-  <!-- Menu item to go to the next page (only useful if the user has previously hit back.) -->
-  <string name="forward">Teruskan</string>
-  <!-- Field label in Bookmark dialog box: refers to URL of the page to bookmark -->
-  <string name="location">Alamat</string>
-  <!-- Field label in Bookmark dialog box: refers to the account to save the bookmark to -->
-  <string name="account">Akun</string>
-  <!-- Field label in Bookmark dialog box: refers to the folder in which to save the bookmark -->
-  <string name="containing_folder">Tambah ke</string>
-  <!-- Default name for a new folder and label for a button that allows the user to create a new folder
-         in the add bookmark dialog -->
-  <string name="new_folder">Folder baru</string>
-  <!-- Context menu item to edit a folder [CHAR LIMIT=50] -->
-  <string name="edit_folder">Edit folder</string>
-  <!-- Context menu item to delete a folder [CHAR LIMIT=50] -->
-  <string name="delete_folder">Hapus folder</string>
-  <!-- Label stating that the currently open folder has no subfolders
-         in the add bookmark dialog [CHAR-LIMIT=none]-->
-  <string name="no_subfolders">Tidak ada subfolder.</string>
-  <!-- Menu item to save the newly created bookmark to the home screen. [CHAR-LIMIT=30]-->
-  <string name="add_to_homescreen_menu_option">Layar beranda</string>
-  <!-- Menu item to open a picker to determine which folder to save a bookmark in. [CHAR-LIMIT=30]-->
-  <string name="add_to_other_folder_menu_option">Pilih folder\u2026</string>
-  <!-- Field label in Bookmark dialog box: title that the user wishes to use for the bookmark -->
-  <string name="name">Label</string>
-  <!-- Menu item that opens a dialog to save a bookmark for the current page [CHAR LIMIT=30] -->
-  <!-- Also used as title for AddBookmarkPage -->
-  <string name="save_to_bookmarks">Simpan</string>
-  <!-- Title of the dialog to bookmark a page -->
-  <string name="bookmark_this_page">Tambahkan laman ini ke favorit</string>
-  <!-- Option on bookmark dialog to remove the bookmark [CHAR LIMIT=30] -->
-  <string name="remove">Hapus</string>
-  <!-- Menu item on the bookmarks page, to edit an existing bookmark -->
-  <string name="edit_bookmark">Edit</string>
-  <!-- Context menu item to create a shortcut to the bookmark on the desktop [CHAR LIMIT=50] -->
-  <string name="create_shortcut_bookmark">Tambahkan pintasan</string>
-  <!-- Menu item to remove the currently highlighted bookmark-->
-  <string name="remove_bookmark">Hapus</string>
-  <!-- Context menu item to remove a history item from bookmarks -->
-  <string name="remove_from_bookmarks">Hapus</string>
-  <!-- Menu item to remove the currently highlighted history entry from the list of previously visited sites -->
-  <string name="remove_history_item">Hapus</string>
-  <!-- Context menu item for setting the bookmark/history item as the homepage -->
-  <string name="set_as_homepage">Atur sebagai beranda</string>
-  <!-- Toast informing the user that their action to save a bookmark has succeeded -->
-  <string name="bookmark_saved">Ditambahkan ke favorit</string>
-  <!-- Toast informing the user that their action to save a bookmark did not succeed -->
-  <string name="bookmark_not_saved">Tidak dapat menyimpan favorit.</string>
-  <!-- Toast confirming that the homepage has been set -->
-  <string name="homepage_set">Beranda telah ditetapkan.</string>
-  <!-- Error that appears in the title of Bookmark dialog when user selects OK with empty Name field -->
-  <string name="bookmark_needs_title">Favorit harus memiliki nama.</string>
-  <!-- Error that appears in the title of Bookmark dialog when user selects OK with empty Location field -->
-  <string name="bookmark_needs_url">Favorit harus memiliki lokasi.</string>
-  <!-- Error that appears in the title of Bookmark dialog when user selects OK with invalid URL -->
-  <string name="bookmark_url_not_valid">URL ini tidak valid.</string>
-  <!-- Error that appears in the Bookmark dialog when user selects OK with a URL of a type we cannot bookmark -->
-  <string name="bookmark_cannot_save_url">URL ini tidak dapat ditambahkan ke favorit.</string>
-  <!-- Summary text under the New Bookmark item on the Bookmarks screen.
-            Tells the user that if they select this item, it will bring up a
-            dialog to bookmark the page that the browser is currently viewing,
-            though it is not currently being displayed, since they are viewing
-            the bookmarks screen. -->
-  <string name="current_page">dari\u0020</string>
-  <!-- Confirmation dialog message confirming that the user wishes to delete
-            the bookmark they selected for deletion -->
-  <string name="delete_bookmark_warning">Hapus favorit \"<xliff:g id="bookmark">%s</xliff:g>\"?</string>
-  <!-- Confirmation dialog message confirming that the user wishes to delete
-               the folder they selected for deletion -->
-  <string name="delete_folder_warning">Hapus folder \"<xliff:g id="bookmark">%s </xliff:g>\"?</string>
-  <!-- Context menu item to open every bookmark in a folder in new tabs [CHAR LIMIT=50] -->
-  <string name="open_all_in_new_window">Buka semua di tab baru</string>
-  <!-- Displayed in title of chooser dialog for text sent to another app,e.g-send text via SMS or IM-->
-  <string name="sendText">Pilih tindakan untuk teks</string>
-  <!-- Menu item to close all other tabs [CHAR LIMIT=40] -->
-  <string name="close_other_tabs">Tutup tab lain</string>
-  <!-- Menu item to open the bookmarks page and name of the Tab in the combo view -->
-  <string name="bookmarks">Favorit</string>
-  <!-- Secondary name for the Activity "BrowserBookmarksPage" -->
-  <string name="shortcut_bookmark">Favorit</string>
-  <!-- Title for the activity asking the user to select a bookmark [CHAR LIMIT=50] -->
-  <string name="shortcut_bookmark_title">Pilih favorit</string>
-  <!-- Menu item to display the History of previously visited pages and the name of the combo view
-        Tab-->
-  <string name="history">Riwayat</string>
-  <!-- Menu item -->
-  <string name="share_page">Bagikan</string>
-  <!-- Menu item for saving link to homescreen -->
-  <string name="add_to_homescreen">Tambahkan ke beranda</string>
-  <!-- Menu item for saving a page for offline reading. This is a view-only snapshot of the page. [CHAR LIMIT=50] -->
-  <string name="menu_save_snapshot">Simpan</string>
-  <!-- Dialog message that is shown while saving a page for offline reading. [CHAR LIMIT=50] -->
-  <string name="saving_snapshot">Menyimpan\u2026</string>
-  <!-- Toast informing the user that saving the page for offline reading has failed. [CHAR LIMIT=50] -->
-  <string name="snapshot_failed">Tidak dapat menyimpan untuk dibaca secara offline.</string>
-  <!-- The number of bookmarks in a folder [CHAR LIMT=50] -->
-  <string name="contextheader_folder_bookmarkcount"><xliff:g id="bookmark_count">%d </xliff:g> favorit</string>
-  <!-- No bookmarks in the folder [CHAR LIMIT=50] -->
-  <string name="contextheader_folder_empty">Folder kosong</string>
-  <!-- Context Menu item open the currently selected link in the current
-            window.-->
-  <string name="contextmenu_openlink">Buka</string>
-  <!-- Context Menu item to open the currently selected link in a new
-            window. -->
-  <string name="contextmenu_openlink_newwindow">Buka di tab baru</string>
-  <!-- Context Menu item to open the currently selected link in a new
-         background window. [CHAR LIMIT=50] -->
-  <string name="contextmenu_openlink_newwindow_background">Buka di tab latar belakang baru</string>
-  <!-- Context Menu item to save the webpage referred to by this link to the
-            SD card (external storage) -->
-  <string name="contextmenu_savelink">Simpan tautan</string>
-  <!-- Context Menu item to send the url of the selected link to someone else,
-            via Gmail or another app [CHAR LIMIT=50] -->
-  <string name="contextmenu_sharelink">Bagikan tautan</string>
-  <!-- Context Menu item -->
-  <string name="contextmenu_copy">Salin</string>
-  <!-- Context Menu item to copy the url of the selected link to the
-            clipboard -->
-  <string name="contextmenu_copylink">Salin tautan URL</string>
-  <!-- Context Menu item to save the image to external storage -->
-  <string name="contextmenu_download_image">Simpan Gambar</string>
-  <!-- Context Menu item to view the image by itself in the browser -->
-  <string name="contextmenu_view_image">Lihat gambar</string>
-  <!-- Context Menu item to set the image as the home screen wallpaper -->
-  <string name="contextmenu_set_wallpaper">Atur sebagai wallpaper</string>
-  <!-- Context Menu item to open the dialer app with the selected phone number
-            -->
-  <string name="contextmenu_dial_dot">Panggil\u2026</string>
-  <!-- Context Menu item to add the selected phone number to the address book.
-            -->
-  <string name="contextmenu_add_contact">Tambahkan kontak</string>
-  <!-- Context Menu item to send an email using the selected email address.-->
-  <string name="contextmenu_send_mail">Kirim email</string>
-  <!-- Context Menu item to show the currently selected address in the Maps
-            application -->
-  <string name="contextmenu_map">Peta</string>
-  <!-- Title of the dialog used for selecting the application that should be
-            used for sharing a link (e.g. Gmail or another app). See also
-            contextmenu_sharelink above -->
-  <string name="choosertitle_sharevia">Bagikan lewat</string>
-  <!-- Used as the title of dialogs in the Browser Settings confirming that
-            the user wants to clear (cache, history, or cookie data) -->
-  <string name="clear">Bersihkan</string>
-  <!-- Part of a sentence that says "Replace <url of existing bookmark> with
-            <url of new bookmark>?" -->
-  <string name="replace">Ganti</string>
-  <!-- Settings screen strings -->
-  <!-- Menu item to open the Settings screen -->
-  <string name="menu_preferences">Pengaturan</string>
-  <!-- Settings screen, section title -->
-  <string name="pref_content_title">Pengaturan konten</string>
-  <string name="pref_content_title_summary">Pengaturan isi web</string>
-  <!-- Settings label -->
-  <string name="pref_content_load_images">Muat gambar</string>
-  <string name="pref_content_load_images_summary">Tampilkan gambar pada laman web</string>
-  <!-- Settings label -->
-  <string name="pref_security_allow_popups">Pop up</string>
-  <!-- Settings label -->
-  <string name="pref_content_javascript">Aktifkan JavaScript</string>
-  <!-- Settings label -->
-  <string name="pref_content_open_in_background">Buka di latar belakang</string>
-  <!-- Settings summary [CHAR LIMIT=50]-->
-  <string name="pref_content_open_in_background_summary">Buka tab baru di belakang tab saat ini</string>
-  <!-- Settings label [CHAR LIMIT=50] -->
-  <string name="pref_content_homepage">Laman beranda</string>
-  <!-- Settings label -->
-  <string name="pref_content_search_engine">Mesin pencarian</string>
-  <!-- Settings summary -->
-  <string name="pref_content_search_engine_summary">Pilih mesin pencarian</string>
-  <!-- Settings button label that to pick what to set the homepage to [CHAR LIMIT=40] -->
-  <string name="pref_set_homepage_to">Atur ke</string>
-  <string-array name="pref_homepage_choices">
-    <!-- Setting choice to set the homepage to the current page [CHAR LIMIT=40] -->
-    <item>Laman saat ini</item>
-    <!-- Setting choice to set the homepage to a blank page [CHAR LIMIT=40] -->
-    <item>Laman kosong</item>
-    <!-- Setting choice to set the homepage to the default page [CHAR LIMIT=40] -->
-    <item>Laman standar</item>
-    <!-- Setting choice to set the homepage to the "Most Visited" homepage feature, which is a list of most visited sites [CHAR LIMIT=40] -->
-    <item>Situs yang paling sering dikunjungi</item>
-    <!-- Setting choice to set the homepage to a user entered URL [CHAR LIMIT=40] -->
-    <item>Lainnya</item>
-  </string-array>
-  <!-- Settings screen & section title for "General settings". These include things like
-         configuring bookmark syncing to Google servers and form auto fill settings. [CHAR-LIMIT=32] -->
-  <string name="pref_general_title">Umum</string>
-  <string name="pref_default_site_settings_title">Pengaturan standar situs</string>
-  <string name="pref_site_settings_title">Pengaturan situs</string>
-  <string name="pref_site_settings_info_panel">Informasi keamanan</string>
-  <!-- Settings category for autofill under general. [CHAR-LIMIT=50] -->
-  <string name="pref_general_autofill_title">Isi-otomatis</string>
-  <!-- Checkbox setting for enabling/disabling power save mode feature -->
-  <string name="pref_powersave_enabled">Mode hemat energi</string>
-  <!-- Settings summary for the powersave feature. -->
-  <string name="pref_powersave_enabled_summary">Kurangi penggunaan daya peramban</string>
-  <!-- Checkbox setting for enabling/disabling night mode feature -->
-  <string name="pref_nightmode_enabled">Mode malam hari</string>
-  <!-- Settings summary for the night mode feature. -->
-  <string name="pref_nightmode_enabled_summary">Warna terbalik</string>
-  <!-- Checkbox setting for enabling/disabling the form AutoFill feature [CHAR-LIMIT=32] -->
-  <string name="pref_autofill_enabled">Isi-otomatis formulir</string>
-  <!-- Settings summary for the form AutoFill feature. [CHAR-LIMIT=none] -->
-  <string name="pref_autofill_enabled_summary">Isi formulir web dengan satu sentuhan</string>
-  <plurals name="pref_web_refiner_advertisements">
-    <item quantity="other">%d iklan</item>
-  </plurals>
-  <plurals name="pref_web_refiner_trackers">
-    <item quantity="other">%d pelacak</item>
-  </plurals>
-  <plurals name="pref_web_refiner_malware">
-    <item quantity="other">%d ancaman perangkat lunak jahat</item>
-  </plurals>
-  <string-array name="pref_web_refiner_message">
-    <item>"%s diblokir. "</item>
-    <item>"%1$s dan %2$s diblokir. "</item>
-    <item>"%1$s, %2$s dan %3$s diblokir. "</item>
-  </string-array>
-  <string name="pref_valid_cert">Sertifikat SSL valid. Komunikasi dienkripsi dan identitas diverifikasi.</string>
-  <string name="pref_invalid_cert">Situs memiliki sertifikat SSL yang tidak valid.</string>
-  <string name="pref_warning_cert">Sertifikat SSL situs memiliki peringatan.</string>
-  <!-- Settings screen, section title [CHAR LIMIT=50] -->
-  <string name="pref_interface_title">Antarmuka</string>
-  <!-- Label for option that when clicked opens the AutoFill settings screen. Also used as the title of that AutoFill Settings screen. [CHAR-LIMIT=32] -->
-  <string name="pref_autofill_profile_editor">Isi-otomatis</string>
-  <!-- Summary for the AutoFill Settings preference [CHAR-LIMIT=none] -->
-  <string name="pref_autofill_profile_editor_summary">Atur teks untuk diisi-otomatis di formulir web</string>
-  <!-- Heading for the AutoFill profile editor to tell the user what AutoFill does and why they should fill out the profile. [CHAR-LIMIT=None] -->
-  <string name="autofill_profile_editor_heading">Ketik teks yang ingin diisi otomatis di formulir web.</string>
-  <!-- String for the user's full name in the AutoFill profile editor. [CHAR-LIMIT=32] -->
-  <string name="autofill_profile_editor_name">Nama lengkap:</string>
-  <!-- String for the user's e-mail address in the AutoFill profile editor. [CHAR-LIMIT=32] -->
-  <string name="autofill_profile_editor_email_address">Email:</string>
-  <!-- String for the user's company name in the AutoFill profile editor. [CHAR-LIMIT=32] -->
-  <string name="autofill_profile_editor_company_name">Nama perusahaan:</string>
-  <!-- String for the first line of the user's address in the AutoFill profile editor. [CHAR-LIMIT=32] -->
-  <string name="autofill_profile_editor_address_line_1">Baris alamat 1:</string>
-  <!-- String to suggest to the user the kind of data to be used for the first line of the address. CHAR-LIMIT=64] -->
-  <string name="autofill_profile_editor_address_line_1_hint">Alamat jalan, kotak pos, d.a.</string>
-  <!-- String for the second line of the user's address in the AutoFill profile editor. [CHAR-LIMIT=32] -->
-  <string name="autofill_profile_editor_address_line_2">Baris alamat 2:</string>
-  <!-- String to suggest to the user the kind of data to be used for the second line of the address. CHAR-LIMIT=64] -->
-  <string name="autofill_profile_editor_address_line_2_hint">Apartemen, suite, unit, bangunan, lantai, dll.</string>
-  <!-- String for the user's city or town in the AutoFill profile editor. [CHAR-LIMIT=32] -->
-  <string name="autofill_profile_editor_city">Kota:</string>
-  <!-- String for the user's state or province or region in the AutoFill profile editor. [CHAR-LIMIT=32] -->
-  <string name="autofill_profile_editor_state">Negara Bagian/Provinsi/Daerah:</string>
-  <!-- String for the user's zip code in the AutoFill profile editor. [CHAR-LIMIT=32] -->
-  <string name="autofill_profile_editor_zip_code">Kode pos:</string>
-  <!-- String for the user's country in the AutoFill profile editor. [CHAR-LIMIT=32] -->
-  <string name="autofill_profile_editor_country">Negara:</string>
-  <!-- String for the user's phone number in the AutoFill profile editor. [CHAR-LIMIT=32] -->
-  <string name="autofill_profile_editor_phone_number">Telepon:</string>
-  <!-- String to display in an error tooltip to inform the user the phone number they provided is not valid. [CHAR-LIMIT=32] -->
-  <string name="autofill_profile_editor_phone_number_invalid">Nomor telepon tidak valid.</string>
-  <!-- Button text to save the AutoFill profile [CHAR-LIMIT=20] -->
-  <string name="autofill_profile_editor_save_profile">Simpan</string>
-  <!-- Toast message displayed when the profile has been successfully saved [CHAR-LIMIT=none] -->
-  <string name="autofill_profile_successful_save">Teks isi-otomatis disimpan.</string>
-  <!-- Toast message displayed when the profile has been successfully deleted [CHAR-LIMIT=none] -->
-  <string name="autofill_profile_successful_delete">Teks isi-otomatis dihapus.</string>
-  <!-- Button text to delete all the AutoFill profile data [CHAR-LIMIT=20] -->
-  <string name="autofill_profile_editor_delete_profile">Hapus</string>
-  <!-- Text on toast shown to the user when power save mode is enabled or disabled -->
-  <string name="powersave_dialog_on">Mode hemat daya diaktifkan. Browser akan dimulai ulang.</string>
-  <string name="powersave_dialog_off">Mode hemat daya dinonaktifkan. Browser akan dimulai ulang.</string>
-  <!-- Text on a dialog shown to the user when they are prompted to set up the autofill feature [CHAR-LIMIT=NONE] -->
-  <string name="autofill_setup_dialog_message">Browser dapat melengkapi formulir web seperti ini secara otomatis. Apakah Anda ingin menyiapkan teks isi-otomatis?</string>
-  <!-- Toast message displayed when the user decides to not set up autofill at this time. We want to remind them that they can configure
-         it through the Browser Settings menu. [CHAR-LIMIT=NONE] -->
-  <string name="autofill_setup_dialog_negative_toast">Anda selalu dapat mengatur teks isi-otomatis Anda dari Browser &gt; Pengaturan &gt; otomatis mengisi.</string>
-  <!-- Text on a checkbox in the "setup autofill" dialog which is shown to the user when they are prompted to set up the autofill feature.
-         The checkbox allows them to specify they would like to disable the feature altogether [CHAR-LIMIT=NONE] -->
-  <string name="disable_autofill">Nonaktifkan isi-otomatis</string>
-  <!-- Settings screen, section title [CHAR-LIMIT=50] -->
-  <string name="pref_security_title">Keamanan</string>
-  <!-- Settings screen, section title [CHAR-LIMIT=50] -->
-  <string name="pref_privacy_security_title">Privasi &amp; keamanan</string>
-  <string name="pref_privacy_security_title_summary">Pengaturan keamanan browser dan privasi</string>
-  <!-- Popup dialog -->
-  <string name="pref_select_items">Pilih item untuk dibersihkan</string>
-  <!-- Settings label -->
-  <string name="pref_privacy_clear_selected">Hapus item yang dipilih</string>
-  <!-- Settings summary -->
-  <string name="pref_privacy_clear_selected_summary">Hapus item yang dipilih dalam daftar</string>
-  <!-- Confirmation dialog message -->
-  <string name="pref_privacy_clear_selected_dlg">Hapus item berikut?</string>
-  <!-- Settings label -->
-  <string name="pref_privacy_clear_cache">Cache</string>
-  <!-- Settings summary -->
-  <string name="pref_privacy_clear_cache_summary">Hapus basis data dan konten yang disimpan dalam cache lokal</string>
-  <!-- Settings label -->
-  <string name="pref_privacy_clear_cookies">Kuki dan data situs</string>
-  <!-- Settings summary -->
-  <string name="pref_privacy_clear_cookies_summary">Hapus semua kuki dan data situs peramban</string>
-  <!-- Settings summary -->
-  <string name="pref_privacy_clear_history_summary">Hapus riwayat penjelajahan peramban</string>
-  <!-- Confirmation dialog message -->
-  <string name="pref_privacy_clear_history_dlg">Hapus riwayat penjelajahan peramban?</string>
-  <!-- Settings label -->
-  <string name="pref_privacy_clear_form_data">Data formulir</string>
-  <!-- Settings summary -->
-  <string name="pref_privacy_clear_form_data_summary">Hapus semua data formulir tersimpan</string>
-  <!-- Settings label -->
-  <string name="pref_privacy_clear_passwords">Kata Sandi</string>
-  <!-- Settings summary -->
-  <string name="pref_privacy_clear_passwords_summary">Hapus semua kata sandi tersimpan</string>
-  <!-- Settings label -->
-  <string name="pref_privacy_enable_geolocation">Lokasi</string>
-  <!-- Settings label -->
-  <string name="pref_privacy_clear_geolocation_access">Akses lokasi</string>
-  <!-- Settings summary -->
-  <string name="pref_privacy_clear_geolocation_access_summary">Hapus akses lokasi untuk semua situs web</string>
-  <!-- Settings label -->
-  <string name="pref_security_remember_passwords">Ingat kata sandi</string>
-  <!-- Settings label -->
-  <string name="pref_security_save_form_data">Ingat data formulir</string>
-  <!-- Settings Label -->
-  <string name="pref_do_not_track">Meminta \'Jangan Lacak\'</string>
-  <!-- Settings label -->
-  <string name="pref_security_accept_cookies">Terima kuki</string>
-  <string name="pref_security_allow_mic">Mikrofon</string>
-  <string name="pref_security_allow_camera">Kamera</string>
-  <string name="pref_security_web_refiner">Iklan</string>
-  <string name="pref_security_accept_third_party_cookies">Kuki pihak ketiga</string>
-  <string name="pref_security_ask_before_using">Tanyakan sebelum menggunakan</string>
-  <string name="pref_security_allowed">Izinkan</string>
-  <string name="pref_security_not_allowed">Tidak diizinkan</string>
-  <string name="pref_security_remember">Ingat</string>
-  <string name="pref_security_on">Hidup</string>
-  <string name="pref_security_off">Mati</string>
-  <string name="pref_website_title">Situs web</string>
-  <string name="pref_security_add">Tambah</string>
-  <string name="pref_security_origin_name">Asal situs</string>
-  <string name="pref_security_access_is_allowed">akses diizinkan</string>
-  <!-- Settings text size options - displays sample font size in settings -->
-  <string name="pref_sample_font_size">Seret penggeser untuk menyesuaikan ukuran font yang nyaman.</string>
-  <!-- Label for minimum font size [CHAR LIMIT=30] -->
-  <string name="pref_min_font_size">Ukuran font minimal</string>
-  <!-- Label for the current minimum font size value [CHAR LIMIT=6] -->
-  <string name="pref_min_font_size_value"><xliff:g id="font_size">%d</xliff:g>pt</string>
-  <!-- Label for text scaling (percent) [CHAR LIMIT=30] -->
-  <string name="pref_text_zoom">Skala teks</string>
-  <!-- Label for whether or not to force-enable user scalablity (aka, zoom) [CHAR LIMIT=30] -->
-  <string name="pref_force_userscalable">Paksa aktifkan perbesar</string>
-  <!-- Summary for whether or not to force-enable user scalablity (aka, zoom) [CHAR LIMIT=30] -->
-  <string name="pref_force_userscalable_summary">Kesampingkan permintaan situs web untuk mengontrol perilaku perbesar/perkecil</string>
-  <!-- Inverted screen category under accessibility settings [CHAR LIMIT=50] -->
-  <string name="pref_inverted_category">Sesuaian layar terbalik</string>
-  <!-- Title for the inverted screen feature. This causes the screen to render with inverted colors (black becomes white and vice versa) [CHAR LIMIT=40] -->
-  <string name="pref_inverted">Sesuaian yang terbalik</string>
-  <!-- Summary for the inverted screen feature. [CHAR LIMIT=120] -->
-  <string name="pref_inverted_summary">Hitam menjadi putih dan sebaliknya</string>
-  <!-- Title for the inverted screen contrast. Change the contrast value from 1.0 to 3.0. [CHAR LIMIT=30] -->
-  <string name="pref_inverted_contrast">Kontras</string>
-  <!-- Settings screen, section title [CHAR LIMIT=50] -->
-  <string name="pref_extras_title">Lanjutan</string>
-  <!-- Settings label -->
-  <string name="pref_extras_website_settings">Pengaturan per situs</string>
-  <!-- Settings summary -->
-  <string name="pref_extras_website_settings_summary">Pengaturan lanjutan untuk situs masing-masing</string>
-  <!-- Settings label -->
-  <string name="pref_extras_reset_default">Kembalikan ke pengaturan standar</string>
-  <string name="pref_extras_reset">Atur ulang</string>
-  <!-- Settings summary -->
-  <string name="pref_extras_reset_default_summary">Pulihkan pengaturan standar</string>
-  <!-- Confirmation dialog message -->
-  <string name="pref_extras_reset_default_dlg">Pulihkan pengaturan ke standar?</string>
-  <!-- Title for a group of settings -->
-  <string name="pref_development_title">Debug</string>
-  <!-- Settings screen, setting option name -->
-  <string name="pref_default_text_encoding">Penyandian teks</string>
-  <string name="pref_edge_swipe_title">Navigasi pinggir</string>
-  <string name="pref_edge_swipe_option_msg">Mengusap dari pinggir akan:</string>
-  <string name="pref_temporal_edge_swipe">Navigasi riwayat</string>
-  <string name="pref_spatial_edge_swipe">Ganti tab</string>
-  <string name="pref_disable_edge_swipe">Tidak melakukan apa pun</string>
-  <string name="pref_edge_swipe_option_close">Pilih nanti</string>
-  <string name="pref_temporal_edge_swipe_enabled_toast">Usap dari pinggir untuk menavigasi</string>
-  <string name="pref_spatial_edge_swipe_enabled_toast">Usap dari pinggir untuk ganti tab</string>
-  <string name="pref_edge_swipe_disabled_toast">Usap dari pinggir dinonaktifkan</string>
-  <string name="pref_edge_swipe_unknown">Pilih perilaku</string>
-  <string name="pref_edge_swipe_setup_desc">
-        Usap dari pinggir untuk menavigasi riwayat.\nFitur ini bisa berkonflik dengan situs web yang menggunakan tindakan berbasis pinggir</string>
-  <string name="pref_edge_enable">Aktifkan</string>
-  <string name="pref_edge_disable">Nonaktifkan</string>
-  <!-- Colored statusbar -->
-  <string name="pref_coloredsb_title">Status bar berwarna</string>
-  <string name="pref_coloredsb_summary">Status bar akan berubah warna berdasarkan halaman yang dikunjungi</string>
-  <!-- Title for accessibility settings [CHAR LIMIT=25] -->
-  <string name="pref_accessibility_title">Aksesibilitas</string>
-  <string name="pref_accessibility_title_summary">Ukuran teks dan zooming</string>
-  <!-- LookLock -->
-  <string name="pref_looklock_title">LookLock</string>
-  <string name="pref_looklock_summary">Cegah aplikasi lain membaca konten tampilan web dari aplikasi ini</string>
-  <!-- Font size settings category under accessibility settings [CHAR LIMIT=50] -->
-  <string name="pref_font_size_category">Ukuran teks</string>
-  <!-- Title for the fullscreen lab feature [CHAR LIMIT=40] -->
-  <string name="pref_lab_fullscreen">Layar penuh</string>
-  <!-- Summary for the fullscreen lab feature [CHAR LIMIT=120] -->
-  <string name="pref_lab_fullscreen_summary">Ubah browser menjadi layar penuh</string>
-  <!-- Title for search preloading [CHAR LIMIT=40] -->
-  <string name="pref_data_preload_title">Memuat hasil pencarian</string>
-  <!-- Search preloading options [CHAR LIMIT=20] -->
-  <!-- Link prefetching options [CHAR LIMIT=20] -->
-  <string-array name="pref_temporal_choices">
-    <item>Tidak pernah</item>
-    <item>Hanya di Wi-Fi</item>
-    <item>Selalu</item>
-  </string-array>
-  <!-- Summary for search preloading [CHAR LIMIT=80] -->
-  <string name="pref_data_preload_summary">Izinkan browser memuat hasil pencarian di latar belakang</string>
-  <!-- Title for link prefetching [CHAR LIMIT=40] -->
-  <string name="pref_link_prefetch_title">Memuat laman web</string>
-  <!-- Summary for link prefetching [CHAR LIMIT=80] -->
-  <string name="pref_link_prefetch_summary">Izinkan browser memuat halaman web tertaut di latar belakang</string>
-  <!-- Dialog box message -->
-  <string name="browserFrameFormResubmitMessage">Halaman yang anda coba lihat berisi data yang telah dikirimkan (\"POSTDATA\"). Jika Anda mengirimkan ulang data, tindakan apa pun yang dilakukan pada laman formulir (seperti pencarian atau pembelian online) akan terulang.</string>
-  <!-- Menu item -->
-  <string name="clear_history">Hapus riwayat</string>
-  <!-- Appears on History screen if no history is found -->
-  <string name="empty_history">Tidak ada riwayat.</string>
-  <!-- Displayed at the top of the bookmarks page.  When clicked, it bookmarks the page the browser is currently showing -->
-  <string name="add_new_bookmark">Tambahkan favorit</string>
-  <!-- Verb placed in front of a screenshot of a web page that, when clicked,
-            will add that page to bookmarks -->
-  <string name="add_bookmark_short">Tambahkan</string>
-  <!-- This string is for the browser "Go To" UI. -->
-  <!-- This is the hint text shown in the Go To widget, before text is entered. -->
-  <string name="search_hint">Cari atau ketik URL</string>
-  <!-- This string is for the browser "Go To" UI. -->
-  <!-- This is the button label in the "Go To" UI. -->
-  <string name="search_button_text">Pergi</string>
-  <!-- The string used to describe the browser as a searchable item within system search settings. -->
-  <string name="search_settings_description">Favorit dan riwayat web</string>
-  <!-- Label for a button to allow a particular popup window to open -->
-  <string name="allow">Izinkan</string>
-  <!-- Label for a button to disallow a particular popup from opening -->
-  <string name="block">Blokir</string>
-  <!-- Title for a dialog informing the user that they cannot open any more
-            windows because the limit has been reached. -->
-  <string name="too_many_windows_dialog_title">Batas tab tercapai</string>
-  <!-- Message in a dialog telling the user that they cannot open any more
-            windows because the limit has been reached. -->
-  <string name="too_many_windows_dialog_message">Tab baru tidak dapat dibuka sampai salah satu tab ditutup.</string>
-  <!-- Title for a dialog informing the user that they cannot open a subwindow
-            because only one can be open at a time. -->
-  <string name="too_many_subwindows_dialog_title">Pop-up sudah terbuka</string>
-  <!-- Message for a dialog informing the user that they cannot open a
-            subwindow because only one can be open at a time. -->
-  <string name="too_many_subwindows_dialog_message">Hanya satu pop-up yang dapat terbuka sekaligus.</string>
-  <!-- Download History UI strings -->
-  <!-- Dialog title [CHAR LIMIT=25] -->
-  <!-- Dialog title -->
-  <string name="download_no_sdcard_dlg_title" product="default">Tidak ada kartu SD</string>
-  <!-- Dialog message [CHAR LIMIT=NONE] -->
-  <!-- Dialog message -->
-  <string name="download_no_sdcard_dlg_msg" product="default">Kartu SD diperlukan untuk mengunduh <xliff:g id="filename">%s</xliff:g>.</string>
-  <!-- Title for a dialog informing the user that the SD card used for
-            external storage is busy so they cannot download anything [CHAR LIMIT=25] -->
-  <!-- Title for a dialog informing the user that the SD card used for
-            external storage is busy so they cannot download anything -->
-  <string name="download_sdcard_busy_dlg_title" product="default">Kartu SD tidak tersedia</string>
-  <!-- Message for a dialog informing the user that the SD card used for
-            external storage is busy so they cannot download anything.  Informs
-            the user how to enable SD card storage [CHAR LIMIT=NONE] -->
-  <!-- Message for a dialog informing the user that the SD card used for
-            external storage is busy so they cannot download anything.  Informs
-            the user how to enable SD card storage -->
-  <string name="download_sdcard_busy_dlg_msg" product="default">Kartu SD sibuk. Untuk mengizinkan unduhan, ketuk \"Nonaktifkan penyimpanan USB\" di bagian pemberitahuan.</string>
-  <!-- Toast for a download which cannot begin because the URL is not http or https -->
-  <string name="cannot_download">Hanya dapat mengunduh URL \"http\" atau \"https\".</string>
-  <!-- Message in the list of items which have received download requests
-            telling their status.  This message states that the download has not
-            yet begun -->
-  <string name="download_pending">Memulai unduhan\u2026</string>
-  <!-- The description of the suggestion that lets the user search the web for the query currently
-         in the text field. -->
-  <string name="search_the_web">Cari di web</string>
-  <!-- HTML5 dialogs -->
-  <!-- Used as a status bar notification when the browser is running out of space trying to allocate or increase the database quota for an HTML5 databae or application cache. -->
-  <string name="webstorage_outofspace_notification_title">Penyimpanan peramban penuh</string>
-  <string name="webstorage_outofspace_notification_text">Ketuk untuk mengosongkan ruang.</string>
-  <!-- Used in the Browser Settings -->
-  <string name="webstorage_clear_data_title">Penyimpanan</string>
-  <string name="webstorage_private_data_title">Data pribadi</string>
-  <!-- Confirmation dialog when the user ask to clear all data for an origin -->
-  <string name="webstorage_clear_data_dialog_message">Hapus semua data yang disimpan situs web ini?</string>
-  <!-- String shown in a progress view while a video is loading, before it starts playing -->
-  <string name="loading_video">Memuat video\u2026</string>
-  <string name="website_settings_add_origin">Situs baru</string>
-  <!-- Label for the menu item in the website settings activity used to clear data stored by all websites -->
-  <string name="website_settings_clear_all">Hapus semua</string>
-  <string name="website_settings_clear_all_dialog_message">Hapus semua data situs web dan izin lokasi?</string>
-  <!-- Text in the progress dialog when we are setting an image as the home screen wallpaper. -->
-  <string name="progress_dialog_setting_wallpaper">Mengatur wallpaper\u2026</string>
-  <!-- The string that is displayed when there are no bookmarks to display.
-         This is centered in the middle of the screen [CHAR LIMIT=NONE] -->
-  <string name="empty_bookmarks_folder">Tidak ada favorit.</string>
-  <!-- The folder name for the special "Other Bookmarks" folder created by Chrome [CHAR LIMIT=24] -->
-  <string name="other_bookmarks">Favorit lainnya</string>
-  <!-- Description for a dialog asking the user what they want to do with their bookmarks when adding a sync account [CHAR-LIMIT=none] -->
-  <string name="import_bookmarks_dialog_description">Favorit pada perangkat ini belum dikaitkan dengan akun Google. Simpan favorit ini dengan menambahkannya ke akun tertentu. Hapus favorit ini jika Anda tidak ingin menyinkronkannya.</string>
-  <!-- Button allowing users to remove all of their existing bookmarks when setting up syncing with their bookmarks stored in Google Chrome [CHAR-LIMIT=64] -->
-  <string name="import_bookmarks_dialog_remove">Hapus favorit</string>
-  <!-- Url Selection Action Mode -->
-  <!-- Menu item to share URL selection [CHAR LIMIT=30] -->
-  <string name="menu_share_url">Bagikan</string>
-  <!-- Toast to inform the user that the maximum number of tabs has been
-         reached. [CHAR LIMIT=50] -->
-  <string name="max_tabs_warning">Tidak ada lagi tab yang tersedia</string>
-  <!-- Font size preview label in settings [CHAR LIMIT=30] -->
-  <string name="preview">Pratinjau</string>
-  <!-- Name for the user's unsynced, local bookmarks [CHAR LIMIT=50] -->
-  <string name="local_bookmarks">Favorit saya</string>
-  <!-- allows the user to find on webpage [CHAR LIMIT=None] -->
-  <string name="find_on_page">Temukan</string>
-  <!-- Popup menu checkbox that allows the user to request the desktop version of a webpage [CHAR LIMIT=50] -->
-  <string name="ua_switcher_desktop">Situs destop</string>
-  <!-- Popup menu checkbox that loads the reader mode version of the current webpage -->
-  <string name="enable_reader_mode">Mode baca</string>
-  <!-- Preload permission label [CHAR LIMIT=40] -->
-  <string name="permission_preload_label">Muat hasil</string>
-  <!-- Empty text for the "saved pages" tab that is shown when no saved pages exist. [CHAR LIMIT=None] -->
-  <string name="empty_snapshots_folder">Tidak ada laman tersimpan.</string>
-  <!-- Menu option to delete the currently selected saved page [CHAR LIMIT=50] -->
-  <string name="remove_snapshot">Hapus laman tersimpan</string>
-  <!-- Popup menu option to load the live version of a saved page [CHAR LIMIT=20] -->
-  <string name="snapshot_go_live">Buka versi aktual</string>
-  <!--  Accessibility content descriptions -->
-  <!-- Content description for back button [CHAR LIMIT=NONE] -->
-  <string name="accessibility_button_back">Kembali</string>
-  <!-- Content description for forward button [CHAR LIMIT=NONE] -->
-  <string name="accessibility_button_forward">Maju</string>
-  <!-- Content description for refresh button [CHAR LIMIT=NONE] -->
-  <string name="accessibility_button_refresh">Segarkan halaman</string>
-  <!-- Content description for stop button [CHAR LIMIT=NONE] -->
-  <string name="accessibility_button_stop">Hentikan pemuatan laman</string>
-  <!-- Content description for add bookmark button [CHAR LIMIT=NONE] -->
-  <string name="accessibility_button_addbookmark">Tambahkan ke favorit</string>
-  <!-- Content description for search button [CHAR LIMIT=NONE] -->
-  <string name="accessibility_button_search">Cari</string>
-  <!-- Content description for voice search button [CHAR LIMIT=NONE] -->
-  <string name="accessibility_button_voice">Mulai penelusuran suara</string>
-  <!-- Content description for close tab button [CHAR LIMIT=NONE] -->
-  <string name="accessibility_button_closetab">Tutup tab</string>
-  <!-- Content description for new tab button [CHAR LIMIT=NONE] -->
-  <string name="accessibility_button_newtab">Buka tab baru</string>
-  <!-- Content description for new incognito tab button [CHAR LIMIT=NONE] -->
-  <string name="accessibility_button_newincognitotab">Buka tab penyamaran baru</string>
-  <!-- Content description for clear button [CHAR LIMIT=NONE] -->
-  <string name="accessibility_button_clear">Hapus masukan</string>
-  <!-- Content description for tab switcher button [CHAR LIMIT=NONE] -->
-  <string name="accessibility_button_navscreen">Pengelola halaman</string>
-  <!-- Content description for incognito state [CHAR LIMIT=NONE] -->
-  <string name="accessibility_state_incognito">Laman penyamaran</string>
-  <!-- Content description for frozen state [CHAR LIMIT=NONE] -->
-  <string name="accessibility_state_frozen">Laman tersimpan</string>
-  <!-- Content description for tab switcher transition [CHAR LIMIT=NONE] -->
-  <string name="accessibility_transition_navscreen">Pengelolaan tab</string>
-  <!-- Content description for navigating up in the bookmark folder hierarchy [CHAR LIMIT=NONE] -->
-  <string name="accessibility_button_bookmarks_folder_up">Atas</string>
-  <!--Add for Navigation Feature -->
-  <string name="my_navigation_delete_label">Hapus situs web</string>
-  <string name="my_navigation_edit_label">Edit situs web</string>
-  <string name="my_navigation_add_label">Tambahkan situs web</string>
-  <string name="my_navigation_add">Tambahkan</string>
-  <string name="my_navigation_delete_msg">Hapus situs web?</string>
-  <string name="my_navigation_name">Judul</string>
-  <string name="my_navigation_address">Alamat</string>
-  <string name="website_needs_title">Situs web harus memiliki judul</string>
-  <string name="website_needs_url">Situs web harus memiliki URL</string>
-  <string name="my_navigation_cannot_save_url">URL tidak valid</string>
-  <string name="my_navigation_duplicate_url">URL sudah ada</string>
-  <string name="my_navigation_page_title">Beranda</string>
-  <!-- Add for Carrier Feature.Content description for AV save/play prompt dialog -->
-  <string name="http_video_msg">Pilih cara menangani berkas media</string>
-  <string name="video_save">Simpan</string>
-  <string name="video_play">Putar</string>
-  <!-- Add for Carrier Feature.Content description for exit menu item -->
-  <string name="exit">Keluar</string>
-  <!-- Add for Carrier Feature.Content description for about menu item -->
-  <string name="about">Tentang</string>
-  <string name="download_estore_app">Aplikasi Estore tidak ada di perangkat Anda.</string>
-  <string name="estore_url_warning">Gagal membuka aplikasi Estore, URL terlalu panjang.</string>
-  <!-- Add for Unsupport Uploading Drm Files Feature -->
-  <string name="drm_file_unsupported">Mengunggah file DRM tidak didukung!</string>
-  <!-- Add for exit prompt Feature -->
-  <string name="exit_browser_title">Tutup peramban</string>
-  <string name="exit_browser_msg">Pilih cara menutup peramban</string>
-  <string name="exit_minimize">Minimalkan</string>
-  <string name="exit_quit">Keluar</string>
-  <string name="browser_max_input_title">Batas jumlah karakter maksimal tercapai</string>
-  <string name="browser_max_input">Input Anda telah mencapai batas maksimal <xliff:g id="MAXLIMIT">%s</xliff:g> karakter</string>
-  <string name="duplicated_folder_warning">Folder sudah ada</string>
-  <string name="overwrite_bookmark_msg">Nama atau alamat favorit sudah ada. Timpa?</string>
-  <!-- Add for download save path setting Feature -->
-  <string name="invalid_path">Jalur tidak valid</string>
-  <string name="path_wrong">Jalur salah</string>
-  <string name="pref_download_title">Pengaturan jalur unduhan</string>
-  <string name="pref_download_path_setting_screen_title">Jalur unduhan khusus</string>
-  <string name="download_timeneeded">Waktu</string>
-  <string name="download_filesize">Ukuran</string>
-  <string name="download_filepath_label">Jalur</string>
-  <string name="download_edit_filename_label">Nama</string>
-  <string name="download_no_enough_memory">Memori tidak cukup untuk mengunduh</string>
-  <string name="download_settings_title">Pengaturan unduhan</string>
-  <string name="filename_empty_title">Nama berkas unduhan kosong</string>
-  <string name="filename_empty_msg">Nama berkas unduhan tidak boleh kosong. Masukkan nama berkas yang valid.</string>
-  <string name="unknow_length">Tidak diketahui</string>
-  <string name="download_file_exist_msg">Berkas sudah ada. Masukkan nama berkas baru.</string>
-  <string name="download_file_exist">Berkas sudah ada</string>
-  <string name="time_min">mnt</string>
-  <string name="download_path_unavailable_dlg_title">Direktori unduhan tidak tersedia</string>
-  <string name="download_path_unavailable_dlg_msg">Ubah direktori unduhan</string>
-  <string name="activity_not_found">Aktivitas untuk menangani tujuan <xliff:g id="NOACTIVITY">%s</xliff:g> tidak ada</string>
-  <string name="download_name_hint">Nama berkas</string>
-  <string name="download_size_hint">Ukuran</string>
-  <string name="download_eta_hint">Perkiraan waktu tersisa</string>
-  <!-- Toast message displayed when the full screen received message -->
-  <string name="received_message_full_screen">Terima pesan dari: <xliff:g id="FROM">%s</xliff:g>.</string>
-  <!-- Snapdragon Browser Additions -->
-  <string name="ssl_certificate">Sertifikat keamanan</string>
-  <string name="ssl_certificate_is_valid">Sertifikat ini valid.</string>
-  <string name="version">Versi</string>
-  <string name="build_date">Tanggal pembuatan</string>
-  <string name="build_hash">Hash pembuatan</string>
-  <string name="user_agent">Agen pengguna</string>
-  <string name="help">Bantuan</string>
-  <string name="feedback">Umpan balik</string>
-  <string name="swe_legal">Informasi hukum</string>
-  <string name="swe_open_source_licenses">Lisensi sumber terbuka</string>
-  <string name="swe_eula">Perjanjian lisensi pengguna akhir</string>
-  <string name="swe_privacy_policy">Kebijakan privasi</string>
-  <!-- Toast message displayed when user attempts to modify a setting disabled by the administrator -->
-  <string name="mdm_managed_alert">Dikelola oleh administrator</string>
-  <!-- My Navigation - Favorites + History + Saved -->
-  <string name="mystuffs">Navigasi saya</string>
-  <!-- Place holder for SWE engine strings added to
-         'chrome/android/java/strings/android_chrome_strings.grd'. Follow
-         chromium android grd naming convention. Follow exact mapping rules from
-         grd to xml. All grd strings maps to xml name in lowercase with 'IDS_'
-         prefix being stripped. For more info check out chromium's
-         UI-localization page. -->
-  <!-- Geolocation infobar promt-->
-  <string name="geolocation_permissions_prompt_remember">Ingat preferensi</string>
-  <string name="geolocation_permissions_prompt_share_never">Jangan izinkan selamanya</string>
-  <string name="geolocation_permissions_prompt_share_for_limited_time">Izinkan selama 24 jam</string>
-  <string name="geolocation_permissions_prompt_share_forever">Izinkan selamanya</string>
+    <string name="application_name">Browser</string>
+    <string name="choose_upload">Pilih berkas untuk diunggah</string>
+    <string name="uploads_disabled">Unggahan dinonaktifkan.</string>
+    <string name="new_tab">Tab baru</string>
+    <string name="browser_tab_crash_snap">Waduh!</string>
+    <string name="browser_tab_crash_reload">Muat ulang</string>
+    <string name="browser_tab_crash_message">Hal yang tak terduga terjadi ketika menampilkan laman web ini. Muat ulang atau buka laman lain.</string>
+    <string name="new_incognito_tab">Mode penyamaran</string>
+    <string name="tab_most_visited">Paling sering dikunjungi</string>
+    <string name="tab_snapshots">Disimpan</string>
+    <string name="added_to_bookmarks">Ditambahkan ke favorit.</string>
+    <string name="removed_from_bookmarks">Dihapus dari favorit.</string>
+    <string name="sign_in_to">Masuk ke <xliff:g id="hostname">%s1</xliff:g> "<xliff:g id="realm">%s2</xliff:g>\"</string>
+    <string name="username">Nama</string>
+    <string name="password">Kata Sandi</string>
+    <string name="action">Masuk</string>
+    <string name="bookmarks_add_page">Simpan</string>
+    <string name="cancel">Batalkan</string>
+    <string name="ok">OK</string>
+    <string name="max_url_character_limit_msg">Batas maks. URL tercapai</string>
+    <string name="msg_no_google_play">Maaf, aplikasi Google Play Store tidak ada di perangkat.</string>
+    <string name="page_info">Info</string>
+    <string name="page_info_address">Alamat:</string>
+    <string name="security_warning">Peringatan keamanan</string>
+    <string name="ssl_invalid">Sertifikat ini tidak valid.</string>
+    <string name="ssl_unknown">Kesalahan Sertifikat tidak diketahui.</string>
+    <string name="stopping">Menghentikan\u2026</string>
+    <string name="stop">Hentikan</string>
+    <string name="reload">Segarkan</string>
+    <string name="back">Kembali</string>
+    <string name="forward">Teruskan</string>
+    <string name="location">Alamat</string>
+    <string name="account">Akun</string>
+    <string name="containing_folder">Tambah ke</string>
+    <string name="new_folder">Folder baru</string>
+    <string name="edit_folder">Edit folder</string>
+    <string name="delete_folder">Hapus folder</string>
+    <string name="no_subfolders">Tidak ada subfolder.</string>
+    <string name="add_to_homescreen_menu_option">Layar beranda</string>
+    <string name="add_to_other_folder_menu_option">Pilih folder\u2026</string>
+    <string name="name">Label</string>
+    <string name="save_to_bookmarks">Simpan</string>
+    <string name="bookmark_this_page">Tambahkan laman ini ke favorit</string>
+    <string name="remove">Hapus</string>
+    <string name="edit_bookmark">Edit</string>
+    <string name="create_shortcut_bookmark">Tambahkan pintasan</string>
+    <string name="remove_bookmark">Hapus</string>
+    <string name="remove_from_bookmarks">Hapus</string>
+    <string name="remove_history_item">Hapus</string>
+    <string name="set_as_homepage">Atur sebagai halaman utama</string>
+    <string name="bookmark_saved">Ditambahkan ke favorit</string>
+    <string name="bookmark_not_saved">Tidak dapat menyimpan favorit.</string>
+    <string name="homepage_set">Halaman utama ditetapkan.</string>
+    <string name="bookmark_needs_title">Favorit harus memiliki nama.</string>
+    <string name="bookmark_needs_url">Favorit harus memiliki lokasi.</string>
+    <string name="bookmark_url_not_valid">URL ini tidak valid.</string>
+    <string name="bookmark_cannot_save_url">URL ini tidak dapat ditambahkan ke favorit.</string>
+    <string name="current_page">dari\u0020</string>
+    <string name="delete_bookmark_warning">Hapus favorit \"<xliff:g id="bookmark">%s</xliff:g>\"?</string>
+    <string name="delete_folder_warning">Hapus folder \"<xliff:g id="bookmark">%s </xliff:g>\"?</string>
+    <string name="open_all_in_new_window">Buka semua di tab baru</string>
+    <string name="sendText">Pilih tindakan untuk teks</string>
+    <string name="close_other_tabs">Tutup tab lain</string>
+    <string name="bookmarks">Favorit</string>
+    <string name="shortcut_bookmark">Favorit</string>
+    <string name="shortcut_bookmark_title">Pilih favorit</string>
+    <string name="history">Riwayat</string>
+    <string name="share_page">Bagikan</string>
+    <string name="add_to_homescreen">Tambahkan ke beranda</string>
+    <string name="menu_save_snapshot">Simpan</string>
+    <string name="saving_snapshot">Menyimpan\u2026</string>
+    <string name="snapshot_failed">Tidak dapat menyimpan untuk dibaca secara offline.</string>
+    <string name="contextheader_folder_bookmarkcount"><xliff:g id="bookmark_count">%d </xliff:g> favorit</string>
+    <string name="contextheader_folder_empty">Folder kosong</string>
+    <string name="contextmenu_openlink">Buka</string>
+    <string name="contextmenu_openlink_newwindow">Buka di tab baru</string>
+    <string name="contextmenu_openlink_newwindow_background">Buka di tab latar belakang baru</string>
+    <string name="contextmenu_savelink">Simpan tautan</string>
+    <string name="contextmenu_sharelink">Bagikan tautan</string>
+    <string name="contextmenu_copy">Salin</string>
+    <string name="contextmenu_copylink">Salin tautan URL</string>
+    <string name="contextmenu_download_image">Simpan Gambar</string>
+    <string name="contextmenu_view_image">Lihat gambar</string>
+    <string name="contextmenu_set_wallpaper">Atur sebagai wallpaper</string>
+    <string name="contextmenu_dial_dot">Panggil\u2026</string>
+    <string name="contextmenu_add_contact">Tambahkan kontak</string>
+    <string name="contextmenu_send_mail">Kirim email</string>
+    <string name="contextmenu_map">Peta</string>
+    <string name="choosertitle_sharevia">Bagikan lewat</string>
+    <string name="clear">Bersihkan</string>
+    <string name="replace">Ganti</string>
+    <string name="menu_preferences">Pengaturan</string>
+    <string name="pref_content_title">Pengaturan konten</string>
+    <string name="pref_content_title_summary">Pengaturan isi web</string>
+    <string name="pref_content_load_images">Muat gambar</string>
+    <string name="pref_content_load_images_summary">Tampilkan gambar pada laman web</string>
+    <string name="pref_security_allow_popups">Pop up</string>
+    <string name="pref_content_javascript">Aktifkan JavaScript</string>
+    <string name="pref_content_open_in_background">Buka di latar belakang</string>
+    <string name="pref_content_open_in_background_summary">Buka tab baru di belakang tab saat ini</string>
+    <string name="pref_content_homepage">Halaman utama</string>
+    <string name="pref_content_search_engine">Mesin pencarian</string>
+    <string name="pref_content_search_engine_summary">Pilih mesin pencarian</string>
+    <string name="pref_set_homepage_to">Atur ke</string>
+    <string-array name="pref_homepage_choices">
+        <item>Laman saat ini</item>
+        <item>Laman kosong</item>
+        <item>Laman standar</item>
+        <item>Situs yang paling sering dikunjungi</item>
+        <item>Lainnya</item>
+    </string-array>
+    <string name="pref_general_title">Umum</string>
+    <string name="pref_default_site_settings_title">Pengaturan standar situs</string>
+    <string name="pref_site_settings_title">Pengaturan situs</string>
+    <string name="pref_site_settings_info_panel">Informasi keamanan</string>
+    <string name="pref_general_autofill_title">Isi-otomatis</string>
+    <string name="pref_powersave_enabled">Mode hemat energi</string>
+    <string name="pref_powersave_enabled_summary">Kurangi penggunaan daya peramban</string>
+    <string name="pref_nightmode_enabled">Mode malam hari</string>
+    <string name="pref_nightmode_enabled_summary">Warna terbalik</string>
+    <string name="pref_autofill_enabled">Isi-otomatis formulir</string>
+    <string name="pref_autofill_enabled_summary">Isi formulir web dengan satu sentuhan</string>
+    <plurals name="pref_web_refiner_advertisements">
+        <item quantity="other">%d iklan</item>
+    </plurals>
+    <plurals name="pref_web_refiner_trackers">
+        <item quantity="other">%d pelacak</item>
+    </plurals>
+    <plurals name="pref_web_refiner_malware">
+        <item quantity="other">%d ancaman perangkat lunak jahat</item>
+    </plurals>
+    <string-array name="pref_web_refiner_message">
+        <item>"%s diblokir. "</item>
+        <item>"%1$s dan %2$s diblokir. "</item>
+        <item>"%1$s, %2$s dan %3$s diblokir. "</item>
+    </string-array>
+    <string name="pref_valid_cert">Sertifikat SSL valid. Komunikasi dienkripsi dan identitas diverifikasi.</string>
+    <string name="pref_invalid_cert">Situs memiliki sertifikat SSL yang tidak valid.</string>
+    <string name="pref_warning_cert">Sertifikat SSL situs memiliki peringatan.</string>
+    <string name="pref_interface_title">Antarmuka</string>
+    <string name="pref_autofill_profile_editor">Isi-otomatis</string>
+    <string name="pref_autofill_profile_editor_summary">Atur teks untuk diisi-otomatis di formulir web</string>
+    <string name="autofill_profile_editor_heading">Ketik teks yang ingin diisi otomatis di formulir web.</string>
+    <string name="autofill_profile_editor_name">Nama lengkap:</string>
+    <string name="autofill_profile_editor_email_address">Email:</string>
+    <string name="autofill_profile_editor_company_name">Nama perusahaan:</string>
+    <string name="autofill_profile_editor_address_line_1">Baris alamat 1:</string>
+    <string name="autofill_profile_editor_address_line_1_hint">Alamat jalan, kotak pos, d.a.</string>
+    <string name="autofill_profile_editor_address_line_2">Baris alamat 2:</string>
+    <string name="autofill_profile_editor_address_line_2_hint">Apartemen, suite, unit, bangunan, lantai, dll.</string>
+    <string name="autofill_profile_editor_city">Kota:</string>
+    <string name="autofill_profile_editor_state">Negara Bagian/Provinsi/Daerah:</string>
+    <string name="autofill_profile_editor_zip_code">Kode pos:</string>
+    <string name="autofill_profile_editor_country">Negara:</string>
+    <string name="autofill_profile_editor_phone_number">Telepon:</string>
+    <string name="autofill_profile_editor_phone_number_invalid">Nomor telepon tidak valid.</string>
+    <string name="autofill_profile_editor_save_profile">Simpan</string>
+    <string name="autofill_profile_successful_save">Teks isi-otomatis disimpan.</string>
+    <string name="autofill_profile_successful_delete">Teks isi-otomatis dihapus.</string>
+    <string name="autofill_profile_editor_delete_profile">Hapus</string>
+    <string name="powersave_dialog_on">Mode hemat daya diaktifkan. Browser akan dimulai ulang.</string>
+    <string name="powersave_dialog_off">Mode hemat daya dinonaktifkan. Browser akan dimulai ulang.</string>
+    <string name="autofill_setup_dialog_message">Browser dapat melengkapi formulir web seperti ini secara otomatis. Apakah Anda ingin menyiapkan teks isi-otomatis?</string>
+    <string name="autofill_setup_dialog_negative_toast">Anda selalu dapat mengatur teks isi-otomatis Anda dari Browser &gt; Pengaturan &gt; otomatis mengisi.</string>
+    <string name="disable_autofill">Nonaktifkan isi-otomatis</string>
+    <string name="pref_security_title">Keamanan</string>
+    <string name="pref_privacy_security_title">Privasi &amp; keamanan</string>
+    <string name="pref_privacy_security_title_summary">Pengaturan keamanan browser dan privasi</string>
+    <string name="pref_select_items">Pilih item untuk dibersihkan</string>
+    <string name="pref_privacy_clear_selected">Hapus item yang dipilih</string>
+    <string name="pref_privacy_clear_selected_summary">Hapus item yang dipilih dalam daftar</string>
+    <string name="pref_privacy_clear_selected_dlg">Hapus item berikut?</string>
+    <string name="pref_privacy_clear_cache">Cache</string>
+    <string name="pref_privacy_clear_cache_summary">Hapus basis data dan konten yang disimpan dalam cache lokal</string>
+    <string name="pref_privacy_clear_cookies">Kuki dan data situs</string>
+    <string name="pref_privacy_clear_cookies_summary">Hapus semua kuki dan data situs peramban</string>
+    <string name="pref_privacy_clear_history_summary">Hapus riwayat penjelajahan peramban</string>
+    <string name="pref_privacy_clear_history_dlg">Hapus riwayat penjelajahan peramban?</string>
+    <string name="pref_privacy_clear_form_data">Data formulir</string>
+    <string name="pref_privacy_clear_form_data_summary">Hapus semua data formulir tersimpan</string>
+    <string name="pref_privacy_clear_passwords">Kata Sandi</string>
+    <string name="pref_privacy_clear_passwords_summary">Hapus semua kata sandi tersimpan</string>
+    <string name="pref_privacy_enable_geolocation">Lokasi</string>
+    <string name="pref_privacy_clear_geolocation_access">Akses lokasi</string>
+    <string name="pref_privacy_clear_geolocation_access_summary">Hapus akses lokasi untuk semua situs web</string>
+    <string name="pref_security_remember_passwords">Ingat kata sandi</string>
+    <string name="pref_security_save_form_data">Ingat data formulir</string>
+    <string name="pref_do_not_track">Meminta \'Jangan Lacak\'</string>
+    <string name="pref_security_accept_cookies">Terima kuki</string>
+    <string name="pref_security_allow_mic">Mikrofon</string>
+    <string name="pref_security_allow_camera">Kamera</string>
+    <string name="pref_security_web_refiner">Iklan</string>
+    <string name="pref_security_accept_third_party_cookies">Kuki pihak ketiga</string>
+    <string name="pref_security_ask_before_using">Tanyakan sebelum menggunakan</string>
+    <string name="pref_security_allowed">Izinkan</string>
+    <string name="pref_security_not_allowed">Tidak diizinkan</string>
+    <string name="pref_security_remember">Ingat</string>
+    <string name="pref_security_on">Hidup</string>
+    <string name="pref_security_off">Mati</string>
+    <string name="pref_website_title">Situs web</string>
+    <string name="pref_security_add">Tambah</string>
+    <string name="pref_security_origin_name">Asal situs</string>
+    <string name="pref_security_access_is_allowed">akses diizinkan</string>
+    <string name="pref_sample_font_size">Seret penggeser untuk menyesuaikan ukuran font yang nyaman.</string>
+    <string name="pref_min_font_size">Ukuran font minimal</string>
+    <string name="pref_min_font_size_value"><xliff:g id="font_size">%d</xliff:g>pt</string>
+    <string name="pref_text_zoom">Skala teks</string>
+    <string name="pref_force_userscalable">Paksa aktifkan perbesar</string>
+    <string name="pref_force_userscalable_summary">Kesampingkan permintaan situs web untuk mengontrol perilaku perbesar/perkecil</string>
+    <string name="pref_inverted_category">Sesuaian layar terbalik</string>
+    <string name="pref_inverted">Sesuaian yang terbalik</string>
+    <string name="pref_inverted_summary">Hitam menjadi putih dan sebaliknya</string>
+    <string name="pref_inverted_contrast">Kontras</string>
+    <string name="pref_extras_title">Lanjutan</string>
+    <string name="pref_extras_website_settings">Pengaturan per situs</string>
+    <string name="pref_extras_website_settings_summary">Pengaturan lanjutan untuk situs masing-masing</string>
+    <string name="pref_extras_reset_default">Kembalikan ke pengaturan standar</string>
+    <string name="pref_extras_reset">Atur ulang</string>
+    <string name="pref_extras_reset_default_summary">Pulihkan pengaturan standar</string>
+    <string name="pref_extras_reset_default_dlg">Pulihkan pengaturan ke standar?</string>
+    <string name="pref_development_title">Debug</string>
+    <string name="pref_default_text_encoding">Penyandian teks</string>
+    <string name="pref_edge_swipe_title">Navigasi pinggir</string>
+    <string name="pref_edge_swipe_option_msg">Mengusap dari pinggir akan:</string>
+    <string name="pref_temporal_edge_swipe">Navigasi riwayat</string>
+    <string name="pref_spatial_edge_swipe">Ganti tab</string>
+    <string name="pref_disable_edge_swipe">Tidak melakukan apa pun</string>
+    <string name="pref_edge_swipe_option_close">Pilih nanti</string>
+    <string name="pref_temporal_edge_swipe_enabled_toast">Usap dari pinggir untuk menavigasi</string>
+    <string name="pref_spatial_edge_swipe_enabled_toast">Usap dari pinggir untuk ganti tab</string>
+    <string name="pref_edge_swipe_disabled_toast">Usap dari pinggir dinonaktifkan</string>
+    <string name="pref_edge_swipe_unknown">Pilih perilaku</string>
+    <string name="pref_edge_swipe_setup_desc">        Usap dari pinggir untuk menavigasi riwayat.\nFitur ini bisa berkonflik dengan situs web yang menggunakan tindakan berbasis pinggir</string>
+    <string name="pref_edge_enable">Aktifkan</string>
+    <string name="pref_edge_disable">Nonaktifkan</string>
+    <string name="pref_coloredsb_title">Status bar berwarna</string>
+    <string name="pref_coloredsb_summary">Status bar akan berubah warna berdasarkan halaman yang dikunjungi</string>
+    <string name="pref_accessibility_title">Aksesibilitas</string>
+    <string name="pref_accessibility_title_summary">Ukuran teks dan zooming</string>
+    <string name="pref_looklock_title">LookLock</string>
+    <string name="pref_looklock_summary">Cegah aplikasi lain membaca konten tampilan web dari aplikasi ini</string>
+    <string name="pref_font_size_category">Ukuran teks</string>
+    <string name="pref_lab_fullscreen">Layar penuh</string>
+    <string name="pref_lab_fullscreen_summary">Ubah browser menjadi layar penuh</string>
+    <string name="pref_data_preload_title">Memuat hasil pencarian</string>
+    <string-array name="pref_temporal_choices">
+        <item>Tidak pernah</item>
+        <item>Hanya di Wi-Fi</item>
+        <item>Selalu</item>
+    </string-array>
+    <string name="pref_data_preload_summary">Izinkan browser memuat hasil pencarian di latar belakang</string>
+    <string name="pref_link_prefetch_title">Memuat laman web</string>
+    <string name="pref_link_prefetch_summary">Izinkan browser memuat halaman web tertaut di latar belakang</string>
+    <string name="browserFrameFormResubmitMessage">Halaman yang anda coba lihat berisi data yang telah dikirimkan (\"POSTDATA\"). Jika Anda mengirimkan ulang data, tindakan apa pun yang dilakukan pada laman formulir (seperti pencarian atau pembelian online) akan terulang.</string>
+    <string name="clear_history">Hapus riwayat</string>
+    <string name="empty_history">Tidak ada riwayat.</string>
+    <string name="add_new_bookmark">Tambahkan favorit</string>
+    <string name="add_bookmark_short">Tambahkan</string>
+    <string name="search_hint">Cari atau ketik URL</string>
+    <string name="search_button_text">Pergi</string>
+    <string name="search_settings_description">Favorit dan riwayat web</string>
+    <string name="allow">Izinkan</string>
+    <string name="block">Blokir</string>
+    <string name="too_many_windows_dialog_title">Batas tab tercapai</string>
+    <string name="too_many_windows_dialog_message">Tab baru tidak dapat dibuka sampai salah satu tab ditutup.</string>
+    <string name="too_many_subwindows_dialog_title">Pop-up sudah terbuka</string>
+    <string name="too_many_subwindows_dialog_message">Hanya satu pop-up yang dapat terbuka sekaligus.</string>
+    <string name="download_no_sdcard_dlg_title" product="default">Tidak ada kartu SD</string>
+    <string name="download_no_sdcard_dlg_msg" product="default">Kartu SD diperlukan untuk mengunduh <xliff:g id="filename">%s</xliff:g>.</string>
+    <string name="download_sdcard_busy_dlg_title" product="default">Kartu SD tidak tersedia</string>
+    <string name="download_sdcard_busy_dlg_msg" product="default">Kartu SD sibuk. Untuk mengizinkan unduhan, ketuk \"Nonaktifkan penyimpanan USB\" di bagian pemberitahuan.</string>
+    <string name="cannot_download">Hanya dapat mengunduh URL \"http\" atau \"https\".</string>
+    <string name="download_pending">Memulai unduhan\u2026</string>
+    <string name="search_the_web">Cari di web</string>
+    <string name="webstorage_outofspace_notification_title">Penyimpanan peramban penuh</string>
+    <string name="webstorage_outofspace_notification_text">Ketuk untuk mengosongkan ruang.</string>
+    <string name="webstorage_clear_data_title">Penyimpanan</string>
+    <string name="webstorage_private_data_title">Data pribadi</string>
+    <string name="webstorage_clear_data_dialog_message">Hapus semua data yang disimpan situs web ini?</string>
+    <string name="loading_video">Memuat video\u2026</string>
+    <string name="website_settings_add_origin">Situs baru</string>
+    <string name="website_settings_clear_all">Hapus semua</string>
+    <string name="website_settings_clear_all_dialog_message">Hapus semua data situs web dan izin lokasi?</string>
+    <string name="progress_dialog_setting_wallpaper">Mengatur wallpaper\u2026</string>
+    <string name="empty_bookmarks_folder">Tidak ada favorit.</string>
+    <string name="other_bookmarks">Favorit lainnya</string>
+    <string name="import_bookmarks_dialog_description">Favorit pada perangkat ini belum dikaitkan dengan akun Google. Simpan favorit ini dengan menambahkannya ke akun tertentu. Hapus favorit ini jika Anda tidak ingin menyinkronkannya.</string>
+    <string name="import_bookmarks_dialog_remove">Hapus favorit</string>
+    <string name="menu_share_url">Bagikan</string>
+    <string name="max_tabs_warning">Tidak ada lagi tab yang tersedia</string>
+    <string name="preview">Pratinjau</string>
+    <string name="local_bookmarks">Favorit saya</string>
+    <string name="find_on_page">Temukan</string>
+    <string name="ua_switcher_desktop">Situs destop</string>
+    <string name="enable_reader_mode">Mode baca</string>
+    <string name="permission_preload_label">Muat hasil</string>
+    <string name="empty_snapshots_folder">Tidak ada laman tersimpan.</string>
+    <string name="remove_snapshot">Hapus laman tersimpan</string>
+    <string name="snapshot_go_live">Buka versi aktual</string>
+    <string name="accessibility_button_back">Kembali</string>
+    <string name="accessibility_button_forward">Maju</string>
+    <string name="accessibility_button_refresh">Segarkan halaman</string>
+    <string name="accessibility_button_stop">Hentikan pemuatan laman</string>
+    <string name="accessibility_button_addbookmark">Tambahkan ke favorit</string>
+    <string name="accessibility_button_search">Cari</string>
+    <string name="accessibility_button_voice">Mulai penelusuran suara</string>
+    <string name="accessibility_button_closetab">Tutup tab</string>
+    <string name="accessibility_button_newtab">Buka tab baru</string>
+    <string name="accessibility_button_newincognitotab">Buka tab penyamaran baru</string>
+    <string name="accessibility_button_clear">Hapus masukan</string>
+    <string name="accessibility_button_navscreen">Pengelola halaman</string>
+    <string name="accessibility_state_incognito">Laman penyamaran</string>
+    <string name="accessibility_state_frozen">Laman tersimpan</string>
+    <string name="accessibility_transition_navscreen">Pengelolaan tab</string>
+    <string name="accessibility_button_bookmarks_folder_up">Atas</string>
+    <string name="my_navigation_delete_label">Hapus situs web</string>
+    <string name="my_navigation_edit_label">Edit situs web</string>
+    <string name="my_navigation_add_label">Tambahkan situs web</string>
+    <string name="my_navigation_add">Tambahkan</string>
+    <string name="my_navigation_delete_msg">Hapus situs web?</string>
+    <string name="my_navigation_name">Judul</string>
+    <string name="my_navigation_address">Alamat</string>
+    <string name="website_needs_title">Situs web harus memiliki judul</string>
+    <string name="website_needs_url">Situs web harus memiliki URL</string>
+    <string name="my_navigation_cannot_save_url">URL tidak valid</string>
+    <string name="my_navigation_duplicate_url">URL sudah ada</string>
+    <string name="my_navigation_page_title">Beranda</string>
+    <string name="http_video_msg">Pilih cara menangani berkas media</string>
+    <string name="video_save">Simpan</string>
+    <string name="video_play">Putar</string>
+    <string name="exit">Keluar</string>
+    <string name="about">Tentang</string>
+    <string name="download_estore_app">Aplikasi Estore tidak ada di perangkat Anda.</string>
+    <string name="estore_url_warning">Gagal membuka aplikasi Estore, URL terlalu panjang.</string>
+    <string name="drm_file_unsupported">Mengunggah file DRM tidak didukung!</string>
+    <string name="exit_browser_title">Tutup peramban</string>
+    <string name="exit_browser_msg">Pilih cara menutup peramban</string>
+    <string name="exit_minimize">Minimalkan</string>
+    <string name="exit_quit">Keluar</string>
+    <string name="browser_max_input_title">Batas jumlah karakter maksimal tercapai</string>
+    <string name="browser_max_input">Input Anda telah mencapai batas maksimal <xliff:g id="MAXLIMIT">%s</xliff:g> karakter</string>
+    <string name="duplicated_folder_warning">Folder sudah ada</string>
+    <string name="overwrite_bookmark_msg">Nama atau alamat favorit sudah ada. Timpa?</string>
+    <string name="invalid_path">Jalur tidak valid</string>
+    <string name="path_wrong">Jalur salah</string>
+    <string name="pref_download_title">Pengaturan jalur unduhan</string>
+    <string name="pref_download_path_setting_screen_title">Jalur unduhan khusus</string>
+    <string name="download_timeneeded">Waktu</string>
+    <string name="download_filesize">Ukuran</string>
+    <string name="download_filepath_label">Jalur</string>
+    <string name="download_edit_filename_label">Nama</string>
+    <string name="download_no_enough_memory">Memori tidak cukup untuk mengunduh</string>
+    <string name="download_settings_title">Pengaturan unduhan</string>
+    <string name="filename_empty_title">Nama berkas unduhan kosong</string>
+    <string name="filename_empty_msg">Nama berkas unduhan tidak boleh kosong. Masukkan nama berkas yang valid.</string>
+    <string name="unknow_length">Tidak diketahui</string>
+    <string name="download_file_exist_msg">Berkas sudah ada. Masukkan nama berkas baru.</string>
+    <string name="download_file_exist">Berkas sudah ada</string>
+    <string name="time_min">mnt</string>
+    <string name="download_path_unavailable_dlg_title">Direktori unduhan tidak tersedia</string>
+    <string name="download_path_unavailable_dlg_msg">Ubah direktori unduhan</string>
+    <string name="activity_not_found">Aktivitas untuk menangani tujuan <xliff:g id="NOACTIVITY">%s</xliff:g> tidak ada</string>
+    <string name="download_name_hint">Nama berkas</string>
+    <string name="download_size_hint">Ukuran</string>
+    <string name="download_eta_hint">Perkiraan waktu tersisa</string>
+    <string name="received_message_full_screen">Terima pesan dari: <xliff:g id="FROM">%s</xliff:g>.</string>
+    <string name="ssl_certificate">Sertifikat keamanan</string>
+    <string name="ssl_certificate_is_valid">Sertifikat ini valid.</string>
+    <string name="version">Versi</string>
+    <string name="build_date">Tanggal pembuatan</string>
+    <string name="build_hash">Hash pembuatan</string>
+    <string name="user_agent">Agen pengguna</string>
+    <string name="help">Bantuan</string>
+    <string name="feedback">Umpan balik</string>
+    <string name="swe_legal">Informasi hukum</string>
+    <string name="swe_open_source_licenses">Lisensi sumber terbuka</string>
+    <string name="swe_eula">Perjanjian lisensi pengguna akhir</string>
+    <string name="swe_privacy_policy">Kebijakan privasi</string>
+    <string name="mdm_managed_alert">Dikelola oleh administrator</string>
+    <string name="mystuffs">Navigasi saya</string>
+    <string name="geolocation_permissions_prompt_remember">Ingat preferensi</string>
+    <string name="geolocation_permissions_prompt_share_never">Jangan izinkan selamanya</string>
+    <string name="geolocation_permissions_prompt_share_for_limited_time">Izinkan selama 24 jam</string>
+    <string name="geolocation_permissions_prompt_share_forever">Izinkan selamanya</string>
 </resources>
