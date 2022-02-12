@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pref_content_javascript">JavaScript aktivéieren</string>
+    <string name="pref_content_open_in_background">Am Hannergrond opmaachen</string>
+    <string name="pref_content_open_in_background_summary">Nei Tabs hannert dem aktuellen Tab opmaachen</string>
+    <string name="pref_content_homepage">Startsäit</string>
+    <string name="pref_content_search_engine">Sichmaschinn</string>
+    <string name="pref_content_search_engine_summary">Eng Sichmaschinn auswielen</string>
+    <string name="pref_set_homepage_to">Setzen op</string>
+    <string-array name="pref_homepage_choices">
+        <item>Aktuell Säit</item>
+        <item>Eidel Säit</item>
+        <item>Standard-Säit</item>
+        <item>Am meescht besicht Säiten</item>
+        <item>Aner</item>
+    </string-array>
+    <string name="pref_general_title">Allgemeng</string>
+    <string name="pref_default_site_settings_title">Standardastellungen</string>
+    <string name="pref_site_settings_title">Astellunge fir de Site</string>
+    <string name="pref_site_settings_info_panel">Sécherheetsinformatioun</string>
+    <string name="pref_general_autofill_title">Automatescht Ausfëllen</string>
+    <string name="pref_nightmode_enabled">Nuetsmodus</string>
+    <string name="pref_nightmode_enabled_summary">Faarwen invertéieren</string>
+    <string name="pref_autofill_enabled">Automatescht Ausfëlle vu Formulairen</string>
+    <string name="pref_autofill_enabled_summary">Formulairë mat engem Klick ausfëllen</string>
+    <plurals name="pref_web_refiner_advertisements">
+        <item quantity="one">%d Reklamm</item>
+        <item quantity="other">%d Reklammen</item>
+    </plurals>
+    <string name="pref_interface_title">Interface</string>
+    <string name="pref_autofill_profile_editor">Automatescht Ausfëllen</string>
+    <string name="pref_autofill_profile_editor_summary">Text definéieren deen automatesch a Formulairen ausgefëllt gëtt</string>
+    <string name="autofill_profile_editor_heading">Gëff den Text an, deen automatesch a Formulairë soll ausgefëllt ginn.</string>
+    <string name="autofill_profile_editor_name">Ganzen Numm:</string>
+    <string name="autofill_profile_editor_email_address">E-Mail:</string>
+    <string name="autofill_profile_editor_company_name">Firmennumm:</string>
+    <string name="autofill_profile_editor_address_line_1">Éischt Adresszeil:</string>
+    <string name="autofill_profile_editor_address_line_1_hint">Strooss, Postkëscht, c/o</string>
+    <string name="autofill_profile_editor_address_line_2">Zweet Adresszeil:</string>
+    <string name="autofill_profile_editor_address_line_2_hint">Appartement, Unitéit, Gebai, Stack, etc.</string>
+    <string name="autofill_profile_editor_city">Stad/Uertschaft:</string>
+    <string name="autofill_profile_editor_state">Staat/Provënz/Regioun:</string>
+    <string name="autofill_profile_editor_zip_code">Postleetzuel:</string>
+    <string name="autofill_profile_editor_country">Land:</string>
+    <string name="autofill_profile_editor_phone_number">Telefon:</string>
+    <string name="autofill_profile_editor_phone_number_invalid">Ongëlteg Telefonsnummer.</string>
+    <string name="pref_security_allow_camera">Fotoapparat</string>
+    <string name="pref_security_not_allowed">Net erlaabt</string>
+    <string name="pref_security_remember">Erënneren</string>
+    <string name="pref_security_on">Un</string>
+    <string name="pref_security_off">Aus</string>
+    <string name="pref_website_title">Websäit</string>
+    <string name="pref_security_add">Dobäisetzen</string>
+    <string name="pref_min_font_size">Minimal Schrëftgréisst</string>
+    <string name="pref_min_font_size_value"><xliff:g id="font_size">%d</xliff:g>pt</string>
+    <string name="pref_text_zoom">Textskaléierung</string>
+    <string name="pref_force_userscalable">Zoom zwéngend aktivéieren</string>
+    <string name="pref_force_userscalable_summary">Ufro fir d\'Steierung vum Zoomverhalen iwwerschreiwen</string>
+    <string name="pref_inverted_category">Negativ Faarwen</string>
+    <string name="pref_inverted_summary">Aus Schwaarz gëtt Wäiss an ëmgedréint</string>
+    <string name="pref_inverted_contrast">Kontrast</string>
+    <string name="pref_extras_title">Erweidert</string>
+    <string name="pref_extras_website_settings">Websäiten-Astellungen</string>
+    <string name="pref_extras_website_settings_summary">Erweidert Astellunge fir individuell Websäiten</string>
+    <string name="pref_extras_reset_default">Op de Standard zrécksetzen</string>
+    <string name="pref_extras_reset">Zrécksetzen</string>
+    <string name="pref_extras_reset_default_summary">Standardastellungen zrécksetzen</string>
+    <string name="pref_extras_reset_default_dlg">Astellungen op d\'Standardwäerter zrécksetzen?</string>
+    <string name="pref_development_title">Debuggen</string>
+    <string name="pref_default_text_encoding">Zeechecodéierung</string>
+    <string name="pref_spatial_edge_swipe">Tab änneren</string>
+    <string name="pref_disable_edge_swipe">Näischt maachen</string>
+    <string name="pref_edge_swipe_option_close">Méi spéit auswielen</string>
+    <string name="pref_edge_enable">Aktivéieren</string>
+    <string name="pref_edge_disable">Desaktivéieren</string>
+    <string name="pref_accessibility_title">Accessibilitéit</string>
+    <string name="pref_font_size_category">Textgréisst</string>
+    <string name="pref_data_preload_title">Sichresultater virlueden</string>
+</resources>

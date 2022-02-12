@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="application_name">ბრაუზერი</string>
+    <string name="choose_upload">ფაილის შერჩევა ასატვირთად</string>
+    <string name="uploads_disabled">ატვირთვა გათიშულია.</string>
+    <string name="new_tab">ახალი ჩანართი</string>
+    <string name="browser_tab_crash_snap">ვაჰ!</string>
+    <string name="browser_tab_crash_reload">გაახლება</string>
+    <string name="browser_tab_crash_message">რაღაც დაუდგენელი ხარვეზი წარმოიქმნა გვერდის ჩვენებისას. გთხოვთ ხელახლა ჩატვირთოთ ან გადახვიდეთ სხვა გვერდზე.</string>
+    <string name="new_incognito_tab">ფარული რეჟიმი</string>
+    <string name="tab_most_visited">ხშირად მონახულებული</string>
+    <string name="tab_snapshots">შენახული</string>
+    <string name="added_to_bookmarks">დაემატა რჩეულებში.</string>
+    <string name="removed_from_bookmarks">მოცილდა რჩეულებიდან.</string>
+    <string name="sign_in_to">შედით <xliff:g id="hostname">%s1</xliff:g> \"<xliff:g id="realm">%s2</xliff:g>\" ანგარიშზე</string>
+    <string name="username">სახელი</string>
+    <string name="password">პაროლი</string>
+    <string name="action">შესვლა</string>
+    <string name="bookmarks_add_page">შენახვა</string>
+    <string name="cancel">გაუქმება</string>
+    <string name="ok">კარგი</string>
+    <string name="max_url_character_limit_msg">URL-ბმულის დასაშვები რაოდენობა მიღწეულია</string>
+    <string name="msg_no_google_play">Google Play Store არაა წარმოდგენილი თქვენს მოწყობილობაზე.</string>
+    <string name="page_info">მონაცემები</string>
+    <string name="page_info_address">მისამართი:</string>
+    <string name="security_warning">უსაფრთხოების გაფრთხილება</string>
+    <string name="ssl_invalid">სერტიფიკატი არამართებულია.</string>
+    <string name="ssl_unknown">უცნობი სერტიფიკატის შეცდომა.</string>
+    <string name="stopping">შეწყვეტა\u2026</string>
+    <string name="stop">შეჩერება</string>
+    <string name="reload">განახლება</string>
+    <string name="back">წინა</string>
+    <string name="forward">მომდევნო</string>
+    <string name="location">მისამართი</string>
+    <string name="account">ანგარიში</string>
+    <string name="containing_folder">დამატება</string>
+    <string name="new_folder">ახალი საქაღალდე</string>
+    <string name="edit_folder">საქაღლდის ჩასწორება</string>
+    <string name="delete_folder">საქაღალდის წაშლა</string>
+    <string name="no_subfolders">ქვესაქაღალდეები არაა.</string>
+    <string name="add_to_homescreen_menu_option">მთავარი ეკრანი</string>
+    <string name="add_to_other_folder_menu_option">საქაღალდის არჩევა\u2026</string>
+    <string name="name">ჭდე</string>
+    <string name="save_to_bookmarks">შენახვა</string>
+    <string name="bookmark_this_page">გვერდის რჩეულებში დამატება</string>
+    <string name="remove">მოცილება</string>
+    <string name="edit_bookmark">ჩასწორება</string>
+    <string name="create_shortcut_bookmark">მალსახმობის დამატება</string>
+    <string name="remove_bookmark">წაშლა</string>
+    <string name="remove_from_bookmarks">მოცილება</string>
+    <string name="remove_history_item">მოცილება</string>
+    <string name="set_as_homepage">საწყის გვერდად დაყენება</string>
+    <string name="bookmark_saved">დამატებულია რჩეულებში</string>
+    <string name="bookmark_not_saved">რჩეულად შენახვა ვერ მოხერხდა.</string>
+    <string name="homepage_set">საწყისი გვერდი დაყენებულია.</string>
+    <string name="bookmark_needs_title">რჩეულს უნდა გააჩნდეს დასახელება.</string>
+    <string name="bookmark_needs_url">რჩეულს უნდა გააჩნდეს მისამართი.</string>
+    <string name="bookmark_url_not_valid">ეს ბმული არამართებულია.</string>
+    <string name="bookmark_cannot_save_url">ეს ბმული ვერ დაემატება რჩეულებში.</string>
+    <string name="current_page">საიდან\u0020</string>
+    <string name="delete_bookmark_warning">წაიშალოს რჩეულებიდან „<xliff:g id="bookmark">%s</xliff:g>“?</string>
+    <string name="delete_folder_warning">წაიშალოს საქაღალდე „<xliff:g id="bookmark">%s</xliff:g>“?</string>
+    <string name="open_all_in_new_window">ყველას ჩანართებში გახსნა</string>
+    <string name="sendText">მოქმედების არჩევა ტექსტისთვის</string>
+    <string name="close_other_tabs">სხვა ჩანართების დახურვა</string>
+    <string name="bookmarks">რჩეულები</string>
+    <string name="shortcut_bookmark">რჩეული</string>
+    <string name="shortcut_bookmark_title">რჩეულის არჩევა</string>
+    <string name="history">ისტორია</string>
+    <string name="share_page">გაზიარება</string>
+    <string name="add_to_homescreen">მთავარზე დამატება</string>
+    <string name="menu_save_snapshot">შენახვა</string>
+    <string name="saving_snapshot">ინახება\u2026</string>
+    <string name="snapshot_failed">ვერ მოხერხდა შენახვა, კავშირგარეშედ წაკითხვისთვის.</string>
+    <string name="contextheader_folder_bookmarkcount"><xliff:g id="bookmark_count">%d</xliff:g> რჩეული</string>
+    <string name="contextheader_folder_empty">ცარიელი საქაღალდე</string>
+    <string name="contextmenu_openlink">გახსნა</string>
+    <string name="contextmenu_openlink_newwindow">ახალ ჩანართში გახსნა</string>
+    <string name="contextmenu_openlink_newwindow_background">ახალ ფონურ ჩანართში გახსნა</string>
+    <string name="contextmenu_savelink">ბმულის შენახვა</string>
+    <string name="contextmenu_sharelink">ბმულის გაზიარება</string>
+    <string name="contextmenu_copy">ასლი</string>
+    <string-array name="pref_homepage_choices">
+        <item>Current page</item>
+        <item>Blank page</item>
+        <item>ნაგულისხმევი გვერდი</item>
+        <item>Most visited sites</item>
+        <item>Other</item>
+    </string-array>
+    <string name="pref_autofill_profile_editor">თვითშევსება</string>
+    <string name="pref_autofill_profile_editor_summary">ტექსტის მითითება, ველების თვითშევსებისთვის</string>
+    <string name="autofill_profile_editor_heading">აკრიფეთ ის ტექსტი, რომელიც გსურთ გამოიყენებოდეს ველების თვითშევსებისას.</string>
+    <string name="autofill_profile_editor_name">სრული სახელი:</string>
+    <string name="autofill_profile_editor_email_address">ელფოსტა:</string>
+    <string name="autofill_profile_editor_company_name">დაწესებულების დასახელება:</string>
+    <string name="autofill_profile_editor_address_line_1">მისამართის ველი 1:</string>
+    <string name="autofill_profile_editor_address_line_2">მისამართის ველი 2:</string>
+    <string name="autofill_profile_editor_address_line_2_hint">ბინა, შენობა, სართული, ა.შ.</string>
+    <string name="autofill_profile_editor_city">ქალაქი/გარეუბანი:</string>
+    <string name="autofill_profile_editor_zip_code">საფოსტო კოდი:</string>
+    <string name="autofill_profile_editor_country">ქვეყანა:</string>
+    <string name="autofill_profile_editor_phone_number">ტელეფონი:</string>
+    <string name="autofill_profile_editor_phone_number_invalid">არასწორი სატელეფონო ნომერი.</string>
+    <string name="autofill_profile_editor_save_profile">შენახვა</string>
+    <string name="autofill_profile_editor_delete_profile">წაშლა</string>
+    <string name="disable_autofill">თვითშევსების გამორთვა</string>
+    <string name="pref_privacy_enable_geolocation">მდებარეობა</string>
+    <string name="pref_privacy_clear_geolocation_access">მდებარეობასთან წვდომა</string>
+    <string name="pref_privacy_clear_geolocation_access_summary">მდებარეობასთან წვდომის ნებართვის მქონე ვებსაიტების გასუფთავება</string>
+    <string name="pref_security_web_refiner">რეკლამები</string>
+    <string name="pref_force_userscalable">იძულებითი მოახლოება</string>
+    <string name="pref_default_text_encoding">ტექსტის კოდირება</string>
+    <string name="pref_edge_swipe_setup_desc">გაუსვით თითი კიდიდან, ისტორიის მოსანახულებლად.\nეს შესაძლებლობა, წინააღმდეგობაში შეიძლება აღმოჩნდეს, ვებსაიტებზე არსებულ, კიდიდან თითის გადასმის მოქმედებებთან</string>
+    <string name="add_bookmark_short">დამატება</string>
+    <string name="search_hint">მოძებნეთ ან აკრიფეთ მისამართი</string>
+    <string name="website_settings_clear_all_dialog_message">წაიშალოს ვებსაიტის ყველა მონაცემი და მდებარეობასთან წვდომის ნებართვა?</string>
+    <string name="my_navigation_edit_label">ვებსაიტის ჩასწორება</string>
+    <string name="estore_url_warning">Estore ვერ გაეშვა, URL-ბმული ზემდეტად გრძელია.</string>
+    <string name="download_edit_filename_label">სახელი</string>
+</resources>

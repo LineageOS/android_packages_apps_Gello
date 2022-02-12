@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="application_name">Səyyah</string>
+    <string name="choose_upload">Yükləmək üçü fayl seçin</string>
+    <string name="uploads_disabled">Yükləmələr sıradan çıxarıldı.</string>
+    <string name="new_tab">Yeni vərəq</string>
+    <string name="browser_tab_crash_snap">Xəta!</string>
+    <string name="browser_tab_crash_reload">Yenidən yüklə</string>
+    <string name="browser_tab_crash_message">İnternet səhifəsini göstərərkən gözlənilməz nəsə baş verdi. Zəhmət olmasa səhifəni yeniləyin və ya başqa səhifəyə keçin.</string>
+    <string name="new_incognito_tab">Gizli rejim</string>
+    <string name="tab_most_visited">Ən çox ziyarət edilənlər</string>
+    <string name="tab_snapshots">Saxlanıldı</string>
+    <string name="added_to_bookmarks">Sevimlilərə əlavə edildi.</string>
+    <string name="removed_from_bookmarks">Sevimlilərdən silindi.</string>
+    <string name="sign_in_to"><xliff:g id="hostname">%s1</xliff:g> \"<xliff:g id="realm">%s2</xliff:g>\" giriş et</string>
+    <string name="username">Ad</string>
+    <string name="password">Şifrə</string>
+    <string name="action">Giriş et</string>
+    <string name="bookmarks_add_page">Saxla</string>
+    <string name="cancel">İmtina</string>
+    <string name="ok">Oldu</string>
+    <string name="max_url_character_limit_msg">Maksimum URL limitinə çatdı</string>
+    <string name="msg_no_google_play">Google Play Store cihazınızda mövcud deyil.</string>
+    <string name="page_info">Məlumat</string>
+    <string name="page_info_address">Ünvan:</string>
+    <string name="security_warning">Təhlükəsizlik xəbərdarlığı</string>
+    <string name="ssl_invalid">Bu sertifikat etibarsızdır.</string>
+    <string name="ssl_unknown">Bilinməyən sertifikat xətası.</string>
+    <string name="stopping">Dayandırılır\u2026</string>
+    <string name="stop">Dayandır</string>
+    <string name="reload">Təzələ</string>
+    <string name="back">Geri</string>
+    <string name="forward">Yönləndir</string>
+    <string name="location">Ünvan</string>
+    <string name="account">Hesab</string>
+    <string name="containing_folder">Bu qovluğa əlavə et</string>
+    <string name="new_folder">Yeni qovluq</string>
+    <string name="edit_folder">Qovluğa düzəliş et</string>
+    <string name="delete_folder">Qovluğu sil</string>
+    <string name="no_subfolders">Alt qovluq yoxdur.</string>
+    <string name="add_to_homescreen_menu_option">Əsas ekran</string>
+    <string name="add_to_other_folder_menu_option">Qovluq seç\u2026</string>
+    <string name="name">Etiket</string>
+    <string name="save_to_bookmarks">Saxla</string>
+    <string name="bookmark_this_page">Bu səhifəni sevimlilərə əlavə et</string>
+    <string name="remove">Çıxart</string>
+    <string name="edit_bookmark">Düzəliş et</string>
+    <string name="create_shortcut_bookmark">Qısayol əlavə et</string>
+    <string name="remove_bookmark">Sil</string>
+    <string name="remove_from_bookmarks">Çıxart</string>
+    <string name="remove_history_item">Çıxart</string>
+    <string name="set_as_homepage">Əsas səhifə olaraq tənzimlə</string>
+    <string name="bookmark_saved">Sevimlilərə əlavə edildi</string>
+    <string name="bookmark_not_saved">Sevimlilərə əlavə edilə bilmədi.</string>
+    <string name="homepage_set">Əsas səhifə tənzimləndi.</string>
+    <string name="bookmark_needs_title">Sevimlinin bir adı olmalıdır.</string>
+    <string name="bookmark_needs_url">Sevimlinin bir yerləşməsi olmalıdır.</string>
+    <string name="bookmark_url_not_valid">Bu URL etibarlı deyil.</string>
+    <string name="bookmark_cannot_save_url">Bu URL sevimlilərə əlavə edilə bilmir.</string>
+    <string name="current_page">mənbə:\u0020</string>
+    <string name="delete_bookmark_warning">\"<xliff:g id="bookmark">%s</xliff:g>\" sevimlisi silinsin?</string>
+    <string name="delete_folder_warning">\"<xliff:g id="bookmark">%s</xliff:g>\" qovluğu silinsin?</string>
+    <string name="open_all_in_new_window">Hamısını yeni vərəqdə aç</string>
+    <string name="sendText">Mətn üçün bir hərəkət seçin</string>
+    <string name="close_other_tabs">Digər vərəqləri bağla</string>
+    <string name="bookmarks">Sevimlilər</string>
+    <string name="shortcut_bookmark">Sevimli</string>
+    <string name="shortcut_bookmark_title">Bir sevimli seç</string>
+    <string name="history">Tarixçə</string>
+    <string name="share_page">Paylaş</string>
+    <string name="add_to_homescreen">Əsas ekrana əlavə et</string>
+    <string name="menu_save_snapshot">Saxla</string>
+    <string name="saving_snapshot">Saxlanılır\u2026</string>
+    <string name="snapshot_failed">Xətdən kənar oxuma üçün saxlanıla bilmədi.</string>
+    <string name="contextheader_folder_bookmarkcount"><xliff:g id="bookmark_count">%d</xliff:g> sevimli</string>
+    <string name="contextheader_folder_empty">Boş qovluq</string>
+    <string name="contextmenu_openlink">Aç</string>
+    <string name="contextmenu_openlink_newwindow">Yeni vərəqdə aç</string>
+    <string name="contextmenu_openlink_newwindow_background">Yeni arxaplan vərəqində aç</string>
+    <string name="contextmenu_savelink">Bağlantını saxla</string>
+    <string name="contextmenu_sharelink">Bağlantını paylaş</string>
+    <string name="contextmenu_copy">Kopyala</string>
+    <string name="contextmenu_copylink">URL bağlantısını kopyala</string>
+    <string name="contextmenu_download_image">Təsviri saxla</string>
+    <string name="contextmenu_view_image">Təsvirə bax</string>
+    <string name="contextmenu_set_wallpaper">Divar kağızı kimi tənzimlə</string>
+    <string name="contextmenu_dial_dot">Yığ\u2026</string>
+    <string name="contextmenu_add_contact">Şəxs əlavə et</string>
+    <string name="contextmenu_send_mail">E-poçt göndər</string>
+    <string name="contextmenu_map">Xəritə</string>
+    <string name="choosertitle_sharevia">Paylaş</string>
+    <string name="clear">Təmizlə</string>
+    <string name="replace">Dəyişdir</string>
+    <string name="menu_preferences">Tənzimləmələr</string>
+    <string name="pref_content_title">Məzmun tənzimləmələri</string>
+    <string name="pref_content_title_summary">Veb məzmun tənzimləmələri</string>
+    <string name="pref_content_load_images">Təsvirləri yüklə</string>
+    <string name="pref_content_load_images_summary">Veb səhifələrdəki təsvirləri göstər</string>
+    <string name="pref_security_allow_popups">Açılan pəncərələr</string>
+    <string name="pref_content_javascript">JavaScript-i fəallaşdır</string>
+    <string name="pref_content_open_in_background">Arxaplanda aç</string>
+    <string name="pref_content_open_in_background_summary">Yeni vərəqləri hazırki vərəqin arxasında aç</string>
+    <string name="pref_content_homepage">Əsas səhifə</string>
+    <string name="pref_content_search_engine">Axtarış motoru</string>
+    <string name="pref_content_search_engine_summary">Axtarış motoru seç</string>
+    <string name="pref_set_homepage_to">Bunu seç:</string>
+    <string-array name="pref_homepage_choices">
+        <item>Hazırki səhifə</item>
+        <item>Boş səhifə</item>
+        <item>İlkin səhifə</item>
+        <item>Ən çox ziyarət edilən saytlar</item>
+        <item>Digər</item>
+    </string-array>
+    <string name="pref_general_title">Ümumi</string>
+    <string name="pref_default_site_settings_title">İlkin sayt tənzimləmələri</string>
+    <string name="pref_site_settings_title">Sayt tənzimləmələri</string>
+    <string name="pref_site_settings_info_panel">Təhlükəsizlik məlumatı</string>
+    <string name="pref_general_autofill_title">Avtomatik doldur</string>
+    <string name="pref_powersave_enabled">Enerjiyə qənaət rejimi</string>
+    <string name="pref_powersave_enabled_summary">Səyyahın enerji istifadəsini azalt</string>
+    <string name="pref_nightmode_enabled">Gecə rejimi</string>
+    <string name="pref_nightmode_enabled_summary">Rəngləri tərsinə çevir</string>
+    <string name="pref_autofill_enabled">Formları avtomatik doldur</string>
+    <string name="pref_autofill_enabled_summary">Veb formlarını bir toxunuşla doldurun</string>
+    <plurals name="pref_web_refiner_advertisements">
+        <item quantity="one">%d reklam</item>
+        <item quantity="other">%d reklam</item>
+    </plurals>
+    <plurals name="pref_web_refiner_trackers">
+        <item quantity="one">%d izləyici</item>
+        <item quantity="other">%d izləyici</item>
+    </plurals>
+    <plurals name="pref_web_refiner_malware">
+        <item quantity="one">%d zərərli proqram təhlükəsi</item>
+        <item quantity="other">%d zərərli proqram təhlükəsi</item>
+    </plurals>
+    <string-array name="pref_web_refiner_message">
+        <item>"%s əngəlləndi. "</item>
+        <item>"%1$s və %2$s əngəlləndi. "</item>
+        <item>"%1$s, %2$s və %3$s əngəlləndi. "</item>
+    </string-array>
+    <string name="pref_valid_cert">Etibarlı SSL sertifikatı. Əlaqə şifrələnib və kimlik təsdiqlənib.</string>
+    <string name="pref_invalid_cert">Sayt etibarsız SSL sertifikatına sahibdir.</string>
+    <string name="pref_warning_cert">Saytın SSL sertifikatının xəbərdarlıqları var.</string>
+    <string name="pref_interface_title">İnterfeys</string>
+    <string name="pref_autofill_profile_editor">Avtomatik doldur</string>
+    <string name="pref_autofill_profile_editor_summary">Veb formlarına avtomatik daxil ediləcək mətni tənzimləyin</string>
+    <string name="autofill_profile_editor_heading">Veb formlara avtomatik olaraq daxil edilməsini istədiyiniz mətni yazın.</string>
+    <string name="autofill_profile_editor_name">Tam ad:</string>
+    <string name="autofill_profile_editor_email_address">E-poçt:</string>
+    <string name="autofill_profile_editor_company_name">Şirkət adı:</string>
+    <string name="autofill_profile_editor_address_line_1">Ünvan sətri 1:</string>
+    <string name="autofill_profile_editor_address_line_1_hint">Küçə ünvanı, poçt qutusu, alıcı</string>
+    <string name="autofill_profile_editor_address_line_2">Ünvan sətri 2:</string>
+    <string name="autofill_profile_editor_address_line_2_hint">Bina, blok, mərtəbə, mənzil, və s.</string>
+    <string name="autofill_profile_editor_city">Şəhər/rayon:</string>
+    <string name="autofill_profile_editor_state">Ştat/Əyalət/Region:</string>
+    <string name="autofill_profile_editor_zip_code">Poçt indeksi:</string>
+    <string name="autofill_profile_editor_country">Ölkə:</string>
+    <string name="autofill_profile_editor_phone_number">Telefon:</string>
+    <string name="autofill_profile_editor_phone_number_invalid">Etibarsız telefon nömrəsi.</string>
+    <string name="autofill_profile_editor_save_profile">Saxla</string>
+    <string name="autofill_profile_successful_save">Avtomatik doldurma mətni saxlanıldı.</string>
+    <string name="autofill_profile_successful_delete">Avtomatik doldurma mətni silindi.</string>
+    <string name="autofill_profile_editor_delete_profile">Sil</string>
+    <string name="powersave_dialog_on">Enerjiyə qənaət rejimi fəallaşdırıldı. Səyyah yenidən başladılacaq.</string>
+    <string name="powersave_dialog_off">Enerjiyə qənaət rejimi sıradan çıxarıldı. Səyyah yenidən başladılacaq.</string>
+    <string name="autofill_setup_dialog_message">Səyyah bunun kimi veb formlarını avtomatik doldura bilər. Avtomatik doldurma mətninizi tənzimləmək istəyərdiniz?</string>
+    <string name="autofill_setup_dialog_negative_toast">Avtomatik doldurma mətninizi istədiyiniz vaxt Brauzer &gt; Tənzimləmələr &gt; Avtomatik doldur bölməsindən tənzimləyə bilərsiniz.</string>
+    <string name="disable_autofill">Avto-doldurmanı sıradan çıxart</string>
+    <string name="pref_security_title">Təhlükəsizlik</string>
+    <string name="pref_privacy_security_title">Gizlilik &amp; təhlükəsizlik</string>
+    <string name="pref_privacy_security_title_summary">Səyyah təhlükəsizliyi və gizlilik tənzimləmələri</string>
+    <string name="pref_select_items">Silinməli elementləri seç</string>
+    <string name="pref_privacy_clear_selected">Seçilmiş elementləri sil</string>
+    <string name="pref_privacy_clear_selected_summary">Siyahıda seçilmiş elementləri sil</string>
+    <string name="pref_privacy_clear_selected_dlg">Bu elementlər silinsin?</string>
+    <string name="pref_privacy_clear_cache">Keşi təmizlə</string>
+    <string name="pref_privacy_clear_cache_summary">Yerli keşlənmiş məzmun və verilənlər bazalarını təmizlə</string>
+    <string name="pref_privacy_clear_cookies">Çərəzlər və sayt verilənləri</string>
+    <string name="pref_privacy_clear_cookies_summary">Bütün səyyah çərəzlərini və sayt verilənlərini təmizlə</string>
+    <string name="pref_privacy_clear_history_summary">Səyyah tarixçəsini təmizlə</string>
+    <string name="pref_privacy_clear_history_dlg">Səyyah tarixçəsi təmizlənsin?</string>
+    <string name="pref_privacy_clear_form_data">Form verilənləri</string>
+    <string name="pref_privacy_clear_form_data_summary">Bütün saxlanılmış form verilənlərini sil</string>
+    <string name="pref_privacy_clear_passwords">Şifrələr</string>
+    <string name="pref_privacy_clear_passwords_summary">Bütün saxlanılmış şifrələri sil</string>
+    <string name="pref_privacy_enable_geolocation">Yerləşmə</string>
+    <string name="pref_privacy_clear_geolocation_access">Yerləşməyə müraciət</string>
+    <string name="pref_privacy_clear_geolocation_access_summary">Bütün veb saytlar üçün yerləşmə müraciətini təmizlə</string>
+    <string name="pref_security_remember_passwords">Şifrələri xatırla</string>
+    <string name="pref_security_save_form_data">Form verilənlərini xatırla</string>
+    <string name="pref_do_not_track">\'İzləmə\' Sorğusu</string>
+    <string name="pref_security_accept_cookies">Çərəzləri qəbul et</string>
+    <string name="pref_security_allow_mic">Mikrofon</string>
+    <string name="pref_security_allow_camera">Kamera</string>
+    <string name="pref_security_web_refiner">Reklamlar</string>
+    <string name="pref_security_accept_third_party_cookies">Üçüncü tərəf çərəzlər</string>
+    <string name="pref_security_ask_before_using">İstifadədən əvvəl soruş</string>
+    <string name="pref_security_allowed">İcazə verildi</string>
+    <string name="pref_security_not_allowed">İcazə verilmədi</string>
+    <string name="pref_security_remember">Xatırla</string>
+    <string name="pref_security_on">Açıq</string>
+    <string name="pref_security_off">Bağlı</string>
+    <string name="pref_website_title">Veb sayt</string>
+    <string name="pref_security_add">Əlavə et</string>
+    <string name="pref_security_origin_name">Orijinal sayt</string>
+    <string name="pref_security_access_is_allowed">müraciətə icazə verildi</string>
+    <string name="pref_sample_font_size">İstədiyiniz rahat oxuma ölçüsünü qurmaq üzrə şrift ölçüsünü tənzimləmək üçün sürüşdürücünü çəkin.</string>
+    <string name="pref_min_font_size">Minimum yazı növü ölçüsü</string>
+    <string name="pref_min_font_size_value"><xliff:g id="font_size">%d</xliff:g>pt</string>
+    <string name="pref_text_zoom">Mətnin böyüdülməsi</string>
+    <string name="pref_force_userscalable">Yaxınlaşdırmanı fəal etməyə məcbur et</string>
+    <string name="pref_force_userscalable_summary">Veb saytın yaxınlaşdırmanı yoxlama sorğusunu ləğv et</string>
+    <string name="pref_inverted_category">Tərs rənglərlə ekranın göstərilməsi</string>
+    <string name="pref_inverted">Tərs rənglərlə göstərilmə</string>
+    <string name="pref_inverted_summary">Qaralar ağ, ağlarda qara olar</string>
+    <string name="pref_inverted_contrast">Ziddiyyət</string>
+    <string name="pref_extras_title">Qabaqcıl</string>
+    <string name="pref_extras_website_settings">Veb sayt tənzimləmələri</string>
+    <string name="pref_extras_website_settings_summary">Hər veb sayt üçün qabaqcıl tənzimləmələr</string>
+    <string name="pref_extras_reset_default">İlkin vəziyyətinə qaytar</string>
+    <string name="pref_extras_reset">Sıfırla</string>
+    <string name="pref_extras_reset_default_summary">İlkin tənzimləmələrə qaytar</string>
+    <string name="pref_extras_reset_default_dlg">Tənzimləmələr ilkin dəyərlərə qaytarılsın?</string>
+    <string name="pref_development_title">Sazlama</string>
+    <string name="pref_default_text_encoding">Mətn kodlama</string>
+    <string name="pref_edge_swipe_title">Kənar naviqasiya</string>
+    <string name="pref_edge_swipe_option_msg">Kənardan sürüşdürəndə bu olacaq:</string>
+    <string name="pref_temporal_edge_swipe">Tarixçədə hərəkət</string>
+    <string name="pref_spatial_edge_swipe">Vərəqi dəyişdir</string>
+    <string name="pref_disable_edge_swipe">Heç nə etmə</string>
+    <string name="pref_edge_swipe_option_close">Daha sonra seç</string>
+    <string name="pref_temporal_edge_swipe_enabled_toast">Hərəkət üçün kənardan sürüşdür</string>
+    <string name="pref_spatial_edge_swipe_enabled_toast">Vərəqləri dəyişdirmək üçün küncdən sürüşdür</string>
+    <string name="pref_edge_swipe_disabled_toast">Kənardan sürüşdürmə sıradan çıxarıldı</string>
+    <string name="pref_edge_swipe_unknown">Hərəkəti seçin</string>
+    <string name="pref_edge_swipe_setup_desc">       Tarixçədə hərəkət etmək üçün kənardan sürüşdür.\nBu özəllik kənar hissədən yararlanan veb saytlar üçün problem yarada bilər</string>
+    <string name="pref_edge_enable">Fəallaşdır</string>
+    <string name="pref_edge_disable">Sıradan çıxart</string>
+    <string name="pref_coloredsb_title">Rəngli vəziyyət sətri</string>
+    <string name="pref_coloredsb_summary">Vəziyyət sətrinin rəngi ziyarət edilən səhifəyə əsasən dəyişəcək</string>
+    <string name="pref_accessibility_title">Əlçatımlılıq</string>
+    <string name="pref_accessibility_title_summary">Mətn ölçüsü və yaxınlaşdırma</string>
+    <string name="pref_looklock_title">LookLock</string>
+    <string name="pref_looklock_summary">Digər tətbiqlərin, bu tətbiqin veb görünüş məzmununu oxumasının qarşısını al</string>
+    <string name="pref_font_size_category">Mətn ölçüsü</string>
+    <string name="pref_lab_fullscreen">Tam ekran</string>
+    <string name="pref_lab_fullscreen_summary">Səyyahı tam ekran et</string>
+    <string name="pref_data_preload_title">Axtarış nəticəsinin önyükləməsi edilir</string>
+    <string-array name="pref_temporal_choices">
+        <item>Heç vaxt</item>
+        <item>Yalnız Wi-Fi ilə</item>
+        <item>Həmişə</item>
+    </string-array>
+    <string name="pref_data_preload_summary">Səyyahın axtarış nəticəsinin önyükləməsini arxaplanda etməsinə icazə ver</string>
+    <string name="pref_link_prefetch_title">Veb səhifəsinin önyükləməsi</string>
+    <string name="pref_link_prefetch_summary">Səyyahın əlaqələndirilmiş veb səhifələri arxaplanda önyükləməsinə icazə ver</string>
+    <string name="browserFrameFormResubmitMessage">Baxmağa cəhd etdiyiniz səhifə artıq göndərilmiş verilənlər (\"POSTDATA\") ehtiva edir. Verilənləri təkrar göndərsəniz, səhifədə edilmiş bütün əməliyyatlar (axtarış və ya onlayn satın alma kimi) təkrarlanacaq.</string>
+    <string name="clear_history">Tarixçəni təmizlə</string>
+    <string name="empty_history">Səyyah tarixçəsi yoxdur.</string>
+    <string name="add_new_bookmark">Sevimli əlavə et</string>
+    <string name="add_bookmark_short">Əlavə et</string>
+    <string name="search_hint">Axtarın və ya url-ni yazın</string>
+    <string name="search_button_text">Get</string>
+    <string name="search_settings_description">Sevimlilər və veb tarixçəsi</string>
+    <string name="allow">İcazə ver</string>
+    <string name="block">Əngəllə</string>
+    <string name="too_many_windows_dialog_title">Vərəq limitinə çatdınız</string>
+    <string name="too_many_windows_dialog_message">Birini bağlayana kimi yenisini aça bilməzsiniz.</string>
+    <string name="too_many_subwindows_dialog_title">Açılan pəncərə artıq açıqdır</string>
+    <string name="too_many_subwindows_dialog_message">Eyni vaxtda yalnız bir açılan pəncərə ola bilər.</string>
+    <string name="download_no_sdcard_dlg_title" product="default">SD kart yoxdur</string>
+    <string name="download_no_sdcard_dlg_msg" product="default"><xliff:g id="filename">%s</xliff:g> faylını endirmək üçün SD kart lazımdır.</string>
+    <string name="download_sdcard_busy_dlg_title" product="default">SD kart əlçatmazdır</string>
+    <string name="download_sdcard_busy_dlg_msg" product="default">SD kart məşğuldur. Endirmə əməliyyatına icazə vermək üçün bildiriş sahəsində \'USB anbarı söndür\'ə toxunun.</string>
+    <string name="cannot_download">Yalnız \"http\" və ya \"https\" URL-ləri endirilə bilər.</string>
+    <string name="download_pending">Endirmə başladılır\u2026</string>
+    <string name="search_the_web">İnternetdə axtar</string>
+    <string name="webstorage_outofspace_notification_title">Səyyahın anbar sahəsi dolub</string>
+    <string name="webstorage_outofspace_notification_text">Yer açmaq üçün toxun.</string>
+    <string name="webstorage_clear_data_title">Anbar</string>
+    <string name="webstorage_private_data_title">Gizli verilənlər</string>
+    <string name="webstorage_clear_data_dialog_message">Bu veb sayt tərəfindən saxlanılan bütün verilənlər silinsin?</string>
+    <string name="loading_video">Video yüklənir\u2026</string>
+    <string name="website_settings_add_origin">Yeni sayt</string>
+    <string name="website_settings_clear_all">Hamısını təmizlə</string>
+    <string name="website_settings_clear_all_dialog_message">Bütün veb sayt verilənləri və yerləşmə icazələri silinsin?</string>
+    <string name="progress_dialog_setting_wallpaper">Divar kağızları tənzimlənir\u2026</string>
+    <string name="empty_bookmarks_folder">Sevimlilər yoxdur.</string>
+    <string name="other_bookmarks">Digər sevimlilər</string>
+    <string name="import_bookmarks_dialog_description">Bu cihazdakı sevimlilər hələ ki, Google hesabı ilə əlaqələndirilməyib. Onları hesaba əlavə edərək saxlayın. Eyniləşdirmək istəmədiyiniz əlfəcinləri silin.</string>
+    <string name="import_bookmarks_dialog_remove">Sevimliləri sil</string>
+    <string name="menu_share_url">Paylaş</string>
+    <string name="max_tabs_warning">İstifadə olunacaq başqa vərəq yoxdur</string>
+    <string name="preview">Önbaxış</string>
+    <string name="local_bookmarks">Sevimlilərim</string>
+    <string name="find_on_page">Tap</string>
+    <string name="ua_switcher_desktop">İş masası yeri</string>
+    <string name="enable_reader_mode">Oxuma rejimi</string>
+    <string name="permission_preload_label">Nəticələri önyüklə</string>
+    <string name="empty_snapshots_folder">Yadda saxlanmış səhifə yoxdur.</string>
+    <string name="remove_snapshot">Yadda saxlanmış səhifəni sil</string>
+    <string name="snapshot_go_live">Canlı versiyaya keç</string>
+    <string name="accessibility_button_back">Geriyə qayıt</string>
+    <string name="accessibility_button_forward">İrəli get</string>
+    <string name="accessibility_button_refresh">Səhifəni yenilə</string>
+    <string name="accessibility_button_stop">Səhifənin yüklənməsini dayandır</string>
+    <string name="accessibility_button_addbookmark">Favoritlərə əlavə et</string>
+    <string name="accessibility_button_search">Axtar</string>
+    <string name="accessibility_button_voice">Səslə axtarışı başlat</string>
+    <string name="accessibility_button_closetab">Vərəqi bağla</string>
+    <string name="accessibility_button_newtab">Yeni vərəq aç</string>
+    <string name="accessibility_button_newincognitotab">Yeni gizli vərəq aç</string>
+    <string name="accessibility_button_clear">Girişləri təmizlə</string>
+    <string name="accessibility_button_navscreen">Səhifə idarəedicisi</string>
+    <string name="accessibility_state_incognito">Gizli səhifə</string>
+    <string name="accessibility_state_frozen">Saxlanılmış səhifə</string>
+    <string name="accessibility_transition_navscreen">Vərəq idarəsi</string>
+    <string name="accessibility_button_bookmarks_folder_up">Əvvəlki qovluq</string>
+    <string name="my_navigation_delete_label">Veb saytı sil</string>
+    <string name="my_navigation_edit_label">Veb sayta düzəliş et</string>
+    <string name="my_navigation_add_label">İnternet səhifəsi əlavə et</string>
+    <string name="my_navigation_add">Əlavə et</string>
+    <string name="my_navigation_delete_msg">İnternet səhifəsi silinsin?</string>
+    <string name="my_navigation_name">Başlıq</string>
+    <string name="my_navigation_address">Ünvan</string>
+    <string name="website_needs_title">İnternet səhifəsinin başlığı olmalıdır</string>
+    <string name="website_needs_url">İnternet səhifəsinin URL-i olmalıdır</string>
+    <string name="my_navigation_cannot_save_url">Yanlış URL</string>
+    <string name="my_navigation_duplicate_url">URL artıq mövcuddur</string>
+    <string name="my_navigation_page_title">Əsas səhifə</string>
+    <string name="http_video_msg">Zəhmət olmasa media faylının necə idarə ediləcəyini seçin</string>
+    <string name="video_save">Saxla</string>
+    <string name="video_play">Oynat</string>
+    <string name="exit">Çıxış</string>
+    <string name="about">Haqqında</string>
+    <string name="download_estore_app">Estore cihazınızda mövcud deyil.</string>
+    <string name="estore_url_warning">Estore başladılmadı, URL çox uzundur.</string>
+    <string name="drm_file_unsupported">DRM fayllarının qarşıya yükləmək dəstəklənmir.</string>
+    <string name="exit_browser_title">Səyyahdan çıx</string>
+    <string name="exit_browser_msg">Zəhmət olmasa səyyahın necə çıxacağınızı seçin</string>
+    <string name="exit_minimize">Kiçilt</string>
+    <string name="exit_quit">Çıx</string>
+    <string name="browser_max_input_title">Maksimum simvol sayı limitinə çatdı</string>
+    <string name="browser_max_input">Daxil etdiyiniz <xliff:g id="MAXLIMIT">%s</xliff:g> simvol olan maksimum limitə çatdı</string>
+    <string name="duplicated_folder_warning">Qovluq artıq mövcuddur</string>
+    <string name="overwrite_bookmark_msg">Sevimlinin adı və ya ünvanı artıq mövcuddur. Üzərinə yazılsın?</string>
+    <string name="invalid_path">Etibarsız yol</string>
+    <string name="path_wrong">Yanlış yol</string>
+    <string name="pref_download_title">Yol tənzimləmələrini endir</string>
+    <string name="pref_download_path_setting_screen_title">Özəl endirmə yolu</string>
+    <string name="download_timeneeded">Vaxt</string>
+    <string name="download_filesize">Ölçü</string>
+    <string name="download_filepath_label">Yol</string>
+    <string name="download_edit_filename_label">Ad</string>
+    <string name="download_no_enough_memory">Endirmə əməliyyatı üçün yaddaş kifayət qədər deyil</string>
+    <string name="download_settings_title">Endirmə tənzimləmələri</string>
+    <string name="filename_empty_title">Endirmə fayl adı boşdur</string>
+    <string name="filename_empty_msg">Endirmə faylının adı boş ola bilməz. Zəhmət olmasa etibarlı bir fayl adı daxil edin.</string>
+    <string name="unknow_length">Bilinmir</string>
+    <string name="download_file_exist_msg">Fayl artıq mövcuddur. Zəhmət olmasa yeni bir fayl adı daxil edin.</string>
+    <string name="download_file_exist">Fayl artıq mövcuddur</string>
+    <string name="time_min">dəq</string>
+    <string name="download_path_unavailable_dlg_title">Endirmə kataloqu əlçatmazdır</string>
+    <string name="download_path_unavailable_dlg_msg">Endirmə kataloqunu dəyişdirin</string>
+    <string name="activity_not_found">Bu məqsədi idarə edəcək fəaliyyət tapılmadı: <xliff:g id="NOACTIVITY">%s</xliff:g></string>
+    <string name="download_name_hint">Fayl adı</string>
+    <string name="download_size_hint">Həcmi</string>
+    <string name="download_eta_hint">ETA</string>
+    <string name="received_message_full_screen"><xliff:g id="FROM">%s</xliff:g> bir mesaj göndərdi.</string>
+    <string name="ssl_certificate">Təhlükəsizlik sertifikatı</string>
+    <string name="ssl_certificate_is_valid">Bu sertifikat etibarlıdır.</string>
+    <string name="version">Versiya</string>
+    <string name="build_date">Quruluş tarixi</string>
+    <string name="build_hash">Quruluş hash-i</string>
+    <string name="user_agent">İstifadәçi agenti</string>
+    <string name="help">Yardım</string>
+    <string name="feedback">Geri bildiriş</string>
+    <string name="swe_legal">Qanuni məlumat</string>
+    <string name="swe_open_source_licenses">Açıq mənbə lisenziyaları</string>
+    <string name="swe_eula">Son istifadəçi lisenziya razılaşması</string>
+    <string name="swe_privacy_policy">Gizlilik siyasəti</string>
+    <string name="mdm_managed_alert">İnzibatçınız tərəfindən idarə edilir</string>
+    <string name="mystuffs">Naviqasiyam</string>
+    <string name="geolocation_permissions_prompt_remember">Tərcih ediləni xatırla</string>
+    <string name="geolocation_permissions_prompt_share_never">Ömürlük rədd et</string>
+    <string name="geolocation_permissions_prompt_share_for_limited_time">24 saatlıq icazə ver</string>
+    <string name="geolocation_permissions_prompt_share_forever">Ömürlük icazə ver</string>
+</resources>
